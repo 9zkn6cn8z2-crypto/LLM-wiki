@@ -1,0 +1,223 @@
+/* 量化交易與金融專業風格 — Reveal.js 深色模式自訂樣式 */
+
+:root {
+  --slide-bg: #0b1120;
+  --slide-surface: #131c31;
+  --slide-text: #e2e8f0;
+  --slide-heading: #f8fafc;
+  --slide-muted: #94a3b8;
+  --slide-accent-blue: #38bdf8;
+  --slide-accent-gold: #f59e0b;
+  --slide-border: #1e293b;
+}
+
+/* 全域背景與基礎字體 */
+body,
+.reveal-viewport {
+  background-color: var(--slide-bg);
+  color: var(--slide-text);
+}
+
+.reveal {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--slide-text);
+}
+
+/* 內容頁預設靠左對齊，提升金融報告閱讀性 */
+.reveal .slides section {
+  text-align: left;
+  line-height: 1.6;
+  padding: 1.2rem 1.8rem;
+}
+
+/* 封面頁與章節頁置中 */
+.reveal .slides section.title-slide {
+  text-align: center;
+}
+
+/* 標題層級與強調色 */
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-transform: none;
+  margin-bottom: 0.7em;
+}
+
+.reveal h1 {
+  font-size: 2.1em;
+  color: var(--slide-heading);
+  border-bottom: 3px solid var(--slide-accent-gold);
+  padding-bottom: 0.25em;
+  display: inline-block;
+}
+
+.reveal h2 {
+  font-size: 1.45em;
+  color: var(--slide-accent-gold);
+  border-left: 4px solid var(--slide-accent-blue);
+  padding-left: 0.45em;
+}
+
+.reveal h3 {
+  font-size: 1.15em;
+  color: var(--slide-accent-blue);
+}
+
+.reveal p,
+.reveal li {
+  font-size: 0.92em;
+  color: var(--slide-text);
+}
+
+.reveal ul,
+.reveal ol {
+  margin-left: 1.1em;
+}
+
+.reveal li {
+  margin-bottom: 0.5em;
+}
+
+.reveal .subtitle,
+.reveal .meta {
+  font-size: 0.78em;
+  color: var(--slide-muted);
+}
+
+/* 超連結與重點文字 */
+.reveal a {
+  color: var(--slide-accent-blue);
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(56, 189, 248, 0.45);
+}
+
+.reveal a:hover {
+  color: var(--slide-accent-gold);
+  border-bottom-color: var(--slide-accent-gold);
+}
+
+.reveal strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* 卡片區塊與引用 */
+.reveal .callout {
+  background-color: var(--slide-surface);
+  border: 1px solid var(--slide-border);
+  border-left: 4px solid var(--slide-accent-gold);
+  border-radius: 6px;
+  padding: 0.8em 1em;
+  margin: 0.8em 0;
+}
+
+.reveal blockquote {
+  width: 100%;
+  margin: 0.8em 0;
+  padding: 0.6em 1em;
+  background-color: var(--slide-surface);
+  border-left: 4px solid var(--slide-accent-blue);
+  color: var(--slide-text);
+  font-style: normal;
+  box-shadow: none;
+}
+
+/* 程式碼與數據表格 */
+.reveal pre {
+  width: 100%;
+  font-size: 0.58em;
+  background-color: #060a14;
+  border: 1px solid var(--slide-border);
+  border-radius: 6px;
+  box-shadow: none;
+}
+
+.reveal code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  color: var(--slide-accent-blue);
+}
+
+.reveal table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.75em;
+  margin: 0.8em 0;
+}
+
+.reveal table th {
+  background-color: var(--slide-surface);
+  color: var(--slide-accent-gold);
+  border-bottom: 2px solid var(--slide-accent-blue);
+  padding: 0.5em 0.7em;
+  text-align: left;
+}
+
+.reveal table td {
+  border-bottom: 1px solid var(--slide-border);
+  padding: 0.45em 0.7em;
+}
+
+/* 圖片與圖表展示 */
+.reveal img {
+  max-height: 55vh;
+  border-radius: 6px;
+  border: 1px solid var(--slide-border);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+/* MathJax 數學公式優化 */
+.reveal mjx-container {
+  color: #f8fafc !important;
+  font-size: 1.05em !important;
+  margin: 0.4em 0;
+}
+
+.reveal mjx-container[display="true"] {
+  background-color: rgba(19, 28, 49, 0.75);
+  border: 1px solid var(--slide-border);
+  border-radius: 6px;
+  padding: 0.5em 0.8em;
+  margin: 0.7em 0;
+}
+
+/* 全螢幕背景圖片 + 半透明黑色遮罩 */
+.reveal .slides section.bg-overlay {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.reveal .slides section.bg-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(6, 10, 20, 0.72);
+  z-index: -1;
+}
+
+/* 搭配 Reveal.js data-background-image 使用時的背景遮罩 */
+.reveal .slide-background.bg-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(6, 10, 20, 0.7);
+}
+
+/* 頁碼與進度條微調 */
+.reveal .progress {
+  color: var(--slide-accent-gold);
+  height: 4px;
+}
+
+.reveal .slide-number {
+  color: var(--slide-muted);
+  background-color: transparent;
+  font-size: 0.55em;
+}
