@@ -31,3 +31,14 @@
 ## [2026-11-17] slide | 刷新 2026-11-17 全球金融市場日報簡報（8 頁完整版）
 - 依新版 `notes/11-17-daily-report.md` 重新萃取 `slides/drafts/11-17-daily-report-slides.md`（8 頁大綱）。
 - 重新生成 Reveal.js + MathJax + `assets/slides.css` 深色量化金融簡報 `slides/html/11-17-daily-report-slides.html`。
+
+## [2026-11-18] ingest | 匯入 2026-11-18 五大類 7 篇財經新聞（含 AI 國際焦點盲盒）
+- 透過 `scripts/fetch_candidates.py` 撈取 54 則候選新聞（`raw/candidates_11-18.json`），精選 7 篇全文存檔至 `raw/`（`apec-shenzhen-us-china-trade-2026-11-18.md`、`tw-stock-rebound-40k-2026-11-18.md`、`nvidia-q3-fy27-earnings-2026-11-18.md`、`suregiant-foplp-hydrolyzable-tape-2026-11-18.md`、`anthropic-ipo-nasdaq-2026-11-18.md`、`japan-oct-2026-trade-deficit-oil-2026-11-18.md`、`us-tech-outages-rubio-ai-patches-2026-11-18.md`）。
+- 編譯產出對應 7 篇 `wiki/*.html` 頁面（含 MathJax 與跨日雙向交叉連結），並更新 `index.html`。
+
+## [2026-11-18] note | 產出 2026-11-18 全球金融市場日報（11-18-daily-report.md）
+- 嚴格依據 `wiki/` 既有條目萃取產出 `notes/11-18-daily-report.md`，全篇標註 `[條目名稱](../wiki/xxx.html)` 來源連結，並於文末附上待擴充參考文獻。
+
+## [2026-11-18] slide | 產出 2026-11-18 全球金融市場日報簡報（8 頁完整版）
+- 依 `notes/11-18-daily-report.md` 萃取 8 頁逐頁簡報大綱至 `slides/drafts/11-18-daily-report-slides.md`。
+- 轉換產出 Reveal.js + MathJax + `assets/slides.css` 深色風格網頁簡報 `slides/html/11-18-daily-report-slides.html`，並更新 `index.html` 最新日報連結。

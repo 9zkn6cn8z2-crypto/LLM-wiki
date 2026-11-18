@@ -1,0 +1,530 @@
+{
+  "generated_at": "2026-11-18T16:04:48.213302+08:00",
+  "window_hours": 24,
+  "total_candidates": 54,
+  "category_stats": {
+    "1_us_macro": {
+      "label": "美國總經與政策",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": []
+    },
+    "2_tw_semis": {
+      "label": "台股大盤與核心半導體",
+      "target_pick": 2,
+      "candidate_count": 12,
+      "fallback_48h_used": false,
+      "feed_errors": []
+    },
+    "3_tech_supply_chain": {
+      "label": "前瞻科技與台廠供應鏈",
+      "target_pick": 2,
+      "candidate_count": 12,
+      "fallback_48h_used": false,
+      "feed_errors": []
+    },
+    "4_fx_commodities": {
+      "label": "國際匯市與大宗避險資產",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": []
+    },
+    "5_ai_blindbox": {
+      "label": "AI 國際焦點盲盒",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": []
+    }
+  },
+  "candidates": [
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "Target is set to report earnings before the bell. Here's what to expect",
+      "published_at": "2026-11-18T13:01:01+08:00",
+      "summary": "Target is expected to offer more color on the progress of its turnaround and a preview of the holiday season as it reports fiscal third-quarter earnings.",
+      "url": "https://www.cnbc.com/2026/11/18/target-tgt-q3-2026-earnings.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "China’s Xi calls for removing trade and investment barriers ahead of his meeting with Trump and Putin",
+      "published_at": "2026-11-18T16:00:05+08:00",
+      "summary": "Xi opened the APEC summit in Shenzhen by calling for lower trade and investment barriers, pledging broader access to China’s market and manufacturing sector.",
+      "url": "https://www.cnbc.com/2026/11/18/china-xi-trade-investment-barriers.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "Indonesia Hikes Key Rate After Rupiah Slide, Surprising Most Economists",
+      "published_at": "2026-11-18T15:19:38+08:00",
+      "summary": "Indonesia’s central bank unexpectedly resumed raising interest rates to support the rupiah, while announcing more incentives for investors to hold Asia’s worst-performing currency this year.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-18/indonesia-hikes-key-rate-after-rupiah-slide-surprising-most-economists"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "Trump says US has concluded 'very big trade deal' with Philippines - Reuters",
+      "published_at": "2026-11-18T13:58:00+08:00",
+      "summary": "Trump says US has concluded 'very big trade deal' with Philippines Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMS04Tjk4eFJwZ1AwNmo5OFQ1NTlrSWEyMURicHFEVlM1SlJlWURicU5Hc3lRR3ZfOGNNWGNqRjFqWlp5eFRIQVhHSVdiX2RWUHptTEI2aWsyRzN1bHZvbTFxQUZqdnZ0VXQ5ZkprSWVkN1N5aTM0d21SQkc2U3BxQUN6UzVOcUk5RmtLaVR4QUxucWFmS1ZlQlFEMVVTYld4c3Nfbkc1MkdOdE1iUnpOVmN4OUt2a0RMUjA0?oc=5"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "Nike lays out financial goals ahead of first investor day in 9 years",
+      "published_at": "2026-11-18T06:17:44+08:00",
+      "summary": "Nike is hosting an investor day at its Oregon headquarters as the company tries to prove to investors that its turnaround is working.",
+      "url": "https://www.cnbc.com/2026/11/17/nike-investor-day-elliott-hill.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Stock futures rise as Nvidia gains on earnings beat and solid outlook: Live updates",
+      "published_at": "2026-11-18T15:41:03+08:00",
+      "summary": "Nvidia shares rose in extended trading after the company’s first earnings report since co-founder Jensen Huang resigned last week.",
+      "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "UK Inflation Hits Highest in a Year on Fuel and Energy Costs",
+      "published_at": "2026-11-18T15:05:36+08:00",
+      "summary": "UK inflation accelerated to its highest level in a year after a surge in energy bills and motor fuel costs.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-18/uk-inflation-hits-highest-in-year-on-soaring-fuel-energy-costs"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "How India became a rice powerhouse - and why it's becoming a problem - Reuters",
+      "published_at": "2026-11-18T13:52:00+08:00",
+      "summary": "How India became a rice powerhouse - and why it's becoming a problem Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLS1aa2RCdVBHNXQxZ29XN0RvNGVxa3AwNHpBODVJRXc0aThWX283QllXWmFfQzNxVUowS2xrUlR5M1BKMjV2LXowanYwVHZUVzZnaUVjMXVWRmdJSU4wR1ExOElxZktDbTNpZVlOeTlaYmUxSTNiNlJXZHJodUpMQTgwT095bnNHVWtfeVFSSnBlU3FxdEYtdGpNdG5tdExq?oc=5"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "U.S. officially loses measles elimination status amid ongoing outbreaks",
+      "published_at": "2026-11-18T06:02:05+08:00",
+      "summary": "The director of PAHO made the final call that measles is endemic — or always present — in the U.S. following 12 months of continuous transmission.",
+      "url": "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Senators press acting U.S. Navy Secretary on Iran war costs, sailor health in confirmation hearing",
+      "published_at": "2026-11-18T15:24:06+08:00",
+      "summary": "Acting Navy Secretary Hung Cao told senators the Navy recoded and used munitions he called expired as the Iran war strains weapons stocks and naval deployments.",
+      "url": "https://www.cnbc.com/2026/11/18/us-iran-navy-hormuz-war-cao.html"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "中央社 產經證券",
+      "title": "輝達財報未能提振AI類股 日股收盤走勢分歧",
+      "published_at": "2026-11-18T14:58:03+08:00",
+      "summary": "（中央社東京18日綜合外電報導）美國晶片大廠輝達（Nvidia）樂觀財報未能完全消除投資人對人工智慧（AI）產業前景的疑慮，東京股市今天收盤走勢分歧，日經指數微幅收紅，東證指數走跌。",
+      "url": "https://www.cna.com.tw/news/afe/202611180184.aspx"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "漢科營運步步高 股價有撐",
+      "published_at": "2026-11-18T13:24:37+08:00",
+      "summary": "受惠於半導體客戶大擴產，漢科（3402）今年交出營運步步高的佳績，今（18）日股價午盤呈止跌走揚態勢。",
+      "url": "https://money.udn.com/money/story/11074/9886413"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "威剛《冠軍之路》獲文策院雙獎肯定 票房突破9,720萬元",
+      "published_at": "2026-11-18T15:36:46+08:00",
+      "summary": "記錄台灣隊勇奪2024年世界棒球12強賽冠軍的紀錄片《冠軍之路》，再獲文化影響力肯定。共同出品方、記憶體模組大廠威剛（3260）18日宣布，影片榮獲文策院第二屆「ESG for Culture影響力獎」文化影響力大獎及文化策略投資獎，累計票房突破9,720萬元，位居台灣紀錄片影史票房第二名。",
+      "url": "https://money.udn.com/money/story/5612/9886779"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027 - NVIDIA Newsroom",
+      "published_at": "2026-11-18T16:03:38+08:00",
+      "summary": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027 NVIDIA Newsroom",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS1NfbkFJSF9aUlBlMkphNjFXMERWTUluUWdsNjQxajFFbjdEdEJHU0FwRU1USGh2MkVWMUYtNDRFNU1qVHlRSzNyQ2ZUQXZuY2M4bWhmdHVaczZqXzJWaExTVXVIQlIyVWNQMUZsV09Ua0F1UDJ5Wkg0engwakZkbDdkaGRTOHZpN200clNRVXR5QXZRNXo0NDlBaVZJdDE0?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "中央社 產經證券",
+      "title": "台股續演千點震盪收漲102點 投顧：最恐慌時間點已過",
+      "published_at": "2026-11-18T14:53:59+08:00",
+      "summary": "（中央社記者江明晏台北18日電）台股今天開高震盪翻黑，高低點落差達1677點，終場上漲102.8點，收在40194.91點，4萬點關卡失而復得；台積電、聯發科、台達電等撐盤，散熱、載板、光通訊等跌深族群反彈。投顧認為，「最恐慌時間點過了」，短期衝擊告一段落，4萬點築底機會大。",
+      "url": "https://www.cna.com.tw/news/afe/202611180182.aspx"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "智聯服務10月 EPS 達1.12元 今日股價持續跌停",
+      "published_at": "2026-11-18T11:01:54+08:00",
+      "summary": "智聯服務（6751）因股票近期多次達公布注意交易資訊標準，故公告今年10月簡易財務數字，歸屬母公司業主淨利2,500萬元，年增47,247%，單月每股純益（EPS）為1.12元。在股價大漲後，昨（17）日股價回檔、打入跌停，今（18）日持續跌停，股價來到91.8元，下跌10.2元。",
+      "url": "https://money.udn.com/money/story/11074/9885926"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "LG Styler 金馬限定典藏組限量登場 把紅毯級衣物管理帶進日常",
+      "published_at": "2026-11-18T15:34:06+08:00",
+      "summary": "看準居家空間小宅化趨勢與消費者對精緻衣物護理的需求，台灣LG電子旗下Styler蒸氣電子衣櫥第二代獲選為第63屆金馬獎得獎者專屬禮品，LG 18日順勢推出金馬限定購機優惠，並宣布將於12月在台上市全新「輕旗艦系列」三件組新機，建議售價39,900元起。",
+      "url": "https://money.udn.com/money/story/5612/9886774"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Jensen Huang wants to return as CEO, but Nvidia’s board says no - Techzine Global",
+      "published_at": "2026-11-18T15:57:00+08:00",
+      "summary": "Jensen Huang wants to return as CEO, but Nvidia’s board says no Techzine Global",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZEtsdzlnOGZOQmJ6ZmlMQ1JiYWdyOHBoQmREb0FHd0ZmcFoyM1c5bDFZVFVVRVJ1NEQ4RDlhMDRtVWdRX3BtZU81YkNjSDBwYmxQNll1UzdKLVRZSWsxSHlfVWI3bFJmdU5TbTI0dWdCN1RKd0FQRWstbWZQN1J6dkZSTHFZN24xRkd2NVdFRzhuMXRaM05CZTdKeThUYjJGcW5sWmYtR01fTnVCa2NrMmhQRQ?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "中央社 產經證券",
+      "title": "裕隆：明年台灣車市估43萬輛溫和回升 續朝電動化發展",
+      "published_at": "2026-11-18T14:49:54+08:00",
+      "summary": "（中央社記者鍾榮峰台北18日電）裕隆今天預估，今年台灣車市新車掛牌數約42萬輛，年底各款新車上市加上促銷活動帶動需求，展望2027年，裕隆預期消費信心回溫，政策不確定性因素降低，明年車市預估可溫和回升至43萬輛，持續朝向電動化趨勢調整，電動車和油電混合車趨勢仍是觀察重點。",
+      "url": "https://www.cna.com.tw/news/afe/202611180180.aspx"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "艾訊營收拚年增雙位數",
+      "published_at": "2026-11-18T01:55:16+08:00",
+      "summary": "工業電腦廠艾訊（3088）昨（17）日參加櫃買中心業績發表會，展望後市，艾訊發言人謝宜玲表示，目前艾訊B/B值（訂單出貨比）超過1.5，因應未來需求，已重新將業務劃分為四大事業群，預期2027年相關業務皆會成長，對明年整體營收保持雙位數成長深具信心，營收挑戰再創新高。",
+      "url": "https://money.udn.com/money/story/11074/9884910"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "全球創投單季投資1,709億美元 AI 資金從模型流向算力、能源",
+      "published_at": "2026-11-18T15:28:34+08:00",
+      "summary": "畢馬威安侯建業18日發布《2026年第3季創投脈動》報告，全球第3季創投金額達1,709億美元，共完成8,341件交易。投資額雖低於去年同期由超大型交易推升的高點，仍處於歷史常態。AI依舊最受資金青睞，投資範圍已從模型與平台擴大至算力、資料中心、晶片與能源，資金也更集中於具備技術優勢、商業模式已獲市場驗證的企業。",
+      "url": "https://money.udn.com/money/story/5612/9886760"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Nvidia: No intent to reinstate Huang - Northwest Arkansas Democrat-Gazette",
+      "published_at": "2026-11-18T15:53:00+08:00",
+      "summary": "Nvidia: No intent to reinstate Huang Northwest Arkansas Democrat-Gazette",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObW90VVdFMG9kelpoaW5KWGZfdGJ2R2Q5NXlOTGFUUUNlOHplXzNKQzJWLWlMdmdjMENweDJDV0VlRTY3cTFvcWIwVUx5NnIwVnVLZDR2VEN3Snc0V0U3TmJkS0dHd1A4UHU0MmR6X09mVUZIckNRbXMzRmdlcGR2cTVxQnVtQQ?oc=5"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "獨家「水解膠帶」卡位 AI 封裝！碩正科技預計 12 月中掛牌上櫃",
+      "published_at": "2026-11-18T16:02:50+08:00",
+      "summary": "碩正科技今日舉辦上櫃前業績發表會，公開承銷價格暫定每股 438 元，預計 12 月中掛牌交易，董事長楊允斌表示 […]",
+      "url": "https://finance.technews.tw/2026/11/18/3d-foplp/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "中央社 科技",
+      "title": "Anthropic啟動上市 將成檢驗全球AI投資熱潮關鍵指標",
+      "published_at": "2026-11-18T13:59:51+08:00",
+      "summary": "（中央社紐約17日綜合外電報導）人工智慧（AI）新創公司Anthropic將於18日敲定備受矚目的首次公開募股（IPO）價格，讓一般投資人首度有機會直接投資一家獨立營運的AI巨擘，這項投資案也將成為檢驗AI投資熱潮還能持續多久的重要指標。",
+      "url": "https://www.cna.com.tw/news/ait/202611180151.aspx"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Nvidia warns chip buyers of legal risks tied to China AI access, sources tell CNBC",
+      "published_at": "2026-11-18T15:16:14+08:00",
+      "summary": "The U.S. Commerce Department is making moves to tighten export controls.",
+      "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+      "published_at": "2026-11-18T09:44:21+08:00",
+      "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies.",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "迪士尼第四季財報優於預期，2029 年前每年省 30 億美元並繼續裁員",
+      "published_at": "2026-11-18T16:00:05+08:00",
+      "summary": "迪士尼（Disney）17 日公布 2026 會計年度第四季（截至 10 月 3 日）財報，營收年增 16% […]",
+      "url": "https://finance.technews.tw/2026/11/18/disney-fr-26q4/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "中央社 科技",
+      "title": "台灣Google Play年度榜單揭曉 得獎App一次看",
+      "published_at": "2026-11-18T13:37:29+08:00",
+      "summary": "（中央社記者吳家豪台北18日電）台灣Google Play 2026年度榜單今天揭曉，分享台灣使用者在數位生活與娛樂的偏好與趨勢。年度最佳應用程式為專業影片編輯工具「Adobe Premiere」，年度最佳遊戲為「明日方舟：終末地」；在台灣滲透率極高的通訊軟體「LINE」獲得年度最佳創新應用程式。",
+      "url": "https://www.cna.com.tw/news/ait/202611180141.aspx"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Emergency alerts and $75,000 rewards: South Korea fights high-tech exam cheating",
+      "published_at": "2026-11-18T15:00:39+08:00",
+      "summary": "South Korea moves to crack down on exam cheating with emergency alerts and $75,000 rewards.",
+      "url": "https://www.cnbc.com/2026/11/18/south-korea-exam-cheating-.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Nvidia promises that revenue will keep soaring — for now",
+      "published_at": "2026-11-18T08:16:50+08:00",
+      "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop.",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "模擬強調一場高空核爆，足可癱瘓低地軌道幾乎所有衛星",
+      "published_at": "2026-11-18T15:51:53+08:00",
+      "summary": "從通訊、天氣預報到國家安全，當代社會日常高度仰賴衛星，目前約有 13,000 顆衛星運行於低地軌道（LEO）。 […]",
+      "url": "https://technews.tw/2026/11/18/space-nuclear-explosion-satellite-low-earth-orbit/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "中央社 科技",
+      "title": "LINE電腦版強化語音報讀助視障溝通 網頁版2027年退場",
+      "published_at": "2026-11-18T12:22:11+08:00",
+      "summary": "（中央社記者吳家豪台北18日電）通訊軟體LINE持續優化跨裝置使用體驗，最新上線的LINE電腦版已開始支援螢幕閱讀器等無障礙功能，協助視障者降低溝通門檻。LINE台灣產品規劃部副總經理林慶達受訪表示，待團隊確認用戶從網頁版銜接到電腦版的狀況後，預計明年將讓Chrome網頁版退場。",
+      "url": "https://www.cna.com.tw/news/ait/202611180106.aspx"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "'Who and what comes next': Analysts expect Nvidia investor uncertainty despite earnings beat",
+      "published_at": "2026-11-18T14:21:45+08:00",
+      "summary": "Nvidia’s Q3 results should help ease short-term concerns, but uncertainty remains around long-term leadership.",
+      "url": "https://www.cnbc.com/2026/11/18/nvidia-earnings-market-analysis.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+      "published_at": "2026-11-18T07:37:48+08:00",
+      "summary": "Nvidia's interim CEO says the company is done selling chips to China. How much will that cost?",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Crude Oil Prices Lower On Concerns Over Excess Supply - MarketForces Africa",
+      "published_at": "2026-11-18T16:01:36+08:00",
+      "summary": "Crude Oil Prices Lower On Concerns Over Excess Supply MarketForces Africa",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdnhoeFBtaVZtVi1YalgwM0Jfa1JQWTFOcVJfSHEwekZDLWljVmVwVS1zd2F4d2c5WlFGeG5DYldGVHZJZWwycmwzNVVFaml3N0o3QUgtQno0SFJublNZcjBKdklRR2VrSE5IQ1RYbXNaajdpTUtyNE15Q29qYWFVSDk2RUhyLTg?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "MarketWatch Top Stories",
+      "title": "CoreWeave’s stock pops — even as Nvidia talks up a ‘disciplined’ approach to financing",
+      "published_at": "2026-11-18T09:59:00+08:00",
+      "summary": "Nvidia interim CEO Colette Kress said neoclouds are “increasingly important,” but added the company will take “a very strong look” at the customers it helps with financing.",
+      "url": "https://www.marketwatch.com/story/coreweaves-stock-pops-even-as-nvidia-talks-up-a-disciplined-approach-to-financing-e7f00876?mod=mw_rss_topstories"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "UK Inflation Print at Fastest in a Year Comes With Few Surprises",
+      "published_at": "2026-11-18T15:50:32+08:00",
+      "summary": "Plus, markets digest Nvidia’s strong earnings",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-18/uk-inflation-print-at-fastest-in-a-year-comes-with-few-surprises"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Japan logs $3B trade deficit in October as higher oil costs offset export surge - Anadolu Ajansı",
+      "published_at": "2026-11-18T15:56:18+08:00",
+      "summary": "Japan logs $3B trade deficit in October as higher oil costs offset export surge Anadolu Ajansı",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcEhfbDRkRTlORi1xYmJpb0IwV0R5QndoMFE0LUdrUE1mQVozWkxnNXRESy1VYmlUOUdDSF9ZUndCWk5qZHF0ZlVKVGg2NUJZRTlYbVNUVzhrVU9FSFRkSHM4NXdjekh4aVdtN0YwMUxTUDB3ZnNtbmQwUkdvQ3NpUDZ4X3hqbkRVc29BSndlZTg5SjVfbnh5VHZZVTFDbWlXeTFfNjFNVjZTaV9BWXF6cm9obWxaS2RDNTJB?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "CNBC World",
+      "title": "Record diesel prices drive UK inflation to 1-year high of 3.6%",
+      "published_at": "2026-11-18T15:57:37+08:00",
+      "summary": "It put the U.K.'s annual inflation rate at a 1-year high.",
+      "url": "https://www.cnbc.com/2026/11/18/uk-inflation-cpi-fuel-prices.html"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "MarketWatch Top Stories",
+      "title": "Medicare Part B premiums rise due higher healthcare spending",
+      "published_at": "2026-11-18T09:45:00+08:00",
+      "summary": "The premiums will increase by $6.50, to $209.40 a month.",
+      "url": "https://www.marketwatch.com/story/medicare-part-b-premiums-rise-due-higher-healthcare-spending-f2daba13?mod=mw_rss_topstories"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Trump Treated to Late-Night Jollibee Snacks by Marcos",
+      "published_at": "2026-11-18T15:38:48+08:00",
+      "summary": "“We are very proud to say we have surpassed KFC in the United States in terms of popularity.” Philippine President Ferdinand Marcos Jr. served up a taste of Jollibee diplomacy to Donald Trump, sending the US leader and his delegation late-night snacks on Tuesday from the Filipino fast-food giant...",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-18/trump-treated-to-late-night-jollibee-snacks-by-marcos-video"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Palm oil prices continue to fall amid record Malaysian stocks and declining crude oil prices - UkrAgroConsult",
+      "published_at": "2026-11-18T15:39:27+08:00",
+      "summary": "Palm oil prices continue to fall amid record Malaysian stocks and declining crude oil prices UkrAgroConsult",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZDl2cVBwamdQdEdsaHUzclRhOWppdm1tRlNJSVJHZkFzeUJ0WGpwR1ptc2NoQThWS292U29oRGpaVTh6ZFVCTTBnTnl1QWp5Yl9pS2FHbVVvdTB1dTB2eXZGcHJ2T1NiZmtTajBDVk1hX05RRlVhZGhGX0pub1owWXFUM19jUi1iMDVZR2FGRWFaOWJkVXNTTDNneFprLVpwcWt5TzFVZnRaS05YRDhuS0N0RHpyNTNHbG1kcXBpSlJGT3hBbFhN?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "MarketWatch Top Stories",
+      "title": "Nvidia’s stock rises as blowout numbers help ease CEO transition fears",
+      "published_at": "2026-11-18T09:28:00+08:00",
+      "summary": "Nvidia’s revenue growth and $130 billion quarterly forecast showed that demand for chips is still sky-high.",
+      "url": "https://www.marketwatch.com/story/nvidias-stock-rises-as-blowout-numbers-help-ease-ceo-transition-fears-2f20d38a?mod=mw_rss_topstories"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Optimism About Europe Just Hit a Nine-Month High: Taking Stock",
+      "published_at": "2026-11-18T15:15:38+08:00",
+      "summary": "The view among investors about the outlook for European stocks has rarely been brighter this year, with expectations of further gains.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-18/optimism-about-europe-just-hit-a-nine-month-high-taking-stock"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "BBC Business",
+      "title": "Higher petrol and diesel prices push UK inflation to 3.6%",
+      "published_at": "2026-11-18T15:40:54+08:00",
+      "summary": "There are also signs inflation is impacting the wider economy, with the cost raw materials and goods leaving factories climbing.",
+      "url": "https://www.bbc.co.uk/news/articles/cmy498kdkx3xo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "BBC World",
+      "title": "Philippines police ask prosecutors to charge Thomas Markle over child sex abuse material",
+      "published_at": "2026-11-18T15:48:18+08:00",
+      "summary": "Markle is being held in custody in the US after one charge and has previously denied all of the allegations.",
+      "url": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "‘I didn’t notice his body being purple’: Byron Bay doula left newborn to inflate a jumping castle, court hears",
+      "published_at": "2026-11-18T15:58:32+08:00",
+      "summary": "Inquest into deaths of four babies born in free births or at home in northern NSW between 2022 and 2024 hears ‘something was seriously wrong’ Baby DH was born in an inflatable pool, in a candle-lit room in his parents’ home near Byron Bay, with no one medically trained present. There are two very...",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/18/byron-bay-doula-left-newborn-to-inflate-jumping-castle-freebirth-inquest-ntwnfb"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "中央社 國際",
+      "title": "聯合國：環境荷爾蒙威脅漸增 年損失逾1兆美元",
+      "published_at": "2026-11-18T14:50:56+08:00",
+      "summary": "（中央社曼谷17日綜合外電報導）聯合國最新報告警告，無所不在的「環境荷爾蒙」正對健康和環境構成「全球性且日益嚴重的威脅」，保守估計每年因接觸環境荷爾蒙造成的健康與經濟損失超過1兆美元。",
+      "url": "https://www.cna.com.tw/news/aopl/202611180181.aspx"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "BBC World",
+      "title": "Democrats win Alaska Senate race two weeks after midterms counting began",
+      "published_at": "2026-11-18T15:00:25+08:00",
+      "summary": "Confirmation of Mary Peltola's victory caps of the party's rout of the Republicans in the midterms Senate election.",
+      "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Apec summit live: Xi and Putin start talks; Rubio says Trump serious about meeting Kim Jong-un",
+      "published_at": "2026-11-18T15:57:32+08:00",
+      "summary": "Summit in Chinese tech hub Shenzhen set to include highly anticipated meeting between Xi, Trump and Putin Shenzhen takes centre stage as Xi sends ‘Chinamaxxing’ message at Apec summit What is Apec? Explained in 30 seconds Yalta became a byword for betrayal. Will Trump, Xi and Putin enact another...",
+      "url": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "中央社 國際",
+      "title": "日本硫磺島火山噴發 在南岸形成大片新陸地",
+      "published_at": "2026-11-18T14:45:52+08:00",
+      "summary": "（中央社東京18日綜合外電報導）日本小笠原群島之中的硫磺島10月下旬起持續噴發，噴發物在硫磺島南岸附近所形成的新陸地，面積達到約50公頃。硫磺島之後的火山活動預計會改變島嶼的大小與形狀。",
+      "url": "https://www.cna.com.tw/news/aopl/202611180179.aspx"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "BBC Business",
+      "title": "States to debate social security contributions cut",
+      "published_at": "2026-11-18T14:17:58+08:00",
+      "summary": "The amendment is being brought forward by deputies Gavin St Pier and Tom Rylatt.",
+      "url": "https://www.bbc.co.uk/news/articles/cqgm39mwjgjpo?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "BBC World",
+      "title": "Rubio says US not 'under systemic attack' after series of tech outages",
+      "published_at": "2026-11-18T12:57:06+08:00",
+      "summary": "Secretary of State Marco Rubio said there was \"zero evidence\" supporting theories online that recent disruptions affecting Microsoft, banks and flights are connected.",
+      "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "UK inflation rises to 3.6% after petrol and diesel prices hit record high",
+      "published_at": "2026-11-18T15:44:21+08:00",
+      "summary": "Increase in October piles pressure on households as Iran war pushes up oil cost and rattles global economy Business live – latest updates Inflation in the UK rose to 3.6% in October after petrol prices rose and diesel hit a record high amid the fallout from the war in the Middle East. Figures fro...",
+      "url": "https://www.theguardian.com/business/2026/nov/18/uk-inflation-rises-energy-prices-iran-war-oil"
+    }
+  ]
+}
