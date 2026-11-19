@@ -42,3 +42,19 @@
 ## [2026-11-18] slide | 產出 2026-11-18 全球金融市場日報簡報（8 頁完整版）
 - 依 `notes/11-18-daily-report.md` 萃取 8 頁逐頁簡報大綱至 `slides/drafts/11-18-daily-report-slides.md`。
 - 轉換產出 Reveal.js + MathJax + `assets/slides.css` 深色風格網頁簡報 `slides/html/11-18-daily-report-slides.html`，並更新 `index.html` 最新日報連結。
+
+## [2026-11-18] schema | 新增每日 7 篇選題配額與研究導向重點萃取標準至 AGENTS.md
+- 於 `AGENTS.md` 新增第 5.5 節，明訂每日 1+2+2+1+1（含 AI 國際焦點盲盒）共 7 篇之選題配額，並搭配 `scripts/fetch_candidates.py` 之 RSS 兩段式候選流程。
+- 確立研究導向文章重點萃取標準：常規新聞必抓「硬數據與預期差、因果傳導鏈、知識庫連貫與衝突、1–3 天短線催化劑」；盲盒新聞必抓「入選理由、核心事實與量化規模、跨市場外溢風險」。
+
+## [2026-11-18] slide & schema | 升級簡報為 6 頁宏觀到微觀漏斗模板並重製 11-18 簡報
+- 更新 `AGENTS.md` 第 5.2.5 節，確立「6 頁宏觀到微觀漏斗架構（封面 → 宏觀與匯市 → 全球產業與科技核心主線 → 台股與供應鏈 → 盲盒 → 催化劑）」，並要求頁內附 `[原文]`/`[Wiki]` 小標籤連結、支援內嵌向量圖表及標註來源之 `.callout` 延伸見解。
+- 重製 `slides/drafts/11-18-daily-report-slides.md` 與 `slides/html/11-18-daily-report-slides.html`（納入封面金融 K 線背景圖、輝達營收趨勢與台股四萬點攻防兩張內嵌 SVG 圖表，以及跨日對照見解）。
+
+## [2026-11-19] ingest | 匯入 2026-11-19 五大類 7 篇財經新聞（含 AI 國際焦點盲盒）
+- 依 `raw/candidates_11-19.json` 經使用者確認選出 7 篇全文存檔至 `raw/`（`walmart-q3-earnings-us-consumer-2026-11-19.md`、`tw-stock-plunge-1768-2026-11-19.md`、`nand-flash-2027-oversupply-2026-11-19.md`、`anthropic-record-ipo-2026-11-19.md`、`trump-blackwell-china-policy-2026-11-19.md`、`gold-silver-fed-minutes-2026-11-19.md`、`trump-putin-apec-meeting-2026-11-19.md`）。
+- 編譯產出對應 7 篇 `wiki/*.html` 頁面（含 MathJax 與跨日雙向交叉連結），並更新 `index.html`。
+
+## [2026-11-19] note & slide | 產出 2026-11-19 全球金融市場日報與 6 頁漏斗簡報
+- 嚴格依據 `wiki/` 萃取產出 `notes/11-19-daily-report.md`，全篇標註 `[條目名稱](../wiki/xxx.html)` 來源連結，並於文末附上待擴充參考文獻與 Ingest 指令。
+- 產出 6 頁漏斗大綱 `slides/drafts/11-19-daily-report-slides.md` 及 Reveal.js + MathJax 網頁簡報 `slides/html/11-19-daily-report-slides.html`（含頁內雙標籤、兩張深色內嵌 SVG 圖表及 `.callout` 跨日／外溢評估）。
