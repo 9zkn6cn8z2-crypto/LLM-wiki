@@ -67,3 +67,9 @@
 ## [2026-11-20] note & slide | 產出 2026-11-20 全球金融市場日報與 6 頁漏斗簡報
 - 嚴格依據 `wiki/` 既有條目萃取產出 `notes/11-20-daily-report.md`，全篇每一論點皆標註 `[條目名稱](../wiki/xxx.html)` 來源標籤，並於文末附上待擴充外部參考文獻與 Ingest 指令。
 - 產出 6 頁宏觀到微觀漏斗大綱 `slides/drafts/11-20-daily-report-slides.md` 及 Reveal.js + MathJax 網頁簡報 `slides/html/11-20-daily-report-slides.html`（含封面深色金融背景圖、頁內雙標籤、兩張深色內嵌 SVG 圖表及具類型標註之 `.callout` 見解卡片）。
+
+## [2026-11-20] slide & schema | 修復簡報底部文字截斷問題並升級 16:9 防溢位規格
+- **問題診斷**：Reveal.js 預設 960x700 畫布與 `center: true` 在容納「3 條重點 + 內嵌 SVG + .callout」時垂直高度超標，導致底部文字被裁切。
+- **樣式修復（`assets/slides.css`）**：全域字級由 28px 調降至 23px，縮小各級標題、列表與 `.callout` 的 margin 與 padding，SVG 最大高度限制為 120px，段落行距緊湊化。
+- **畫布升級**：更新 `slides/html/*.html` 之 Reveal.js 初始化參數為 16:9 寬螢幕規格（`width: 1200, height: 720, center: false`），大幅減少折行數並徹底消除縱向溢位截斷。
+- **規範沉澱**：於 `AGENTS.md` 第 3.2 節明訂 16:9 初始化規格與圖表頁高度控制防溢位標準。

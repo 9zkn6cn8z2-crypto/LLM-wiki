@@ -101,6 +101,23 @@
 * 透過 CDN 引入 **Reveal.js**（核心 CSS 與 JS）與 **MathJax**，並引入專案自訂深色量化金融樣式 `../../assets/slides.css`。
 * 每張投影片對應一個 `<section>`，頁數與內容須與對應的 `slides/drafts/*.md` 保持一致。
 * 封面頁或需全螢幕背景圖的投影片，可搭配 `data-background-image` 與 `data-background-opacity="0.35"`，並套用 `slides.css` 定義的 `.bg-overlay` 遮罩樣式。
+* **16:9 寬螢幕畫布與防溢位初始化規範**：
+  為避免筆電或投影時文字溢出邊界被截斷，所有 HTML 簡報的 Reveal 初始化必須統一配置寬螢幕與非居中靠頂排版：
+  ```javascript
+  Reveal.initialize({
+    hash: true,
+    slideNumber: true,
+    transition: 'fade',
+    width: 1200,
+    height: 720,
+    margin: 0.04,
+    minScale: 0.2,
+    maxScale: 1.5,
+    center: false
+  });
+  ```
+* **圖表頁垂直高度控制**：
+  凡頁面同時包含「文字重點 + 內嵌 `<svg>` 圖表 + `.callout` 見解」者，文字重點應精簡為 1–2 行短句，`<svg>` 高度控制在 `100px–120px` 內，確保整頁內容在 720px 高度內完整呈現且不被裁切。
 
 ---
 
