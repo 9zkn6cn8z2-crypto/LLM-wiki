@@ -73,3 +73,9 @@
 - **CSS 修復（`assets/slides.css`）**：加入 `display: block !important; top: 0 !important;` 覆蓋 Reveal.js 主題的垂直置中機制，新增 `.supplement` 輔助類別用於傳導鏈與量化說明文字。
 - **規則更新（`AGENTS.md` 第 5.2.5 節）**：廢除「固定 6 頁」限制，確立「每主題 1–3 頁彈性、總頁數 ≤ 15、傳導鏈推論為必要項目、量化影響不硬湊、不硬湊無效 URL」的新規範。
 - **重製簡報（`slides/html/11-20-daily-report-slides.html`）**：擴充為 11 頁深度版，每頁涵蓋完整傳導鏈推論與台股量化情境分析，各主題頁加入低透明度 Unsplash 主題背景圖，新增輝達傳票 2 頁情境分析矩陣、英特爾封裝格局 SVG 對照表與台股限空令多空情境估算。
+
+## [2026-11-20] slide & style | 解除 SVG 高度限制並大幅放大圖表字級
+- **問題診斷**：`assets/slides.css` 內原先設定 `.reveal svg { max-height: 120px; }`，導致 HTML 設定更大 height 時仍被 CSS 硬鎖在 120px，文字縮小難以辨識。
+- **樣式修復**：修改 `assets/slides.css` 將 SVG `max-height` 放寬至 `280px`，表格字級提升至 `0.82em`。
+- **圖表重繪**：重構黃金破位走勢圖（height: 180px, 字級 13–16px, 粗折線與大數據點）與英特爾封裝對照表（height: 185px, 字級 13.5–16px），確保視覺清晰大方。
+- **規則手冊**：同步更新 `AGENTS.md` 圖表字級標準（13.5px–16px）。
