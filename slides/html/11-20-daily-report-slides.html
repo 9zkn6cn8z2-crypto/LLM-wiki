@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-11-20 全球金融市場日報 — LLM 研究知識庫</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/black.min.css">
+  <link rel="stylesheet" href="../../assets/slides.css">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- 第 1 頁｜封面與今日定調 -->
+      <section class="title-slide bg-overlay"
+               data-background-image="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1600&q=80"
+               data-background-color="#0b1120"
+               data-background-opacity="0.35">
+        <h1>2026-11-20 全球金融市場日報</h1>
+        <p class="subtitle">流動性緊縮與估值大檢驗：Fed 鷹派定價 × 英特爾長約分食台積 × 輝達傳票盲盒</p>
+        <p class="meta">依據筆記：notes/11-20-daily-report.md ｜ 嚴格萃取自 wiki/ 7 篇新條目</p>
+        <aside class="notes">
+          開場定調市場兩大矛盾：宏觀利率居高不下抽離流動性，而 AI 資本支出高牆正面臨首日投資回報率的嚴苛驗證。
+        </aside>
+      </section>
+
+      <!-- 第 2 頁｜宏觀定價與匯市商品 -->
+      <section>
+        <h2>二、宏觀定價與匯市：Fed 鷹派與金價破底</h2>
+        <ul>
+          <li>
+            <strong>Fed 鷹派定價穩固</strong>：費城 Fed 總裁 Paulson 強調清晰溝通利率路徑；12 月升息 25 bps 機率 <strong>90%</strong>、50 bps 機率 <strong>10%</strong>（$E[\Delta r] = 27.5\text{ bps}$），10 年期美債殖利率穩居 <strong>4.5%</strong>。
+            <a href="https://www.bloomberg.com/news/articles/2026-11-19/fed-s-paulson-says-clear-communication-can-guide-rates" target="_blank" rel="noopener">[Bloomberg]</a>
+            <a href="../../wiki/fed-paulson-interest-rate-guidance-2026-11-20.html">[Wiki]</a>
+          </li>
+          <li>
+            <strong>美元指數四週連漲</strong>：鷹派升息訊號疊加 Anthropic IPO 跨國資金美元結算，推升美元指數連續四週走高，非美貨幣流動性承壓。
+            <a href="https://www.bloomberg.com/news/articles/2026-11-20/dollar-heads-for-fourth-week-of-gains-following-anthropic-ipo" target="_blank" rel="noopener">[Bloomberg]</a>
+            <a href="../../wiki/gold-slump-dollar-four-week-rally-2026-11-20.html">[Wiki]</a>
+          </li>
+          <li>
+            <strong>金價創 3 月以來最大週跌</strong>：現貨黃金貫穿 $3,700 跌向 <strong>$3,600/oz</strong>（單週重挫 <strong>4.8%</strong>）；美股科技股重挫引發保證金追繳（Margin Call），對沖基金拋金變現補倉。
+            <a href="https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff" target="_blank" rel="noopener">[Bloomberg]</a>
+            <a href="../../wiki/gold-slump-dollar-four-week-rally-2026-11-20.html">[Wiki]</a>
+          </li>
+        </ul>
+        <svg viewBox="0 0 700 135" width="100%" height="135" aria-label="現貨黃金近期破底走勢階梯圖">
+          <rect x="0" y="0" width="700" height="135" rx="6" fill="#131c31" stroke="#1e293b"/>
+          <text x="18" y="24" fill="#f59e0b" font-size="13" font-weight="600">現貨黃金（XAU/USD）關鍵支撐連鎖失守走勢（美元/盎司）</text>
+          <line x1="50" y1="110" x2="660" y2="110" stroke="#334155" stroke-width="1"/>
+          <polyline fill="none" stroke="#ef4444" stroke-width="3" points="90,40 260,58 430,78 610,102"/>
+          <circle cx="90" cy="40" r="5" fill="#38bdf8"/>
+          <text x="50" y="34" fill="#e2e8f0" font-size="11">11/17: $3,852</text>
+          <circle cx="260" cy="58" r="5" fill="#f59e0b"/>
+          <text x="215" y="52" fill="#e2e8f0" font-size="11">11/18: $3,800</text>
+          <circle cx="430" cy="78" r="5" fill="#ef4444"/>
+          <text x="380" y="72" fill="#e2e8f0" font-size="11">11/19: $3,722</text>
+          <circle cx="610" cy="102" r="5" fill="#ef4444"/>
+          <text x="560" y="94" fill="#fca5a5" font-size="11" font-weight="600">11/20 測 $3,600 (-4.8% 週跌)</text>
+        </svg>
+        <div class="callout">
+          <strong>［跨日對照］</strong>金價自 11/17 的 $3,852 連破 $3,800 與 $3,707 兩大支撐，由避險資產轉變為科技股去槓桿的流動性提款機。
+        </div>
+        <aside class="notes">
+          強勢美元與科技股斷頭賣壓形成共振，黃金失去避險屬性成為流動性變現提款機。
+        </aside>
+      </section>
+
+      <!-- 第 3 頁｜全球產業與科技核心主線 -->
+      <section>
+        <h2>三、全球科技核心：Anthropic 上市與晶片管制</h2>
+        <ul>
+          <li>
+            <strong>Anthropic 1.8 兆美元掛牌</strong>：以代碼 <code>ANT</code> 登陸 Nasdaq 衝上 $95，完全稀釋估值達 <strong>$1.8 兆</strong>；但那指大跌 <strong>逾 2%</strong> 呈現「利多出盡」。
+            <a href="https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html" target="_blank" rel="noopener">[CNBC]</a>
+            <a href="../../wiki/anthropic-nasdaq-debut-valuation-check-2026-11-20.html">[Wiki]</a>
+          </li>
+          <li>
+            <strong>算力承諾與防短炒禁令</strong>：年化營收 $810 億對比高達 <strong>$9,000 億</strong> 長期算力承諾；券商對 30 天內轉手者祭出最高 180 天 IPO 禁購懲罰。
+            <a href="https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html" target="_blank" rel="noopener">[CNBC]</a>
+            <a href="../../wiki/anthropic-nasdaq-debut-valuation-check-2026-11-20.html">[Wiki]</a>
+          </li>
+          <li>
+            <strong>美出口新規落地下殺</strong>：台積電與三星暫停向中國客戶出貨 7nm 及以下特定晶片；美國眾議員披露商務部過去曾核准逾 <strong>87.9 萬顆</strong> 晶片銷陸。
+            <a href="https://technews.tw/2026/11/20/tsmc-and-samsung-suspend-some-chip-shipments-to-chinese-customers/" target="_blank" rel="noopener">[科技新報]</a>
+            <a href="../../wiki/tsmc-samsung-halt-china-chips-us-curbs-2026-11-20.html">[Wiki]</a>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［估值檢驗］</strong>生成式 AI 產業正式跨入 ROI 嚴苛檢驗期；台積電陸系先進訂單受限（約佔營收 1%–2%），加劇地緣合規折價。
+        </div>
+        <aside class="notes">
+          科技股正式由籌資題材期步入營運利潤檢驗期，出口管制進一步壓縮中國高階算力空間。
+        </aside>
+      </section>
+
+      <!-- 第 4 頁｜台股盤面與台廠供應鏈落地 -->
+      <section>
+        <h2>四、台廠供應鏈落地：英特爾長單與記憶體論戰</h2>
+        <ul>
+          <li>
+            <strong>英特爾 18A 與 EMIB 斬獲長約</strong>：18A 首簽外部客戶 <strong>5 年長約</strong>，微軟 Azure 自研晶片導入 EMIB 封裝，實質分食台積電先進代工與 CoWoS 份額。
+            <a href="https://money.udn.com/money/story/5612/9890120" target="_blank" rel="noopener">[經濟日報]</a>
+            <a href="../../wiki/intel-18a-emib-five-year-contract-tsmc-2026-11-20.html">[Wiki]</a>
+          </li>
+          <li>
+            <strong>群聯潘健成駁反轉說</strong>：強調 AI 實質需求強勁，企業級 SSD 佔比將挑戰 <strong>30% 以上</strong>，預期 2027 下半年供給仍吃緊，駁斥集邦全面跌價論。
+            <a href="https://money.udn.com/money/story/11074/9889796" target="_blank" rel="noopener">[經濟日報]</a>
+            <a href="../../wiki/phison-nand-flash-ai-growth-2026-11-20.html">[Wiki]</a>
+          </li>
+          <li>
+            <strong>台股迎加碼限空令考驗</strong>：昨日加權指數重挫 1,768 點收 38,426 點摜破年線後，金管會「跌 3.5% 次日禁平盤下放空」今日上路，檢驗 38,000 點整數支撐。
+            <a href="https://www.cna.com.tw/news/afe/202611190149.aspx" target="_blank" rel="noopener">[中央社]</a>
+            <a href="../../wiki/tw-stock-plunge-1768-2026-11-19.html">[Wiki]</a>
+          </li>
+        </ul>
+        <svg viewBox="0 0 700 135" width="100%" height="135" aria-label="晶圓代工與先進封裝格局對照圖">
+          <rect x="0" y="0" width="700" height="135" rx="6" fill="#131c31" stroke="#1e293b"/>
+          <text x="18" y="24" fill="#f59e0b" font-size="13" font-weight="600">先進製程與封裝格局對照：台積電 vs. 英特爾</text>
+          <text x="18" y="55" fill="#38bdf8" font-size="12" font-weight="600">台積電 (2330)</text>
+          <text x="130" y="55" fill="#e2e8f0" font-size="11">2 奈米（N2）2026 年底量產 ｜ CoWoS 月產能衝刺 6.5–7 萬片（獨占 CSP 旗艦）</text>
+          <line x1="18" y1="68" x2="682" y2="68" stroke="#334155" stroke-width="1"/>
+          <text x="18" y="93" fill="#10b981" font-size="12" font-weight="600">英特爾 (IFS)</text>
+          <text x="130" y="93" fill="#e2e8f0" font-size="11">18A 製程首獲外部 5 年長約 ｜ EMIB 封裝獲微軟 Azure 自研 AI 晶片全面導入</text>
+          <text x="18" y="120" fill="#fca5a5" font-size="11">市場影響：CSP 開始多元分散晶圓代工與封裝風險，台廠獨占溢價面臨定價折讓挑戰</text>
+        </svg>
+        <div class="callout">
+          <strong>［觀點衝突］</strong>集邦預警 2027 年資本支出增 26.7% 致 Q2 全面跌價，群聯則以在手企業級訂單力挺明年營運成長，產業多空高度分歧。
+        </div>
+        <aside class="notes">
+          台積電先進製程迎來實質外部競爭，記憶體族群則在原廠樂觀派與研調悲觀派之間劇烈拉鋸。
+        </aside>
+      </section>
+
+      <!-- 第 5 頁｜🔮 AI 焦點盲盒 -->
+      <section>
+        <h2>五、🔮 AI 焦點盲盒：加州傳票調查輝達與 NSA 癱瘓</h2>
+        <ul>
+          <li>
+            <strong>入選理由</strong>：黃仁勳辭職案升級為「政府司法傳票與國家安全風暴」；加州檢察總長立案簽發傳票，疊加情報核心網絡 NSA Net 連 3 天癱瘓。
+            <a href="https://www.theguardian.com/us-news/live/2026/nov/19/hakeem-jeffries-us-politics-demicrats-republicans-latest-news-updates" target="_blank" rel="noopener">[The Guardian]</a>
+            <a href="../../wiki/california-subpoena-nvidia-nsa-disruption-2026-11-20.html">[Wiki]</a>
+          </li>
+          <li>
+            <strong>核心事實與規模</strong>：加州司法部指行為引發「重大紅旗警告」，強制調閱黃仁勳通訊日誌與出口檔案；國會追查 87.9 萬顆晶片銷陸審查漏洞。
+            <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxORTVfRUU5WkpGSVkwMnNNVFZwY0R4UmFBQ0l0X0FTYm9rWHUxLWstd1pmY0pUeEhOZkNUQTdadkQ0eHE0anI5N1dLdklpN2JmZUZlU25JNEVnaFkwX0JwUDFCZ1RfbWl0OUF3c2phU19MTVhjQWV4Z0Y5UEpnQ1pxbl9oSjNIc1llakFveTBGUTR4eHQxYXF3Wg?oc=5" target="_blank" rel="noopener">[Barron's]</a>
+            <a href="../../wiki/california-subpoena-nvidia-nsa-disruption-2026-11-20.html">[Wiki]</a>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［盲盒外溢評估］</strong>傳票調查恐為司法部（DOJ）與 SEC 介入前奏；輝達若面臨五角大廈聯合作戰雲與主權 AI 合約審查凍結，將對 AI 估值造成致命尾部衝擊。
+        </div>
+        <aside class="notes">
+          司法傳票將使輝達高估值承受持續的合規折價，並壓抑台灣伺服器代工廠評價。
+        </aside>
+      </section>
+
+      <!-- 第 6 頁｜短線催化劑雷達 -->
+      <section>
+        <h2>六、短線催化劑雷達（Catalysts）</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>時間點</th>
+              <th>關鍵事件</th>
+              <th>核心觀察指標與連結</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>11/20 全日</td>
+              <td>金管會加碼限空令生效</td>
+              <td>單日跌 3.5% 禁平盤下放空，檢驗 38,000 支撐 <a href="../../wiki/tw-stock-plunge-1768-2026-11-19.html">[Wiki]</a></td>
+            </tr>
+            <tr>
+              <td>11/20 10:00 ET</td>
+              <td>美國密西根大學信心終值</td>
+              <td>通膨預期與 Fed 12 月 27.5 bps 升息定價 <a href="../../wiki/fed-paulson-interest-rate-guidance-2026-11-20.html">[Wiki]</a></td>
+            </tr>
+            <tr>
+              <td>11/20 收盤</td>
+              <td>Anthropic（ANT）首週籌碼</td>
+              <td>防 Flipping 禁令下之換手率與 $95 關卡 <a href="../../wiki/anthropic-nasdaq-debut-valuation-check-2026-11-20.html">[Wiki]</a></td>
+            </tr>
+            <tr>
+              <td>11/21 盤後</td>
+              <td>群聯法說會後續法人報告</td>
+              <td>企業級 SSD 佔比衝 30% 訂單在手動能 <a href="../../wiki/phison-nand-flash-ai-growth-2026-11-20.html">[Wiki]</a></td>
+            </tr>
+            <tr>
+              <td>11/25 全日</td>
+              <td>美國商務部 BIS 新清單</td>
+              <td>實體清單補充指引與 HPC 算力管制邊界 <a href="../../wiki/tsmc-samsung-halt-china-chips-us-curbs-2026-11-20.html">[Wiki]</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <aside class="notes">
+          未來 48 小時內，台股限空令成效與美股 Ant 首週收盤將是全球風險情緒的溫度計。
+        </aside>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      Reveal.initialize({ hash: true, slideNumber: true, transition: 'fade' });
+    });
+  </script>
+</body>
+</html>

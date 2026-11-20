@@ -58,3 +58,12 @@
 ## [2026-11-19] note & slide | 產出 2026-11-19 全球金融市場日報與 6 頁漏斗簡報
 - 嚴格依據 `wiki/` 萃取產出 `notes/11-19-daily-report.md`，全篇標註 `[條目名稱](../wiki/xxx.html)` 來源連結，並於文末附上待擴充參考文獻與 Ingest 指令。
 - 產出 6 頁漏斗大綱 `slides/drafts/11-19-daily-report-slides.md` 及 Reveal.js + MathJax 網頁簡報 `slides/html/11-19-daily-report-slides.html`（含頁內雙標籤、兩張深色內嵌 SVG 圖表及 `.callout` 跨日／外溢評估）。
+
+
+## [2026-11-20] ingest | 匯入 2026-11-20 五大類 7 篇財經新聞（含 AI 國際焦點盲盒）
+- 執行 `scripts/fetch_candidates.py` 產出 `raw/candidates_11-20.json`（共 54 則候選新聞），依 `AGENTS.md` 第 5.5 節標準自主遴選 7 篇核心文章存檔至 `raw/`（`fed-paulson-interest-rate-guidance-2026-11-20.md`、`phison-nand-flash-ai-growth-2026-11-20.md`、`intel-18a-emib-five-year-contract-tsmc-2026-11-20.md`、`tsmc-samsung-halt-china-chips-us-curbs-2026-11-20.md`、`anthropic-nasdaq-debut-valuation-check-2026-11-20.md`、`gold-slump-dollar-four-week-rally-2026-11-20.md`、`california-subpoena-nvidia-nsa-disruption-2026-11-20.md`）。
+- 編譯產出對應 7 篇 `wiki/*.html` 頁面（含 MathJax LaTeX 公式渲染、語意標籤與跨日/跨條目雙向交叉連結），並更新 `index.html` 首頁目錄與最新日報連結。
+
+## [2026-11-20] note & slide | 產出 2026-11-20 全球金融市場日報與 6 頁漏斗簡報
+- 嚴格依據 `wiki/` 既有條目萃取產出 `notes/11-20-daily-report.md`，全篇每一論點皆標註 `[條目名稱](../wiki/xxx.html)` 來源標籤，並於文末附上待擴充外部參考文獻與 Ingest 指令。
+- 產出 6 頁宏觀到微觀漏斗大綱 `slides/drafts/11-20-daily-report-slides.md` 及 Reveal.js + MathJax 網頁簡報 `slides/html/11-20-daily-report-slides.html`（含封面深色金融背景圖、頁內雙標籤、兩張深色內嵌 SVG 圖表及具類型標註之 `.callout` 見解卡片）。

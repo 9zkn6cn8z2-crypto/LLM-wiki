@@ -1,0 +1,558 @@
+{
+  "generated_at": "2026-11-20T08:30:43.493642+08:00",
+  "window_hours": 24,
+  "total_candidates": 54,
+  "category_stats": {
+    "1_us_macro": {
+      "label": "美國總經與政策",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": []
+    },
+    "2_tw_semis": {
+      "label": "台股大盤與核心半導體",
+      "target_pick": 2,
+      "candidate_count": 12,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "中央社 產經證券",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "3_tech_supply_chain": {
+      "label": "前瞻科技與台廠供應鏈",
+      "target_pick": 2,
+      "candidate_count": 12,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "中央社 科技",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "4_fx_commodities": {
+      "label": "國際匯市與大宗避險資產",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "MarketWatch Top Stories",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "5_ai_blindbox": {
+      "label": "AI 國際焦點盲盒",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "BBC Business",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "source": "BBC World",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "source": "中央社 國際",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "Gap names new Athleta CEO, lowers full-year guidance",
+      "published_at": "2026-11-20T07:54:20+08:00",
+      "summary": "Gap on Thursday announced Ashley Kechter as the new CEO of Athleta. The retailer also reported mixed fiscal third-quarter earnings.",
+      "url": "https://www.cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Japan core inflation soars to highest this year as energy subsidy expiry pushes up consumer prices",
+      "published_at": "2026-11-20T08:29:24+08:00",
+      "summary": "The core inflation figure — which strips out prices of food — was lower than the 2.3% expected by Reuters-polled economists.",
+      "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "Fed’s Paulson Says Clear Communication Can Guide Rates",
+      "published_at": "2026-11-20T07:40:00+08:00",
+      "summary": "Federal Reserve Bank of Philadelphia President Anna Paulson highlighted the importance of clarity in policymakers’ communications on the economy and, at times, their expectations for rates.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/fed-s-paulson-says-clear-communication-can-guide-rates"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "White House national cyber director Cairncross leaving his post - Reuters",
+      "published_at": "2026-11-20T07:53:48+08:00",
+      "summary": "White House national cyber director Cairncross leaving his post Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTElpWEVLdXdjWl9QOVBPcjRMRWcyN2xMVzdqQ1hSZjJxZTJEUk9QWmtyNldWTHRyUmNBaWFtSUJ5TndzRG9vTHR1bGR5eEZXNkNDbnNNQlRKcW9PdnZPc2VZMVJhOGxablFJeUpLM2UtU1pfXzhUaWVhNi1qeXk0ejFVVDZ3VGp6b01UdmlrMEZicFlqcU9BY2lfN25rWWRMR2p4RkZYdXFkdnJWMVAtSWZkdW5PNHBfTkdxNFRwRQ?oc=5"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "Walmart hikes outlook as CEO tells CNBC retailer aims to keep prices low despite soaring fuel costs",
+      "published_at": "2026-11-20T03:58:30+08:00",
+      "summary": "Walmart said it saw strength with store-fulfilled pickup and delivery in its fiscal third quarter.",
+      "url": "https://www.cnbc.com/2026/11/19/walmart-wmt-q3-2026-earnings.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Anthropic IPO: Investors who flip the stock may face brokerage penalty",
+      "published_at": "2026-11-20T08:16:30+08:00",
+      "summary": "Brokerage firms may put future IPO limits in place for investors who sell their Anthropic stake too soon.",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "Japan CPI Rises to Fastest This Year, Backing BOJ Hike Case",
+      "published_at": "2026-11-20T07:34:12+08:00",
+      "summary": "Gains by Japan’s consumer prices accelerated to the fastest pace this year, firming up the case for the Bank of Japan to raise its benchmark interest rate next month.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/japan-cpi-quickens-to-fastest-this-year-backing-boj-hike-case"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "Take-Two set to shatter sales records as 'GTA VI' launches to massive fanfare - Reuters",
+      "published_at": "2026-11-20T07:46:23+08:00",
+      "summary": "Take-Two set to shatter sales records as 'GTA VI' launches to massive fanfare Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONUF6bm1SdVF6MDNJX3VvZXF3d0pzLVVoQXJxUTJEZ1ZqaGszRTNTOWNPaXRrOXhFcEhJeGJfT2V6dkVocUxyQVZaXzlQOXFtOVJZMER1WmxMbTN5VXFqMXJfbkhabFNtd1VTbnJ6dGVVSlJua2EwSGRYUHk5QmhtaXhaWV9NQWFSalhRZU5takkwWkNzeGV1TWpFRVBtWmJvbEFMLUhpZEJDRXl2Y3FveFZn?oc=5"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "AMD dives on short seller report of alleged China exposure",
+      "published_at": "2026-11-20T08:08:34+08:00",
+      "summary": "AMD closed down over 7% after a short seller alleged that its firmware showed up at a blacklisted Chinese company. AMD said it complies with U.S. law.",
+      "url": "https://www.cnbc.com/2026/11/19/amd-falls-on-short-seller-report-of-alleged-china-exposure.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "Why China’s Export Machine Seems Unstoppable",
+      "published_at": "2026-11-20T06:13:35+08:00",
+      "summary": "In this Bloomberg Originals weekly documentary, we explore how the West’s tariffs and restrictions have failed to derail Beijing’s global trade march.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/why-china-s-export-machine-seems-unstoppable"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "群聯執行長潘健成：明年營運將成長",
+      "published_at": "2026-11-19T23:30:27+08:00",
+      "summary": "NAND Flash存儲解決方案大廠群聯（8299）執行長潘健成昨（19）日表示，近期部分記憶體現貨價格鬆動，部分客戶也調節訂單，但AI帶動的實質需求未變，看好明年AI產業持續擴張，群聯營運也將成長。他並說，明年下半年記憶體供給仍吃緊，現階段就斷言報價將反轉下跌，言之過早。",
+      "url": "https://money.udn.com/money/story/11074/9889796"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "甩開「牛皮股」標籤！中華電信大象跳舞 股價與市值屢創新高",
+      "published_at": "2026-11-20T05:54:55+08:00",
+      "summary": "台股自近5萬點高點以來，已經下跌逾萬點，跌幅超過二成，相較之下，獲利穩定的電信股成為資金避風港，更令人驚艷的是，電信龍頭中華電信（2412）上演「大象跳舞」戲碼，營運屢創佳績，推升股價與市值頻創新高，甩開「牛皮股」的標籤。",
+      "url": "https://money.udn.com/money/story/5612/9890374"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Nvidia Faces California Subpoena as Its Regulatory Troubles Grow - Barron's",
+      "published_at": "2026-11-20T08:26:00+08:00",
+      "summary": "Nvidia Faces California Subpoena as Its Regulatory Troubles Grow Barron's",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORTVfRUU5WkpGSVkwMnNNVFZwY0R4UmFBQ0l0X0FTYm9rWHUxLWstd1pmY0pUeEhOZkNUQTdadkQ0eHE0anI5N1dLdklpN2JmZUZlU25JNEVnaFkwX0JwUDFCZ1RfbWl0OUF3c2phU19MTVhjQWV4Z0Y5UEpnQ1pxbl9oSjNIc1llakFveTBGUTR4eHQxYXF3Wg?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "銳澤攜德商設合資公司 攻半導體氣體",
+      "published_at": "2026-11-19T23:29:19+08:00",
+      "summary": "銳澤（7703）昨（19）日與全球工業、醫療及特殊氣體大廠德商MESSER簽約，成立合資公司「梅塞爾銳澤電子材料公司」，共同搶攻半導體與CPO海內外擴產的氣體市場。",
+      "url": "https://money.udn.com/money/story/11074/9889798"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "FT 報導 台積特定晶片暫停銷大陸 三星同步喊卡",
+      "published_at": "2026-11-20T03:43:44+08:00",
+      "summary": "英國金融時報（FT）引述知情人士報導，美國祭出新出口管制措施後，台積電與三星已暫停向中國大陸客戶出貨部分晶片。",
+      "url": "https://money.udn.com/money/story/5612/9890111"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "California opens investigation into Nvidia after Jensen Huang’s affair with alleged Chinese spy - Washington Examiner",
+      "published_at": "2026-11-20T08:20:00+08:00",
+      "summary": "California opens investigation into Nvidia after Jensen Huang’s affair with alleged Chinese spy Washington Examiner",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUS1fdVNHTTBNTDJIRlViRGpFZjd4UEZtWlRjejdhMVl2YlVJSFZqZ016YlI3NldZRGhUM2VHT09IaTNPamxBdkIxdWs0Y3JYOENJSEJaWnlmUk10LWY1ZWtXWmJ5ZG1QLXViWnJnN0txZENoNS1yTlk5aHpWZFhPM1MtcHBCT3RlYVBmME15SjBiOVlSR19tSlN5MjlkdDZOSXYxTnZaMXlOOHI1SERydXNn?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "達航接單暢旺 明年擴產",
+      "published_at": "2026-11-19T23:10:39+08:00",
+      "summary": "上櫃PCB載板雷射加工機設備廠商達航（4577）昨（19）日召開法說會，因載板大廠積極投資帶動需求，明年載板客戶營收占比目標超過75%、達76%，在手訂單延續到2028-2029年後，產能供不應求，正積極規畫2027年擴產。",
+      "url": "https://money.udn.com/money/story/11074/9889814"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "英特爾 18A 先進製程拿下長單 業界解讀分食台積電訂單",
+      "published_at": "2026-11-20T03:41:31+08:00",
+      "summary": "英特爾執行長陳立武18日出席美國德州奧斯丁TomorrowX峰會透露，旗下18A製程已與首家外部客戶簽約，訂單為期五年。業界解讀，這是英特爾晶圓代工業務重大突破，分食台積電先進製程訂單。",
+      "url": "https://money.udn.com/money/story/5612/9890120"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "California investigates Nvidia over ex-CEO Jensen Huang’s alleged affair with suspected Chinese spy - FOX 26 Houston",
+      "published_at": "2026-11-20T08:09:37+08:00",
+      "summary": "California investigates Nvidia over ex-CEO Jensen Huang’s alleged affair with suspected Chinese spy FOX 26 Houston",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNFJJYmE4Vm1fTkVYa21zQWpXSkszNkFCNTJ4Q1hQbDZzdWxNSF9LUHJZYU96bW9DT195V3BIS1VqdDBncTFNSm0yOHRLRHgzaE8tLTJraFpTT3ZGY1NIM2NFLTFWNU1lemIzNmZVbldkcy02eDM4TzdlU3lFUDlsSmcxMXFtOHNuRkE?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "智崴搶攻中東樂園商機",
+      "published_at": "2026-11-19T23:10:32+08:00",
+      "summary": "智崴（5263）今年接單動能強勁，董事長歐陽志宏指出，全球樂園資本支出復甦，2026年起進入新的投資起飛期，在中東大型娛樂園區開發，以及歐美既有主題樂園擴建、亞洲新興市場投資需求帶動下，目前智崴累計在手訂單約39億元，創下歷史新高紀錄，看好後續成長動能。",
+      "url": "https://money.udn.com/money/story/11074/9889817"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "英特爾先進製程拿下長單 先進封裝也有好消息",
+      "published_at": "2026-11-20T03:39:56+08:00",
+      "summary": "英特爾晶圓代工業務報捷之際，先進封裝布局也傳來好消息，旗下EMIB先進封裝技術獲微軟採用，將用於微軟Azure自研晶片。微軟成為第一家公開表態導入英特爾EMIB先進封裝的大廠。",
+      "url": "https://money.udn.com/money/story/5612/9890121"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "TSMC halts advanced chip orders from Chinese designers in Taiwan - Yahoo Finance",
+      "published_at": "2026-11-20T08:06:00+08:00",
+      "summary": "TSMC halts advanced chip orders from Chinese designers in Taiwan Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObEZkM3lQWGU4dnZKNlRZUEZJRzNPU19DS1BpckgxdGxOR204amJWRW5rcjdOWDNJczdnUE1zLWhyQ3RlWnZzcVdTaXAxSU8tSS04Y0szZmIzVXVYbFpfeUVpcFBJSEtZVWViQnc4VDZDZXkwQ0tYN1JERWpZT2M0VkdydVVtSGVBRW4xVEdndU1YTHBkVkM1MXZmaw?oc=5"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "駭客也騙不了的定位，NIST 利用糾纏光子打造防竄改的「量子位置驗證」",
+      "published_at": "2026-11-20T08:30:27+08:00",
+      "summary": "美國國家標準暨技術研究院（NIST）與國際團隊在《自然》發表研究，以糾纏光子與無漏洞貝爾測試（Loophole […]",
+      "url": "https://technews.tw/2026/11/20/quantum-physics-can-verify-a-persons-location-researchers-show/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Meta’s new Muse Charm device may cost $300",
+      "published_at": "2026-11-20T05:58:06+08:00",
+      "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "豐田通商攜手光陽「充電式」電動機車進攻日本外送市場",
+      "published_at": "2026-11-20T08:22:30+08:00",
+      "summary": "沉寂許久的光陽電動機車，昨天又傳出新合作消息，曾經以為要被淘汰的「充電式」電動機車，這次成了攻向日本市場的主角 […]",
+      "url": "https://technews.tw/2026/11/20/kymco-toyota-tsusho-electric-scooter/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Anthropic IPO takeaways: ANT debuts with $1.8 trillion market cap in landmark moment for AI",
+      "published_at": "2026-11-20T08:04:56+08:00",
+      "summary": "Anthropic IPO live updates: Follow ANT stock's Nasdaq debut, opening share price, valuation and investor reaction to the Claude AI maker.",
+      "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "published_at": "2026-11-20T05:42:31+08:00",
+      "summary": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "AI 科學家自動完成上萬步驟實驗，設計、分析都能自己來",
+      "published_at": "2026-11-20T08:20:31+08:00",
+      "summary": "人工智慧（AI）已可協助科學家搜尋文獻、分析數據，甚至提出研究假說，但要真正完成一項實驗，仍需要研究人員親自操 […]",
+      "url": "https://technews.tw/2026/11/20/autodna-system-uses-ai-to-autonomously-perform-thousands-of-experimental-steps/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+      "published_at": "2026-11-20T08:02:36+08:00",
+      "summary": "Members of Congress have pushed in the wake of the Jensen Huang scandal for legislation to tighten export controls on chip sales to China.",
+      "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "published_at": "2026-11-20T04:18:49+08:00",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "傳美出口管制新規衝擊，台積電、三星暫停部分對中晶片出貨",
+      "published_at": "2026-11-20T08:15:10+08:00",
+      "summary": "英國《金融時報》引述知情人士報導，美國商務部推出一項出口管制新規定後，台積電與三星電子已暫停部分對中國客戶的晶 […]",
+      "url": "https://technews.tw/2026/11/20/tsmc-and-samsung-suspend-some-chip-shipments-to-chinese-customers/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Cramer: My favorite chartist sees two major signs of a rally brewing in Alphabet stock",
+      "published_at": "2026-11-20T07:38:35+08:00",
+      "summary": "Jim Cramer said that veteran chartist Larry Williams sees bullish signals in Alphabet’s charts.",
+      "url": "https://www.cnbc.com/2026/11/19/alphabet-stock-larry-williams-rally-signals.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Anthropic’s IPO could deliver $156B to charity",
+      "published_at": "2026-11-20T03:10:45+08:00",
+      "summary": "At a stock price of $95, the frontier lab's Public Benefit Foundation, its employee donations, and the company's match tot up to $156 billion.",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "韓國研發奈米氣凝膠接合材料，碳纖維複材加熱提速近倍、接合強度增三成",
+      "published_at": "2026-11-20T08:10:36+08:00",
+      "summary": "結合奈米碳管、磁性氧化鐵與尼龍 6 的氣凝膠夾層，讓感應加熱同時利用電與磁兩種發熱機制，實驗中初始升溫速率最多 […]",
+      "url": "https://technews.tw/2026/11/20/kims-develops-high-efficiency-induction-joining-technology-based-on-nanocomposite-aerogels/"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Gold and Silver's Deepening Dollar Dilemma - StoneX",
+      "published_at": "2026-11-20T08:06:23+08:00",
+      "summary": "Gold and Silver's Deepening Dollar Dilemma StoneX",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeGxkZ2R0amdUUURYT1gxalBaaGZtUllXc0Y1bWdpSzdScXotdk1SVFV3ckZ5T0oydXJkQmVnd0N0OG1ndFVXWXF2N1Bhc0EtMUNhTzRnb2lJNjBDUk9OQnBBV1ZGNlc2TU9lNG5WTDZMRE53Q1I4RDV3RGZfWkJNQmNaWFNvTDFNVDZLaF9ZQ0VIYkEybF9UYVZLbnB1T0pycjY4?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Dollar Heads for Fourth Week of Gains Following Anthropic IPO",
+      "published_at": "2026-11-20T08:20:47+08:00",
+      "summary": "The dollar is headed for a fourth straight weekly gain as demand tied to the Anthropic PBC IPO further lifts the currency that has been supported by expectations of further Federal Reserve interest-rate hikes and elevated US Treasury yields.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/dollar-heads-for-fourth-week-of-gains-following-anthropic-ipo"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Guyana Oil Boom Rekindles Frontier Drilling Appetite - Crude Oil Prices Today | OilPrice.com",
+      "published_at": "2026-11-20T08:00:00+08:00",
+      "summary": "Guyana Oil Boom Rekindles Frontier Drilling Appetite Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUHY1enppUHJwRGp1S3JqMzB0SnBTNFNlY2NUWkVzUmpYWWg3eW52czVNUDFPcFhjQUNGTG5tNWhXa0FLal9ST0w2aS13R044V05CQ3V4YVhzVjNUU19JSGlnVF9NejJPNWYteHBreG5VX2hMTEp1Sm5DY2Y4TVpDcFZXelBOYkhLTTlXOEM0RVMtOUx2cXZ4QWlncmVMZlpn0gGgAUFVX3lxTE5QdjV6emlQcnBEanVLcmozMHRKcFM0U2VjY1RaRXNSalhZaDd5bnZzNU1QMU9wWGNBQ0ZMbm01aFdrQUtqX1JPTDZpLXdHTjhXTkJDdXhhWHNWM1RTX0lIaWdUX016Mk81Zi14cGt4blVfaExMSnVKbkNjZjhNWkNwVld6UE5iSEtNOVc4QzRFUy05THZxdnhBaWdyZUxmWmc?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "CNBC World",
+      "title": "Friday's big stock stories: What’s likely to move the market in the next trading session",
+      "published_at": "2026-11-20T08:26:53+08:00",
+      "summary": "The Nasdaq Composite lost more than 2% as Anthropic's debut failed to revive the AI trade. Tune in to CNBC Friday for Treasury Secretary Scott Bessent.",
+      "url": "https://www.cnbc.com/2026/11/19/fridays-big-stock-stories-whats-likely-to-move-the-market.html"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "India’s Stock Rally Faces Valuation Test as Bond Allure Grows",
+      "published_at": "2026-11-20T08:00:00+08:00",
+      "summary": "India’s stock rebound is approaching a crucial valuation test as rising bond yields make sovereign debt an increasingly viable alternative to equities.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/india-s-stock-rally-faces-valuation-test-as-bond-allure-grows"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Gold Tests 3600 Level Amid Dollar Strength and Fed Hike Expectations - KuCoin",
+      "published_at": "2026-11-20T07:35:13+08:00",
+      "summary": "Gold Tests 3600 Level Amid Dollar Strength and Fed Hike Expectations KuCoin",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZ0FZOFpoTUxxWlBydEx6MHhiVmt5dUdKYnl5bm53LXYtYWVDbEdyQjlRcU5WMmtyTlVBZjZLUmRQNkROQ2doQll3a3N4Nl80WmIyS0l3N1ZRNDdWMThwbkNsZVZYZkJvNWIwQ3YxYVppZkJ6em0xZHh4MU1TUjUwUTVrV0l3d0FFSmdicW1JNmN0bzZLUk95NnByX09QWUdjVTVvdg?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Gold Set for Worst Week Since March on Hawkish Fed",
+      "published_at": "2026-11-20T07:56:03+08:00",
+      "summary": "Gold fell and was heading for the biggest weekly decline since March, as a hawkish Federal Reserve signaled more interest-rate hikes and a selloff in AI stocks pushed investors to sell the metal to cover losses.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Trans Mountain oil shipments jump as upgrades boost pipeline capacity - The Globe and Mail",
+      "published_at": "2026-11-20T07:22:37+08:00",
+      "summary": "Trans Mountain oil shipments jump as upgrades boost pipeline capacity The Globe and Mail",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTVlzTGptU19HUjJJT18yYTQ2OHE4OEhrb3JVaG9DZWlzREdObjFPcjk1M2VSeVJ1OW5WVDdqc0FLRlRPem9veXZjNTQyRklaTnpoTXFzMlo4NFpDeWF6TGZpZVhKRFZyUGdNM3lETkV4QkphZDhEc1BhdWwxOEhIUV9zcEFDdTBkMmNubEgtX19LWW1DMTdyOHE2Z3dVRE1MdndTTUZiLWh2ZGFfbkp5ejctTFl3QQ?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Anthropic IPO Raises Only $110 Million From Australian Investors",
+      "published_at": "2026-11-20T07:35:17+08:00",
+      "summary": "Australian investors were allocated less than 1% of total shares from Anthropic PBC’s record-breaking initial public offering.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-ipo-raises-only-110-million-from-australian-investors"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Hormuz Oil Exports Could Decline amid Inbound Tanker Shortage - Crude Oil Prices Today | OilPrice.com",
+      "published_at": "2026-11-20T07:00:00+08:00",
+      "summary": "Hormuz Oil Exports Could Decline amid Inbound Tanker Shortage Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQN0ZBRHNxWWRsSjZYM2x4ODBRQVpGbDZQdDdOWmtwMk1yaEhqd3JxNVVXQ2NpMTVVSkNwUkk4TkNHX0o0c0NSV2NJMXdNLWhtTlZlVnpkLWh6Z3ZnNDBubUlKWDY4NksybUtVeXVpOHU1N3JVeW9QZTRRMXNyVFhBWkwza2ZESTlwLW51ZGJuWlBQdnB0NTAwczd5T0s2UGtBSnU2LW9PQdIBrAFBVV95cUxPTzBQb0JxbEFWR1BtZkV3UTZhSWFLN3BSbUs4ZmtrNUVUTHAzUTQxY3VmQUZlODJwSnlWYXplbGU0N3g2MVQwSklXRF9OcGFGdEhEMGNTRl9hczVEYUZmMkVVQ0pVak9LMHJSRVN1b0J5azRuZ1JSLXdFSkhoblI3SnVXeHYxSERtdjNyMlgtWFpzbFMyMWF3M2UzWTdpSkZQaTA5OVdVUlVIU29M?oc=5"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Religion should be removed from terrorism definition under Australian law as it gives ‘false credibility’, watchdog says",
+      "published_at": "2026-11-20T08:19:57+08:00",
+      "summary": "Independent National Security Legislation Monitor says reference to religion has ‘contributed to discrimination and violence against religious minorities’ Get our breaking news email , free app or daily news podcast Religion should be removed from Australia’s terrorism definition and making bomb...",
+      "url": "https://www.theguardian.com/law/2026/nov/20/religion-should-removed-from-terrorism-definition-australian-law-gives-false-credibility-watchdog-ntwnfb"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "California’s top lawyer subpoenas Nvidia over Jensen Huang’s affair with suspected Chinese spy – live",
+      "published_at": "2026-11-20T08:18:50+08:00",
+      "summary": "State’s attorney general Rob Bonta says ‘conduct of Nvidia and its former CEO raises bright red flags’ as he opens investigation Sign up for the Breaking News US email The National Security Agency is seeing a third day of disruptions to its internal network, NSA Net, which allows staff to share h...",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/19/hakeem-jeffries-us-politics-demicrats-republicans-latest-news-updates"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "US warned supplying nuclear-powered submarines to Australia would diminish its own fleet for ‘many years’",
+      "published_at": "2026-11-20T08:16:29+08:00",
+      "summary": "Congressional Budget Office also questions whether Australian-flagged vessels could be compelled into a conflict with China under Aukus deal Get our breaking news email , free app or daily news podcast Providing nuclear-powered submarines to Australia would diminish the US navy’s own fleet for “m...",
+      "url": "https://www.theguardian.com/world/2026/nov/20/aukus-defence-us-warned-supplying-nuclear-powered-submarines-to-australia-would-diminish-its-own-fleet-for-many-years"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "An elevator, a brick wall and a bathroom: scientists use gravity to send ‘practically unblockable’ message",
+      "published_at": "2026-11-20T07:30:26+08:00",
+      "summary": "Australian physicists chose to transmit the word ‘gravity’ in binary code through brick wall Get our breaking news email , free app or daily news podcast Australian scientists have used gravity as a means of communication, in a proof-of-concept experiment involving a snail-paced 1950s elevator, a...",
+      "url": "https://www.theguardian.com/science/2026/nov/20/scientists-communicate-using-gravity-elevator-brick-wall-bathroom-experiment"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Florida to carry out record-breaking 20th execution of the year",
+      "published_at": "2026-11-20T07:15:42+08:00",
+      "summary": "State to execute man convicted of two counts of first-degree murder while Texas also plans to put a man to death Florida is set Thursday to carry out a record-breaking 20th execution of the year on a man convicted of killing a pregnant woman and her husband during a home invasion, while Texas pla...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/19/record-executions-florida-texas"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Howard-era minister Sharman Stone dies via voluntary assisted dying, aged 75",
+      "published_at": "2026-11-20T07:07:02+08:00",
+      "summary": "The former Liberal MP had fought a long battle against glioblastoma, an aggressive form of brain cancer Get our daily political email , free app or daily news podcast Former Liberal MP Sharman Stone has died via voluntary assisted dying after spending much of her political career advocating that...",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/20/howard-era-minister-sharman-stone-dies-via-voluntary-assisted-dying-aged-75"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Mark Speakman resigns and says Liberals face ‘existential threat’ as NSW exodus continues",
+      "published_at": "2026-11-20T06:17:09+08:00",
+      "summary": "Former NSW opposition leader warns party against becoming ‘Labor lite’ or ‘One Nation lite’ in late-night speech Get our breaking news email , free app or daily news podcast Former New South Wales opposition leader Mark Speakman will not contest his seat at the March state election, the latest in...",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/19/mark-speakman-resigns-and-says-liberals-face-existential-threat-as-nsw-exodus-continues"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Fiona the hippo dies after ingesting knitted hat at Cincinnati zoo",
+      "published_at": "2026-11-20T06:09:55+08:00",
+      "summary": "Zoo staff tried a colonoscopy, vibration plate and other procedures to aid the hippo in passing the hat to no avail Fiona the hippo, one of America’s most famous zoo animals, has died after efforts to remove a knitted hat that she swallowed after it fell into her enclosure proved unsuccessful. “I...",
+      "url": "https://www.theguardian.com/world/2026/nov/19/fiona-hippo-cincinnati-zoo-knit-hat"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Thomas Markle, Meghan’s father, is competent to face child sex abuse images case",
+      "published_at": "2026-11-20T06:05:18+08:00",
+      "summary": "Judge in Florida says an expert has determined the 82-year-old estranged father of the Duchess of Sussex is mentally competent to face charges An expert has determined that Thomas Markle, the 82-year-old estranged father of the Duchess of Sussex , is mentally competent to face charges of keeping...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/19/thomas-markle-mentally-competent"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Appeals court rejects Democrat LaMonica McIver’s bid to toss charges over ICE protest",
+      "published_at": "2026-11-20T05:57:39+08:00",
+      "summary": "New Jersey congresswoman, charged with interfering with immigration arrest, set to face trial over May 2025 incident An appeals court decided on Thursday that the Democratic New Jersey representative LaMonica McIver will continue to face charges related to a skirmish outside an immigration detent...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/19/lamonica-mciver-ice-delaney-hall"
+    }
+  ]
+}
