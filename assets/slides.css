@@ -38,7 +38,8 @@ body,
   margin-top: 0 !important;
 }
 
-/* 封面頁置中 */
+/* 封面頁置中 — 必須設定 height: 100% 才能讓 justify-content: center 生效
+   （flex 容器沒有明確高度時，高度 = 內容高度，垂直置中無法作用） */
 .reveal .slides section.title-slide {
   text-align: center;
   display: flex !important;
@@ -46,6 +47,10 @@ body,
   justify-content: center;
   align-items: center;
   padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  height: 100% !important;
+  min-height: 720px;
+  box-sizing: border-box;
 }
 
 /* 內容頁標題上方不留多餘空白 */
