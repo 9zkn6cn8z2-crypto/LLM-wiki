@@ -30,13 +30,36 @@ body,
   text-align: left;
   line-height: 1.48;
   padding: 1rem 1.6rem;
+  padding-top: 2.2rem;
   box-sizing: border-box;
+  /* 強制覆蓋 Reveal.js 主題的垂直置中，確保內容從頂部流式排版 */
+  display: block !important;
+  top: 0 !important;
+  margin-top: 0 !important;
 }
 
-/* 封面頁與章節頁置中 */
+/* 封面頁置中 */
 .reveal .slides section.title-slide {
   text-align: center;
-  padding-top: 3rem;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0 !important;
+}
+
+/* 內容頁標題上方不留多餘空白 */
+.reveal .slides section:not(.title-slide) h2 {
+  margin-top: 0;
+}
+
+/* 次要說明文字（傳導鏈、量化估算等行內補充） */
+.reveal .supplement {
+  display: block;
+  color: #94a3b8;
+  font-size: 0.82em;
+  margin-top: 0.25em;
+  line-height: 1.4;
 }
 
 /* 標題層級與強調色 */

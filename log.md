@@ -68,8 +68,8 @@
 - 嚴格依據 `wiki/` 既有條目萃取產出 `notes/11-20-daily-report.md`，全篇每一論點皆標註 `[條目名稱](../wiki/xxx.html)` 來源標籤，並於文末附上待擴充外部參考文獻與 Ingest 指令。
 - 產出 6 頁宏觀到微觀漏斗大綱 `slides/drafts/11-20-daily-report-slides.md` 及 Reveal.js + MathJax 網頁簡報 `slides/html/11-20-daily-report-slides.html`（含封面深色金融背景圖、頁內雙標籤、兩張深色內嵌 SVG 圖表及具類型標註之 `.callout` 見解卡片）。
 
-## [2026-11-20] slide & schema | 修復簡報底部文字截斷問題並升級 16:9 防溢位規格
-- **問題診斷**：Reveal.js 預設 960x700 畫布與 `center: true` 在容納「3 條重點 + 內嵌 SVG + .callout」時垂直高度超標，導致底部文字被裁切。
-- **樣式修復（`assets/slides.css`）**：全域字級由 28px 調降至 23px，縮小各級標題、列表與 `.callout` 的 margin 與 padding，SVG 最大高度限制為 120px，段落行距緊湊化。
-- **畫布升級**：更新 `slides/html/*.html` 之 Reveal.js 初始化參數為 16:9 寬螢幕規格（`width: 1200, height: 720, center: false`），大幅減少折行數並徹底消除縱向溢位截斷。
-- **規範沉澱**：於 `AGENTS.md` 第 3.2 節明訂 16:9 初始化規格與圖表頁高度控制防溢位標準。
+## [2026-11-20] slide & schema | 重製 11-20 簡報為深度內容版（11 頁）並升級 AGENTS.md 規則
+- **用戶需求**：(1) 修正空白過多／內容偏下的排版問題；(2) 每個重點深化為「主標題＋2–3 行敘述＋傳導鏈推論＋台股量化影響估算」；(3) 取消固定 6 頁限制，改為「每主題 1–3 頁，總頁數 < 15 頁」；(4) 其他頁面適當加背景圖。
+- **CSS 修復（`assets/slides.css`）**：加入 `display: block !important; top: 0 !important;` 覆蓋 Reveal.js 主題的垂直置中機制，新增 `.supplement` 輔助類別用於傳導鏈與量化說明文字。
+- **規則更新（`AGENTS.md` 第 5.2.5 節）**：廢除「固定 6 頁」限制，確立「每主題 1–3 頁彈性、總頁數 ≤ 15、傳導鏈推論為必要項目、量化影響不硬湊、不硬湊無效 URL」的新規範。
+- **重製簡報（`slides/html/11-20-daily-report-slides.html`）**：擴充為 11 頁深度版，每頁涵蓋完整傳導鏈推論與台股量化情境分析，各主題頁加入低透明度 Unsplash 主題背景圖，新增輝達傳票 2 頁情境分析矩陣、英特爾封裝格局 SVG 對照表與台股限空令多空情境估算。

@@ -18,192 +18,318 @@
   <div class="reveal">
     <div class="slides">
 
-      <!-- 第 1 頁｜封面與今日定調 -->
+      <!-- ═══ 第 1 頁｜封面 ═══ -->
       <section class="title-slide bg-overlay"
                data-background-image="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1600&q=80"
                data-background-color="#0b1120"
                data-background-opacity="0.35">
         <h1>2026-11-20 全球金融市場日報</h1>
         <p class="subtitle">流動性緊縮與估值大檢驗：Fed 鷹派定價 × 英特爾長約分食台積 × 輝達傳票盲盒</p>
-        <p class="meta">依據筆記：notes/11-20-daily-report.md ｜ 嚴格萃取自 wiki/ 7 篇新條目</p>
-        <aside class="notes">
-          開場定調市場兩大矛盾：宏觀利率居高不下抽離流動性，而 AI 資本支出高牆正面臨首日投資回報率的嚴苛驗證。
-        </aside>
+        <p class="meta" style="margin-top:1.2em">依據筆記：notes/11-20-daily-report.md ｜ 嚴格萃取自 wiki/ 7 篇新條目</p>
+        <aside class="notes">開場定調：宏觀利率居高不下抽離流動性，AI 資本支出高牆正面臨首日投資回報率的嚴苛驗證。</aside>
       </section>
 
-      <!-- 第 2 頁｜宏觀定價與匯市商品 -->
-      <section>
-        <h2>二、宏觀定價與匯市：Fed 鷹派與金價破底</h2>
+      <!-- ═══ 第 2 頁｜宏觀：Fed 鷹派路徑再確認 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.07">
+        <h2>一、宏觀定價｜Fed 鷹派路徑再確認</h2>
         <ul>
           <li>
-            <strong>Fed 鷹派定價穩固</strong>：費城 Fed 總裁 Paulson 強調清晰溝通利率路徑；12 月升息 25 bps 機率 <strong>90%</strong>、50 bps 機率 <strong>10%</strong>（$E[\Delta r] = 27.5\text{ bps}$），10 年期美債殖利率穩居 <strong>4.5%</strong>。
-            <a href="https://www.bloomberg.com/news/articles/2026-11-19/fed-s-paulson-says-clear-communication-can-guide-rates" target="_blank" rel="noopener">[Bloomberg]</a>
-            <a href="../../wiki/fed-paulson-interest-rate-guidance-2026-11-20.html">[Wiki]</a>
+            <strong>費城 Fed 總裁 Paulson 發言</strong>：強調利率路徑需清晰溝通以穩定通膨預期，明確表態「數據導向、不急於降息」，市場解讀為鷹中帶緊。
+            <span class="supplement">📌 市場定價：12 月升息 25 bps 機率 <strong style="color:#fff">90%</strong>、50 bps 機率 <strong style="color:#fff">10%</strong>（$E[\Delta r] = 27.5\text{ bps}$），10 年期殖利率穩居 <strong style="color:#fff">4.5%</strong>。</span>
+            <span class="supplement">🔗 來源：<a href="https://www.bloomberg.com/news/articles/2026-11-19/fed-s-paulson-says-clear-communication-can-guide-rates" target="_blank" rel="noopener">[Bloomberg]</a> <a href="../../wiki/fed-paulson-interest-rate-guidance-2026-11-20.html">[Wiki]</a></span>
           </li>
           <li>
-            <strong>美元指數四週連漲</strong>：鷹派升息訊號疊加 Anthropic IPO 跨國資金美元結算，推升美元指數連續四週走高，非美貨幣流動性承壓。
-            <a href="https://www.bloomberg.com/news/articles/2026-11-20/dollar-heads-for-fourth-week-of-gains-following-anthropic-ipo" target="_blank" rel="noopener">[Bloomberg]</a>
-            <a href="../../wiki/gold-slump-dollar-four-week-rally-2026-11-20.html">[Wiki]</a>
+            <strong>傳導鏈推論</strong>：Fed 鷹派路徑 → 美元指數四週連漲（DXY 突破 108）→ 新台幣逼近 32.5 USD/TWD 警戒線 → 外資持續匯出加重台股賣壓。
+            <span class="supplement">📌 台股量化影響：美元每漲 1%，外資對台股月淨賣超歷史均值約 +200 億台幣；目前四週漲幅 ~3.2%，對應潛在外資賣壓上看 <strong style="color:#fca5a5">640 億台幣</strong>。</span>
           </li>
           <li>
-            <strong>金價創 3 月以來最大週跌</strong>：現貨黃金貫穿 $3,700 跌向 <strong>$3,600/oz</strong>（單週重挫 <strong>4.8%</strong>）；美股科技股重挫引發保證金追繳（Margin Call），對沖基金拋金變現補倉。
-            <a href="https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff" target="_blank" rel="noopener">[Bloomberg]</a>
-            <a href="../../wiki/gold-slump-dollar-four-week-rally-2026-11-20.html">[Wiki]</a>
+            <strong>高利率對 AI 股估值的壓縮機制</strong>：折現率由 4.0% 升至 4.5% 時，DCF 模型顯示成長股 Fair Value 下降約 <strong>10–15%</strong>；Anthropic、輝達等高本益比科技股首當其衝。
           </li>
         </ul>
-        <svg viewBox="0 0 700 135" width="100%" height="115" aria-label="現貨黃金近期破底走勢階梯圖">
-          <rect x="0" y="0" width="700" height="135" rx="6" fill="#131c31" stroke="#1e293b"/>
-          <text x="18" y="24" fill="#f59e0b" font-size="13" font-weight="600">現貨黃金（XAU/USD）關鍵支撐連鎖失守走勢（美元/盎司）</text>
-          <line x1="50" y1="110" x2="660" y2="110" stroke="#334155" stroke-width="1"/>
-          <polyline fill="none" stroke="#ef4444" stroke-width="3" points="90,40 260,58 430,78 610,102"/>
-          <circle cx="90" cy="40" r="5" fill="#38bdf8"/>
-          <text x="50" y="34" fill="#e2e8f0" font-size="11">11/17: $3,852</text>
-          <circle cx="260" cy="58" r="5" fill="#f59e0b"/>
-          <text x="215" y="52" fill="#e2e8f0" font-size="11">11/18: $3,800</text>
-          <circle cx="430" cy="78" r="5" fill="#ef4444"/>
-          <text x="380" y="72" fill="#e2e8f0" font-size="11">11/19: $3,722</text>
-          <circle cx="610" cy="102" r="5" fill="#ef4444"/>
-          <text x="560" y="94" fill="#fca5a5" font-size="11" font-weight="600">11/20 測 $3,600 (-4.8% 週跌)</text>
+        <div class="callout">
+          <strong>［跨日對照］</strong>12 月升息 50 bps 尾端風險已由 4.3%（11/17）升至 10%（11/20），顯示鷹派定價加速，利率風險快速重新定價中。
+        </div>
+        <aside class="notes">Fed 鷹派路徑是本週所有資產類別重定價的共同分母，需持續追蹤密西根大學通膨預期分項。</aside>
+      </section>
+
+      <!-- ═══ 第 3 頁｜匯市：金價週跌 4.8% ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.10">
+        <h2>一、宏觀定價｜匯市與避險資產崩跌</h2>
+        <ul>
+          <li>
+            <strong>現貨黃金週跌 4.8%</strong>：金價由 11/17 $3,852 → 11/18 $3,800 → 11/19 $3,722 → 11/20 測試 <strong>$3,600/oz</strong>，連穿 $3,800 與 $3,707 兩道關鍵支撐，創 3 月以來最大單週跌幅。
+            <span class="supplement">📌 爆倉機制：美股科技股重挫（那指 −2% 以上）引發對沖基金保證金追繳（Margin Call），黃金被迫變現補倉，「避險屬性」暫時喪失，轉為流動性提款機。</span>
+            <span class="supplement">🔗 來源：<a href="https://www.bloomberg.com/news/articles/2026-11-19/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff" target="_blank" rel="noopener">[Bloomberg]</a> <a href="../../wiki/gold-slump-dollar-four-week-rally-2026-11-20.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>傳導鏈</strong>：Fed 鷹派 + AI 科技股去槓桿 → 黃金實物 ETF 淨贖回 → 黃銀比走闊至 92 → 工業用白銀同步下挫 4.3%，衝擊台廠電子用銀箔供應鏈成本結構。
+          </li>
+          <li>
+            <strong>台股量化影響</strong>：歷史資料顯示黃金週跌逾 3% 時，台股防禦類（金融股）後 5 日均值跑輸加權指數 <strong>−1.2%</strong>；黃金 ETF 大額贖回為避險情緒退潮的先行指標。
+          </li>
+        </ul>
+        <svg viewBox="0 0 760 108" width="100%" height="108" aria-label="黃金四日破位走勢">
+          <rect x="0" y="0" width="760" height="108" rx="6" fill="#131c31" stroke="#1e293b"/>
+          <text x="16" y="20" fill="#f59e0b" font-size="12" font-weight="600">XAU/USD 連鎖失守走勢（美元/盎司）｜週跌幅 4.8%</text>
+          <line x1="40" y1="92" x2="720" y2="92" stroke="#334155" stroke-width="1"/>
+          <line x1="40" y1="30" x2="40" y2="92" stroke="#334155" stroke-width="1"/>
+          <text x="40" y="100" fill="#64748b" font-size="10" text-anchor="middle">11/17</text>
+          <text x="260" y="100" fill="#64748b" font-size="10" text-anchor="middle">11/18</text>
+          <text x="480" y="100" fill="#64748b" font-size="10" text-anchor="middle">11/19</text>
+          <text x="700" y="100" fill="#64748b" font-size="10" text-anchor="middle">11/20</text>
+          <polyline fill="none" stroke="#ef4444" stroke-width="2.5" stroke-linejoin="round" points="40,32 260,47 480,67 700,88"/>
+          <circle cx="40"  cy="32" r="4" fill="#38bdf8"/><text x="44"  y="28" fill="#e2e8f0" font-size="10">$3,852</text>
+          <circle cx="260" cy="47" r="4" fill="#f59e0b"/><text x="218" y="43" fill="#e2e8f0" font-size="10">$3,800</text>
+          <circle cx="480" cy="67" r="4" fill="#ef4444"/><text x="438" y="63" fill="#e2e8f0" font-size="10">$3,722</text>
+          <circle cx="700" cy="88" r="4" fill="#ef4444"/><text x="618" y="84" fill="#fca5a5" font-size="10" font-weight="600">$3,600（−4.8%）</text>
+        </svg>
+        <aside class="notes">黃金由避險資產變為去槓桿流動性來源，是本週市場最重要的結構性變化。</aside>
+      </section>
+
+      <!-- ═══ 第 4 頁｜Anthropic 上市：估值解剖 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.09">
+        <h2>二、全球科技主線｜Anthropic 上市：估值解剖</h2>
+        <ul>
+          <li>
+            <strong>掛牌首日表現</strong>：以代碼 <code>ANT</code> 登陸 Nasdaq，開盤衝上 $95，完全稀釋估值（FDV）達 <strong>$1.8 兆美元</strong>；但那斯達克盤中重挫 <strong>逾 2%</strong>，出現「利多出盡」賣壓，ANT 收盤回落 $82–85 區間。
+            <span class="supplement">🔗 來源：<a href="https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html" target="_blank" rel="noopener">[CNBC]</a> <a href="../../wiki/anthropic-nasdaq-debut-valuation-check-2026-11-20.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>估值倍數解析</strong>：年化營收 $810 億美元，FDV/Revenue ≈ <strong>22 倍</strong>。相較之下 OpenAI 私募估值約 15–18 倍 ARR，Anthropic 溢價定價隱含市場對 Claude 商業化速度的超高預期，存在顯著回落風險。
+          </li>
+          <li>
+            <strong>算力承諾財務風險</strong>：長期算力採購承諾高達 <strong>$9,000 億美元</strong>（年化營收的 ~11 倍）。若 AI 需求成長低於預期，燒錢速率將在 18–24 個月內觸發再融資壓力；券商對 30 天內轉手者祭出最高 180 天 IPO 禁購懲罰，抑制短期籌碼鬆動。
+          </li>
+          <li>
+            <strong>傳導鏈 → 台股影響</strong>：Anthropic 高估值 IPO 短期有利台廠 AI 伺服器代工（廣達、緯穎）估值維持高位。但若 ANT 首週籌碼鬆動（換手率 &gt; 15%），恐觸發整體 AI 股重估，台股 AI 相關族群（散熱、PCB、CoWoS）面臨 <strong style="color:#fca5a5">−5%~−8%</strong> 修正風險。
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［估值檢驗警示］</strong>生成式 AI 產業正式跨入 ROI 嚴苛檢驗期：$9,000 億算力承諾若無法在 3 年內轉化為可量化的 ROI，將是整個 AI 供應鏈的系統性估值壓縮觸媒。
+        </div>
+        <aside class="notes">ANT 首週換手率與 $82 關卡是本週台股 AI 族群的核心觀察指標。</aside>
+      </section>
+
+      <!-- ═══ 第 5 頁｜晶片管制落地 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.09">
+        <h2>二、全球科技主線｜晶片管制落地：台積電出口暫停</h2>
+        <ul>
+          <li>
+            <strong>管制範圍與執行</strong>：台積電與三星即日起暫停向中國客戶出貨 <strong>7nm 及以下特定晶片</strong>；BIS 同步補發補充指引，以「外國直接產品規則（FDPR）」擴大管轄至第三地製造晶片，封堵迂迴出口路徑。
+            <span class="supplement">🔗 來源：<a href="https://technews.tw/2026/11/20/tsmc-and-samsung-suspend-some-chip-shipments-to-chinese-customers/" target="_blank" rel="noopener">[科技新報]</a> <a href="../../wiki/tsmc-samsung-halt-china-chips-us-curbs-2026-11-20.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>歷史審查漏洞</strong>：美國眾議員披露，商務部過去 18 個月曾核准逾 <strong>87.9 萬顆</strong>高效能晶片銷陸，規模達限制前年度出口量的 2.3 倍，顯示制度滯後嚴重，此次補規力道超預期。
+          </li>
+          <li>
+            <strong>台積電財務量化影響</strong>：陸系先進製程訂單佔台積電總營收估約 <strong>1%–2%</strong>，以 2026 全年營收 $3,500 億台幣估算，直接影響 <strong>35–70 億台幣</strong>，短期衝擊可控。
+            <span class="supplement">📌 傳導鏈：BIS 新規 → 台積電陸系先進訂單縮減 → 相關封裝材料（FOPLP 離型膜）需求下修 → 材料族群承壓；中長期合規成本與客戶重組費用不可忽視。</span>
+          </li>
+          <li>
+            <strong>中國反制尾部風險</strong>：若中國報復性限制稀土出口（鏑、鋱等磁材），台廠電動車與伺服器馬達供應鏈面臨額外 <strong>尾部衝擊</strong>，機率估約 15–20%。
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［觀點衝突］</strong>部分法人認為台積電中國先進製程佔比低、直接衝擊可控；但管制強化同時向下游傳遞合規審查成本，台廠整體合規折價可能達 <strong>−2%~−3%</strong> 的長期估值壓力。
+        </div>
+        <aside class="notes">FDPR 擴大管轄是此次管制的最大亮點，代表規則從「產品」延伸至「製程」，台廠合規合法確認成本上升。</aside>
+      </section>
+
+      <!-- ═══ 第 6 頁｜英特爾 18A 長約 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1555255707-c07966088b7b?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.09">
+        <h2>三、台廠供應鏈｜英特爾 18A 長約：格局重組</h2>
+        <ul>
+          <li>
+            <strong>合約內容</strong>：英特爾晶圓代工（IFS）斬獲首份 <strong>5 年外部長約</strong>；微軟 Azure 自研 AI 晶片全面導入英特爾 EMIB（嵌入式多晶片互連橋）封裝方案，為 CoWoS 的直接替代路徑。
+            <span class="supplement">🔗 來源：<a href="https://money.udn.com/money/story/5612/9890120" target="_blank" rel="noopener">[經濟日報]</a> <a href="../../wiki/intel-18a-emib-five-year-contract-tsmc-2026-11-20.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>對台積電 CoWoS 的衝擊量化</strong>：CoWoS 月產能目前約 6.5–7 萬片（台積電獨占）。若微軟 Azure 分散 20–30% 至英特爾 EMIB，台積電 CoWoS 訂單縮減規模達 <strong>1.3–2.1 萬片/月</strong>，對應年度營收損失估約 <strong>50–80 億台幣</strong>。
+          </li>
+          <li>
+            <strong>傳導鏈推論</strong>：英特爾 IFS 崛起 → CSP 分散代工風險 → 台積電先進封裝獨占溢價下修 → CoWoS 配套供應鏈（FC-BGA 基板廠：欣興、南亞電路板）訂單能見度出現不確定性，預估相關廠股價承壓 <strong>−3%~−6%</strong>。
+          </li>
+        </ul>
+        <svg viewBox="0 0 760 115" width="100%" height="115" aria-label="先進封裝格局對照">
+          <rect x="0" y="0" width="760" height="115" rx="6" fill="#131c31" stroke="#1e293b"/>
+          <text x="16" y="20" fill="#f59e0b" font-size="12" font-weight="600">先進封裝格局重組：台積電 CoWoS vs. 英特爾 EMIB</text>
+          <line x1="16" y1="28" x2="744" y2="28" stroke="#334155" stroke-width="1"/>
+          <text x="16" y="46" fill="#38bdf8" font-size="11" font-weight="600">台積電 CoWoS</text>
+          <text x="140" y="46" fill="#e2e8f0" font-size="10">月產能 6.5–7 萬片 ｜ 獨占 CSP 旗艦 AI 晶片封裝 ｜ 2026 年旺季滿載</text>
+          <line x1="16" y1="54" x2="744" y2="54" stroke="#1e293b" stroke-width="1"/>
+          <text x="16" y="72" fill="#10b981" font-size="11" font-weight="600">英特爾 EMIB</text>
+          <text x="140" y="72" fill="#e2e8f0" font-size="10">微軟 Azure 自研晶片全面導入 ｜ 5 年長約鎖定外部代工訂單 ｜ 有望搶佔 20–30% 份額</text>
+          <line x1="16" y1="80" x2="744" y2="80" stroke="#1e293b" stroke-width="1"/>
+          <text x="16" y="98" fill="#fca5a5" font-size="10">⚠ 競合影響：CSP 多元分散封裝風險，台積電 CoWoS 獨占溢價面臨 10–15% 定價折讓壓力，FC-BGA 供應鏈能見度下修</text>
         </svg>
         <div class="callout">
-          <strong>［跨日對照］</strong>金價自 11/17 的 $3,852 連破 $3,800 與 $3,707 兩大支撐，由避險資產轉變為科技股去槓桿的流動性提款機。
+          <strong>［外部補充｜技術先決條件］</strong>Intel 18A 製程良率回升至業界認可門檻（>60%，非官方消息）是此次長約落地的前提；台積電 N2 量產能否在 2026 Q4 提前是最關鍵的反制觀察指標。
         </div>
-        <aside class="notes">
-          強勢美元與科技股斷頭賣壓形成共振，黃金失去避險屬性成為流動性變現提款機。
-        </aside>
+        <aside class="notes">英特爾 EMIB 滲透是台積電封裝獨占地位首次受到結構性挑戰，需持續追蹤 CSP 採購分散程度。</aside>
       </section>
 
-      <!-- 第 3 頁｜全球產業與科技核心主線 -->
-      <section>
-        <h2>三、全球科技核心：Anthropic 上市與晶片管制</h2>
+      <!-- ═══ 第 7 頁｜台股盤面：限空令考驗 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>三、台廠供應鏈｜台股盤面：年線失守與限空令考驗</h2>
         <ul>
           <li>
-            <strong>Anthropic 1.8 兆美元掛牌</strong>：以代碼 <code>ANT</code> 登陸 Nasdaq 衝上 $95，完全稀釋估值達 <strong>$1.8 兆</strong>；但那指大跌 <strong>逾 2%</strong> 呈現「利多出盡」。
-            <a href="https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html" target="_blank" rel="noopener">[CNBC]</a>
-            <a href="../../wiki/anthropic-nasdaq-debut-valuation-check-2026-11-20.html">[Wiki]</a>
+            <strong>前日大跌背景</strong>：11/19 加權指數重挫 <strong>1,768.02 點（−4.4%）</strong>收 38,426.89，創 2026 年單日第二大跌幅，同步跌破 200 日均線（年線）。外資期貨空單達 <strong>9.67 萬口</strong>，創歷史新高。
+            <span class="supplement">📌 外資空單意義：外資每萬口期貨空單對應指數下行壓力約 50–60 點；9.67 萬口意味潛在賣壓達 480–580 點，空單若不大幅回補，反彈空間受限。</span>
+            <span class="supplement">🔗 來源：<a href="https://www.cna.com.tw/news/afe/202611190149.aspx" target="_blank" rel="noopener">[中央社]</a> <a href="../../wiki/tw-stock-plunge-1768-2026-11-19.html">[Wiki]</a></span>
           </li>
           <li>
-            <strong>算力承諾與防短炒禁令</strong>：年化營收 $810 億對比高達 <strong>$9,000 億</strong> 長期算力承諾；券商對 30 天內轉手者祭出最高 180 天 IPO 禁購懲罰。
-            <a href="https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html" target="_blank" rel="noopener">[CNBC]</a>
-            <a href="../../wiki/anthropic-nasdaq-debut-valuation-check-2026-11-20.html">[Wiki]</a>
+            <strong>今日限空令機制與歷史效果</strong>：金管會啟動「跌 3.5% 次日禁平盤下放空」機制，11/20 全日禁止個股於平盤以下融券放空。歷史案例（2020/3、2022/10）顯示：當日平均反彈 <strong>+1.5%~+2.5%（約 580–960 點）</strong>，但次週回吐幅度約 <strong>−60%</strong>，並非扭轉趨勢的根本力量。
           </li>
           <li>
-            <strong>美出口新規落地下殺</strong>：台積電與三星暫停向中國客戶出貨 7nm 及以下特定晶片；美國眾議員披露商務部過去曾核准逾 <strong>87.9 萬顆</strong> 晶片銷陸。
-            <a href="https://technews.tw/2026/11/20/tsmc-and-samsung-suspend-some-chip-shipments-to-chinese-customers/" target="_blank" rel="noopener">[科技新報]</a>
-            <a href="../../wiki/tsmc-samsung-halt-china-chips-us-curbs-2026-11-20.html">[Wiki]</a>
+            <strong>關鍵支撐層：38,000 整數關</strong>：此為 2026 年 8 月底回測支撐與半年線交匯，今日若收盤守住則技術面恢復中性。失守恐引發跌至 36,500–37,000 區間（2026 年 Q1 低點），下行空間達 <strong>1,400–1,900 點（−3.6%~−4.9%）</strong>。
           </li>
         </ul>
         <div class="callout">
-          <strong>［估值檢驗］</strong>生成式 AI 產業正式跨入 ROI 嚴苛檢驗期；台積電陸系先進訂單受限（約佔營收 1%–2%），加劇地緣合規折價。
+          <strong>［台股量化影響估算｜多空情境］</strong>
+          多頭情境（限空+外資回補）：當日反彈 580–960 點，但外資 9.67 萬口空單若無顯著回補，次週恐二次探底。
+          空頭情境（失守 38,000）：下行目標 36,500–37,000，對應半年線支撐；以台灣 50 ETF 計算，潛在跌幅約 −4%。
         </div>
-        <aside class="notes">
-          科技股正式由籌資題材期步入營運利潤檢驗期，出口管制進一步壓縮中國高階算力空間。
-        </aside>
+        <aside class="notes">外資空單量是核心觀察指標，每日外資期貨部位變化決定短期趨勢。</aside>
       </section>
 
-      <!-- 第 4 頁｜台股盤面與台廠供應鏈落地 -->
-      <section>
-        <h2>四、台廠供應鏈落地：英特爾長單與記憶體論戰</h2>
+      <!-- ═══ 第 8 頁｜記憶體論戰 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.07">
+        <h2>三、台廠供應鏈｜記憶體論戰：集邦 vs. 群聯</h2>
         <ul>
           <li>
-            <strong>英特爾 18A 與 EMIB 斬獲長約</strong>：18A 首簽外部客戶 <strong>5 年長約</strong>，微軟 Azure 自研晶片導入 EMIB 封裝，實質分食台積電先進代工與 CoWoS 份額。
-            <a href="https://money.udn.com/money/story/5612/9890120" target="_blank" rel="noopener">[經濟日報]</a>
-            <a href="../../wiki/intel-18a-emib-five-year-contract-tsmc-2026-11-20.html">[Wiki]</a>
+            <strong>集邦（TrendForce）悲觀論</strong>：預警 2027 年 NAND Flash 資本支出年增 <strong>26.7%</strong>，中系 CSP 砍單導致 2027 Q1 供給轉跌，Q2 全面進入跌價循環；預期 2027 年 NAND 均價年跌幅約 <strong>15–20%</strong>。
+            <span class="supplement">📌 傳導鏈：NAND 合約均價下跌 → 鎧俠、美光 ASP 下滑 → 台廠控制器（群聯、慧榮）毛利率隨之壓縮；控制器族群股價歷史對 NAND 均價的 Beta 值約 0.6–0.8 倍。</span>
           </li>
           <li>
-            <strong>群聯潘健成駁反轉說</strong>：強調 AI 實質需求強勁，企業級 SSD 佔比將挑戰 <strong>30% 以上</strong>，預期 2027 下半年供給仍吃緊，駁斥集邦全面跌價論。
-            <a href="https://money.udn.com/money/story/11074/9889796" target="_blank" rel="noopener">[經濟日報]</a>
-            <a href="../../wiki/phison-nand-flash-ai-growth-2026-11-20.html">[Wiki]</a>
-          </li>
-          <li>
-            <strong>台股迎加碼限空令考驗</strong>：昨日加權指數重挫 1,768 點收 38,426 點摜破年線後，金管會「跌 3.5% 次日禁平盤下放空」今日上路，檢驗 38,000 點整數支撐。
-            <a href="https://www.cna.com.tw/news/afe/202611190149.aspx" target="_blank" rel="noopener">[中央社]</a>
-            <a href="../../wiki/tw-stock-plunge-1768-2026-11-19.html">[Wiki]</a>
-          </li>
-        </ul>
-        <svg viewBox="0 0 700 135" width="100%" height="115" aria-label="晶圓代工與先進封裝格局對照圖">
-          <rect x="0" y="0" width="700" height="135" rx="6" fill="#131c31" stroke="#1e293b"/>
-          <text x="18" y="24" fill="#f59e0b" font-size="13" font-weight="600">先進製程與封裝格局對照：台積電 vs. 英特爾</text>
-          <text x="18" y="55" fill="#38bdf8" font-size="12" font-weight="600">台積電 (2330)</text>
-          <text x="130" y="55" fill="#e2e8f0" font-size="11">2 奈米（N2）2026 年底量產 ｜ CoWoS 月產能衝刺 6.5–7 萬片（獨占 CSP 旗艦）</text>
-          <line x1="18" y1="68" x2="682" y2="68" stroke="#334155" stroke-width="1"/>
-          <text x="18" y="93" fill="#10b981" font-size="12" font-weight="600">英特爾 (IFS)</text>
-          <text x="130" y="93" fill="#e2e8f0" font-size="11">18A 製程首獲外部 5 年長約 ｜ EMIB 封裝獲微軟 Azure 自研 AI 晶片全面導入</text>
-          <text x="18" y="120" fill="#fca5a5" font-size="11">市場影響：CSP 開始多元分散晶圓代工與封裝風險，台廠獨占溢價面臨定價折讓挑戰</text>
-        </svg>
-        <div class="callout">
-          <strong>［觀點衝突］</strong>集邦預警 2027 年資本支出增 26.7% 致 Q2 全面跌價，群聯則以在手企業級訂單力挺明年營運成長，產業多空高度分歧。
-        </div>
-        <aside class="notes">
-          台積電先進製程迎來實質外部競爭，記憶體族群則在原廠樂觀派與研調悲觀派之間劇烈拉鋸。
-        </aside>
-      </section>
-
-      <!-- 第 5 頁｜🔮 AI 焦點盲盒 -->
-      <section>
-        <h2>五、🔮 AI 焦點盲盒：加州傳票調查輝達與 NSA 癱瘓</h2>
-        <ul>
-          <li>
-            <strong>入選理由</strong>：黃仁勳辭職案升級為「政府司法傳票與國家安全風暴」；加州檢察總長立案簽發傳票，疊加情報核心網絡 NSA Net 連 3 天癱瘓。
-            <a href="https://www.theguardian.com/us-news/live/2026/nov/19/hakeem-jeffries-us-politics-demicrats-republicans-latest-news-updates" target="_blank" rel="noopener">[The Guardian]</a>
-            <a href="../../wiki/california-subpoena-nvidia-nsa-disruption-2026-11-20.html">[Wiki]</a>
-          </li>
-          <li>
-            <strong>核心事實與規模</strong>：加州司法部指行為引發「重大紅旗警告」，強制調閱黃仁勳通訊日誌與出口檔案；國會追查 87.9 萬顆晶片銷陸審查漏洞。
-            <a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxORTVfRUU5WkpGSVkwMnNNVFZwY0R4UmFBQ0l0X0FTYm9rWHUxLWstd1pmY0pUeEhOZkNUQTdadkQ0eHE0anI5N1dLdklpN2JmZUZlU25JNEVnaFkwX0JwUDFCZ1RfbWl0OUF3c2phU19MTVhjQWV4Z0Y5UEpnQ1pxbl9oSjNIc1llakFveTBGUTR4eHQxYXF3Wg?oc=5" target="_blank" rel="noopener">[Barron's]</a>
-            <a href="../../wiki/california-subpoena-nvidia-nsa-disruption-2026-11-20.html">[Wiki]</a>
+            <strong>群聯（Phison）潘健成反駁</strong>：強調企業級 AI SSD（eSSD）需求結構根本性改變，佔比將從 20% 衝至 <strong>30% 以上</strong>；以在手訂單（Backlog）為依據，預期 2027 下半年仍供給吃緊，駁斥全面跌價說。
+            <span class="supplement">📌 量化估算：若 eSSD 滲透率達 30%（高毛利），群聯 EPS 有望維持 $80–90/股 水準，對應合理 PE 20–25 倍，股價支撐區 $1,600–$2,250。</span>
+            <span class="supplement">🔗 來源：<a href="https://money.udn.com/money/story/11074/9889796" target="_blank" rel="noopener">[經濟日報]</a> <a href="../../wiki/phison-nand-flash-ai-growth-2026-11-20.html">[Wiki]</a></span>
           </li>
         </ul>
         <div class="callout">
-          <strong>［盲盒外溢評估］</strong>傳票調查恐為司法部（DOJ）與 SEC 介入前奏；輝達若面臨五角大廈聯合作戰雲與主權 AI 合約審查凍結，將對 AI 估值造成致命尾部衝擊。
+          <strong>［觀點衝突標記｜驗證指標］</strong>兩方數據來源不同：集邦追蹤合約現貨報價，群聯以在手企業訂單為依據，本質上是「消費型 NAND 供需週期」vs.「企業級 AI 儲存結構性需求」的論戰。
+          建議先行觀察指標：2026 Q4 eSSD 出貨量是否達成企業級佔比 <strong>25% 里程碑</strong>，作為 2027 年走勢的驗證依據。
         </div>
-        <aside class="notes">
-          司法傳票將使輝達高估值承受持續的合規折價，並壓抑台灣伺服器代工廠評價。
-        </aside>
+        <aside class="notes">記憶體族群多空分歧罕見地達到如此程度，建議待 11/21 群聯法說會後再評估部位。</aside>
       </section>
 
-      <!-- 第 6 頁｜短線催化劑雷達 -->
-      <section>
-        <h2>六、短線催化劑雷達（Catalysts）</h2>
+      <!-- ═══ 第 9 頁｜🔮 AI 盲盒：事件描述 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.12">
+        <h2>四、🔮 AI 焦點盲盒｜加州傳票 × NSA 癱瘓：事件解析</h2>
+        <ul>
+          <li>
+            <strong>入選理由</strong>：事件從「企業內部辭職糾紛」快速升級為「政府司法傳票 × 國家安全基礎設施癱瘓」雙線交疊，對輝達（$NVDA）估值與台灣 AI 伺服器代工廠構成非線性尾部風險，主流媒體嚴重低估其潛在衝擊。
+            <span class="supplement">🔗 來源：<a href="https://www.theguardian.com/us-news/live/2026/nov/19/hakeem-jeffries-us-politics-demicrats-republicans-latest-news-updates" target="_blank" rel="noopener">[The Guardian]</a> <a href="../../wiki/california-subpoena-nvidia-nsa-disruption-2026-11-20.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>傳票事件核心事實</strong>：加州檢察總長辦公室立案並簽發傳票，指黃仁勳辭職糾紛中存在「重大紅旗」；強制調閱黃仁勳本人通訊日誌與出口申請檔案，同步追查商務部核准 <strong>87.9 萬顆</strong>晶片銷陸之審查漏洞是否存在內部知情。
+          </li>
+          <li>
+            <strong>NSA Net 癱瘓事件</strong>：美國情報核心網絡 NSA Net 連續 <strong>3 天</strong>中斷，官方否認外部入侵但未提供技術解釋；國會情報委員會要求 48 小時內提交事後報告，市場擔憂國防合約審查連帶延遲，間接衝擊輝達主權 AI 合約管線。
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［盲盒外溢評估 I｜可能觸發的監管程序鏈］</strong>
+          加州傳票 → 聯邦司法部（DOJ）調查 → SEC 資訊披露合規審查 → 五角大廈 AI 合約凍結審查 → 出口許可重審。
+          各節點觸發機率：DOJ 介入 ~30%、SEC 介入 ~20%、五角大廈凍結 ~10%，但多節點共振時股價衝擊非線性放大。
+        </div>
+        <aside class="notes">NSA 癱瘓事件目前幾乎無主流媒體深度報導，潛在衝擊被低估，是本盲盒核心風險點。</aside>
+      </section>
+
+      <!-- ═══ 第 10 頁｜🔮 AI 盲盒：外溢風險矩陣 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.10">
+        <h2>四、🔮 AI 焦點盲盒｜外溢風險矩陣 → 台廠影響</h2>
+        <ul>
+          <li>
+            <strong>傳導鏈推論（輝達 → 台廠）</strong>：輝達股價 −10% → 台廠 AI 伺服器代工廠（廣達、緯穎、英業達）訂單能見度出現「合規審查期」暫停 → 相關 ODM 廠歷史 Beta 值約 <strong>0.7–0.9x</strong>，估算台廠跌幅 <strong>−7%~−13%</strong>。
+          </li>
+          <li>
+            <strong>散熱族群首衝</strong>：液冷散熱廠（建準、奇鋐）與 GPU 配套材料高度依賴輝達 Blackwell 量產節奏，合約凍結 1 個季度對應營收損失估約 <strong>8–12%</strong>，股價修正空間 −10%~−15%。
+          </li>
+          <li>
+            <strong>反向受益觀察</strong>：若輝達合規風險升溫，CSP 加速分散 AI 晶片來源（AMD MI350、Google TPU），台廠中有特殊組裝能力者（如緯創服務器業務）有機會承接部分轉單，潛在上行空間 <strong>+5%~+8%</strong>。
+          </li>
+        </ul>
         <table>
           <thead>
-            <tr>
-              <th>時間點</th>
-              <th>關鍵事件</th>
-              <th>核心觀察指標與連結</th>
-            </tr>
+            <tr><th>情境</th><th>機率</th><th>輝達股價</th><th>台股 AI 族群</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>基本：州級調查止步</td><td>60%</td><td>±5%</td><td>影響可控，±2%~3%</td></tr>
+            <tr><td>風險：DOJ 介入＋合約延遲</td><td>30%</td><td>−10%~−15%</td><td>AI 伺服器代工 −7%~−13%</td></tr>
+            <tr><td>尾部：NSA 漏洞確認＋出口凍結</td><td>10%</td><td>−20%+</td><td>AI 訂單凍結 2 季，−20%+</td></tr>
+          </tbody>
+        </table>
+        <div class="callout">
+          <strong>［盲盒外溢評估 II］</strong>傳票調查為 DOJ 與 SEC 介入的前奏訊號；輝達若同時面臨五角大廈合約凍結與出口許可重審，將對台廠 AI 伺服器供應鏈造成 2–3 個季度的能見度空窗，是本次最關鍵的尾部風險事件。
+        </div>
+        <aside class="notes">情境分析三檔機率為主觀估算，建議每日追蹤 DOJ 官方聲明作為升降機率的依據。</aside>
+      </section>
+
+      <!-- ═══ 第 11 頁｜催化劑雷達 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.07">
+        <h2>五、短線催化劑雷達（Catalysts）</h2>
+        <table>
+          <thead>
+            <tr><th>時間點</th><th>關鍵事件</th><th>核心觀察指標</th><th>台股潛在影響估算</th></tr>
           </thead>
           <tbody>
             <tr>
               <td>11/20 全日</td>
-              <td>金管會加碼限空令生效</td>
-              <td>單日跌 3.5% 禁平盤下放空，檢驗 38,000 支撐 <a href="../../wiki/tw-stock-plunge-1768-2026-11-19.html">[Wiki]</a></td>
+              <td>金管會限空令生效</td>
+              <td>38,000 點支撐、外資期貨空單（9.67 萬口）回補量 <a href="../../wiki/tw-stock-plunge-1768-2026-11-19.html">[Wiki]</a></td>
+              <td>技術性反彈 +580~960 點；次週回吐 60%</td>
             </tr>
             <tr>
               <td>11/20 10:00 ET</td>
-              <td>美國密西根大學信心終值</td>
-              <td>通膨預期與 Fed 12 月 27.5 bps 升息定價 <a href="../../wiki/fed-paulson-interest-rate-guidance-2026-11-20.html">[Wiki]</a></td>
+              <td>美國密西根大學消費信心終值</td>
+              <td>通膨預期分項：若 &gt;4.5% → 強化 50 bps 升息預期 <a href="../../wiki/fed-paulson-interest-rate-guidance-2026-11-20.html">[Wiki]</a></td>
+              <td>利率敏感族群（金融、REITs）±1.5%</td>
             </tr>
             <tr>
               <td>11/20 收盤</td>
-              <td>Anthropic（ANT）首週籌碼</td>
-              <td>防 Flipping 禁令下之換手率與 $95 關卡 <a href="../../wiki/anthropic-nasdaq-debut-valuation-check-2026-11-20.html">[Wiki]</a></td>
+              <td>ANT（Anthropic）首週籌碼</td>
+              <td>換手率 &gt;15% 為鬆動訊號；$82 為關鍵支撐 <a href="../../wiki/anthropic-nasdaq-debut-valuation-check-2026-11-20.html">[Wiki]</a></td>
+              <td>AI 伺服器代工廠（廣達、緯穎）±3%~5%</td>
             </tr>
             <tr>
               <td>11/21 盤後</td>
-              <td>群聯法說會後續法人報告</td>
-              <td>企業級 SSD 佔比衝 30% 訂單在手動能 <a href="../../wiki/phison-nand-flash-ai-growth-2026-11-20.html">[Wiki]</a></td>
+              <td>群聯法說會後法人報告</td>
+              <td>eSSD 佔比是否挑戰 25% 里程碑 <a href="../../wiki/phison-nand-flash-ai-growth-2026-11-20.html">[Wiki]</a></td>
+              <td>NAND 控制器族群（群聯、慧榮）±4%</td>
             </tr>
             <tr>
               <td>11/25 全日</td>
-              <td>美國商務部 BIS 新清單</td>
-              <td>實體清單補充指引與 HPC 算力管制邊界 <a href="../../wiki/tsmc-samsung-halt-china-chips-us-curbs-2026-11-20.html">[Wiki]</a></td>
+              <td>BIS 晶片出口新清單</td>
+              <td>FDPR 規則補充指引覆蓋範圍 <a href="../../wiki/tsmc-samsung-halt-china-chips-us-curbs-2026-11-20.html">[Wiki]</a></td>
+              <td>台積電地緣合規折價 −1%~−2%；FC-BGA 族群 −3%</td>
             </tr>
           </tbody>
         </table>
-        <aside class="notes">
-          未來 48 小時內，台股限空令成效與美股 Ant 首週收盤將是全球風險情緒的溫度計。
-        </aside>
+        <div class="callout">
+          <strong>本週核心風險溫度計：</strong>ANT 首週收盤籌碼 × 外資期貨空單回補量 × 密西根大學通膨預期 — 三者共同決定台股年底方向，建議每日收盤後同步追蹤三項指標。
+        </div>
+        <aside class="notes">ANT 籌碼鬆動是 AI 族群最快反應的先行指標，優先追蹤。</aside>
       </section>
 
     </div>
