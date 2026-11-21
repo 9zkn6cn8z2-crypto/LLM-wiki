@@ -88,3 +88,12 @@
 ## [2026-11-21] note & slide | 產出 2026-11-21 全球金融市場日報與 6 頁漏斗簡報
 - 嚴格依據 `wiki/` 既有條目萃取產出 `notes/11-21-daily-report.md`，全篇每一論點皆標註 `[條目名稱](../wiki/xxx.html)` 來源標籤，並於文末附上待擴充外部參考文獻與 Ingest 指令。
 - 產出 6 頁宏觀到微觀漏斗大綱 `slides/drafts/11-21-daily-report-slides.md` 及 Reveal.js + MathJax 網頁簡報 `slides/html/11-21-daily-report-slides.html`（含封面深色金融背景圖、頁內雙標籤、兩張深色內嵌 SVG 圖表及具類型標註之 `.callout` 見解卡片）。
+
+## [2026-11-21] slide & schema | 診斷 6 頁成因、修正 sidecar 與 AGENTS.md 規範並重製 11-21 簡報為 11 頁深度版
+- **問題診斷**：(1) 排程自動化設定檔 `~/.gemini/config/sidecars/daily-rss-candidate-fetcher/sidecar.json` 內的 Prompt 原先仍寫著 `5. 6-Page Funnel Slides ...`，導致每日 8:30 自動被喚醒的 Agent 嚴格執行該 6 頁指令；(2) `AGENTS.md` 主題列表原先編號為 1~6，易導致模型誤判為固定 6 頁。
+- **排程與手冊修正**：
+  - 更新 `sidecar.json` 提示詞為 `Multi-Page In-Depth Funnel Slides (10–13 slides, maximum 15 slides; strictly do NOT compress into 6 slides)`。
+  - 更新 `AGENTS.md` 第 5.2.5 節，明確列出 10–13 頁的推薦結構（封面 1 頁、宏觀 2 頁、匯市 1 頁、美股主線 2 頁、台廠落地 3 頁、盲盒 2 頁、催化劑 1 頁），並嚴禁將日報壓縮為 6 頁。
+- **重製 11-21 簡報**：
+  - 將 `slides/drafts/11-21-daily-report-slides.md` 與 `slides/html/11-21-daily-report-slides.html` 擴充重構為 **11 頁深度架構**。
+  - 完整展開美股三大指數破 200 DMA 修正、櫃買市場連四日違約交割潮、輝達 2,000 億美元信用擔保曝險傳導、科林研發竹南萬坪中心動土，以及川普無預警海外資料中心懲罰盲盒之外溢風險矩陣與情境分析表。
