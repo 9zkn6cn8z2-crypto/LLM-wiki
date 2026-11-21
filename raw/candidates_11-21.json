@@ -1,0 +1,558 @@
+{
+  "generated_at": "2026-11-21T08:30:40.990108+08:00",
+  "window_hours": 24,
+  "total_candidates": 54,
+  "category_stats": {
+    "1_us_macro": {
+      "label": "美國總經與政策",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": []
+    },
+    "2_tw_semis": {
+      "label": "台股大盤與核心半導體",
+      "target_pick": 2,
+      "candidate_count": 12,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "中央社 產經證券",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "3_tech_supply_chain": {
+      "label": "前瞻科技與台廠供應鏈",
+      "target_pick": 2,
+      "candidate_count": 12,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "中央社 科技",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "4_fx_commodities": {
+      "label": "國際匯市與大宗避險資產",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "MarketWatch Top Stories",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "5_ai_blindbox": {
+      "label": "AI 國際焦點盲盒",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "BBC Business",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "source": "BBC World",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "source": "中央社 國際",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "Gap names new Athleta CEO, says Old Navy turnaround is seeing signs of progress",
+      "published_at": "2026-11-21T05:04:48+08:00",
+      "summary": "Gap on Thursday announced Ashley Kechter as the new CEO of Athleta. The retailer also reported mixed fiscal third-quarter earnings.",
+      "url": "https://www.cnbc.com/2026/11/19/gap-gap-q3-2026-earnings.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "S&P 500 and Dow close in correction; Nasdaq erases 2026 gain as AI rout picks up steam",
+      "published_at": "2026-11-21T07:46:18+08:00",
+      "summary": "A decline in Anthropic shares weighed on the broader market following the artificial intelligence giant's public market debut in the previous session.",
+      "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "ECB Must Bring Inflation Back to 2%, France’s Moulin Says",
+      "published_at": "2026-11-21T02:53:00+08:00",
+      "summary": "European Central Bank Governing Council member Emmanuel Moulin said policymakers still have work to do to restore price stability.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/ecb-must-bring-inflation-back-to-2-france-s-moulin-says"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "COP31 climate talks spill into overtime as nations quarrel over fossil fuels - Reuters",
+      "published_at": "2026-11-21T07:57:25+08:00",
+      "summary": "COP31 climate talks spill into overtime as nations quarrel over fossil fuels Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOemxCMzdZQVhrN293eFVPNTNrdHFZblZJNkJFQzluUFhMMG8xQUI1SG80YjdUWWgzdElKWmtiVVRmOFhKS2toWWZLZ2ttZ1ZOVDl3dFVEcGlpSG9DSy1ZbW1TVEY0VFpPbzhJck9sYjJHRDkzakFBTlJ4MFhOcEZfVTF3M2lIUGo2aWQ4VUdfaDJFaklfUzlVTWlCWlNHeEp3RnZ6NWI4UmpQVzlrd1I2My1tTDNsXzJDRHRIWHRXR0ZZbXZGanpz?oc=5"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "Ex-GM CEO on Mary Barra succession planning: 'It's going to be tough'",
+      "published_at": "2026-11-20T23:50:27+08:00",
+      "summary": "Former GM CEO Dan Akerson says whoever replaces Mary Barra will have a difficult task because they'll inherit rapid change in technology and the auto industry.",
+      "url": "https://www.cnbc.com/2026/11/20/gm-ceo-succession-mary-barra-dan-akerson.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
+      "published_at": "2026-11-21T06:59:33+08:00",
+      "summary": "Once the most valuable company in the world, Nvidia now ranks fourth behind Apple, Microsoft and Alphabet.",
+      "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "Fed’s Paulson Argues for Deliberate Rate Hikes to Tame Inflation",
+      "published_at": "2026-11-21T02:25:23+08:00",
+      "summary": "Federal Reserve Bank of Philadelphia President Anna Paulson said she’d be open to considering back-to-back interest-rate hikes at the central bank’s upcoming policy meetings to help contain inflation, but said officials should move at a “deliberate” pace.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/fed-s-paulson-argues-for-deliberate-rate-hikes-to-tame-inflation"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "US Vice President Vance declines to say he would have ordered Iran strikes - Reuters",
+      "published_at": "2026-11-21T07:45:19+08:00",
+      "summary": "US Vice President Vance declines to say he would have ordered Iran strikes Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUp6a3JFdW5UTE50bkNkVmExSGVkZlNWMHR0YnZMaWxGQzlZaF9CNFdQYXZCVWFwYXA2QmI1eG1EUGFLY0FydzFDZ0FBNGlkVjZKMURfb0hNOWZ4a3ZEU3V1TXVwaEMzU0dxZVVxTWhxeHFOd1RwQmFmV19MYlc3LW9MVm5TOG5uTjFhVU5RSXZaZ2ZwRmZ5Y1BmdlBUMllHMlNSeEplQ2IyXzU5NE51NnRlUm1HUUU?oc=5"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "Rejecting cheap fabrics, higher prices: Why shoppers are asking for better clothes",
+      "published_at": "2026-11-20T20:00:02+08:00",
+      "summary": "Retailers are charging higher prices for clothing made with cheaper materials. Shoppers are taking notice and experts say it could shift how they spend.",
+      "url": "https://www.cnbc.com/2026/11/20/clothing-prices-polyester-cotton-quality.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
+      "published_at": "2026-11-21T06:08:41+08:00",
+      "summary": "Trump said he discussed Jensen Huang with China's Xi. Bessent said the ousted Nvidia CEO didn't come up in talks he had while in China.",
+      "url": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "櫃買連四日爆違約交割",
+      "published_at": "2026-11-21T03:14:56+08:00",
+      "summary": "台股重挫，櫃買市場連續四個交易日都有上櫃股違約交割，櫃買中心昨（20）日公告，違約資訊達揭露標準的有金居一檔，金額達2,034.6萬元，由國票天祥和永豐三重兩個據點通報。",
+      "url": "https://money.udn.com/money/story/11074/9892401"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "「美國是給人第二次機會的國家」川普喊話輝達：讓黃仁勳回去工作",
+      "published_at": "2026-11-21T04:00:27+08:00",
+      "summary": "美國總統川普最新表態，進一步力挺黃仁勳重返輝達。他表示，希望黃仁勳鄭重道歉後回去工作，並向輝達喊話，應給這位全球頂尖人才第二次機會。川普也提及，自己看過其他人談論輝達的未來方向，卻仍希望黃仁勳回歸，言談間流露對現有領導團隊能否接棒的疑慮。",
+      "url": "https://money.udn.com/money/story/5612/9892574"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Here's How Much Nvidia Stock Is Worth Without Jensen Huang, According to Dan Ives - The Motley Fool",
+      "published_at": "2026-11-21T08:10:00+08:00",
+      "summary": "Here's How Much Nvidia Stock Is Worth Without Jensen Huang, According to Dan Ives The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU3N4Y29WWFpqQmRkQ0QtakNDcVpIb3FxUjNpcnZNOFVjWEpBYWtyd1RhdTR3TkhZbUw1SmJUcjVvNmJjYUtXWkVGelg0TjVrdVFTMU5MU3NYUDVpT0xEb0pIXzZxckdDZFJJVU1mdTdqNV95NV9LWHFja1FxY1c4VkUwakd0aWNITHQxUGNwSmV1TkVqUDlqbDFPWUFWZkFDaEJFNU1oV0gxc3RiS1B5WmxkdmZJZlVHcDhZcndmd2g?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "大田唱旺明年營運",
+      "published_at": "2026-11-21T00:00:23+08:00",
+      "summary": "高爾夫球具代工廠大田（8924）昨（20）日舉行法說會，該公司指出，投資越南的新廠11月開始試產，美日系品牌客戶陸續進駐進行認證、開發新產品，將挹注明年接單增長。",
+      "url": "https://money.udn.com/money/story/11074/9892177"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "機械公會： AI 投資短期不會急凍",
+      "published_at": "2026-11-21T02:40:24+08:00",
+      "summary": "輝達共同創辦人黃仁勳風暴引發市場對AI發展的疑慮，連帶造成股市巨幅震盪。台灣機械公會理事長莊大立昨（20）日信心喊話表示，短期內AI投資「急凍」的可能性不高，目前機械及工具機廠商接單正常，今年機械出口有機會挑戰380億美元，改寫歷史新高。",
+      "url": "https://money.udn.com/money/story/5612/9892385"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Prediction: Nvidia Stock Will Do This in the 6 Months After a New CEO Takes Over, According to History - Yahoo Finance",
+      "published_at": "2026-11-21T08:02:00+08:00",
+      "summary": "Prediction: Nvidia Stock Will Do This in the 6 Months After a New CEO Takes Over, According to History Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNLW9ZM3F2c2phdDRwLURNU0NzTHpXRjJTY28yTTdNT0xiVjZOczIxQXNYcTJmemMyN2Vod09MYUdnZUZaSl9saFhHdFBuWWlZRHFVOXFqSkVUSlNJSERBdEdETmxnNnZNeHktR1NpZldpRjVtWmtIQk16WHZLa3VrZUpmcUl6WnNzV3RfRmpobVpSbVBwMFQ5UUJkalFyQQ?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "閎康明年首季擬赴美設首座實驗室 董座謝詠芬：AI 趨勢向前走 積極應對需求",
+      "published_at": "2026-11-20T23:47:00+08:00",
+      "summary": "半導體檢測分析業廠閎康（3587）昨（20）日參加櫃買業績發表會，宣布明年首季評估赴美設首座實驗室。閎康董事長謝詠芬強調，即使近期有亂流，人工智慧（AI）產業趨勢仍往前走，持續積極應對客戶需求。",
+      "url": "https://money.udn.com/money/story/11074/9892103"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "蘋果傳攻 AI 代理、開發模型 可望導入終端產品 代工廠利多",
+      "published_at": "2026-11-21T02:39:53+08:00",
+      "summary": "蘋果傳出將開發AI代理模型，可望導入iPhone、iPad、MacBook等終端產品，為硬體裝置全面加值，刺激出貨動能，對代工AI伺服器、硬體的鴻海、廣達、和碩等大廠都有加碼效應。",
+      "url": "https://money.udn.com/money/story/5612/9892388"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "雷笛克10月 EPS 0.14元 審慎樂觀Q4",
+      "published_at": "2026-11-20T23:37:40+08:00",
+      "summary": "雷笛克光學（5230）昨（20）日公布10月自結，單月歸屬母公司業主淨利761萬元，年增426%，每股純益0.14元，較去年同期轉虧為盈，單月獲利已接近前三季總和。雷笛克10月合併營收1.43億元，年增23%。第3季在車用照明新專案放量與AI伺服器結構件出貨增溫帶動下，單季每股純益0.34元。雷笛克對本季持審慎樂觀看法。",
+      "url": "https://money.udn.com/money/story/11074/9892110"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "AI 產業變現 大廠瞄準新商機",
+      "published_at": "2026-11-21T02:38:13+08:00",
+      "summary": "OpenAI、Anthropic、Meta、Google等大廠今年全面進入AI代理市場，蘋果徵才公告透露進軍AI代理應用，針對企業與個人的AI代理商機快速擴大，成為AI產業未來變現重點。",
+      "url": "https://money.udn.com/money/story/5612/9892393"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Nvidia’s Jensen Huang Called Public Humiliation a ‘Rite of Passage’ For Employees - SFist",
+      "published_at": "2026-11-21T07:39:46+08:00",
+      "summary": "Nvidia’s Jensen Huang Called Public Humiliation a ‘Rite of Passage’ For Employees SFist",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQc0ZxbHAtTTRDSXVtaEhoUXdKTHd2VnNlcFA0SFg4R2V1OGVwSWNRXzlWZ2JoYWhHcUt2SE52dUdsNVZQdDhEbUtCUkVKNXp4bndpYUtTV3pWZWJkOWpQZmdsbmVycXdFOHZFYmxpT3E5T1ZsaGpsanlQLTQ0MEdOYWNlWWp6WmF0clZzOXdqM04zbFJMN1N5U0dMNWVlWktVc3MzaWU4QVF0TE5l?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "櫃買市場再爆違約交割！金居遭通報逾2,000萬元",
+      "published_at": "2026-11-20T21:45:13+08:00",
+      "summary": "櫃買市場再度爆出違約交割，20日根據櫃買中心公告，在櫃買市場中達違約資訊達揭露標準的有金居（8358）一檔，金額達2,034.6萬元，由國票天祥和永豐三重兩個據點通報。",
+      "url": "https://money.udn.com/money/story/11074/9892220"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "被質疑就改口，UNESCO 研究：AI 回答氣候問題九成正確，卻很容易被說服",
+      "published_at": "2026-11-21T08:30:19+08:00",
+      "summary": "聯合國教科文組織（UNESCO）與倫敦大學學院（UCL）最新發布的研究指出，人工智慧模型雖然能在氣候科學的基礎 […]",
+      "url": "https://technews.tw/2026/11/21/ai-models-mislead-on-climate-science/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "published_at": "2026-11-21T03:53:41+08:00",
+      "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "黃仁勳下台掀風暴，輝達面臨華府監管與財務雙重考驗",
+      "published_at": "2026-11-21T08:00:49+08:00",
+      "summary": "「公司距離倒閉只有 30 天」，是輝達創辦人黃仁勳 33 年來反覆提醒自己的一句話，但他或許沒想過，揮別一手打 […]",
+      "url": "https://finance.technews.tw/2026/11/21/what-challenges-would-taiwanese-suppliers-face-after-jensen-departure/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+      "published_at": "2026-11-21T03:32:08+08:00",
+      "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "專訪》AI 時代業界拚「搶快」！科林研發營運長揭密：為何要將實驗室搬到客戶身邊？",
+      "published_at": "2026-11-21T07:00:05+08:00",
+      "summary": "半導體設備大廠科林研發（Lam Research）近日在苗栗竹南的全新技術中心舉行動土典禮，該基地面積超過 4 […]",
+      "url": "https://technews.tw/2026/11/21/lam-research-sesha-varadarajan-interview/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor",
+      "published_at": "2026-11-21T05:35:24+08:00",
+      "summary": "Cybersecurity companies have been hunting for acquisitions in the AI era.",
+      "url": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Chips can survive the space environment — can their financing?",
+      "published_at": "2026-11-21T01:40:01+08:00",
+      "summary": "Lenders don't want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?",
+      "url": "https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "戰斧飛彈拚年產逾千枚，雷神選定兩家廠商開發新型固態火箭助推器",
+      "published_at": "2026-11-21T07:00:03+08:00",
+      "summary": "為了擴大「戰斧」（Tomahawk）巡弋飛彈產能，RTX 旗下雷神（Raytheon）公司選定美國火箭推進新創 […]",
+      "url": "https://technews.tw/2026/11/21/raytheon-chose-ursa-major-and-avio-to-develop-new-solid-rocket-motors-for-tomahawks/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Anthropic falls nearly 9% in first full day of trading as tech stocks get shellacked",
+      "published_at": "2026-11-21T05:27:51+08:00",
+      "summary": "Anthropic opened at $111.50 per share on Thursday, but closed at $97.17, which was 17% above the $83 IPO price.",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-stock-ai-amd-nvidia.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
+      "published_at": "2026-11-20T22:55:44+08:00",
+      "summary": "In the midst of dealing with the fallout from its ouster of CEO Jensen Huang, Nvidia delivered its latest earnings report this week, with healthy growth and promises that the good times will continue. At the same time, the chipmaker said it will stop selling its H200 chips in China, and it dismis...",
+      "url": "https://techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "爆發 27 次全是造假，NASA 揪出「假超新星」背後的隱形黑洞",
+      "published_at": "2026-11-21T00:00:30+08:00",
+      "summary": "一個已經「假裝」超新星爆發高達 27 次的天體 AT 2016blu，讓天文學家困惑了十多年。根據美國航太總署 […]",
+      "url": "https://technews.tw/2026/11/21/unraveling-15-year-mystery-impostor-supernova/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Anthropic defied the odds in its record IPO. Now it has to reckon with AI market turbulence",
+      "published_at": "2026-11-21T05:06:45+08:00",
+      "summary": "Anthropic faced a market sell-off, raging anti-AI sentiment and a crisis at Nvidia in pulling off the largest IPO on record.",
+      "url": "https://www.cnbc.com/2026/11/20/anthropic-defies-odds-holding-ipo-despite-massively-disruptive-market.html"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Oil Prices Fall Despite Hostilities as Flows Increase - Oil & Gas Journal",
+      "published_at": "2026-11-21T07:07:16+08:00",
+      "summary": "Oil Prices Fall Despite Hostilities as Flows Increase Oil & Gas Journal",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM2Y0TTZzX2tCSnFzQ1l4Q2toN2FyNHdWaVJSTEpUdWV1R2ppMk5IMEFfczBBM284c0YxX1RQVEdFZDk1N05xbjYtWlBzSlNxWVhlV2c4T1ZRRG9CaW1vSy1oTEZ5MExnMXlDUWpxQzB4b2ZjNjBjT1JGN3E0VHFtRlV6NlM0RVNMSVQ2WHVDeUREaHMyOTByYWRFNmZtM003UmhYc0ZTeC12akJSZFFIYmhRc2w2NkZkdkh0U3NoUlNHRzQ?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "J&J Snack Foods CEO on 4Q Results and Consumer Sentiment",
+      "published_at": "2026-11-21T07:22:36+08:00",
+      "summary": "J&J Snack Foods CEO Dan Fachner said the company’s turnaround is on track after a strong year, citing Project Apollo’s more than $25 million in durable savings. A second phase, Apollo 2, is expected to generate another $5 million by 2027 through distribution and manufacturing improvements. Fachne...",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-20/j-j-snack-foods-ceo-on-4q-results-and-consumer-sentiment-video"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Brent crude oil price on Nov 27, 2026 at 5:00 PM EST - Robinhood",
+      "published_at": "2026-11-21T06:26:25+08:00",
+      "summary": "Brent crude oil price on Nov 27, 2026 at 5:00 PM EST Robinhood",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOYUl6SjM4T01TZ2RJM21hZzg4UHdybVp5SlhfNlZOclR0QjJxbG1qY0FxdmlNd3ZDTHJMRDNwbzRhY2dId05WdHZkcF9yYlRjcUl2Z05VZDR1NzB0SkV6aWFxeDZ6QjlraFdxSHVxUGl1dmdxWVBaQjg0c05SVnFfVnQ2SE11WEQyYXpXWWJqQl8yU2V4QlV5UGxFUmg2YkoyX1BzNU9kSThtVWhNTlMzc0lISmNKaW9FdEd1WTJabzhMQ0xySHkyc0Zn?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "El Salvador Troops Killed in Haiti Blast After Rescue Deployment",
+      "published_at": "2026-11-21T07:08:54+08:00",
+      "summary": "Two Salvadoran soldiers died in Haiti after an explosion struck an area where they were working, weeks after President Nayib Bukele ordered a large deployment to the Caribbean island nation to find missing troops.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-20/el-salvador-troops-killed-in-haiti-blast-after-rescue-deployment"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Tanker Market: Arabian Gulf Crude Oil Exports Down 27.6% This Year - Hellenic Shipping News",
+      "published_at": "2026-11-21T06:01:55+08:00",
+      "summary": "Tanker Market: Arabian Gulf Crude Oil Exports Down 27.6% This Year Hellenic Shipping News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQW5PeWJqMjNpTDVKd2ZLN2ZxcDF0eTc4Z1VVVHpibFEtVk0tczhNWWhfZGR2OWpyS0laNTl3YzFEd0toOFZ2ZkNIQ0RjVk1uekVTcUhhOVJpTTB4aWJLaWZRZzZFcDhwRVlHSFh0cXU2NjdaSF9pVkZjbjRLVVd0TlZwV0hETzBtY3hueVhTQ3dtaklWWlEySXNScm9oajB0dlVNOQ?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Trump Says Huang Should Return to Nvidia After ‘Big Apology’",
+      "published_at": "2026-11-21T06:31:45+08:00",
+      "summary": "President Trump called for Jensen Huang to make a big apology and return as CEO of Nvidia even as the prospect remains highly unlikely. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-20/trump-huang-should-return-to-nvidia-after-big-apology-video"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Argentine Energy Firms Rush to Sell Bonds Before the 2027 Election - Crude Oil Prices Today | OilPrice.com",
+      "published_at": "2026-11-21T06:00:00+08:00",
+      "summary": "Argentine Energy Firms Rush to Sell Bonds Before the 2027 Election Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVVRqZVJCcUppMm9QVjN1N0RlcWs4YmNhRWlNZ1BCX3lmd1F1Nm1EdHdET2dmcEw2Y3h1RlBONTdFUmdtVVkwYWZRbnFHZEFvYXRuOFdyUDJRZW1pZmU5OU9kbUp1Qkl6M3Yya3I0Um8tMEV4Wmxia3FmQ1RyeHZ4YXZEcmlhTzZKTGFxMDBNUEZrZGNSYnlaQnFIbXd5RmVQWUhGbnI4ZGxlNC1UNWpmbFduTUc1cDBpeHfSAboBQVVfeXFMTVVUamVSQnFKaTJvUFYzdTdEZXFrOGJjYUVpTWdQQl95ZndRdTZtRHR3RE9nZnBMNmN4dUZQTjU3RVJnbVVZMGFmUW5xR2RBb2F0bjhXclAyUWVtaWZlOTlPZG1KdUJJejN2MmtyNFJvLTBFeFpsYmtxZkNUcnh2eGF2RHJpYU82SkxhcTAwTVBGa2RjUmJ5WkJxSG13eUZlUFlIRm5yOGRsZTQtVDVqZmxXbk1HNXAwaXh3?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "CNBC World",
+      "title": "Warsh wants Fed officials to talk less. Instead, they’re talking more",
+      "published_at": "2026-11-21T05:10:48+08:00",
+      "summary": "Fed officials have been rushing to the microphones lately while the Fed chairman stays on the sidelines.",
+      "url": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "‘Always Remain Liquid’: Richards",
+      "published_at": "2026-11-21T06:30:37+08:00",
+      "summary": "Bruce Richards, managing partner and head of CVC Marathon, joins Scarlet Fu and Tom Keene on “Bloomberg Money.” They discuss Richards’ favorite investing advice he has received throughout his career. Richards warns about irrational markets and also says he’s not a fan of leveraged ETF structures....",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-20/-always-remain-liquid-richards-video"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "North Dakota Drillers Tap Trucks as Pipe Outage Roils Flows - Bloomberg.com",
+      "published_at": "2026-11-21T05:58:48+08:00",
+      "summary": "North Dakota Drillers Tap Trucks as Pipe Outage Roils Flows Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcjU3emFsaFpRSmhGN09TWm0yOC1SY3RXZVVJOHdIWjVrbDNtMkdYbU0zUDJVWjEwS0VpOFZ3Y2t1azdxazBNSXJWUTdseTZkSk1KUUplcVhlY2lXdlFyOHp3ZktMQ0VuSXFnSmN4VVJTSUZDSWtuRGlGSWc4aHZHeFNNaXFPSFFXdW9PTXk0NW5oNlNkM2JISlBadDkwbVdZdnRMeUt3OEpGUnhIZFByek5HZw?oc=5"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Trump turns White House press conference into a 2028 succession audition",
+      "published_at": "2026-11-21T08:16:26+08:00",
+      "summary": "The president appeared to put Vance and Rubio through their paces as potential successors, though Stephen Miller unexpectedly stole the spotlight “Which of you shall we say doth love us most?” The ageing King Lear’s question to his daughters, expecting them to compete for his favour and carve up...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-republican-succession-battle-vance-rubio"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "‘A source of inspiration’: California celebrates the late civil rights icon Dolores Huerta",
+      "published_at": "2026-11-21T08:03:47+08:00",
+      "summary": "A public vigil and celebration of life honor the civil rights activist and co-founder of United Farm Workers union Hundreds of people came out to honor and celebrate the life and legacy of the California civil rights activist Dolores Huerta at a celebration-of-life event Friday in Bakersfield. Hu...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/20/dolores-huerta-celebration-of-life-california"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Republican senator blocks Trump cyber nominee over January 6 denial",
+      "published_at": "2026-11-21T07:48:38+08:00",
+      "summary": "Thom Tillis move comes after Michael LoSapio, nominated for Cisa role, told hearing ‘I don’t believe it was an attack’ Senator Thom Tillis, the outgoing North Carolina Republican who is due to be replaced by a Democrat, has reportedly blocked a confirmation vote on Donald Trump’s nominee to lead...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/20/tillis-republican-senator-trump-cyber-nominee"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Judge approves $7.25bn Bayer payout to settle claims that Roundup causes cancer",
+      "published_at": "2026-11-21T07:42:43+08:00",
+      "summary": "German company faced 65,000 claims from people who said they developed cancer after using weedkiller A Missouri judge on Friday approved Bayer ’s $7.25bn settlement of lawsuits ⁠alleging that its weedkiller ​Roundup causes cancer, potentially resolving litigation that has weighed on the German co...",
+      "url": "https://www.theguardian.com/business/2026/nov/20/bayer-roundup-cancer-litigation"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Man accused of sparking deadly Los Angeles wildfire found guilty",
+      "published_at": "2026-11-21T07:20:29+08:00",
+      "summary": "Verdict in case against former Uber driver Jonathan Rinderknecht comes after first trial ended with hung jury The 30-year-old accused of sparking the deadly Palisades fire in Los Angeles was found guilty of two federal arson charges in a Friday verdict that came months after his first trial concl...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/20/los-angeles-palisades-wildfire-trial-verdict"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "NSW passes Mount Pleasant coalmine law as Greens claim change an attempt to head off One Nation",
+      "published_at": "2026-11-21T07:09:57+08:00",
+      "summary": "Labor says allowing mine to increase production reflects ‘gravity of situation facing hundreds of workers’ – but critics call it ‘unprecedented and dangerous’ Get our breaking news email , free app or daily news podcast The New South Wales government has passed special legislation to allow a coal...",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/21/nsw-passes-hunter-valley-coalmine-law-as-greens-claim-change-an-attempt-to-head-off-one-nation-ntwnfb"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "French police officers found guilty of racist assault on black music producer",
+      "published_at": "2026-11-21T06:23:53+08:00",
+      "summary": "Beating of Michel Zecler in 2020 sparked outrage over police brutality after it was caught on security cameras Three French police officers who beat a black music producer they said was not wearing a face mask during the Covid pandemic have been found guilty of intentional, racist violence. The b...",
+      "url": "https://www.theguardian.com/world/2026/nov/20/french-police-officers-found-guilty-of-racist-assault-on-black-music-producer"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Trump threatens ‘tremendous penalties’ for US tech firms that build datacenters abroad",
+      "published_at": "2026-11-21T05:47:41+08:00",
+      "summary": "President gives wide-ranging White House press conference and says he has ‘fantastic relationships’ with Putin and Xi Donald Trump threatened on Friday to impose “tremendous penalties” on American tech companies that build datacenters outside the US, though he gave no details and told reporters h...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading",
+      "published_at": "2026-11-21T05:38:17+08:00",
+      "summary": "The Nasdaq lost trillions in value, with the AI startup’s IPO failing to buoy it as investors question huge sums being poured into AI buildout Who are Anthropic’s seven co-founders, now worth $180bn? As Anthropic’s stock dropped during its second day of trading, the wider stock market dipped with...",
+      "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "JP Morgan boss says he will find ways to offset ‘unfair’ rise in UK tax on banks",
+      "published_at": "2026-11-21T03:38:59+08:00",
+      "summary": "Jamie Dimon says he is ‘setting an example’ in seeking to claw back Labour’s increase in surcharge, from 3% to 6% Jamie Dimon, the chief executive of JP Morgan, has said he will find ways to offset the chancellor’s tax rise for banks, calling the increase unfair. Speaking at an event in London on...",
+      "url": "https://www.theguardian.com/business/2026/nov/20/jp-morgan-jamie-dimon-uk-tax-hike-bank-surcharge"
+    }
+  ]
+}

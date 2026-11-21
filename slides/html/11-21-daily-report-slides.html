@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-11-21 全球金融市場日報 — LLM 研究知識庫</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/black.min.css">
+  <link rel="stylesheet" href="../../assets/slides.css">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- ═══ 第 1 頁｜封面 ═══ -->
+      <section class="title-slide bg-overlay"
+               data-background-image="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1600&q=80"
+               data-background-color="#0b1120"
+               data-background-opacity="0.35">
+        <h1>2026-11-21 全球金融市場日報</h1>
+        <p class="subtitle">美股全面破位與 AI 算力回流衝擊：S&amp;P/道瓊修正 × 輝達 7 週連挫 × 川普海外資料中心巨額懲罰盲盒</p>
+        <p class="meta" style="margin-top:1.2em">依據筆記：notes/11-21-daily-report.md ｜ 嚴格萃取自 wiki/ 7 篇新條目</p>
+        <aside class="notes">開場定調：市場經歷殘酷的去槓桿風暴，美股三大指數摜破 200 DMA，AI 估值正面臨融資收緊與川普政策干預的雙重風暴。</aside>
+      </section>
+
+      <!-- ═══ 第 2 頁｜宏觀定價與匯市商品 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>一、宏觀定價｜Fed 通訊內鬨與升息 100% 定價</h2>
+        <ul>
+          <li>
+            <strong>Fed 內部通訊爆發公開內鬨</strong>：主席華許倡導廢除前瞻指引（Forward Guidance）並進行內部「家庭爭吵」，遭克里夫蘭 Hammack、芝加哥 Goolsbee 及費城 Paulson 等行長頻頻公開發言衝撞，導致利率波動率指數（MOVE）急升。
+            <span class="supplement">📌 利率定價：CME FedWatch 顯示 12 月至少升息 25 bps 機率已攀升至 <strong style="color:#ef4444">100%</strong>，並定價 2027 年 1 月與 2027 年底前還將各有一次升息。</span>
+            <span class="supplement">🔗 來源：<a href="https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html" target="_blank" rel="noopener">[CNBC]</a> <a href="../../wiki/fed-warsh-communications-rate-hike-pricing-2026-11-21.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>傳導鏈推論</strong>：Fed 通訊分裂 + 12 月升息機率 100% → 美債殖利率維持 4.5% 高檔 → 美元指數連四紅居高不下 → 抽離全球非美市場流動性與大宗商品保證金。
+            <span class="supplement">📌 台股量化影響：美元指數走強逼近數月高點，新台幣匯率逼近 32.5 警戒線；若 12 月升息 1 碼定價完全落實，外資單週對台股平均淨賣超歷史估達 <strong style="color:#fca5a5">150–220 億台幣</strong>。</span>
+          </li>
+        </ul>
+
+        <!-- 內嵌 SVG 1：Fed 12 月升息機率攀升趨勢圖 -->
+        <svg viewBox="0 0 880 180" width="100%" height="180" aria-label="Fed 12月升息機率路徑攀升趨勢">
+          <rect x="0" y="0" width="880" height="180" rx="8" fill="#131c31" stroke="#1e293b"/>
+          <text x="24" y="30" fill="#38bdf8" font-size="16" font-weight="700">CME FedWatch：12 月 FOMC 至少升息 1 碼（25 bps）隱含機率演變（%）</text>
+          <line x1="60" y1="140" x2="820" y2="140" stroke="#334155" stroke-width="1.5"/>
+          <line x1="60" y1="45" x2="60" y2="140" stroke="#334155" stroke-width="1.5"/>
+          
+          <!-- 水平虛線 -->
+          <line x1="60" y1="95" x2="820" y2="95" stroke="#1e293b" stroke-dasharray="4,4"/>
+          <text x="50" y="100" fill="#64748b" font-size="12" text-anchor="end">90%</text>
+          <line x1="60" y1="55" x2="820" y2="55" stroke="#1e293b" stroke-dasharray="4,4"/>
+          <text x="50" y="60" fill="#64748b" font-size="12" text-anchor="end">100%</text>
+
+          <!-- X 軸日期標籤 -->
+          <text x="100" y="160" fill="#94a3b8" font-size="13.5" font-weight="600" text-anchor="middle">11/16 (日)</text>
+          <text x="320" y="160" fill="#94a3b8" font-size="13.5" font-weight="600" text-anchor="middle">11/18 (二)</text>
+          <text x="540" y="160" fill="#94a3b8" font-size="13.5" font-weight="600" text-anchor="middle">11/20 (四)</text>
+          <text x="760" y="160" fill="#fca5a5" font-size="14.5" font-weight="700" text-anchor="middle">11/21 (五) 今日</text>
+
+          <!-- 折線與節點 -->
+          <polyline fill="none" stroke="#ef4444" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" points="100,75 320,95 540,95 760,55"/>
+          
+          <circle cx="100" cy="75" r="6" fill="#38bdf8"/>
+          <text x="100" y="62" fill="#e2e8f0" font-size="15" font-weight="600" text-anchor="middle">95.7%</text>
+
+          <circle cx="320" cy="95" r="6" fill="#f59e0b"/>
+          <text x="320" y="82" fill="#e2e8f0" font-size="15" font-weight="600" text-anchor="middle">90.0%</text>
+
+          <circle cx="540" cy="95" r="6" fill="#f59e0b"/>
+          <text x="540" y="82" fill="#e2e8f0" font-size="15" font-weight="600" text-anchor="middle">90.0%</text>
+
+          <circle cx="760" cy="55" r="7" fill="#ef4444"/>
+          <text x="760" y="42" fill="#ef4444" font-size="16" font-weight="700" text-anchor="middle">100.0%</text>
+        </svg>
+
+        <div class="callout" style="margin-top:0.35em">
+          <strong>［跨日對照］</strong>12 月升息定價由 11/17 之 95.7% 與 11/20 之期望值 27.5 bps，在官員言論交鋒下正式升至 100% 確定定價；長線通膨預期創 4 月新低但短線利率波動率 MOVE 攀升至警戒區。
+        </div>
+        <aside class="notes">Fed 通訊雜音反而強化了市場對升息路徑的激進定價，長端與短端利率預期持續背離。</aside>
+      </section>
+
+      <!-- ═══ 第 3 頁｜全球科技主線 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>二、全球科技主線｜美股全面破位與 AI 估值大拋售</h2>
+        <ul>
+          <li>
+            <strong>標普與道瓊墜入技術修正，那指年初至今轉負</strong>：那斯達克重挫 <strong>5.28%</strong>（收 22,617 點，年初至今轉負 <strong>-2.7% YTD</strong>），標普 500 暴跌 <strong>3.7%</strong>，道瓊狂瀉 <strong>949 點（-1.93%）</strong> 失守 5 萬點；三大指數較天花板回跌逾 10% 跌入技術修正，全數收於 200 DMA 之下。
+            <span class="supplement">📌 單週歷史慘劇：道瓊週跌 <strong style="color:#ef4444">8.0%</strong>（2020 年 3 月以來最慘）、那指週跌 <strong style="color:#ef4444">10.0%</strong>、標普週跌 <strong style="color:#ef4444">8.6%</strong>。</span>
+            <span class="supplement">🔗 來源：<a href="https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html" target="_blank" rel="noopener">[CNBC]</a> <a href="../../wiki/us-market-correction-nasdaq-ai-rout-2026-11-21.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>AI 巨頭骨牌下殺與 SEC 會計調查</strong>：Anthropic 掛牌次日跌 <strong>8.5%</strong>（$97.17）吐回首日漲幅；輝達暴跌 <strong>14.0%</strong>（連 7 週下挫創 2008 年以來最長連跌紀錄，路透披露 SEC 著手調查其會計審計與擔保問題）；超微重挫逾 <strong>13%</strong>，美光大跌近 <strong>14%</strong>。
+            <span class="supplement">🔗 來源：<a href="https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html" target="_blank" rel="noopener">[CNBC]</a> <a href="../../wiki/anthropic-nasdaq-debut-valuation-check-2026-11-20.html">[Wiki]</a></span>
+          </li>
+        </ul>
+
+        <!-- 內嵌 SVG 2：美股主要指數與核心 AI 巨頭單週跌幅對照 -->
+        <svg viewBox="0 0 880 180" width="100%" height="180" aria-label="美股主要指數與AI巨頭單週跌幅對照">
+          <rect x="0" y="0" width="880" height="180" rx="8" fill="#131c31" stroke="#1e293b"/>
+          <text x="24" y="30" fill="#f59e0b" font-size="16" font-weight="700">美股主要指數與核心晶片巨頭「單週跌幅（%）」對照榜 ｜ 2026-11-21 結算</text>
+          
+          <!-- 長條圖繪製 -->
+          <!-- 道瓊 -8.0% -->
+          <text x="35" y="62" fill="#94a3b8" font-size="13.5" font-weight="600">道瓊指數</text>
+          <rect x="130" y="48" width="180" height="18" rx="3" fill="#3b82f6"/>
+          <text x="320" y="62" fill="#93c5fd" font-size="15" font-weight="600">-8.0% (創2020/3以來最慘)</text>
+
+          <!-- 標普 -8.6% -->
+          <text x="35" y="90" fill="#94a3b8" font-size="13.5" font-weight="600">標普 500</text>
+          <rect x="130" y="76" width="195" height="18" rx="3" fill="#6366f1"/>
+          <text x="335" y="90" fill="#c7d2fe" font-size="15" font-weight="600">-8.6% (創2025/4以來最差)</text>
+
+          <!-- 那斯達克 -10.0% -->
+          <text x="35" y="118" fill="#94a3b8" font-size="13.5" font-weight="600">那斯達克</text>
+          <rect x="130" y="104" width="225" height="18" rx="3" fill="#8b5cf6"/>
+          <text x="365" y="118" fill="#ddd6fe" font-size="15" font-weight="600">-10.0% (逾6年最大單週回撤)</text>
+
+          <!-- 輝達 -14.0% -->
+          <text x="35" y="146" fill="#fca5a5" font-size="13.5" font-weight="700">輝達 (NVDA)</text>
+          <rect x="130" y="132" width="315" height="18" rx="3" fill="#ef4444"/>
+          <text x="455" y="146" fill="#fca5a5" font-size="16" font-weight="700">-14.0% (週線連7跌，創2008年最長)</text>
+        </svg>
+
+        <div class="callout" style="margin-top:0.35em">
+          <strong>［美股量化影響估算｜歷史對照］</strong>標普 500 連續 6 日收在 200 DMA 下方且偏離小於 3% 的型態，近 30 年僅見 3 次；雖短線 5 日內易有技術性均線反抽，但隨後二次探底均值達 -6.5% 至 -9.2%。
+        </div>
+        <aside class="notes">Anthropic 次日暴跌與輝達連 7 週下挫宣告市場正式由籌資題材期步入營運利潤與會計審查期。</aside>
+      </section>
+
+      <!-- ═══ 第 4 頁｜台廠供應鏈落地 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>三、台廠供應鏈落地｜櫃買連四日違約與輝達曝險</h2>
+        <ul>
+          <li>
+            <strong>櫃買連四日爆發違約交割，金居單檔破 2,000 萬</strong>：CCL 材料廠金居（8358）因 11/18 單日震幅達 <strong>14.4%</strong> 重挫 4.85%，T+2 結算爆發 <strong>2,034.6 萬元</strong> 違約交割（年內第 3 度）；全體櫃買違約買賣總額達 7,135.7 萬元，中小型融資多殺多壓力激化。
+            <span class="supplement">🔗 來源：<a href="https://money.udn.com/money/story/11074/9892401" target="_blank" rel="noopener">[經濟日報]</a> <a href="../../wiki/tw-otc-defaults-four-days-ginko-2026-11-21.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>川普喊話黃仁勳回歸 vs 輝達 2,000 億信用曝險</strong>：川普白宮呼籲給黃仁勳「第二次機會」並質疑現任團隊；但大摩警告輝達 2028 年廣義信用曝險恐達 <strong>2,000 億美元</strong>，上半年股權投資流出佔 FCF 50%，Neocloud 融資緊縮威脅台廠伺服器（廣達、緯穎、鴻海）拉貨。
+            <span class="supplement">🔗 來源：<a href="https://money.udn.com/money/story/5612/9892574" target="_blank" rel="noopener">[經濟日報]</a> <a href="https://finance.technews.tw/2026/11/21/what-challenges-would-taiwanese-suppliers-face-after-jensen-departure/" target="_blank" rel="noopener">[科技新報]</a> <a href="../../wiki/trump-backs-huang-nvidia-second-chance-2026-11-21.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>科林研發竹南 4 萬平米技術中心動土</strong>：Lam Research 營運長揭密「將實驗室搬到客戶身邊」，在台重金推進 Aether 乾式光阻、GAA 原子層沉積與新金屬互連，就近支援台積電 2nm / A16 與 CoWoS 研發。
+            <span class="supplement">🔗 來源：<a href="https://technews.tw/2026/11/21/lam-research-sesha-varadarajan-interview/" target="_blank" rel="noopener">[科技新報]</a> <a href="../../wiki/lam-research-zhunan-rd-center-advanced-packaging-2026-11-21.html">[Wiki]</a></span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［台股量化影響估算｜多空情境］</strong>樂觀情境：若川普促成黃仁勳回歸或首席顧問，台積電與伺服器族群可望迎來 3%–5% 估值修復反抽；悲觀情境：若 Neocloud 融資斷鏈且櫃買違約擴大，中小型維持率跌破 135%，大盤面臨回測 37,500–38,000 點支撐。
+        </div>
+        <aside class="notes">櫃買連續違約交割反映流動性枯竭，川普政治喊話能否提振信心取決於董事會治理回應。</aside>
+      </section>
+
+      <!-- ═══ 第 5 頁｜AI 焦點盲盒 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>四、🔮 AI 焦點盲盒｜川普海外資料中心巨額懲罰震撼彈</h2>
+        <ul>
+          <li>
+            <strong>入選理由與突襲宣告</strong>：川普白宮記者會突然拋出震撼彈，警告「絕不允許資料中心建在其他國家，因為中國會奪走所有設施」，揚言對海外興建資料中心的美國科技業祭出「巨額懲罰（tremendous penalties）」與關稅壁壘，且坦承未事先知會內部官員。
+            <span class="supplement">🔗 來源：<a href="https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house" target="_blank" rel="noopener">[The Guardian]</a> <a href="../../wiki/trump-penalties-overseas-datacenters-blindbox-2026-11-21.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>跨市場外溢風險推演（三維衝擊矩陣）</strong>：
+            <ol style="margin-top:0.2em; font-size:0.9em">
+              <li><strong>CSP 海外主權 AI 投資受阻</strong>：微軟（歐洲/阿聯酋）、AWS、Google（東南亞/日本）原訂數百億美元海外 AI 節點恐面臨晶片許可駁回或重稅，海外 Capex 投產面臨擱置。</li>
+              <li><strong>台廠東南亞伺服器基地受挫</strong>：廣達、緯穎、鴻海、奇鋐、台達電在泰國、越南、馬來西亞與墨西哥之新產能稼動率面臨轉向風險，回美設廠成本與關稅壓力遽增。</li>
+              <li><strong>美國本土電網瓶頸極限承壓</strong>：本土大型變壓器交期長達 3–4 年，硬性回流將進一步推升美國工商業電價與核能/燃氣電廠合約溢價。</li>
+            </ol>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［盲盒外溢評估｜情境分析］</strong>若美國政府正式發布行政命令禁止或重稅懲罰海外資料中心，台廠組裝廠東南亞新廠固定折舊費用將推高營運成本 1.5%–2.8%，伺服器回流美加組裝之交期拉長 6–8 週。
+        </div>
+        <aside class="notes">海外資料中心懲罰言論將顛覆 CSP 過去兩年主權 AI 投資版圖，對台灣東南亞製造基地衝擊巨大。</aside>
+      </section>
+
+      <!-- ═══ 第 6 頁｜短線催化劑雷達 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>五、短線催化劑雷達（Catalysts）</h2>
+        <table class="catalyst-table" style="width:100%; font-size:0.8em; border-collapse:collapse; margin-top:0.3em">
+          <thead>
+            <tr style="border-bottom:2px solid #334155; color:#93c5fd; text-align:left">
+              <th style="padding:5px 8px; width:13%">日期時間</th>
+              <th style="padding:5px 8px; width:15%">事件類別</th>
+              <th style="padding:5px 8px; width:35%">核心觀察重點</th>
+              <th style="padding:5px 8px; width:27%">台股潛在影響估算</th>
+              <th style="padding:5px 8px; width:10%">標籤</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid #1e293b">
+              <td style="padding:6px 8px; font-weight:600">11/23 (一)</td>
+              <td style="padding:6px 8px"><span class="badge badge-warning" style="background:#854d0e; color:#fef08a; padding:1px 5px; border-radius:3px">籌碼結算</span></td>
+              <td style="padding:6px 8px">櫃買中心連續違約帳戶聯合徵信管制與自律處分公告</td>
+              <td style="padding:6px 8px; color:#fca5a5">中小型題材股融資斷頭賣壓是否擴大</td>
+              <td style="padding:6px 8px"><a href="../../wiki/tw-otc-defaults-four-days-ginko-2026-11-21.html">[Wiki]</a></td>
+            </tr>
+            <tr style="border-bottom:1px solid #1e293b">
+              <td style="padding:6px 8px; font-weight:600">11/24 (一)</td>
+              <td style="padding:6px 8px"><span class="badge badge-danger" style="background:#991b1b; color:#fecaca; padding:1px 5px; border-radius:3px">技術防線</span></td>
+              <td style="padding:6px 8px">美股開盤檢驗破 200 DMA 後的技術反抽與逢低承接買盤動能</td>
+              <td style="padding:6px 8px; color:#93c5fd">反彈若不過 200 DMA，台股權值股估值承壓</td>
+              <td style="padding:6px 8px"><a href="../../wiki/us-market-correction-nasdaq-ai-rout-2026-11-21.html">[Wiki]</a></td>
+            </tr>
+            <tr style="border-bottom:1px solid #1e293b">
+              <td style="padding:6px 8px; font-weight:600">11/24 (一)</td>
+              <td style="padding:6px 8px"><span class="badge badge-info" style="background:#1e40af; color:#bfdbfe; padding:1px 5px; border-radius:3px">政策動態</span></td>
+              <td style="padding:6px 8px">輝達董事會針對川普呼籲黃仁勳復職發布治理聲明；白宮資料中心備忘錄</td>
+              <td style="padding:6px 8px; color:#86efac">若黃回歸或轉顧問，台積電/伺服器反彈 3–5%</td>
+              <td style="padding:6px 8px"><a href="../../wiki/trump-backs-huang-nvidia-second-chance-2026-11-21.html">[Wiki]</a></td>
+            </tr>
+            <tr style="border-bottom:1px solid #1e293b">
+              <td style="padding:6px 8px; font-weight:600">11/25 (二)</td>
+              <td style="padding:6px 8px"><span class="badge badge-info" style="background:#1e40af; color:#bfdbfe; padding:1px 5px; border-radius:3px">貿易法規</span></td>
+              <td style="padding:6px 8px">美國商務部 BIS 與財政部對中晶片出口管制實施細則公布</td>
+              <td style="padding:6px 8px; color:#fca5a5">7nm 客製化停出營收敞口驗證（1–2%）</td>
+              <td style="padding:6px 8px"><a href="../../wiki/tsmc-samsung-halt-china-chips-us-curbs-2026-11-20.html">[Wiki]</a></td>
+            </tr>
+            <tr style="border-bottom:1px solid #1e293b">
+              <td style="padding:6px 8px; font-weight:600">11/26 (四)</td>
+              <td style="padding:6px 8px"><span class="badge badge-warning" style="background:#854d0e; color:#fef08a; padding:1px 5px; border-radius:3px">投行研究</span></td>
+              <td style="padding:6px 8px">投行針對 Neocloud 違約風險與輝達 2,000 億美元信用擔保曝險報告</td>
+              <td style="padding:6px 8px; color:#fca5a5">廣達、緯穎、鴻海伺服器本益比估值重新定價</td>
+              <td style="padding:6px 8px"><a href="../../wiki/nvidia-post-huang-credit-exposure-taiwan-2026-11-21.html">[Wiki]</a></td>
+            </tr>
+            <tr>
+              <td style="padding:6px 8px; font-weight:600">11/28 (五)</td>
+              <td style="padding:6px 8px"><span class="badge badge-secondary" style="background:#374151; color:#e5e7eb; padding:1px 5px; border-radius:3px">貨幣政策</span></td>
+              <td style="padding:6px 8px">聯準會正式進入 12 月 FOMC 會議前之發言緘默期（Blackout Period）</td>
+              <td style="padding:6px 8px; color:#93c5fd">利率期貨 100% 升息定價底定，美元指數震盪盤整</td>
+              <td style="padding:6px 8px"><a href="../../wiki/fed-warsh-communications-rate-hike-pricing-2026-11-21.html">[Wiki]</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="callout" style="margin-top:0.4em">
+          <strong>［觀點衝突標記｜驗證指標］</strong>密切關注 11/24–28 期間：美股 200 DMA 技術防線 vs 櫃買市場融資斷頭潮之交互反饋，以金管會加碼限空令成效與外資台指期淨空單變化為主要觀測指標。
+        </div>
+        <aside class="notes">各項催化劑集中於下週前半週釋放，台股需密切防範外溢賣壓。</aside>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true,
+      transition: 'fade',
+      width: 1200,
+      height: 720,
+      margin: 0.04,
+      minScale: 0.2,
+      maxScale: 1.5,
+      center: false
+    });
+  </script>
+</body>
+</html>
