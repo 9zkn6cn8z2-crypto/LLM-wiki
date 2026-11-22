@@ -119,3 +119,11 @@
 - **產出深度研究筆記**：生成 `notes/weekly-2026-W47.md`，涵蓋全週利率定價演進、美股三大指數修正、櫃買違約交割潮、盲盒三大灰犀牛聚類與下週戰術作戰地圖，全篇維持 100% 交叉引用。
 - **產出 Reveal.js 週報簡報**：生成 `slides/html/weekly-2026-W47-slides.html`（共 15 頁深度架構），包含全週 12 月升息機率位移 SVG、盲盒外溢評級計分板、跨市場催化劑日程表與多空攻防關鍵分水嶺。
 - **首頁更新**：於 `index.html` 新增「最新金融週報（Weekly Strategic Report）」專區與跳轉連結。
+
+## [2026-11-22] schema | 週報防單句壓縮與重大事件獨立成頁鐵則寫入 AGENTS.md
+- **規範永久固化（`AGENTS.md` 5.6 節）**：
+  1. **重大事件獨立成頁原則（One Major Event Per Slide）**：嚴禁將多個獨立重大事件（如輝達 SC26 Vera Rubin 架構與 SpaceX 440 億美元發債買 GPU）強行壓縮於單頁以一句話帶過；凡重大架構發表、巨額融資、監管新規、重大代工長約，一律獨立成專頁充分展開。
+  2. **關鍵硬數據、技術規格與結構性條款必留原則**：嚴禁定性空話，強制保留 CUDA 核心數、NVLink 交換機頻寬、MLPerf 效率、Saturn SPV 隔離破產機制、8.05% 利率、防升空贖回條款等核心量化與結構性細節。
+  3. **徹底解除頁數天花板（No Artificial Page Cap）**：週報不設頁數上限，依內容深度自然展開為 18–25 頁或更多。
+- **自動化排程同步**：更新 `~/.gemini/config/sidecars/weekly-financial-report/sidecar.json` 之每週日 20:00 自動編譯提示詞，強制要求遵循 AGENTS.md 5.6 防壓縮規範。
+- **週報簡報實作驗證**：已將 `slides/html/weekly-2026-W47-slides.html` 由 15 頁擴充重製為 19 頁完整獨立版，實踐新版規範標準。
