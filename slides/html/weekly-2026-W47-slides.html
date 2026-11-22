@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026 年第 47 週全球金融週報 — LLM 研究知識庫</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/black.min.css">
+  <link rel="stylesheet" href="../../assets/slides.css">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- ═══ 第 1 頁｜封面 ═══ -->
+      <section class="title-slide bg-overlay"
+               data-background-image="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1600&q=80"
+               data-background-color="#0b1120"
+               data-background-opacity="0.35">
+        <h1>2026 年第 47 週 全球金融週報</h1>
+        <p class="subtitle" style="font-size:1.1em; color:#f59e0b; margin-top:0.6em">
+          去槓桿風暴、200 DMA 破位與算力去全球化
+        </p>
+        <p class="subtitle" style="font-size:0.85em; color:#94a3b8">
+          週期：2026-11-16 至 2026-11-22 ｜ 綜整 wiki/ 42 篇條目全景深度
+        </p>
+        <p class="meta" style="margin-top:1.4em">
+          依據筆記：notes/weekly-2026-W47.md ｜ LLM 研究知識庫週度戰略報告
+        </p>
+        <aside class="notes">全週總結：市場經歷 2020 年以來最慘單週，美股破 200 DMA，AI 算力面臨融資與地緣雙重考驗。</aside>
+      </section>
+
+      <!-- ═══ 第 2 頁｜宏觀定價：央行通訊內鬨與升息 100% ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>一、全週宏觀定價｜Fed 通訊內鬨與 12 月 100% 升息定價</h2>
+        <ul>
+          <li>
+            <strong>通訊哲學公開內鬨，推升利率波動率 MOVE</strong>：主席華許主張淡化前瞻指引（Forward Guidance）改採閉門家庭爭吵，遭到地方行長（Hammack、Goolsbee、Paulson）公開發言衝撞，政策溝通混亂引發市場不安。
+            <span class="supplement">🔗 來源：<a href="../../wiki/fed-warsh-communications-rate-hike-pricing-2026-11-21.html">[Wiki: Fed通訊內鬨]</a> <a href="../../wiki/fed-paulson-interest-rate-guidance-2026-11-20.html">[Wiki: Paulson講話]</a></span>
+          </li>
+          <li>
+            <strong>12 月升息定價全週急遽升溫</strong>：CME FedWatch 顯示 12 月至少升息 25 bps 機率由週初的 85% 一路推升至 <strong style="color:#ef4444">100%</strong>，並定價 2027 年 1 月與 2027 年底前還將各有一次升息。
+          </li>
+        </ul>
+
+        <!-- 內嵌 SVG：全週利率預期演變 -->
+        <svg viewBox="0 0 900 175" width="100%" height="175" aria-label="12月升息機率全週位移圖">
+          <rect x="0" y="0" width="900" height="175" rx="8" fill="#131c31" stroke="#1e293b"/>
+          <text x="24" y="30" fill="#38bdf8" font-size="16" font-weight="700">W47 全週 CME FedWatch：12 月 FOMC 升息 25 bps 隱含機率演變路徑（%）</text>
+          <line x1="60" y1="135" x2="840" y2="135" stroke="#334155" stroke-width="1.5"/>
+          <line x1="60" y1="45" x2="60" y2="135" stroke="#334155" stroke-width="1.5"/>
+
+          <line x1="60" y1="95" x2="840" y2="95" stroke="#1e293b" stroke-dasharray="4,4"/>
+          <text x="50" y="100" fill="#64748b" font-size="12" text-anchor="end">90%</text>
+          <line x1="60" y1="55" x2="840" y2="55" stroke="#1e293b" stroke-dasharray="4,4"/>
+          <text x="50" y="60" fill="#64748b" font-size="12" text-anchor="end">100%</text>
+
+          <text x="120" y="155" fill="#94a3b8" font-size="13" font-weight="600" text-anchor="middle">11/16 (週一)</text>
+          <text x="350" y="155" fill="#94a3b8" font-size="13" font-weight="600" text-anchor="middle">11/18 (週三)</text>
+          <text x="580" y="155" fill="#94a3b8" font-size="13" font-weight="600" text-anchor="middle">11/20 (週五)</text>
+          <text x="800" y="155" fill="#ef4444" font-size="13" font-weight="700" text-anchor="middle">11/22 (週末定調)</text>
+
+          <polyline fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" points="120,115 350,102 580,82 800,55"/>
+
+          <circle cx="120" cy="115" r="6" fill="#38bdf8"/>
+          <text x="120" y="102" fill="#e2e8f0" font-size="14" font-weight="600" text-anchor="middle">85.0%</text>
+
+          <circle cx="350" cy="102" r="6" fill="#f59e0b"/>
+          <text x="350" y="89" fill="#e2e8f0" font-size="14" font-weight="600" text-anchor="middle">91.2%</text>
+
+          <circle cx="580" cy="82" r="6" fill="#ef4444"/>
+          <text x="580" y="69" fill="#e2e8f0" font-size="14" font-weight="600" text-anchor="middle">95.7%</text>
+
+          <circle cx="800" cy="55" r="7.5" fill="#ef4444" stroke="#fca5a5" stroke-width="2"/>
+          <text x="800" y="42" fill="#ef4444" font-size="16" font-weight="700" text-anchor="middle">100.0% (確定升息)</text>
+        </svg>
+
+        <div class="callout">
+          <strong>［全週趨勢結論］</strong>聯準會 12 月升息定價已達 100% 絕對確定，且 2027 年進一步升息預期成型，成為全週壓垮風險資產折現率的核心分母。
+        </div>
+        <aside class="notes">升息 100% 定價確立，年底前任何寬鬆預期皆已落空。</aside>
+      </section>
+
+      <!-- ═══ 第 3 頁｜宏觀定價：強勢美元抽水機與黃金破位 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>一、全週宏觀定價｜強勢美元抽水機與流動性緊縮</h2>
+        <ul>
+          <li>
+            <strong>美元指數四週連漲破 108</strong>：利率高企與海外資金回流美國結算，推升 DXY 維持高檔，非美貨幣流動性嚴重緊縮，台幣逼近 32.5 警戒線。
+            <span class="supplement">🔗 來源：<a href="../../wiki/gold-slump-dollar-four-week-rally-2026-11-20.html">[Wiki: 美元四週連漲]</a></span>
+          </li>
+          <li>
+            <strong>現貨黃金貫穿三年上升軌道（週跌 4.8%）</strong>：金價自 11/17 $3,852 連續貫穿 $3,800 與 $3,707 兩大支撐測 $3,600/oz，創 3 月以來最大單週跌幅。
+            <span class="supplement">📌 變現機制：對沖基金科技股遭遇巨額保證金追繳（Margin Call），黃金被迫出清變現補倉，「避險屬性」轉變為流動性提款機。</span>
+            <span class="supplement">🔗 來源：<a href="../../wiki/gold-xau-usd-breaks-multi-year-uptrend-rate-hike-fear-2026-11-22.html">[Wiki: 黃金破三年上升趨勢]</a></span>
+          </li>
+          <li>
+            <strong>傳導鏈推論與台股量化影響</strong>：強勢美元 + 殖利率 4.5% 高檔 → 跨國資金自新興市場撤離 → 外資對台股單週淨賣超達 <strong>150–220 億台幣</strong>。
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［流動性傳導警示］</strong>黃金失守多年上升軌道是去槓桿風暴進入深水區的強烈信號，流動性緊縮預計持續壓迫下週各主要市場。
+        </div>
+        <aside class="notes">黃金喪失防禦性是市場去槓桿的最佳溫度計。</aside>
+      </section>
+
+      <!-- ═══ 第 4 頁｜美股深度體檢：三大指數破 200 DMA ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1642543492481-44e81e3914a7?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.09">
+        <h2>二、🇺🇸 美股深度體檢｜三大指數技術破位與 200 DMA 修正</h2>
+        <ul>
+          <li>
+            <strong>全週慘烈跌幅創歷史紀錄</strong>：
+            道瓊週跌 <strong style="color:#ef4444">-8.0%</strong>（2020 年 3 月以來最慘單週）、
+            那指週跌 <strong style="color:#ef4444">-10.0%</strong>（逾 6 年最慘）、
+            標普 500 週跌 <strong style="color:#ef4444">-8.6%</strong>。
+            <span class="supplement">🔗 來源：<a href="../../wiki/us-market-correction-nasdaq-ai-rout-2026-11-21.html">[Wiki: 美股三大指數修正]</a> <a href="../../wiki/anthropic-record-ipo-collides-wall-street-worst-week-2026-11-22.html">[Wiki: 2020以來最慘單週]</a></span>
+          </li>
+          <li>
+            <strong>三大指數全數收於 200 DMA 之下</strong>：
+            道瓊大跌 949 點失守 5 萬點收 48,147；標普收 6,910；那指暴跌 5.28% 收 22,617，<strong>年初至今報酬由正轉負（-2.7% YTD）</strong>，那指 100 自高點回撤逾 20% 墜入技術性熊市。
+          </li>
+          <li>
+            <strong>量化基金程式單連鎖停損</strong>：
+            全市場跌漲比達 <strong>12:1</strong>，CTA 策略與風險平價（Risk Parity）基金在年線失守後觸發無差別去槓桿清算。
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［技術面重大警訊］</strong>200 日移動平均線（200 DMA）是美股中長期多空生命線，三大指數全數跌破確認本輪由 AI 帶動的牛市行情進入中期技術修正期。
+        </div>
+        <aside class="notes">200 DMA 是下週多頭反抽的第一道死守關卡。</aside>
+      </section>
+
+      <!-- ═══ 第 5 頁｜美股深度體檢：板塊避險輪動 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>二、🇺🇸 美股深度體檢｜極端避險輪動與市場寬度撕裂</h2>
+        <ul>
+          <li>
+            <strong>資金由「題材擴張」單向退守「防禦現金流」</strong>：
+            高估值科技板塊（XLK、SOXX）重挫 8–12%，避險資金唯一湧入必需消費品（XLP）與防禦零售。
+          </li>
+          <li>
+            <strong>沃爾瑪（WMT）與好市多（COST）逆勢創歷史新高</strong>：
+            沃爾瑪 Q3 營收 1,873 億美元、電商年增 23%、EPS $0.64 擊敗預期，獲外資重金押注為通膨與衰退環境下的資金避風港。
+            <span class="supplement">🔗 來源：<a href="../../wiki/walmart-q3-earnings-us-consumer-2026-11-19.html">[Wiki: 沃爾瑪Q3財報與消費動能]</a></span>
+          </li>
+          <li>
+            <strong>小型股承受最高利率壓力</strong>：
+            羅素 2000 指數單週重挫 9.4%，浮動利率債務佔比高達 40% 的中小型企業正面臨融資展期重定價危機。
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［板塊輪動結論］</strong>美股市場寬度極度惡化，防禦零售股創高的背後是全市場流動性嚴重緊縮，防禦資產估值溢價達到 2022 年底以來新高。
+        </div>
+        <aside class="notes">資金退守沃爾瑪是市場極度規避風險的指標。</aside>
+      </section>
+
+      <!-- ═══ 第 6 頁｜美股深度體檢：AI 估值大檢驗 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.09">
+        <h2>二、🇺🇸 美股深度體檢｜AI 科技巨頭估值大檢驗</h2>
+        <ul>
+          <li>
+            <strong>Anthropic 蜜月極速失靈</strong>：
+            以代碼 <code>ANT</code>、完全稀釋估值 1.8 兆美元掛牌 Nasdaq，但次日大跌 <strong>8.5%</strong> 吐回大半漲幅；其高達 <strong>$9,000 億美元</strong> 長期算力採購承諾引發市場對高額 Capex 能否轉化為實質營運現金流的嚴厲拷問。
+            <span class="supplement">🔗 來源：<a href="../../wiki/anthropic-nasdaq-debut-valuation-check-2026-11-20.html">[Wiki: Anthropic上市分歧]</a> <a href="../../wiki/anthropic-record-ipo-collides-wall-street-worst-week-2026-11-22.html">[Wiki: 創紀錄IPO撞上最慘單週]</a></span>
+          </li>
+          <li>
+            <strong>輝達（$NVDA）暴跌 14% 遭 SEC 審查</strong>：
+            連續第七週下挫，創 2008 年金融海嘯以來最長週連跌紀錄；路透披露 SEC 著手審查其會計審計與擔保問題；超微（-13%）、美光（-14%）全線破底。
+            <span class="supplement">🔗 來源：<a href="../../wiki/us-market-correction-nasdaq-ai-rout-2026-11-21.html">[Wiki: 美股科技股重挫]</a></span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［估值體檢警示］</strong>AI 產業正式跨入 ROI 檢驗深水區，高本益比倍數（P/S &gt; 20x）面臨系統性壓縮，市場由「概念預期」轉為嚴格審查獲利與現金流。
+        </div>
+        <aside class="notes">Anthropic 與輝達是本輪 AI 估值重估的風暴中心。</aside>
+      </section>
+
+      <!-- ═══ 第 7 頁｜全球科技主線：晶片管制與先進製程 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.09">
+        <h2>三、全球科技主線｜晶片管制東南亞防堵與先進製程競合</h2>
+        <ul>
+          <li>
+            <strong>BIS 管制延伸至第三地實體</strong>：
+            台積電與三星暫停向中國客戶出貨 7nm 及以下特定晶片；美方更進一步擬將晶片管制擴大至東南亞資料中心（馬來西亞、新加坡），封堵轉運與雲端遠端租賃漏洞。
+            <span class="supplement">🔗 來源：<a href="../../wiki/tsmc-samsung-halt-china-chips-us-curbs-2026-11-20.html">[Wiki: 台積三星暫停銷陸]</a> <a href="../../wiki/bis-us-ai-chip-curbs-southeast-asia-data-centers-2026-11-22.html">[Wiki: BIS東南亞新規]</a></span>
+          </li>
+          <li>
+            <strong>英特爾 18A 分食長約打破獨占格局</strong>：
+            英特爾晶圓代工（IFS）首簽微軟 5 年外部長約，Azure 自研晶片導入 EMIB 封裝，實質分食台積電 CoWoS 先進封裝份額，削弱台廠獨占定價溢價。
+            <span class="supplement">🔗 來源：<a href="../../wiki/intel-18a-emib-five-year-contract-tsmc-2026-11-20.html">[Wiki: 英特爾長約分食台積]</a></span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［地緣與競合雙重折價］</strong>東南亞算力防堵新規與英特爾 EMIB 外部競爭，共同對台灣半導體龍頭帶來 1%–2% 的合規與定價折讓壓力。
+        </div>
+        <aside class="notes">晶片新規從產品面擴及地理實體面，代工獨占溢價亦受威脅。</aside>
+      </section>
+
+      <!-- ═══ 第 8 頁｜全球科技主線：算力架構與資本競賽 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1555255707-c07966088b7b?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>三、全球科技主線｜前瞻算力架構與資本競賽</h2>
+        <ul>
+          <li>
+            <strong>輝達 SC26 盛大發表 Vera Rubin 超級運算架構</strong>：
+            全面推進 3nm Rubin GPU、Rubin Ultra 及 NVLink 6 網絡技術，展現由晶片跨向整機機櫃系統的 100% 垂直整合能力。
+            <span class="supplement">🔗 來源：<a href="../../wiki/nvidia-sc26-vera-rubin-platform-supercomputing-2026-11-22.html">[Wiki: 輝達SC26 Vera Rubin架構]</a></span>
+          </li>
+          <li>
+            <strong>SpaceX 聯合高盛與阿波羅發行 440 億美元巨債採購 GPU</strong>：
+            星鏈與 xAI 聯手鎖定數十萬顆次世代晶片，顯示頂級私營巨頭仍不惜擴大資產負債表以搶佔超級智能門票。
+            <span class="supplement">🔗 來源：<a href="../../wiki/spacex-goldman-apollo-44b-bonds-nvidia-ai-chips-2026-11-22.html">[Wiki: SpaceX 440億發債買晶片]</a></span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［資本分化格局］</strong>二級市場股價大幅下修，但一級頭部玩家（SpaceX、xAI）仍大舉發債擴建算力，硬體架構代際微縮趨勢未變。
+        </div>
+        <aside class="notes">一級實體投資與二級估值殺戮呈現鮮明背離。</aside>
+      </section>
+
+      <!-- ═══ 第 9 頁｜台股籌碼總體格檢 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>四、台股籌碼總體格檢｜外資空單創天量與年線失守</h2>
+        <ul>
+          <li>
+            <strong>大盤單日大跌 1,768 點摜破年線</strong>：
+            加權指數失守 39,000 關卡收 38,426 點，正式跌破 200 日移動平均線（年線）。
+            <span class="supplement">🔗 來源：<a href="../../wiki/tw-stock-plunge-1768-2026-11-19.html">[Wiki: 台股重挫1768點失守年線]</a></span>
+          </li>
+          <li>
+            <strong>外資期貨空單飆至 9.67 萬口歷史天量</strong>：
+            避險賣壓壓制權值股動能，金管會加碼啟動「跌 3.5% 次日禁平盤下放空」限空令，但歷史數據顯示政策性干預無法扭轉宏觀下行趨勢。
+          </li>
+          <li>
+            <strong>散戶與丙種融資維持率急跌</strong>：
+            維持率跌向 140% 警戒區間，追繳令密集發送引發高槓桿籌碼踩踏。
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［籌碼面總結］</strong>外資 9.67 萬口空單若未顯著回補至 7 萬口以下，台股任何技術反彈皆屬弱勢反抽，38,000 點整數關卡面臨嚴峻考驗。
+        </div>
+        <aside class="notes">外資空單水位是決定台股是否落底的最核心指標。</aside>
+      </section>
+
+      <!-- ═══ 第 10 頁｜台廠供應鏈落地：違約交割與本土護城河 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>四、台廠供應鏈落地｜櫃買連四日違約交割與本土護城河</h2>
+        <ul>
+          <li>
+            <strong>櫃買連四日違約交割</strong>：金居（8358）爆發 2,034 萬元違約交割（今年第 3 度），全市場違約逾 7,135 萬元，斷頭多殺多賣壓蔓延中小型 AI 零組件。
+            <span class="supplement">🔗 來源：<a href="../../wiki/tw-otc-defaults-four-days-ginko-2026-11-21.html">[Wiki: 櫃買連四日違約交割]</a></span>
+          </li>
+          <li>
+            <strong>科林研發竹南萬坪技術中心動土</strong>：Lam Research 苗栗竹南基地動土，就近支援台積電 2nm / A16 先進微縮與 CoWoS/FOPLP 研發，鞏固台灣半導體聚落護城河。
+            <span class="supplement">🔗 來源：<a href="../../wiki/lam-research-zhunan-rd-center-advanced-packaging-2026-11-21.html">[Wiki: 科林竹南中心動土]</a></span>
+          </li>
+          <li>
+            <strong>台灣光電大聯盟投入 45 億擴建 CPO 矽光子產線</strong>：鼎元、立碁、白光科技加速矽光子微模組量產，卡位次世代光互連商機。
+            <span class="supplement">🔗 來源：<a href="../../wiki/tw-led-cpo-expansion-45b-dingyuan-lige-whitetech-2026-11-22.html">[Wiki: 台廠45億CPO大聯盟]</a></span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［供應鏈分化格局］</strong>高槓桿投機零組件面臨斷頭修正，但具備實體擴建與先進製程護城河的設備材料及 CPO 族群長線競爭力穩固。
+        </div>
+        <aside class="notes">供應鏈呈現籌碼面殺戮 vs 實體技術擴建的強烈對比。</aside>
+      </section>
+
+      <!-- ═══ 第 11 頁｜🔮 AI 焦點盲盒全景：三大灰犀牛 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.12">
+        <h2>五、🔮 本週 7 大 AI 焦點盲盒全景｜三大「灰犀牛」聚類分析</h2>
+        <ul>
+          <li>
+            <strong>灰犀牛 A｜算力去全球化與地緣實體扣押</strong>：
+            川普揚言對境外建資料中心祭出「巨額懲罰」與關稅；美俄 APEC 閉門會談談俄烏能源與主權 AI 籌碼。
+            <span class="supplement">🔗 關聯：<a href="../../wiki/trump-penalties-overseas-datacenters-blindbox-2026-11-21.html">[Wiki: 川普懲罰海外資料中心]</a> <a href="../../wiki/trump-putin-apec-meeting-2026-11-19.html">[Wiki: 美俄APEC會談]</a></span>
+          </li>
+          <li>
+            <strong>灰犀牛 B｜司法傳票、反壟斷與治理危機</strong>：
+            加州檢察總長傳票強制調閱黃仁勳通訊檔案；川普白宮喊話黃復職；大摩警告輝達 2,000 億美元信用曝險。
+            <span class="supplement">🔗 關聯：<a href="../../wiki/california-subpoena-nvidia-nsa-disruption-2026-11-20.html">[Wiki: 加州傳票調查]</a> <a href="../../wiki/trump-backs-huang-nvidia-second-chance-2026-11-21.html">[Wiki: 川普力挺黃復職]</a> <a href="../../wiki/nvidia-post-huang-credit-exposure-taiwan-2026-11-21.html">[Wiki: 輝達2000億曝險]</a></span>
+          </li>
+          <li>
+            <strong>灰犀牛 C｜基建物理極限與演算法非對稱威脅</strong>：
+            美國系統當機潮與 NSA Net 連 3 天癱瘓；Claude 突破黎曼猜想對全球金融公鑰加密帶來潛在解密衝擊。
+            <span class="supplement">🔗 關聯：<a href="../../wiki/us-tech-outages-rubio-ai-patches-2026-11-18.html">[Wiki: 科技當機潮]</a> <a href="../../wiki/anthropic-claude-helps-solve-riemann-hypothesis-blindbox-2026-11-22.html">[Wiki: Claude突破黎曼猜想]</a></span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［盲盒全景定調］</strong>本週 7 篇盲盒一致指向：AI 擴張已撞上民粹保護主義、主權監管機器與實體電網的物理邊界，純虛擬擴張期宣告終結。
+        </div>
+        <aside class="notes">三大灰犀牛構成本週盲盒的最核心洞察。</aside>
+      </section>
+
+      <!-- ═══ 第 12 頁｜🔮 盲盒尾部風險評級計分板 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.10">
+        <h2>五、🔮 本週 7 大 AI 焦點盲盒全景｜尾部風險評級計分板</h2>
+        <table>
+          <thead>
+            <tr><th>盲盒事件</th><th>核心領域</th><th>破壞力評級</th><th>發酵週期</th><th>台廠連鎖外溢影響</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>川普海外資料中心懲罰令</td>
+              <td>雲端 CSP、伺服器 ODM</td>
+              <td><strong style="color:#ef4444">極高 (Tail Risk)</strong></td>
+              <td>1–3 個月</td>
+              <td>廣達/緯穎/鴻海東南亞與墨西哥廠稼動率下修，被迫回美設廠</td>
+            </tr>
+            <tr>
+              <td>加州傳票調查輝達</td>
+              <td>AI 晶片、SEC 會計</td>
+              <td><strong style="color:#f59e0b">高 (Gray Rhino)</strong></td>
+              <td>3–6 個月</td>
+              <td>合規審查凍結主權合約，壓抑台廠伺服器代工評價</td>
+            </tr>
+            <tr>
+              <td>Claude 突破黎曼猜想</td>
+              <td>全球資安、金融加密</td>
+              <td><strong style="color:#ef4444">極高 (Black Swan)</strong></td>
+              <td>6–12 個月</td>
+              <td>傳統 RSA/ECC 加密面臨重構，台廠安全晶片與 HSM 迎轉單</td>
+            </tr>
+            <tr>
+              <td>美國系統當機與電網瓶頸</td>
+              <td>電網基建、高壓變壓器</td>
+              <td><strong style="color:#38bdf8">中 (Infrastructure)</strong></td>
+              <td>即時至 2 年</td>
+              <td>美變壓器交付期長達 3–4 年，華城/士電等台廠重電享高外銷溢價</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="callout">
+          <strong>［外溢總推演］</strong>海外產能受政策反噬與資安架構升級是最大外溢焦點，台廠硬體代工宜提高彈性生產調配能力。
+        </div>
+        <aside class="notes">計分板提供長線資產配置的尾部風險校準。</aside>
+      </section>
+
+      <!-- ═══ 第 13 頁｜🔮 旗艦盲盒深度剖析 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.10">
+        <h2>五、🔮 本週 7 大 AI 焦點盲盒全景｜旗艦盲盒深度剖析</h2>
+        <ul>
+          <li>
+            <strong>川普海外資料中心懲罰令的三重外溢機制</strong>：
+            1. CSP 數百億海外主權 AI 投資面臨許可駁回或重稅，海外 Capex 投產進度全面放緩；
+            2. 台廠伺服器代工（廣達/緯穎/鴻海）東南亞與墨西哥產能面臨稼動率下滑與高昂回美設廠成本；
+            3. 美國本土電網高壓變壓器交付週期長達 3–4 年，硬性回流將激化電力瓶頸與工商業電價。
+            <span class="supplement">🔗 來源：<a href="../../wiki/trump-penalties-overseas-datacenters-blindbox-2026-11-21.html">[Wiki: 川普懲罰海外資料中心]</a></span>
+          </li>
+          <li>
+            <strong>Claude 突破黎曼猜想的金融安全震盪</strong>：
+            AI 符號推理躍遷對非對稱加密（RSA-2048、ECC）構成理論破解威脅，銀行與區塊鏈清算網絡面臨強制升級至後量子加密（PQC）之千億級重構支出。
+            <span class="supplement">🔗 來源：<a href="../../wiki/anthropic-claude-helps-solve-riemann-hypothesis-blindbox-2026-11-22.html">[Wiki: Claude突破黎曼猜想]</a></span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［旗艦事件警示］</strong>算力回流的實體民粹化與 AI 算法躍遷帶來的密碼體系重構，構成本週最具深遠外溢衝擊的兩大事件。
+        </div>
+        <aside class="notes">這兩個事件具有跨年度的長線宏觀影響力。</aside>
+      </section>
+
+      <!-- ═══ 第 14 頁｜下週催化劑作戰地圖 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.07">
+        <h2>六、下週全球催化劑作戰地圖｜跨市場重要日程表（11/23–11/28）</h2>
+        <table>
+          <thead>
+            <tr><th>時間點</th><th>關鍵事件</th><th>核心觀察指標</th><th>潛在市場衝擊估算</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>11/23（一）</td>
+              <td>櫃買違約帳戶聯合自律處分公告</td>
+              <td>信用管制措施與融資維持率止跌點 <a href="../../wiki/tw-otc-defaults-four-days-ginko-2026-11-21.html">[Wiki]</a></td>
+              <td>櫃買中小型高槓桿個股短線承壓（-3%~-5%）</td>
+            </tr>
+            <tr>
+              <td>11/24（一）</td>
+              <td>美股檢驗 200 DMA 破位後反抽</td>
+              <td>那指與標普逢低承接買盤強度 <a href="../../wiki/us-market-correction-nasdaq-ai-rout-2026-11-21.html">[Wiki]</a></td>
+              <td>若破底續跌，亞股與台股開盤補跌 400–600 點</td>
+            </tr>
+            <tr>
+              <td>11/24（一）</td>
+              <td>輝達董事會發布黃復職治理聲明</td>
+              <td>管理層穩定性與白宮呼籲回應 <a href="../../wiki/trump-backs-huang-nvidia-second-chance-2026-11-21.html">[Wiki]</a></td>
+              <td>AI 權值股（台積、廣達）股價波動加劇 ±3%</td>
+            </tr>
+            <tr>
+              <td>11/25（二）</td>
+              <td>美國商務部 BIS 對中晶片細則</td>
+              <td>FDPR 規則細化與東南亞防堵指引 <a href="../../wiki/bis-us-ai-chip-curbs-southeast-asia-data-centers-2026-11-22.html">[Wiki]</a></td>
+              <td>台積電地緣合規折價驗證；ASIC 族群承壓</td>
+            </tr>
+            <tr>
+              <td>11/26（四）</td>
+              <td>Neocloud 信用擔保壓力測試報告</td>
+              <td>輝達 2,000 億美元曝險評估 <a href="../../wiki/nvidia-post-huang-credit-exposure-taiwan-2026-11-21.html">[Wiki]</a></td>
+              <td>伺服器代工廠拉貨節奏與應收帳款檢驗</td>
+            </tr>
+            <tr>
+              <td>11/27（四）</td>
+              <td>美國感恩節休市全日</td>
+              <td>美股全日休市，全球流動性偏薄</td>
+              <td>國際外匯與加密貨幣波動度放大</td>
+            </tr>
+            <tr>
+              <td>11/28（五）</td>
+              <td>Fed 進入 12 月 FOMC 發言緘默期</td>
+              <td>12 月 100% 升息定價完全鎖定 <a href="../../wiki/fed-warsh-communications-rate-hike-pricing-2026-11-21.html">[Wiki]</a></td>
+              <td>美債殖利率平穩高檔，外資維持淨匯出</td>
+            </tr>
+          </tbody>
+        </table>
+        <aside class="notes">感恩節前夕的 11/24–25 是下週最重要的多空決戰窗口。</aside>
+      </section>
+
+      <!-- ═══ 第 15 頁｜下週多空攻防關鍵分水嶺 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>六、下週全球催化劑作戰地圖｜多空攻防關鍵分水嶺（Game Plan）</h2>
+        <ul>
+          <li>
+            <strong>多頭防守底線與反抽條件</strong>：
+            1. 美股那斯達克能否在 3 個交易日內技術性收復 200 DMA（約 23,200 點）；
+            2. 台股加權指數 38,000 點整數關卡能否在融資餘額有效減肥（100 億以上）後獲得籌碼沉澱支撐；
+            3. 外資期貨 9.67 萬口淨空單是否出現單日萬口以上的主動回補。
+          </li>
+          <li>
+            <strong>空頭破位風險情境</strong>：
+            若外資空單不退且加權指數跌破 38,000，下一個中期強支撐將退守半年線與 2026 Q1 低點 <strong>36,500–37,000 點區間（潛在下行空間約 1,400–1,900 點）</strong>。
+          </li>
+          <li>
+            <strong>資產配置戰術建議</strong>：
+            降低高本益比純題材 AI 中小型零組件部位；戰術性增配具備充沛自由現金流的防禦必需消費品（WMT、COST）與具備在地擴建題材的本土半導體設備族群（科林供應鏈）。
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［下週核心作戰口訣］</strong>「美股看 200 DMA 反抽成敗，台股看 38,000 融資減肥進度；去槓桿未畢，逢反彈降槓桿，嚴控流動性風險。」
+        </div>
+        <aside class="notes">明確總結下週作戰守則，供決策者週一開盤前做完整定調。</aside>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', function () {
+      Reveal.initialize({
+        hash: true,
+        slideNumber: true,
+        transition: 'fade',
+        width: 1200,
+        height: 720,
+        margin: 0.04,
+        minScale: 0.2,
+        maxScale: 1.5,
+        center: false
+      });
+    });
+  </script>
+</body>
+</html>
