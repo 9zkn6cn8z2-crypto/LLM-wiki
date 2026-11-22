@@ -97,3 +97,19 @@
 - **重製 11-21 簡報**：
   - 將 `slides/drafts/11-21-daily-report-slides.md` 與 `slides/html/11-21-daily-report-slides.html` 擴充重構為 **11 頁深度架構**。
   - 完整展開美股三大指數破 200 DMA 修正、櫃買市場連四日違約交割潮、輝達 2,000 億美元信用擔保曝險傳導、科林研發竹南萬坪中心動土，以及川普無預警海外資料中心懲罰盲盒之外溢風險矩陣與情境分析表。
+
+
+## [2026-11-22] ingest | 匯入 2026-11-22 五大類 7 篇財經新聞（含 AI 國際焦點盲盒）
+- 執行 `scripts/fetch_candidates.py` 產出 `raw/candidates_11-22.json`（共 54 則候選新聞），依 `AGENTS.md` 第 5.5 節標準自主遴選 7 篇核心文章存檔至 `raw/`：
+  1. 美國總經與政策：`bis-us-ai-chip-curbs-southeast-asia-data-centers-2026-11-22.md`
+  2. 台股大盤與核心半導體：`tw-led-cpo-expansion-45b-dingyuan-lige-whitetech-2026-11-22.md`
+  3. 台股大盤與核心半導體：`nvidia-sc26-vera-rubin-platform-supercomputing-2026-11-22.md`
+  4. 前瞻科技與台廠供應鏈：`anthropic-record-ipo-collides-wall-street-worst-week-2026-11-22.md`
+  5. 前瞻科技與台廠供應鏈：`spacex-goldman-apollo-44b-bonds-nvidia-ai-chips-2026-11-22.md`
+  6. 國際匯市與大宗避險資產：`gold-xau-usd-breaks-multi-year-uptrend-rate-hike-fear-2026-11-22.md`
+  7. 🔮 AI 焦點盲盒：`anthropic-claude-helps-solve-riemann-hypothesis-blindbox-2026-11-22.md`
+- 編譯產出對應 7 篇 `wiki/*.html` 頁面（含 MathJax LaTeX 公式渲染、標準語意標籤與雙向交叉連結），並更新 `index.html` 首頁目錄與最新日報簡報連結。
+
+## [2026-11-22] note & slide | 產出 2026-11-22 全球金融市場日報與 11 頁深度漏斗簡報
+- 嚴格依據 `wiki/` 既有條目萃取產出 `notes/11-22-daily-report.md`，全篇每一論點皆標註 `[條目名稱](../wiki/xxx.html)` 來源標籤，並於文末附上待擴充外部參考文獻與 Ingest 指令。
+- 產出 11 頁宏觀到微觀深度漏斗大綱 `slides/drafts/11-22-daily-report-slides.md` 及 Reveal.js + MathJax 網頁簡報 `slides/html/11-22-daily-report-slides.html`（含封面深色金融背景圖、頁內雙標籤、兩張深色內嵌 SVG 圖表【黃金破位走勢圖、台廠 CPO 45 億元矩陣】及具類型標註之 `.callout` 見解卡片）。

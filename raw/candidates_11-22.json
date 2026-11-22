@@ -1,0 +1,558 @@
+{
+  "generated_at": "2026-11-22T08:30:29.843851+08:00",
+  "window_hours": 24,
+  "total_candidates": 54,
+  "category_stats": {
+    "1_us_macro": {
+      "label": "美國總經與政策",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": []
+    },
+    "2_tw_semis": {
+      "label": "台股大盤與核心半導體",
+      "target_pick": 2,
+      "candidate_count": 12,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "中央社 產經證券",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "3_tech_supply_chain": {
+      "label": "前瞻科技與台廠供應鏈",
+      "target_pick": 2,
+      "candidate_count": 12,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "中央社 科技",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "4_fx_commodities": {
+      "label": "國際匯市與大宗避險資產",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "MarketWatch Top Stories",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "5_ai_blindbox": {
+      "label": "AI 國際焦點盲盒",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "BBC Business",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "source": "BBC World",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "source": "中央社 國際",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "International first class is over for U.S. airlines. Enter the mega business-class cabin",
+      "published_at": "2026-11-21T20:00:01+08:00",
+      "summary": "Airlines are opting to build giant business-class cabins with ever-more luxurious suites.",
+      "url": "https://www.cnbc.com/2026/11/21/us-airlines-first-class-business-class.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Mexico captures top drug lord 'El Chapo Isidro,' latest in string of arrests",
+      "published_at": "2026-11-22T06:09:16+08:00",
+      "summary": "For over 20 years, according to the U.S. officials, his criminal organization smuggled heroin, methamphetamine, cocaine, and marijuana into the U.S.",
+      "url": "https://www.cnbc.com/2026/11/21/mexico-drug-lord-el-chapo-isidro.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "US Consumers Are Holding Up Against Inflation Going Into Holiday Season",
+      "published_at": "2026-11-22T05:00:00+08:00",
+      "summary": "Anxiety about inflation has yet to spoil the spending appetite of US consumers in the period leading up to the holiday-shopping season.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/us-consumers-are-holding-up-against-inflation-going-into-holiday-season"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "Top 25 roundup: No. 10 BYU outlasts Kansas in 3OT - Reuters",
+      "published_at": "2026-11-22T08:00:00+08:00",
+      "summary": "Top 25 roundup: No. 10 BYU outlasts Kansas in 3OT Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeEV6dC1fOVlkd2gwQWNEN2JYazcwT3ozTm1fdEI1NWxkUUZpMWQwbUFkcFpFYlFySFlHOGxheks2NlZQdEViT1lqRlc0X0JwZjNCZVM2LTk4RG5Ham5INW1JYWpHZlNhVjg3eVMtMHYzc18xYi1GMGFXYlFaUHpwSGhsTTN4Rkx5U3lUdDUyTE1IOXgxeVVv?oc=5"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Russian cargo ship ablaze in Baltic Sea after drone strike, crew evacuates",
+      "published_at": "2026-11-22T03:56:12+08:00",
+      "summary": "The Sparta II was damaged in international waters west of Russia's Gogland island, Finland's Defence Forces said.",
+      "url": "https://www.cnbc.com/2026/11/21/russian-cargo-ship-hit-by-drones-in-baltic-finland-tightens-security.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "New US AI Chip Rules Against China Threaten Pain for Southeast Asia",
+      "published_at": "2026-11-21T19:45:01+08:00",
+      "summary": "China-linked operators are estimated to account for a significant part of data-center capacity across the region.",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-11-21/new-us-ai-chip-rules-against-china-threaten-pain-for-southeast-asia"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "German car and shipyard workers set to strike as IG Metall union extends walkout - Reuters",
+      "published_at": "2026-11-22T07:03:48+08:00",
+      "summary": "German car and shipyard workers set to strike as IG Metall union extends walkout Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOFBhS1Fub3hkTjloT0lrX2FKMEl1aG5pTDFrRzJTZnNtSGpRUmwtdm9tc0RwQnFOajR6WVBoZXE1Q3ZTVmtjMXB1cWdELVk0ckhFdjBiLUZzVmR2UWgzajdRSi03NXFjaThXX0J4U002R0ZpajI4QXRJRUVYdG82ejM2N2IyVzFNUkQ4YkRGbnV4eEZjdVpuM2l6bUt6NUhveXNoRnNPWF9Fa0dDMzExYTBDbURKYkROVGdmQmR6WHBDalFrOHRaWg?oc=5"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Trump says there could be a 'positive spin' from the latest FBI database hack",
+      "published_at": "2026-11-22T00:57:34+08:00",
+      "summary": "This would make the second recent intrusion into the FBI system.",
+      "url": "https://www.cnbc.com/2026/11/21/trump-fbi-database-hack.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "EU Proposes Cuts to Long-Term Budget to Bridge Policy Divide",
+      "published_at": "2026-11-21T18:50:01+08:00",
+      "summary": "The European Union has proposed cuts to the bloc’s next seven-year budget compared with earlier versions in an effort to reach agreement on the package by year-end.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/eu-proposes-new-cuts-to-long-term-budget-to-bridge-policy-divide"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "France secure bonus-point win over Argentina to reach final - Reuters",
+      "published_at": "2026-11-22T06:47:14+08:00",
+      "summary": "France secure bonus-point win over Argentina to reach final Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWHpaUXNva2JXTnJhQTlvVkhxbTdTdDhkRGkwVmxKOW5MbnVuYWRFWlY0Z3o4Vm5nSFpuRGRVZUZsbWp0NkFmNmUwQ1NJTm1YaENYdmFLYmxWaGtVdUtqeEhiMXhMQTVMXzl4Q3RXcWwyOXlGandXZFpVa3ZBUzA5Rzd5WU42Wi1RdnJhUDg4ZkFmaW5ZQmdMVXpCTl9NWmxC?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "CPO 拚明年放量 檢測設備廠迎利多",
+      "published_at": "2026-11-22T02:18:19+08:00",
+      "summary": "研調機構TrendForce（集邦科技）指出，2028年共同封裝光學（CPO）能否放量，關鍵在2027年能否縮短光學測試時間並導入光纖被動對位，價值正轉向測試設備業者。檢測設備廠惠特正將LED精密量測技術移植至矽光子領域，搶攻新一波檢測商機。",
+      "url": "https://money.udn.com/money/story/5612/9893865"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Nvidia expands its Vera Rubin platform at SC26 supercomputing conference - TechRadar",
+      "published_at": "2026-11-22T08:26:23+08:00",
+      "summary": "Nvidia expands its Vera Rubin platform at SC26 supercomputing conference TechRadar",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQZmZZUl9zcllnaF9ad0c2SFdtSkRJZzBIQTV3eXlpUW40a0Mya0d4Z01CcFhKQlNMOTEtOWl4aVdKVjR2T3BFM1ZBU0lHOVNCRVpFSTVEYTQ5bHRkNm1SeFNfdVVVNjhFc1V4c01OMl9MWmZKU2ZPc1RNRm1VOHc5U1VBUjd6bzY4YmczNzQ2YTVTcTRQR0hwU2RBU0RWOGlLU0pVRFJjV1JhTzJ3V2NmNDhPQmVPbHlnWjNiRHdRUjNFSFllMjlsS05UMURpVnprTHB6eDl3YzNPbmFVQWwzbDU3ZUhJQ1g4ZEg4WXZOODBUUVZyUG9fbnVKN3JKZw?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "LED 廠掀擴產潮 涵蓋元件、光收發模組到檢測設備 全面卡位 CPO 商機",
+      "published_at": "2026-11-22T02:17:37+08:00",
+      "summary": "AI資料中心高速傳輸規格邁向800G、1.6T與共同封裝光學（CPO），台系LED廠啟動新一輪擴產潮，鼎元、立碁、惠特近期拍板或規劃的擴產與募資案，合計規模已逾45億元，涵蓋上游元件、下游光收發模組到檢測設備，全面卡位2027至2028年量產商機。",
+      "url": "https://money.udn.com/money/story/5612/9893868"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "How Jensen Huang Made Humiliation Routine at Nvidia - The New York Times",
+      "published_at": "2026-11-22T07:41:19+08:00",
+      "summary": "How Jensen Huang Made Humiliation Routine at Nvidia The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOV2xjNVlQNGJaN0dDY0FnLXZORHhwdG9nRlRaSU0zRHpSOXkzZ1VQQkNuQ0VaZzJ5ODc0blhmUFZzOVdRXzhLUmYtcUZMd2hOam1yWmxfMVpoZGpfaFJ2MXh6aTBUTF9UNGFJWksydE9SdWMzRWJCeGRqRHJnT0k0Y3I5ak0?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "台中工具機展 180 廠商上秀 串聯產業上下游、學研資源",
+      "published_at": "2026-11-22T00:54:08+08:00",
+      "summary": "由經濟日報主辦的「台中工具機暨智慧製造展」及「台中無人載具暨機器人應用展」，將於24日至27日在台中國際會展中心盛大登場。邀請工具機、智慧製造、無人載具及機器人相關廠商與專業買主參觀交流，共同掌握智慧製造與新興科技產業發展商機。",
+      "url": "https://money.udn.com/money/story/5612/9893873"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Nvidia Without Jensen Huang: 3 Things That Could Go Right and 3 That Could Go Wrong - The Motley Fool",
+      "published_at": "2026-11-22T07:41:01+08:00",
+      "summary": "Nvidia Without Jensen Huang: 3 Things That Could Go Right and 3 That Could Go Wrong The Motley Fool",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSmtOdW9faS13S09ySUhjaUxvSXhxWmNaWVRUY1RtY2FFRkw5d29EaEFCV3FlbjBLM2FQeVpSZV9tMnlWU2s2LV9NVXpjakR6SkJyTHFtOXdkWHBGYXByUWVDbkVHVGdHMV9LN2V4MjJhLXc4M21ldHFlTUVLTnppRTFDLWw3blV6MDg5NlY2SEdCWWVPNVJWaGJ2ZWVOcm51Nm5SbjlzSmpWLUJVMWZfekdwWnYtOWFzLW00ZzlWbUxaOGM?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "晶華11月24日攜 LV 點亮耶誕樹 為歲末節慶揭開序幕",
+      "published_at": "2026-11-22T00:51:41+08:00",
+      "summary": "台北晶華酒店將於24日舉行2026耶誕樹點燈儀式，今年特別攜手國際精品品牌Louis Vuitton（路易威登），於一樓azie中庭打造耶誕節慶場景，並將點亮全台五星級飯店室內最高的耶誕樹，為歲末節慶揭開序幕。",
+      "url": "https://money.udn.com/money/story/5612/9893875"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Nvidia market cap drop exceeds 47% as $2.7 tn wiped out in stock crash - Beinsure",
+      "published_at": "2026-11-22T07:13:50+08:00",
+      "summary": "Nvidia market cap drop exceeds 47% as $2.7 tn wiped out in stock crash Beinsure",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMkdFY2NkUndYbHd2SFZlMjdjMnpKYlQwbFNGOFpfeVNHaGh3aXNhaThmRW9aM1RwdFBFbmVhRjllUjFRTThPdnlOOFo4M28xdnFLb2xyR2VjajlfOFhMQ2tiWlBHMUI4WC1rVjIzdFVBS2FtN1RsV3ZuLURXTGU5ZzNCYXVJVjA4c3c?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "細胞治療從「法拉利」變「Lexus」？台寶生醫新技術讓培養時間縮短近半",
+      "published_at": "2026-11-21T20:24:05+08:00",
+      "summary": "推動這場典範轉移的核心引擎，正是獲諾貝爾醫學獎高度肯定的調節型Ｔ細胞（Treg）機轉。當外來病菌入侵時，免疫大軍需要全面殲滅；但在發炎反應過後，若免疫系統無法踩煞車，便會引發類風濕性關節炎、紅斑性狼瘡及器官移植排斥等難治疾病。Treg細胞正是人體免疫系統中珍貴的「煞車與再平衡機制」，能精準熄滅對自體組織的錯誤攻擊，重新建立免疫耐受性。相較之下，傳統CAR-T療法採用的「無差別殲滅」戰略，若強行套用於自體免疫疾病，往往因過高毒性而觸礁。例如國際藥廠巨擘諾華先前嘗試將血癌 CAR-T用於自體免疫疾病，最終因嚴重不良反應而半途終止，這凸顯出Treg的「免疫再平衡」特性在非腫瘤領域中具備不可替代...",
+      "url": "https://money.udn.com/money/story/5612/9891528"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Freedom Desk: Bloomberg journalist barred from China meeting after Nvidia question - The Washington Post",
+      "published_at": "2026-11-22T07:00:00+08:00",
+      "summary": "Freedom Desk: Bloomberg journalist barred from China meeting after Nvidia question The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNVNMdVgyamEwTnNGdDVqd3lfUTN0M3RDN3M3dWhqVjAwR3FFaFZ1eDNNazVxamxJR0VJSmtXbTJOUUhiMmdMcVY0MUJlZnBPVTllMU5ZYU9oUGlJM0xOZzY2UWtKNklHQmstNGdnaEY1UWRzWVdGYmdscnJzNTVfQ0lwQ2ZRUUducUhuMHhkRktfMFlHRkw4VkVjeGdBcGJYbVZlXzkyZjEtWWFaNmJ4eHpPM2xOZ0JTVWZGWFhkdHVPZUE0N2hIUTBybVYtenBabkFrTw?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "中華希望之富華創新總太盃全國羽球錦標賽台中登場吸引近千名選手參賽",
+      "published_at": "2026-11-21T17:48:16+08:00",
+      "summary": "由中華希望羽球協會、富華創新（3056）、總太營造主辦的「2026年中華希望之富華創新總太盃全國羽球錦標賽」，21日在中興大學體育館登場，賽事一連舉行兩天。本屆吸引近千名來自各級學校及社會團體組的選手參與，透過競技交流，展現台灣羽球運動的蓬勃發展與基層培育成果。",
+      "url": "https://money.udn.com/money/story/5612/9893504"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "NVIDIA shares plunge nearly 48% from peak, returning to 2024 levels - mobidevices.com",
+      "published_at": "2026-11-22T06:50:28+08:00",
+      "summary": "NVIDIA shares plunge nearly 48% from peak, returning to 2024 levels mobidevices.com",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5yZUJNYTN5SkJkLW5VdDQ1S0Z5UG8xR21QZlQ4em9jb3pITWFsVHFyMWdFcmVWN2dSTVlzYVRUOG1NQzhpVWQ0M3prckVaTU93Ti1hbTBKXzdlSGlBN193?oc=5"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "AI 加速科學研究，資料品質與驗證機制成新瓶頸",
+      "published_at": "2026-11-22T08:30:25+08:00",
+      "summary": "人工智慧正快速改變科學研究的運作方式，也讓研究資料的價值與審視標準同步升高。最新觀點指出，AI 已從單純的分析 […]",
+      "url": "https://technews.tw/2026/11/22/ai-raises-the-stakes-for-discovery-data/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+      "published_at": "2026-11-22T05:37:10+08:00",
+      "summary": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "從報關行到跨入高科技物流，建新二代北上打造「超級冰箱」盤算曝光",
+      "published_at": "2026-11-22T08:00:53+08:00",
+      "summary": "今年滿 50 歲的建新國際，從傳統報關行跨足高科技物流。負責這場轉型戰的二代陳彥銘（首圖左），一手打造出北台灣 […]",
+      "url": "https://technews.tw/2026/11/22/chienshing/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Anthropic’s record IPO collides with tech’s worst week on Wall Street since 2020",
+      "published_at": "2026-11-22T00:40:05+08:00",
+      "summary": "Anthropic held its historic Nasdaq debut a day before Nvidia's stock closed out its longest weekly losing streak since 2008.",
+      "url": "https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "A tale of two Nvidias",
+      "published_at": "2026-11-22T05:07:42+08:00",
+      "summary": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "80 年一遇的北冕座 T 新星爆發倒數中，天文學家：幾年內很可能登場",
+      "published_at": "2026-11-22T00:00:56+08:00",
+      "summary": "有「火焰星」（Blaze Star）之稱的北冕座 T（T Coronae Borealis）近期成為全球天文迷 […]",
+      "url": "https://technews.tw/2026/11/22/mystery-t-coronae-borealis-yet-erupt/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "published_at": "2026-11-22T01:00:00+08:00",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "韋伯望遠鏡捕捉仙女座罕見恆星合併，小伴星只花 7 年就被超巨星吞噬",
+      "published_at": "2026-11-22T00:00:41+08:00",
+      "summary": "天文學家在仙女座星系中觀測到一場罕見的恆星合併事件：一顆質量略低於太陽的伴星以螺旋狀的公轉軌道逐漸靠近一顆膨脹 […]",
+      "url": "https://technews.tw/2026/11/22/webb-telescope-captures-giant-star-swallowing-its-companion-in-andromeda-galaxy/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+      "published_at": "2026-11-22T00:00:00+08:00",
+      "summary": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "280 萬人基因分析揭阿茲海默症新線索，48 個風險區域首度現身",
+      "published_at": "2026-11-22T00:00:05+08:00",
+      "summary": "由荷蘭阿姆斯特丹自由大學主導、迄今規模最大的阿茲海默症基因關聯研究，分析約 280 萬人的基因資料，找到 48 […]",
+      "url": "https://technews.tw/2026/11/22/massive-study-of-2-8-million-people-reveals-new-secrets-of-alzheimers-disease/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "〈GTA 6〉暗藏〈GTA 7〉趣味彩蛋，自嘲開發漫長",
+      "published_at": "2026-11-21T17:00:36+08:00",
+      "summary": "〈GTA 6〉歷經多年開發終於正式推出。遊戲內藏有趣味彩蛋，既自嘲 Rockstar 開發本作歷時多年，也暗指 […]",
+      "url": "https://technews.tw/2026/11/21/gta-6-easter-egg-sees-rockstar-poke-fun-at-its-long-development-process/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "研究發現太平洋錳結核內藏數千隻微型生物，深海採礦恐摧毀專屬棲地",
+      "published_at": "2026-11-21T16:30:29+08:00",
+      "summary": "一項最新研究顯示，太平洋海底被視為採礦目標的錳結核（Manganese nodules），不只是富含鎳、鈷與銅 […]",
+      "url": "https://technews.tw/2026/11/21/deep-sea-mining-targets-rocks-that-are-habitats-inside-and-out/"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Today's fuel prices (November 22): A week of decline in world oil prices. - Vietnam.vn",
+      "published_at": "2026-11-22T07:49:56+08:00",
+      "summary": "Today's fuel prices (November 22): A week of decline in world oil prices. Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQX2tTSzgzZXAtNlZrYzlmOVNZWnpKZm9kTlVzWlJmR00zeGhhSWZVOEtoNTltZG9FenVKdlpUZFVIN3ZHMWExWUE3WERVR0pLcndtbzRVWnNaUUgxRnZGZUZ5WDNUcHRMdDJCRWp1cy1hQXMydE14VkhIcXNwOXlKdk1qUWdNWlZjdWdaNl9GdXg?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "CNBC World",
+      "title": "COP31 climate summit risks failure as talks go deep into overtime",
+      "published_at": "2026-11-22T04:04:18+08:00",
+      "summary": "Negotiators from nearly 200 countries are struggling to bridge divisions over fossil fuels and climate finance.",
+      "url": "https://www.cnbc.com/2026/11/21/cop31-climate-summit-risks-failure-as-talks-go-deep-into-overtime.html"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Anthropic Fails to Calm AI Jitters, Ditching the Kitchen for Thanksgiving",
+      "published_at": "2026-11-22T01:01:32+08:00",
+      "summary": "The news doesn’t stop when markets close. Hosts David Gura, Christina Ruffini and Lisa Mateo bring clarity, context and a bit of humor to the weekend’s biggest headlines, LIVE from New York. Joined by Just Ice Tea Co-Founders Seth Goldman & Spike Mendelsohn, Seaport Research Partners Managing Dir...",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-21/bloomberg-this-weekend-11-21-2026-video"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Libya loses $30.8 million as armed group blocks oil pipeline for over 20 days - Arab News",
+      "published_at": "2026-11-22T06:47:03+08:00",
+      "summary": "Libya loses $30.8 million as armed group blocks oil pipeline for over 20 days Arab News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV3dCT18xVGNjNTRhN3M2aTBzbDNCaG9FbmxxcWNoMmNscHJoYl9NdFpmaE1pT0lQTnczdEFFS2FSdTRpdFNVTmFHWmJsMGNGNy1nTTJQZHlEVTQzSmdyaVFrMUt3ck5tRE1nS0pnaEEzVWhmVDlBYzNmSG1Ccl9zQlhlZEVIQ2ZscmdjZmFIckgxcW1vLUpUaktmUG1rR1pmaUNpZ25iRi1CU3ZYZVJxaUJLbmpMbTU0TGVpUA?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Pointed! Bloomberg’s Weekly News Quiz For Risk-Takers",
+      "published_at": "2026-11-21T23:43:12+08:00",
+      "summary": "Pointed offers a strategic twist to the news quiz format, testing not just players’ knowledge of the news but also their confidence in their answers. Join Bloomberg’s Lisa Mateo, Christina Ruffini and David Gura as they play and check out the quiz for yourself at Bloomberg.com (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-21/pointed-bloomberg-s-weekly-news-quiz-for-risk-takers-video"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Shafaq News..Oil smuggling drains $2B from Iraq annually - شفق نيوز",
+      "published_at": "2026-11-22T05:54:21+08:00",
+      "summary": "Shafaq News..Oil smuggling drains $2B from Iraq annually شفق نيوز",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9sanozbVNwR0VEbGUxX09xMDlyNVI1NWRxaGNicHRuQVF0MHZkMnpfcHRZQzdtOHN4UzRqaHpEYWNXSUFuUUZQcUZTdGV2MGFxenZCcTIzQmloMzhTN1BZSFczbENJdWFRUFFLMXdBdE9OWnFXamxnUHZFNnc?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "CNBC World",
+      "title": "Tech outages are fueling a new doomsday economy",
+      "published_at": "2026-11-21T23:04:56+08:00",
+      "summary": "Recent technology outages have left some worried about AI cyberattacks and the U.S. electricity grid. The doomsday economy is heating up as a result.",
+      "url": "https://www.cnbc.com/2026/11/21/emergency-prep-spending-tech-outages.html"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Goldman Sachs, Apollo Price $32 Billion SpaceX Bonds to Fund AI Chip Purchases",
+      "published_at": "2026-11-21T23:31:22+08:00",
+      "summary": "Goldman Sachs Group Inc. spent more than a year trying to solve one of tech’s biggest headaches: how to pay for AI chips without wrecking corporate balance sheets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-21/goldman-s-spacex-pitch-helps-solve-ai-debt-puzzle-credit-weekly"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Gold Price Forecast: XAU/USD Breaks Multi-Year Uptrend in Worst Week Since March - FOREX.com",
+      "published_at": "2026-11-22T05:31:14+08:00",
+      "summary": "Gold Price Forecast: XAU/USD Breaks Multi-Year Uptrend in Worst Week Since March FOREX.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSHowTEJyX0xmYjJCaHlOX3JZVGdIajRWRU14dmRTUzM0a2kxaFdDSENDNHVEZlBxR3ZsYnRXbzJDTkRGUjhWWFdVQjNrcDdGX1AyV0o3TThPSUY1ckNwc215T3ZaU0liNEtWaDZnTDl4MkJ6cFJlWnVTTXRaS2VIMUlSQXhtenJpZ2d4Sktma21Wa0V0VVQ3Z2R0VDhZM1dfNDF4RWE1WmdvZ052dmpXd213NUJoWjRPY2ZyT0RNajNURlJTdVZjRUU4Y0hCVHJzQlRF?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "CNBC World",
+      "title": "I never wanted the American Dream and I felt like something was wrong with me—until I moved abroad",
+      "published_at": "2026-11-21T23:00:02+08:00",
+      "summary": "\"I realized it was okay to want something different,\" says Cepee Tabibian, who moved to Spain in 2015 at age 35.",
+      "url": "https://www.cnbc.com/make-it/2026/11/21/never-wanted-american-dream-moving-abroad-redefine-success.html"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Man found dead on Flinders Island linked to shooting of police officer, Tasmanian authorities say",
+      "published_at": "2026-11-22T06:41:36+08:00",
+      "summary": "Body of a man in his 20s discovered by police who were sent to investigate the shooting of an officer, who is in a serious but stable condition Get our breaking news email , free app or daily news podcast An on-duty police officer has been shot and a man found dead nearby as police investigate tw...",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/22/man-found-dead-on-flinders-island-linked-to-shooting-of-police-officer-tasmanian-authorities-say"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Two groups verify mathematician’s claim that Claude helped prove mathematics problem",
+      "published_at": "2026-11-22T04:15:57+08:00",
+      "summary": "Anthropic’s Levent Alpöge says it took six weeks for him using the AI tool to solve 19th-century Riemann hypothesis A mathematician at Anthropic has said that the San Francisco -based artificial intelligence (AI) company’s software has helped crack one of the most important unsolved problems in m...",
+      "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Man charged with attempted murder after councillor stabbed in Bradford",
+      "published_at": "2026-11-22T03:42:42+08:00",
+      "summary": "Arfan Ali, 31, has also been charged with assault and possession of an offensive weapon in a public place A man has been charged with attempted murder after a local councillor was stabbed while working in the community in Bradford, police have said. Arfan Ali, 32, is accused of attacking Ibrar Al...",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/21/man-charged-with-attempted-after-councillor-stabbed-in-bradford"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "‘Six, seven, maybe more preventable deaths’: Queensland’s LNP faces reckoning over broken health system",
+      "published_at": "2026-11-22T03:00:08+08:00",
+      "summary": "A government in office for more than two years is finally forced to take responsibility and seemingly no longer able to blame its Labor predecessors Get our daily political email , free app or daily news podcast At the beginning of another Queensland parliamentary sitting week, anonymous sources...",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/22/queensland-health-ambulance-deaths-lnp-labor-ntwnfb"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Cigarettes on silver platters at Bondi ‘clean’ beauty business lip gloss launch referred for investigation",
+      "published_at": "2026-11-22T03:00:07+08:00",
+      "summary": "Copini Beauty referred to New South Wales health regulators, while federal government says it is ‘deeply concerned’ Get our breaking news email , free app or daily news podcast An Australian beauty company that promotes “clean” ingredients “free from skin irritants” has been referred to state hea...",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/22/cigarette-platter-bondi-copini-beauty-event-investigation"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Australian neo-Nazis among far-right groups raising hundreds of thousands via global crowdfunding platform",
+      "published_at": "2026-11-22T03:00:06+08:00",
+      "summary": "GiveSendGo has been accused of facilitating the financing of extremism, but the platform says it does not ‘condone racism, discrimination, hate speech, or violence of any kind’ Get our breaking news email , free app or daily news podcast Australian neo-Nazis have raised hundreds of thousands of d...",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/22/australian-neo-nazis-among-far-right-groups-raising-hundreds-of-thousands-via-global-crowdfunding-platform-ntwnfb"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Louisiana man charged with killing woman on hiking trail and murdering co-worker with crossbow",
+      "published_at": "2026-11-22T02:50:00+08:00",
+      "summary": "Jared Schurr arrested in Mississippi after Lizeht Rodriguez and Woodrow Scott died in otherwise unrelated killings A man recently strangled a woman to death whom he did not know along a hiking trail north of New Orleans – then killed his co-worker with a crossbow two days later before being arres...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/21/louisiana-mississippi-hiking-trail-crossbow-murder-charges"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Suffolk village votes to ‘leave the UK’ over plans to house asylum seekers nearby",
+      "published_at": "2026-11-22T02:20:37+08:00",
+      "summary": "Local MP says legitimate criticisms of asylum housing plans are being co-opted by opposition parties ‘stirring up racial discord’ Residents of a Suffolk village have voted to “leave the UK” in a referendum held in response to government plans to house 930 asylum seekers at a nearby former militar...",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/21/suffolk-village-votes-to-leave-the-uk-over-plans-to-house-asylum-seekers-nearby"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Trump orders contractors to check with White House over any congressional inquiries",
+      "published_at": "2026-11-22T02:08:30+08:00",
+      "summary": "Anticipating flood of Democratic requests, US president issues executive order in attempt to stymie oversight efforts Donald Trump is directing federal contractors and subcontractors to consult with his administration about inquiries they receive from Congress and to withhold any communications t...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/21/trump-contractors-congress-executive-order"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+      "published_at": "2026-11-22T01:46:55+08:00",
+      "summary": "Fausto Isidro Meza Flores was one of FBI’s most wanted fugitives and evaded capture for more than a decade The Mexican military captured one of the FBI’s 10 most wanted fugitives during a special forces raid in the Mexican state of Sinaloa on Friday night. Fausto Isidro Meza Flores, known as “El...",
+      "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested"
+    }
+  ]
+}

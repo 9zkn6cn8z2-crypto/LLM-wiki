@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-11-22 全球金融市場日報 — LLM 研究知識庫</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/black.min.css">
+  <link rel="stylesheet" href="../../assets/slides.css">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- ═══ 第 1 頁｜封面 ═══ -->
+      <section class="title-slide bg-overlay"
+               data-background-image="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1600&q=80"
+               data-background-color="#0b1120"
+               data-background-opacity="0.35">
+        <h1>2026-11-22 全球金融市場日報</h1>
+        <p class="subtitle">算力地緣封鎖與世紀突破共振：美 BIS 封鎖東南亞雲端 × 台廠 LED 掀 45 億 CPO 潮 × 輝達 Vera Rubin × 黎曼猜想盲盒</p>
+        <p class="meta" style="margin-top:1.2em">依據筆記：notes/11-22-daily-report.md ｜ 嚴格萃取自 wiki/ 今日 7 篇新條目</p>
+        <aside class="notes">開場定調：市場正面臨算力地緣防線收緊（東南亞納管）與去槓桿流動性擠壓，但技術層面迎來次世代 Vera Rubin 架構與 Claude 形式化攻克黎曼猜想的劃時代共振。</aside>
+      </section>
+
+      <!-- ═══ 第 2 頁｜宏觀定價：利率與流動性傳導 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>一、宏觀定價｜利率與流動性傳導：12 月升息定價 100% 疊加美元逼近 108</h2>
+        <ul>
+          <li>
+            <strong>12 月升息機率推升至極限 100%</strong>：CME FedWatch 顯示 12 月 FOMC 至少升息 25 bps 機率已連續兩日維持在 <strong style="color:#ef4444">100%</strong>，市場並定價 2027 年 1 月與 2027 年底前還將各有一次升息。
+            <span class="supplement">📌 利率環境：各區聯準銀行總裁鷹派發言頻繁，美債實質殖利率維持在 4.5% 高檔，抑制高成長股票的估值擴張空間。</span>
+            <span class="supplement">🔗 來源：<a href="https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html" target="_blank" rel="noopener">[CNBC]</a> <a href="../../wiki/fed-warsh-communications-rate-hike-pricing-2026-11-21.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>美元指數連四週強勢收紅衝上 107.5</strong>：受緊縮預期與避險資金支撐，DXY 創下四週新高，非美貨幣普跌，持續抽離新興市場與大宗商品流動性。
+            <span class="supplement">🔗 來源：<a href="https://www.forex.com/" target="_blank" rel="noopener">[FOREX.com]</a> <a href="../../wiki/gold-xau-usd-breaks-multi-year-uptrend-rate-hike-fear-2026-11-22.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>因果傳導鏈</strong>：$$\text{Fed 官員通訊分歧} + \text{12月升息機率 100\%} \longrightarrow \text{DXY 逼近 108 + 實質殖利率高檔} \longrightarrow \text{壓抑非美新興市場資金與科技股估值}$$
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［跨日對照］</strong>承接 11/21 聯準會通訊內鬨衝擊，本週利率定價已完全排除暫停升息的任何空間，高折現率成為壓抑科技資產與貴金屬的共同宏觀分母。
+        </div>
+        <aside class="notes">利率與美元雙重緊縮構成了當前全球金融市場折現率居高不下的宏觀天花板。</aside>
+      </section>
+
+      <!-- ═══ 第 3 頁｜宏觀定價：匯市與大宗商品破位 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>一、宏觀定價｜匯市與大宗商品：黃金 XAU/USD 週跌 4.6% 摜破兩年多頭軌道</h2>
+        <ul>
+          <li>
+            <strong>現貨黃金創 8 個月最大單週跌幅</strong>：國際現貨黃金（XAU/USD）全週重挫逾 <strong>4.6%</strong>，接連摜破 2,580 與 2,550 美元兩大支撐收在 <strong>2,542 美元</strong>，正式跌破維持長達兩年的多頭上升趨勢軌道。
+            <span class="supplement">📌 強制平倉踩踏：全球科技股暴跌引發對沖基金 Margin Call，機構大舉拋售獲利最豐厚的黃金現貨以補繳保證金，避險資產在去槓桿風暴中淪為提款機。</span>
+            <span class="supplement">🔗 來源：<a href="https://www.forex.com/" target="_blank" rel="noopener">[FOREX.com]</a> <a href="../../wiki/gold-xau-usd-breaks-multi-year-uptrend-rate-hike-fear-2026-11-22.html">[Wiki]</a></span>
+          </li>
+        </ul>
+
+        <!-- 內嵌 SVG 1：現貨黃金 XAU/USD 跌破兩年上升軌道走勢圖 -->
+        <svg viewBox="0 0 880 185" width="100%" height="185" aria-label="現貨黃金 XAU/USD 跌破兩年上升趨勢線與超賣指標">
+          <rect x="0" y="0" width="880" height="185" rx="8" fill="#131c31" stroke="#1e293b"/>
+          <text x="24" y="30" fill="#f59e0b" font-size="16" font-weight="700">現貨黃金 XAU/USD：摜破兩年多頭上升軌道與均線破位演變（美元/盎司）</text>
+          
+          <line x1="70" y1="145" x2="820" y2="145" stroke="#334155" stroke-width="1.5"/>
+          <line x1="70" y1="45" x2="70" y2="145" stroke="#334155" stroke-width="1.5"/>
+          
+          <line x1="70" y1="105" x2="820" y2="105" stroke="#1e293b" stroke-dasharray="4,4"/>
+          <text x="60" y="109" fill="#64748b" font-size="12" text-anchor="end">2,600</text>
+          <line x1="70" y1="65" x2="820" y2="65" stroke="#1e293b" stroke-dasharray="4,4"/>
+          <text x="60" y="69" fill="#64748b" font-size="12" text-anchor="end">2,700</text>
+
+          <!-- 兩年上升趨勢線 (綠色虛線，已被跌破) -->
+          <line x1="120" y1="125" x2="720" y2="80" stroke="#10b981" stroke-width="2" stroke-dasharray="6,4"/>
+          <text x="460" y="90" fill="#10b981" font-size="12.5" font-weight="600" transform="rotate(-5, 460, 90)">兩年多頭支撐軌道 (已失守)</text>
+
+          <!-- 走勢折線 (紅色重挫) -->
+          <polyline fill="none" stroke="#ef4444" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"
+                    points="120,60 280,68 450,75 620,105 780,138"/>
+
+          <circle cx="120" cy="60" r="5.5" fill="#f59e0b"/>
+          <text x="120" y="50" fill="#e2e8f0" font-size="13.5" font-weight="600" text-anchor="middle">$2,740 (高點)</text>
+
+          <circle cx="450" cy="75" r="5" fill="#f59e0b"/>
+          <text x="450" y="65" fill="#e2e8f0" font-size="13" font-weight="600" text-anchor="middle">$2,680</text>
+
+          <circle cx="620" cy="105" r="6" fill="#ef4444"/>
+          <text x="620" y="125" fill="#fca5a5" font-size="13.5" font-weight="600" text-anchor="middle">破 50/100 DMA ($2,590)</text>
+
+          <circle cx="780" cy="138" r="7.5" fill="#ef4444" stroke="#fca5a5" stroke-width="2"/>
+          <text x="780" y="130" fill="#ef4444" font-size="15" font-weight="700" text-anchor="middle">$2,542 (RSI: 28.4)</text>
+
+          <text x="120" y="165" fill="#94a3b8" font-size="13" font-weight="600" text-anchor="middle">10 月下旬</text>
+          <text x="280" y="165" fill="#94a3b8" font-size="13" font-weight="600" text-anchor="middle">11 月初</text>
+          <text x="450" y="165" fill="#94a3b8" font-size="13" font-weight="600" text-anchor="middle">11/16 (CPI公佈)</text>
+          <text x="620" y="165" fill="#94a3b8" font-size="13" font-weight="600" text-anchor="middle">11/19 (失守2,600)</text>
+          <text x="780" y="165" fill="#ef4444" font-size="13.5" font-weight="700" text-anchor="middle">11/22 (破軌道)</text>
+        </svg>
+
+        <div class="callout">
+          <strong>［觀點衝突標記｜驗證指標］</strong>傳統認知「市場暴跌時黃金必漲」的避險神話破滅；在去槓桿踩踏階段，Cash is King 支配一切，黃金反而淪為抵充科技股保證金的首選清算標的。
+        </div>
+        <aside class="notes">黃金大跌是典型的市場去槓桿與流動性踩踏指標，印證了在極端流動性緊縮階段「現金為王」的定價法則。</aside>
+      </section>
+
+      <!-- ═══ 第 4 頁｜全球科技主線：美商務部 BIS 新規 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>二、全球科技主線｜美商務部 BIS 新規：封殺東南亞第三方雲端租賃跳板</h2>
+        <ul>
+          <li>
+            <strong>堵住第三國遠端算力租賃漏洞</strong>：美國 BIS 正式修訂出口管制規則，首度將禁令由「實體晶片走私」全面升級至<strong>「第三國資料中心的遠端算力租賃與雲端存取」</strong>，徹底阻斷中資企業透過海外雲端平台「借殼租算力」。
+            <span class="supplement">🔗 來源：<a href="https://www.bloomberg.com/news/newsletters/2026-11-21/new-us-ai-chip-rules-against-china-threaten-pain-for-southeast-asia" target="_blank" rel="noopener">[Bloomberg]</a> <a href="../../wiki/bis-us-ai-chip-curbs-southeast-asia-data-centers-2026-11-22.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>星馬泰印全面納入受限許可清單</strong>：將新加坡、馬來西亞、印尼、泰國及巴西列入高風險名單，先進 AI 晶片出貨需逐案申請專案許可；設立 TPP 累計算力門檻並強制機房實施 KYC 盡職審查。
+            <span class="supplement">📌 區域震盪：東南亞資料中心中資租戶與營運商佔比高達 25%–35%，消息引發星馬資料中心 REITs 重挫 4%–7.8%。</span>
+          </li>
+          <li>
+            <strong>傳導鏈推論與台廠影響</strong>：
+            $$\text{BIS 封鎖東南亞算力} \longrightarrow \text{星馬泰印納入管制 + 強制 KYC} \longrightarrow \text{中資租戶斷供 / 海外機房稼動率受挫} \longrightarrow \text{台廠伺服器東南亞產能調配}$$
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［台股量化影響估算｜多空情境］</strong>台廠廣達、緯穎、鴻海近年於馬來西亞與泰國積極擴充伺服器組裝產能；若美系晶片許可審查收緊，預估東南亞新產能爬坡進度將延遲 <strong>1 至 2 季</strong>，台廠需加速將「純美系」產能轉向北美在地出貨。
+        </div>
+        <aside class="notes">華府從實體晶片封鎖延伸至地理算力租賃主權，逼迫東南亞與台廠伺服器供應鏈加速切割美系與非美系產線。</aside>
+      </section>
+
+      <!-- ═══ 第 5 頁｜全球科技主線：Anthropic 歷史 IPO 逆勢登場 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>二、全球科技主線｜Anthropic 歷史性 IPO 逆勢登場：募資 813 億美元首日漲 17%</h2>
+        <ul>
+          <li>
+            <strong>人類歷史最大規模 IPO 定價登陸那斯達克</strong>：Anthropic（代碼：ANT）以每股 <strong>83 美元</strong> 定價，總籌資達 <strong>813 億美元</strong> 刷新全球資本市場紀錄，掛牌首日市值直達 <strong>1.3 兆美元</strong>。
+            <span class="supplement">📌 首日走勢：ANT 開盤衝上 94 美元，最高觸及 102 美元，終場收在 97.1 美元，首日漲幅達 17.0%，成為機構抱團 AGI 旗艦資產的核心標的。</span>
+            <span class="supplement">🔗 來源：<a href="https://www.cnbc.com/2026/11/21/anthropic-ipo-tech-selloff.html" target="_blank" rel="noopener">[CNBC]</a> <a href="../../wiki/anthropic-record-ipo-collides-wall-street-worst-week-2026-11-22.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>殘酷撞期：華爾街 2020 年以來最慘單週</strong>：全週那指暴跌 <strong>6.8%</strong>、費半狂瀉 <strong>9.4%</strong>、標普跌 <strong>4.2%</strong>。ANT 的天量募資產生了吸乾市場邊際流動性的「吸血鬼效應」，二級市場軟硬體巨頭遭無差別去槓桿。
+          </li>
+          <li>
+            <strong>因果傳導鏈</strong>：$$\text{ANT 募資 813億 + 估值 1.3兆} \longleftrightarrow \text{那指週跌 6.8\% / 費半週跌 9.4\%} \longrightarrow \text{資本對通用模型抱團 vs 硬體鏈 ROI 殺估值} \longrightarrow \text{流動性極端兩極分化}$$
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［跨日對照］</strong>承接 11/21 蜜月失靈警訊，ANT 雖在二級市場維持 17% 溢價，但其未來五年 780 億美元的雲端承諾與流動性吸附效應，加速促成了舊科技股的估值修正。
+        </div>
+        <aside class="notes">Anthropic 的定價成功與二級市場的暴跌形成強烈背離，資本市場正陷入「只願意為頂級 AGI 資產買單，對硬體資本支出全面收緊」的撕裂格局。</aside>
+      </section>
+
+      <!-- ═══ 第 6 頁｜全球科技主線：SpaceX 440 億美元表外發債 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>二、全球科技主線｜金融工程範式轉移：高盛與阿波羅為 SpaceX 定價 440 億美元表外債券</h2>
+        <ul>
+          <li>
+            <strong>土星信託（Saturn Trust）表外 SPV 模式</strong>：為解開 AI 晶片採購侵蝕資產負債表的死結，高盛與 Apollo 為 SpaceX 設立獨立信託 Saturn Trust，發行 320 億美元資產抵押債券（含貸款總額達 <strong>440 億美元</strong>），債務不直接列入 SpaceX 本體負債表。
+            <span class="supplement">🔗 來源：<a href="https://www.bloomberg.com/news/articles/2026-11-21/goldman-s-spacex-pitch-helps-solve-ai-debt-puzzle-credit-weekly" target="_blank" rel="noopener">[Bloomberg]</a> <a href="../../wiki/spacex-goldman-apollo-44b-bonds-nvidia-ai-chips-2026-11-22.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>直購輝達 Vera Rubin 晶片並回租</strong>：Saturn Trust 直購晶片並以 <strong>5 年期長約</strong> 回租 SpaceX 與 xAI；核心批次利率突破 <strong>8.05%</strong>，反映 AI 硬體快速折舊的風險補償。
+          </li>
+          <li>
+            <strong>極罕見契約防禦條款</strong>：協議嚴格載明<strong>「禁止將抵押的 AI 伺服器硬體發射升空或置於地球軌道」</strong>，所有 GPU 必須物理固定在地面資料中心內，確保違約時清算價值。
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［結構性融資新範式］</strong>以晶片為抵押品發行表外資產抵押債券（ABS/SPV），為微軟、Meta 等科技巨頭後續應對萬億級別的算力 Capex 開闢了全新的金融工程藍圖。
+        </div>
+        <aside class="notes">以晶片為抵押品發行表外資產抵押債券（ABS/SPV），為全球科技巨頭萬億級別的算力 Capex 開闢了全新的金融工程路徑。</aside>
+      </section>
+
+      <!-- ═══ 第 7 頁｜台廠供應鏈落地：光電產業 45 億跨界轉型 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>三、台廠供應鏈落地｜光電產業 45 億跨界轉型：鼎元、立碁、惠特卡位 CPO</h2>
+        <ul>
+          <li>
+            <strong>台系 LED 族群掀 45 億元擴產募資潮</strong>：因應 AI 資料中心高速傳輸邁向 800G、1.6T 與 CPO 共同封裝光學，傳統光電半導體大廠全面跨界轉型，合計投資規模突破 <strong>45 億元新台幣</strong>。
+            <span class="supplement">🔗 來源：<a href="https://money.udn.com/money/story/5612/9893868" target="_blank" rel="noopener">[經濟日報]</a> <a href="../../wiki/tw-led-cpo-expansion-45b-dingyuan-lige-whitetech-2026-11-22.html">[Wiki]</a></span>
+          </li>
+        </ul>
+
+        <!-- 內嵌 SVG 2：台廠 CPO 45 億轉型生態系對照矩陣 -->
+        <svg viewBox="0 0 880 185" width="100%" height="185" aria-label="台廠 LED 跨界 CPO 矽光子 45 億元佈局對照表">
+          <rect x="0" y="0" width="880" height="185" rx="8" fill="#131c31" stroke="#1e293b"/>
+          <text x="24" y="28" fill="#38bdf8" font-size="16" font-weight="700">台系光電半導體族群：跨界 800G/1.6T CPO 共同封裝光學 45 億元資本佈局</text>
+
+          <!-- 欄位 1: 鼎元 -->
+          <rect x="25" y="45" width="265" height="125" rx="6" fill="#1e293b" stroke="#334155"/>
+          <text x="40" y="70" fill="#38bdf8" font-size="16" font-weight="700">鼎元 (2426)｜上游元件</text>
+          <text x="40" y="93" fill="#f59e0b" font-size="14.5" font-weight="600">資本支出：12.6 億元</text>
+          <text x="40" y="116" fill="#cbd5e1" font-size="13.5">• 高速光電二極體 (PD/Micro PD)</text>
+          <text x="40" y="136" fill="#cbd5e1" font-size="13.5">• 訂單能見度罕見直達 2028 年</text>
+          <text x="40" y="156" fill="#94a3b8" font-size="13">• 結盟友達、富采攻 Micro LED CPO</text>
+
+          <!-- 欄位 2: 立碁 -->
+          <rect x="307" y="45" width="265" height="125" rx="6" fill="#1e293b" stroke="#334155"/>
+          <text x="322" y="70" fill="#38bdf8" font-size="16" font-weight="700">立碁 (8111)｜下游模組</text>
+          <text x="322" y="93" fill="#f59e0b" font-size="14.5" font-weight="600">規劃募資：20.0 億元</text>
+          <text x="322" y="116" fill="#cbd5e1" font-size="13.5">• 直攻單通道 200G 技術門檻</text>
+          <text x="322" y="136" fill="#cbd5e1" font-size="13.5">• 1.6T / 3.2T 矽光子光收發模組</text>
+          <text x="322" y="156" fill="#94a3b8" font-size="13">• 產品已送樣美系資料中心客戶</text>
+
+          <!-- 欄位 3: 惠特 -->
+          <rect x="590" y="45" width="265" height="125" rx="6" fill="#1e293b" stroke="#334155"/>
+          <text x="605" y="70" fill="#38bdf8" font-size="16" font-weight="700">惠特 (6706)｜晶圓級檢測</text>
+          <text x="605" y="93" fill="#f59e0b" font-size="14.5" font-weight="600">無塵室投資：13.0 億元</text>
+          <text x="605" y="116" fill="#cbd5e1" font-size="13.5">• 移植 LED 精密分選量測專利</text>
+          <text x="605" y="136" fill="#cbd5e1" font-size="13.5">• 奈米級耦光貼合 + 測試代工</text>
+          <text x="605" y="156" fill="#94a3b8" font-size="13">• 攻克 2027 光學測試縮時 50% 瓶頸</text>
+        </svg>
+
+        <div class="callout">
+          <strong>［台股量化影響估算｜自主集群］</strong>台灣傳統 LED 廠成功跳脫紅海殺價，在 CPO 價值鏈形成「元件（鼎元）＋模組（立碁）＋檢測設備（惠特）」完整閉環，預估 2027 年台廠在 CPO 關鍵零組件全球市佔率將升至 <strong>18%–25%</strong>。
+        </div>
+        <aside class="notes">台灣傳統 LED 供應鏈成功藉由既有光學量測與沉積技術突破紅海，卡位 2027–2028 年矽光子爆發期。</aside>
+      </section>
+
+      <!-- ═══ 第 8 頁｜台廠供應鏈落地：輝達 SC26 Vera Rubin ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>三、台廠供應鏈落地｜輝達 SC26 發布 Vera Rubin HPC：5 萬核心對決估值腰斬</h2>
+        <ul>
+          <li>
+            <strong>Rubin HPC 單晶片突破 50,000 CUDA 核心</strong>：輝達在芝加哥 SC26 超級運算年會公開旗艦晶片 Rubin HPC，單一封裝塞入突破半導體紀錄的 5 萬多核心，搭載第 7 代 NVLink 雙向傳輸，MLPerf 測試展現較前代逾 <strong>10 倍</strong> 之每瓦吞吐量躍升。
+            <span class="supplement">📌 NVL72 量產時程：戴爾、HPE、聯想、美超微同步展示 Vera Rubin NVL72 液冷伺服器機櫃，官方定於 <strong>2027 年初</strong> 啟動商業量產。</span>
+            <span class="supplement">🔗 來源：<a href="https://news.google.com/" target="_blank" rel="noopener">[TechRadar]</a> <a href="../../wiki/nvidia-sc26-vera-rubin-platform-supercomputing-2026-11-22.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>二級市場殘酷現實：市值暴跌 47.8% 蒸發 2.7 兆美元</strong>：輝達股價腰斬至 70 美元出頭，創辦人黃仁勳停職受查、信用擔保灰犀牛與 AI 投資報酬率質疑，令技術光環遭遇嚴苛估值洗牌。
+          </li>
+          <li>
+            <strong>因果傳導鏈</strong>：$$\text{Rubin HPC 5萬核心亮相 + 2027初投產} \longleftrightarrow \text{短線黃仁勳缺位 + 估值暴跌 47\%} \longrightarrow \text{二級市場殺本益比 vs 先進封裝 CoWoS-L/HBM4 長線綁定台積電}$$
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［觀點衝突標記｜驗證指標］</strong>技術代際領先 2 年 vs 估值腰斬暴跌 47%：二級市場已不再為單純的晶片算力參數買單，轉而聚焦法規治理風險與雲端客戶實質現金流回收週期。
+        </div>
+        <aside class="notes">輝達技術護城河依舊深厚，但二級市場已從單純看好硬體算力演算法，轉入嚴苛檢驗營運報酬率與法律治理風險的冰河期。</aside>
+      </section>
+
+      <!-- ═══ 第 9 頁｜🔮 AI 焦點盲盒 (I)：Claude 攻克黎曼猜想 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1509228468518-180dd4864904?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.09">
+        <h2>四、🔮 AI 焦點盲盒 (I)｜世紀難題 6 週攻克：Anthropic 數學家藉 Claude 宣稱證明黎曼猜想</h2>
+        <ul>
+          <li>
+            <strong>入選理由與世紀難題之突破</strong>：Anthropic IPO 成功次日，其頂尖數學家 Levent Alpöge 宣稱借助 Claude 模型在短短 <strong>6 週</strong> 內，攻克了數學界懸宕近 <strong>170 年</strong> 的克雷百萬美元千禧年大獎難題之首——<strong>「黎曼猜想（Riemann Hypothesis）」</strong>！
+            <span class="supplement">📌 形式化代碼獨立核驗通過：Alpöge 將推導編寫為數萬行 Lean 4 代碼，全球兩大權威組織 <strong>Lean FRO 與 Mathlib Initiative</strong> 分散式節點正式完成型別檢查，發布官方公報確認形式化證明無誤。</span>
+            <span class="supplement">🔗 來源：<a href="https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai" target="_blank" rel="noopener">[The Guardian]</a> <a href="../../wiki/anthropic-claude-helps-solve-riemann-hypothesis-blindbox-2026-11-22.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>核心事實與人機協作模式</strong>：證明了黎曼 Zeta 函數 $\zeta(s)$ 所有非平凡零點實部嚴格坐落於 $\text{Re}(s) = \frac{1}{2}$。Alpöge 形容「在衝刺終點線前，Claude 的洞察力遠遠超越了我，在終點線前翩翩起舞」。
+          </li>
+          <li>
+            <strong>資本市場定價支撐</strong>：該歷史性成就恰逢 Anthropic 掛牌後 24 小時內發布，成為支撐其 1.3 兆美元天價估值的最強演算法護城河。
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［盲盒外溢評估 I｜範式質變］</strong>AI 首次由文本感知與多模態生成，實質躍遷至人類最高殿堂的純粹數學公理推導與形式化驗證，確立了通用人工智慧在基礎科學發現中的決定性能力。
+        </div>
+        <aside class="notes">這是 AI 首次在人類最高殿堂的純數學符號推理與形式化公理系統中摘取皇冠，代表通用 AI 質變跨入科學發現維度。</aside>
+      </section>
+
+      <!-- ═══ 第 10 頁｜🔮 AI 焦點盲盒 (II)：密碼學底層動搖與量化重構 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.09">
+        <h2>四、🔮 AI 焦點盲盒 (II)｜外溢風險矩陣：RSA/ECC 密碼學底層動搖與量化模型重構</h2>
+        <ul>
+          <li>
+            <strong>全球非對稱現代密碼體系（RSA/ECC）底層動搖</strong>：SWIFT 跨境結算與公私鑰加密依賴大質數分解之運算複雜度。黎曼猜想被證明後，質數分佈誤差界限被精確鎖定（$|\pi(x) - \text{Li}(x)| = O(\sqrt{x} \ln x)$），恐催生全新質數分解演算法，倒逼全球金融體系加速向抗量子/抗 AI 密碼學（PQC）硬性遷移。
+            <span class="supplement">🔗 來源：<a href="https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai" target="_blank" rel="noopener">[The Guardian]</a> <a href="../../wiki/anthropic-claude-helps-solve-riemann-hypothesis-blindbox-2026-11-22.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>量化對沖基金非線性定價模型重構</strong>：高頻量化模型在隨機波動率定價中廣泛應用 Zeta 函數零點統計分佈，證明的確立消除了定價模型深層的未知厚尾風險，迫使量化機構重新校準定價引擎。
+          </li>
+          <li>
+            <strong>私營資本壟斷科學知識之倫理反壟斷審查</strong>：頂級純數學成果由剛融資 813 億美元的營利公司率先摘取，恐觸發國際監管當局針對前沿模型科學成果開源與國家安全審查。
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［盲盒外溢評估 II｜台廠情境分析］</strong>金融資安升級浪潮將引爆「後量子密碼（PQC）硬體加速卡」商機，台廠智原、神盾、瑞昱等具備安全加密 IP 與客製化 ASIC 晶片開發能力之廠商，將迎來銀行端安全模組規格大換代的新增訂單。
+        </div>
+        <aside class="notes">黎曼猜想的突破不僅僅是數學成就，更是直接牽動全球金融結算底層密碼架構與量化衍生品定價的黑天鵝事件。</aside>
+      </section>
+
+      <!-- ═══ 第 11 頁｜短線催化劑雷達 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>五、短線催化劑雷達（Catalysts）｜未來 1–5 天關鍵日程與量化影響矩陣</h2>
+        <table class="catalyst-table" style="width:100%; font-size:0.8em; border-collapse:collapse; margin-top:0.6em;">
+          <thead>
+            <tr style="border-bottom:2px solid #334155; color:#38bdf8; text-align:left;">
+              <th style="padding:7px;">日期</th>
+              <th style="padding:7px;">關鍵事件 / 機構</th>
+              <th style="padding:7px;">核心觀察指標</th>
+              <th style="padding:7px;">台股與跨市場潛在影響估算</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom:1px solid #1e293b;">
+              <td style="padding:6px; color:#f59e0b; font-weight:600;">11/24 (一)</td>
+              <td style="padding:6px;">立碁（8111）法說會</td>
+              <td style="padding:6px;">1.6T 模組送樣驗證進度與 20 億私募投資人</td>
+              <td style="padding:6px;">牽動 CPO 族群（光聖、聯鈞、立碁、惠特）短線動能</td>
+            </tr>
+            <tr style="border-bottom:1px solid #1e293b;">
+              <td style="padding:6px; color:#f59e0b; font-weight:600;">11/24 (一)</td>
+              <td style="padding:6px;">東南亞政府回應 BIS 新規</td>
+              <td style="padding:6px;">馬來西亞 MITI 與新加坡 IMDA 官方政策聲明</td>
+              <td style="padding:6px;">台廠 ODM（廣達、緯穎、鴻海）海外工廠訂單調配評估</td>
+            </tr>
+            <tr style="border-bottom:1px solid #1e293b;">
+              <td style="padding:6px; color:#f59e0b; font-weight:600;">11/24 (一)</td>
+              <td style="padding:6px;">克雷數學研究所（Clay）</td>
+              <td style="padding:6px;">是否就 Claude 黎曼猜想審查召開特別委員會</td>
+              <td style="padding:6px;">牽動 Anthropic 估值與後量子加密（PQC）概念股外溢</td>
+            </tr>
+            <tr style="border-bottom:1px solid #1e293b;">
+              <td style="padding:6px; color:#f59e0b; font-weight:600;">11/25 (二)</td>
+              <td style="padding:6px;">美耐久財訂單與 PCE 物價</td>
+              <td style="padding:6px;">10 月 PCE 月率修正值與通膨預期差</td>
+              <td style="padding:6px;">直接檢驗 12 月 FOMC 100% 升息機率是否鬆動</td>
+            </tr>
+            <tr style="border-bottom:1px solid #1e293b;">
+              <td style="padding:6px; color:#f59e0b; font-weight:600;">11/25 (二)</td>
+              <td style="padding:6px;">華爾街券商評等報告</td>
+              <td style="padding:6px;">花旗、摩根大通對 Anthropic（ANT）首份覆蓋</td>
+              <td style="padding:6px;">測試 AI 軟體龍頭抗跌力道與美股科技股逢低買盤</td>
+            </tr>
+            <tr>
+              <td style="padding:6px; color:#f59e0b; font-weight:600;">11/26 (三)</td>
+              <td style="padding:6px;">台北國際光電展論壇</td>
+              <td style="padding:6px;">TrendForce 發布 2027–2028 全球 CPO 成長率報告</td>
+              <td style="padding:6px;">驗證台系 LED 轉型 CPO 檢測與元件之滲透率目標</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="callout" style="margin-top:0.8em;">
+          <strong>［台股短線情境預演］</strong>若下週初東南亞算力封鎖擴大且金價續跌，大盤恐回測半年線防守；反之，若 Anthropic 與 CPO 題材發酵，資金將加速由傳統硬體向全光互連與 AI 推理軟體板塊集中。
+        </div>
+        <aside class="notes">下週初核心焦點在於東南亞政府對美 BIS 新規的回應，以及 Anthropic 形式化數學突破在金融資安領域引發的 PQC 概念股外溢效應。</aside>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true,
+      transition: 'fade',
+      width: 1200,
+      height: 720,
+      margin: 0.04,
+      minScale: 0.2,
+      maxScale: 1.5,
+      center: false
+    });
+  </script>
+</body>
+</html>
