@@ -1,0 +1,558 @@
+{
+  "generated_at": "2026-11-23T08:30:20.962409+08:00",
+  "window_hours": 24,
+  "total_candidates": 54,
+  "category_stats": {
+    "1_us_macro": {
+      "label": "美國總經與政策",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": []
+    },
+    "2_tw_semis": {
+      "label": "台股大盤與核心半導體",
+      "target_pick": 2,
+      "candidate_count": 12,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "中央社 產經證券",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "3_tech_supply_chain": {
+      "label": "前瞻科技與台廠供應鏈",
+      "target_pick": 2,
+      "candidate_count": 12,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "中央社 科技",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "4_fx_commodities": {
+      "label": "國際匯市與大宗避險資產",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "MarketWatch Top Stories",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "5_ai_blindbox": {
+      "label": "AI 國際焦點盲盒",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "BBC Business",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "source": "BBC World",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "source": "中央社 國際",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+      "published_at": "2026-11-23T02:55:05+08:00",
+      "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+      "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Stock futures rebound to start shortened week after tech rout: Live updates",
+      "published_at": "2026-11-23T08:19:18+08:00",
+      "summary": "Last week, the major indexes tumbled as worries about the artificial intelligence trade continued to spook investors, despite Anthropic's record debut.",
+      "url": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "UK Workers Stay Put as Safety Trumps Pay in Perilous Jobs Market",
+      "published_at": "2026-11-23T08:01:00+08:00",
+      "summary": "British workers are clinging to their jobs, accepting stagnant or falling pay in return for greater employment security amid the most challenging labor market in recent years.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/uk-workers-stay-put-as-safety-trumps-pay-in-perilous-jobs-market"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "South Korea's education minister quits over exam cheating chaos - Reuters",
+      "published_at": "2026-11-23T08:20:00+08:00",
+      "summary": "South Korea's education minister quits over exam cheating chaos Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSHhGdTlDN3hOUVlXUHRLSlVmbWRGTWRQWWdQaDV0a0UyZFhjR0w1RDZtRmZMcHNvTWE1QWJhclVLaHBtVXBMVVo0cU1jemIyc2NzUmQtX2NHU0FRaklZcElORnoxYnBkVE53TEhFQkMydlpULWJFM2pVbHc2UXREal9ENG42SkFqZWg5dEM2eTZLaHVYVUg0b0gtOVpCcDNuLVhPU3cwZjdUTHdST3VHYzhmNjVCQmlI?oc=5"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "Pizza chains are under pressure. GLP-1 use is only one part of the problem",
+      "published_at": "2026-11-22T21:00:01+08:00",
+      "summary": "Domino's, Papa Johns and Pizza Hut face weaker demand, more delivery competition and changing eating habits, including GLP-1 use.",
+      "url": "https://www.cnbc.com/2026/11/22/pizza-chains-sales-glp-1-demand.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "South Korea’s Early Exports Gain After $1 Trillion Milestone",
+      "published_at": "2026-11-23T08:00:00+08:00",
+      "summary": "South Korea’s exports extended gains in early November, with annual shipments topping $1 trillion for the first time as the global artificial intelligence boom continued to stoke demand for chips.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/south-korea-s-early-exports-gain-after-1-trillion-milestone"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "NFL roundup: Lions, Bears improve to 8-2 ahead of Turkey Day tilt - Reuters",
+      "published_at": "2026-11-23T07:57:43+08:00",
+      "summary": "NFL roundup: Lions, Bears improve to 8-2 ahead of Turkey Day tilt Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYzdJRmpGR3N4X2lhcjRVanJOaGcybVpFTkJQWEhvRXA0YXpLY2M4OVNHOGRSMnNBZV9CUkcwZXBfRXVYb29vRlVwSDBDM0tWNGN6b29yVEtSOExGbjdKOURfbk5Dai02WnhoVVFrcG8wdTRZLU9MdHo5N0dHeXk0WmtfNTFLSVhIcF82SktTQVNaR044X1VxaEM0VC1LZjUwR3BCUkZYYU0?oc=5"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "I’ve studied over 200 kids—to avoid raising a people pleaser, ditch 6 parenting habits: It starts in ‘ordinary, well-intentioned moments’",
+      "published_at": "2026-11-23T01:33:25+08:00",
+      "summary": "Reem Raouda, a conscious parenting coach who's worked with over 200 families, shares six habits worth reconsidering, like treating disagreement as disrespect.",
+      "url": "https://www.cnbc.com/make-it/2026/11/22/parenting-habits-people-pleaser.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "Bessent Warns Fed Risks Overtightening as US Markets Swoon",
+      "published_at": "2026-11-23T00:08:20+08:00",
+      "summary": "Treasury Secretary Scott Bessent warned that the Federal Reserve risks jeopardizing the US economy by overtightening in response to latest inflation data, pointing to signs of fragility in the financial system.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/bessent-warns-fed-risks-overtightening-as-us-markets-swoon"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "Reports: Tarik Skubal agrees to 9-year, $450M deal with Mets - Reuters",
+      "published_at": "2026-11-23T07:51:36+08:00",
+      "summary": "Reports: Tarik Skubal agrees to 9-year, $450M deal with Mets Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTDdwZ1c0Q3pCMkhZMGotRl9YcHhTZURxajNKa1J0UlUzT2YyY1M0RmZjb1Z1NWtVaFRIUkRKNVlqX1h4bUpjN2xzVjVsVzllaC1QcF9WRTNXUnhXZ3BLRXZsamdxeTEyNTRsVUM3aUxGWHFYZEtQUEhkY0pXdFU1dHFKR0JGY19Xc24yaXJSelI1S2tXVE1JNkhvaDhkZlZaMHdTdA?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "威聯通毛利率拚回升 預期明年有望回到60%水準",
+      "published_at": "2026-11-23T01:14:46+08:00",
+      "summary": "網路儲存設備（NAS）廠威聯通（7805）搶攻AI代理商機，董事長張明智看好地端AI時代企業需求，將陸續推出AI NAS新品搶攻市場，有望帶動營收持續成長。公司預期，毛利率將自近期低檔回升，2027年有望回到60%水準。",
+      "url": "https://money.udn.com/money/story/11074/9894939"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "共信犬黑色素瘤新藥「思沛康」獲台灣上市許可 搶攻全球寵物藥商機",
+      "published_at": "2026-11-23T08:25:33+08:00",
+      "summary": "共信-KY（6617）23日宣布，旗下伴侶動物抗腫瘤新藥「思沛康注射液」（Gwa103），已取得農業部動植物防疫檢疫署核發的動物用藥品許可證，即將在台啟動商業銷售。這項結合精準給藥與微創腫瘤消融技術的創新療法，將為犬隻黑色素瘤治療提供最新選擇。",
+      "url": "https://money.udn.com/money/story/5612/9895534"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Nvidia breaks driver schedule to rush out GeForce hotfix over SSD burnout fears - Gamereactor UK",
+      "published_at": "2026-11-23T08:27:39+08:00",
+      "summary": "Nvidia breaks driver schedule to rush out GeForce hotfix over SSD burnout fears Gamereactor UK",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9iUFJQUHV2MjhpbFlZMnhzV2tYNFlHUlpmTGwwakdvMWQ5Q2dwYmhGNUNRM2JPSER6aEZDUkhITTlvN3AxM1p0UDhiLU1mVFhwY0xDb0dmTzZKbmx0TlA4RUozSXlacDhlbVZJWXg4bDVGUGVwM0E?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "世禾雙引擎催動營運",
+      "published_at": "2026-11-23T01:12:31+08:00",
+      "summary": "半導體清洗與再生龍頭世禾（3551）受惠於先進製程放量，後市營運俏，看好市場先進製程清洗需求提升，以及大陸半導體業擴產雙引擎帶動下，2027年營運成長可期。",
+      "url": "https://money.udn.com/money/story/11074/9894942"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "美股費半重挫10% 投顧：關注禁空令與國安基金護盤",
+      "published_at": "2026-11-23T08:21:22+08:00",
+      "summary": "人工智慧（AI）相關股票賣壓持續湧出，美股20日重挫，費城半導體指數下跌10.73%，台指期夜盤下挫1881點。金管會今...",
+      "url": "https://money.udn.com/money/story/5612/9895530"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Nvidia shareholders face a hypothetical choice between human or AI CEO, Joe Weisenthal asks - Traders Union",
+      "published_at": "2026-11-23T08:20:07+08:00",
+      "summary": "Nvidia shareholders face a hypothetical choice between human or AI CEO, Joe Weisenthal asks Traders Union",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNU2FpazlFNG10czNFRmlRVnkwTjQ3TUdWSEFXd0dDMGlNOExDMTlKa3VCSjE1aTBQZFBKTUFqSXV2T045OFljRlpyUWhtZVJzZ0wwNkRwOGlfWFZOeU5obkptdnRYN1VMcUxPZlV6TWczTmtFcF8ycmpPRXM3cl90T0M4eDA0dHc?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "光聯攻美洲、日本、東南亞",
+      "published_at": "2026-11-23T01:12:30+08:00",
+      "summary": "受到歐洲市場需求走弱影響，中小尺寸面板廠光聯（5315）第3季歐洲營收占比年減10個百分點，所幸積極轉向耕耘美洲、日本、東南亞市場有成，業績貢獻比拉升顯著。展望未來，光聯將聚焦利基型、少量多樣及耐候型模組顯示市場，以優化產品組合。",
+      "url": "https://money.udn.com/money/story/11074/9894941"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "台電將砸千億投資輸變電計畫 台積電1奈米用電穩了",
+      "published_at": "2026-11-23T02:55:25+08:00",
+      "summary": "為穩固大台南科學園區用電，台電規劃投入1,096億元投資輸變電計畫，支撐大南科產業長期發展。大台南科學園區最大投資案就是台積電，是次世代1奈米製程重鎮，隨著台電砸千億投資鞏固當地用電，業界看好將為台積電1奈米用電打上一劑強心針，後續供電可望更加穩定。",
+      "url": "https://money.udn.com/money/story/5612/9895276"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Letter: Nvidia affair exposes Washington’s rigid idea of innovation - Financial Times",
+      "published_at": "2026-11-23T08:12:10+08:00",
+      "summary": "Letter: Nvidia affair exposes Washington’s rigid idea of innovation Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xMkc5OVF2ZFNMbmhqZWRWUEk1SUg4Y2JxOWZRcWZxS0VTRGF2SjN1MUt5dWJqQXFmWnhFVnh4czFtTHNSc2JRSGgtc0xjUXl1VGw2dy0tdklwQVJFcERwWWxOWU5HS1QyX0ptNTlESEk?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "第一類接觸／雙鴻看好 AI 伺服器散熱需求持續成長 明年營運拚新高",
+      "published_at": "2026-11-23T01:11:51+08:00",
+      "summary": "散熱模組廠雙鴻（3324）看好AI伺服器散熱需求持續成長，擴充產能並同步布局GPU與ASIC市場。目前在手訂單能見度高，ASIC散熱產品預計今年第4季底開始出貨，明年放量，成為營運成長的主要動能。",
+      "url": "https://money.udn.com/money/story/11074/9894971"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "美擴大 AI 管制 日本新雲端龍頭踩雷 台鏈恐受波及",
+      "published_at": "2026-11-23T02:47:46+08:00",
+      "summary": "美國擴大AI管制範疇，新雲端業者（Neocloud）面臨陸資背景客戶抽單危機的壓力四起，日本新雲端龍頭Datasection傳出踩雷，遭陸系大客戶大砍單，為此下修營收目標逾九成，股價短短一周內腰斬，仁寶、技嘉、英業達、永擎等台鏈恐受波及，面臨訂單取消問題。",
+      "url": "https://money.udn.com/money/story/5612/9895242"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Nvidia Reports Faster Growth, Says Jensen Huang Won’t Return as CEO - WSJ",
+      "published_at": "2026-11-23T08:11:52+08:00",
+      "summary": "Nvidia Reports Faster Growth, Says Jensen Huang Won’t Return as CEO WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQOERUMkVEZEttRVd6TG92RVVFUzc4RU10anVtbFoxeV9RN1VneDJiUkc5NXpVWWNhM09PUWhGMHNHcmJNeTU0WTltdjA1TE5BbUtvOWx1QU4ySmJJc2lPWmoydVJld09sOER4Rk4xRE9QbXpKSVMzNE9ldENzQWZWVGZGRlY?oc=5"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "離岸風場與低空雲層雙向影響，荷蘭研究揭風機可使雲層消散",
+      "published_at": "2026-11-23T08:30:01+08:00",
+      "summary": "離岸風場靠大氣的風能發電，但多數風能研究與模型都假設天空晴朗乾燥。荷蘭特溫特大學（University of […]",
+      "url": "https://technews.tw/2026/11/23/offshore-wind-farms-can-break-up-low-clouds/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "published_at": "2026-11-23T05:14:07+08:00",
+      "summary": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "韓國防股災，準備啟動護盤基金放寬庫藏股嚴管放空",
+      "published_at": "2026-11-23T08:25:12+08:00",
+      "summary": "韓國金融當局鑒於人工智慧（AI）投資氣氛惡化恐引發韓國股市大跌，22 日召開會議決定著手準備啟動股市穩定基金， […]",
+      "url": "https://finance.technews.tw/2026/11/23/south-korea-prepares-launch-stock-stabilization-fund-ease-share-buyback-rules-tighten-short-selling-regulations-avert-market-crash/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Director of National Intelligence Jay Clayton warns Americans of 'bumps in the road' after tech outages",
+      "published_at": "2026-11-23T01:14:03+08:00",
+      "summary": "Clayton’s warning comes ahead of Thanksgiving travel, after separate outages disrupted air travel, Microsoft 365 and some bank transactions.",
+      "url": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "published_at": "2026-11-23T02:08:43+08:00",
+      "summary": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "後黃仁勳時代的台股生存戰：資金逆流傳產，拆解四大抗跌新寵與一類高風險地雷股",
+      "published_at": "2026-11-23T08:20:07+08:00",
+      "summary": "過去，靠著輝達（Nvidia）共同創辦人黃仁勳這位「史上最強 AI 銷售員」的帶動，全球股市形成一股 AI 獨 […]",
+      "url": "https://finance.technews.tw/2026/11/23/jensen-huang-departure-sparks-ai-chaos-taiwan-stock-hot-money-shifts-cybersecurity-traditional-sectors-avoid-risky-stocks/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Quantum computing’s first real-world payoff may come in energy, not drug discovery",
+      "published_at": "2026-11-22T14:00:01+08:00",
+      "summary": "Quantum computing firms are testing energy-grid optimization, solar materials and hydrogen catalysts as they pursue practical uses.",
+      "url": "https://www.cnbc.com/2026/11/22/quantum-computing-energy-applications.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "傳軟銀曾想砸 1 兆美元買 SK 海力士 計畫已擱置",
+      "published_at": "2026-11-23T08:15:23+08:00",
+      "summary": "日本軟銀集團（SoftBank Group）執行長孫正義傳出曾考慮斥資高達 1 兆美元，收購韓國記憶體大廠 S […]",
+      "url": "https://technews.tw/2026/11/23/softbanks-masayoshi-son-explored-1-trillion-moonshot-buyout-of-sk-hynix/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "Rapidus 2 奈米製程傳出瓶頸，SRAM 良率掛零使日本半導體復興面臨考驗",
+      "published_at": "2026-11-23T08:15:00+08:00",
+      "summary": "被日本政府寄予厚望、肩負先進半導體自主化使命的晶圓代工廠 Rapidus，旗下 2 奈米製程發展傳出重大挫折。 […]",
+      "url": "https://finance.technews.tw/2026/11/23/rapiduss-2nm-process-yield-hits-zero/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "從用電怪獸變身電網後盾，資料中心擁抱「表後供電」重塑能源架構",
+      "published_at": "2026-11-23T08:10:17+08:00",
+      "summary": "在人工智慧（AI）的強勢帶動下，資料中心正迎來關鍵的角色轉換──從過去單純依賴電網的「用電大戶」，轉變為主動參 […]",
+      "url": "https://technews.tw/2026/11/23/future-data-centers-behind-the-meter-power-generation-technology/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "AI 進入汽車駕駛座：日本車廠掀起智慧座艙新競爭",
+      "published_at": "2026-11-23T08:00:41+08:00",
+      "summary": "日本車廠馬自達（Mazda），旗下主力休旅車新款 CX-5（涵蓋日本、美國、加拿大與歐洲規格）搭載的車載系統， […]",
+      "url": "https://technews.tw/2026/11/23/google-gemini-in-mazda-cx-5/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "養出 AI 駭客？OpenAI 被加州政府告上法院",
+      "published_at": "2026-11-23T07:50:37+08:00",
+      "summary": "當 AI 從「被動回答問題」進化為能夠自動規劃並執行任務的「AI 代理程式」（AI Agents）時，若演算法 […]",
+      "url": "https://infosecu.technews.tw/2026/11/23/california-sues-openai/"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations - FXLeaders",
+      "published_at": "2026-11-23T08:19:30+08:00",
+      "summary": "WTI and Brent Crude Oil Prices Slide as Bessent Challenges Fed's Hawkish Rate Expectations FXLeaders",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVE1ld0JNbTliY252dUdCMkloX29xVi00THJ3Q0Q1XzFUNWMyR0l3QmRsallhZUgxR0RGX3ZvVUZ1YmNYNnVBTmVSRTJ5SllCd0ZyVTRISzN1TEQzZ2paQVNhUHpKLV9pcGJER01SSml4S2V2OGxsWVJfVUdQTjNCS21LdDNqQkJKcjB5TjRoYlpPZFpHQ2R6dGJjZ3hEWWxRUTB1RTN3T2VQdUJkdEt1cE9GejNBbTFuVVpoWDM0eHJDUDJZeUFMRWhMS2g?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Treasury Futures Fall as Rising Stock Futures Damp Haven Demand",
+      "published_at": "2026-11-23T07:59:06+08:00",
+      "summary": "US Treasury futures declined as demand for havens eased after US stock futures advanced.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/treasury-futures-fall-as-rising-stock-futures-damp-haven-demand"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Oil Markets Are Betting on a Surplus That Hasn't Arrived Yet - Crude Oil Prices Today | OilPrice.com",
+      "published_at": "2026-11-23T08:00:00+08:00",
+      "summary": "Oil Markets Are Betting on a Surplus That Hasn't Arrived Yet Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOVp2dGdrck4zdEVLVGNQaUFSUHpuT0NxdUFKdzRob0JQQXZHRTcyYTVIdjd1b216cTBocDJDb0JhVVhSY3RGXzQtNVFqWlRpU3BGUVg4NGhaM1lnN0ZoNXowbXZpTzF5ME9PeWxrVkpORGpIOWViYWpIOXNBZUVLc1ZCSFg3U1hVd3Jya2Fmdm02Z3E1cFNfX0tkSElRbkVJcjI3bnJn0gGrAUFVX3lxTFAxZ2xzZmJBY19mbUFwMUpFenRfUmFGZEF3SHJNZFo2MFdyZEpsckVhMnBsSGY2eHMzTk1UVVZpVU9PdkVzbXpLSUhzV2F6bGxzdTJVX1RKdkh4Y2pzR3ZMYVA4Wi1sSUh3WlFvZmpxQk9vWnZuX0lvY010V0dQZ2dMVDg0UGNBOXhTa1FwamtFcFZRS3JvLWxla2VBVThTWUhiVkpVaUYwdDI5RQ?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Latest Oil Market News and Analysis for Nov. 23",
+      "published_at": "2026-11-23T07:06:06+08:00",
+      "summary": "Oil declined as traders weighed signs of robust crude exports against the prospect of escalating hostilities in the Middle East.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/latest-oil-market-news-and-analysis-for-nov-23"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Oil Edges Lower as Ample Supply Outweighs Middle East Tensions - Bloomberg.com",
+      "published_at": "2026-11-23T07:30:39+08:00",
+      "summary": "Oil Edges Lower as Ample Supply Outweighs Middle East Tensions Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZldpS0pzSnV4MTFveW5XYzJmeGg5MTIzNm9RVWZka25nb05xbmU0T2s4Sm5vbllUTnZTLVNpUnEyUk01a1otTVpKQ20zU2l5VmhsNkdSWV9EMExoa0VaVWpYUXZVREoxdjk5Mk1wN2Q2QkswQmU5aUY1T2pBUTRyVnVmOHg2b05YNmxSaDdZYzZKbWM5UTFUVndxUGlwQQ?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Stock Traders Brace For More Volatility After Tech-Driven Rout",
+      "published_at": "2026-11-23T07:04:42+08:00",
+      "summary": "Wall Street enters the new trading week under intense pressure after a violent rotation out of US stocks left investors wondering if more pain is in store.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-22/stock-traders-brace-for-more-volatility-after-tech-driven-rout"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Gold Price Forecast: Selloff Echoes 2022 as Fed Hike Fears Grow - FXEmpire",
+      "published_at": "2026-11-23T07:18:54+08:00",
+      "summary": "Gold Price Forecast: Selloff Echoes 2022 as Fed Hike Fears Grow FXEmpire",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeldGOUZfc0ZTLUtjTkpuLUN3c2lpYnB1SEIwRS1aVnZ2bGNQQndUblBPdG5yZ0NIZDZLMGNxWFRYSDdEaWNXZGVLUmhMWnRWWVoxYVJJck9qZkFaRVB0VzRMajA4Slk1Z2lsVWdOQTZfWmlFbFRFXzY0NndkVUJfaHIxeERYT0IxaDJGRmI4M20zdWRyQXZxcUxsS0w0MGJzYzE2UzF6U096eUROM1ZJRjl1MA?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "CNBC World",
+      "title": "Russian ship hit by drones in Baltic still smolders as Finland, Estonia help put out blaze",
+      "published_at": "2026-11-22T23:20:28+08:00",
+      "summary": "The Finnish military has said the strike on the Sparta II on Saturday was likely carried out by Ukraine and that the vessel later drifted into Finnish waters.",
+      "url": "https://www.cnbc.com/2026/11/22/russian-cargo-ship-still-on-fire-off-finland-after-attack.html"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "World's Biggest Warrants Market Is Fueled by Unusual Trading in Hong Kong",
+      "published_at": "2026-11-23T07:00:17+08:00",
+      "summary": "The $577 billion Hong Kong market has tell-tale signs of artificially inflated trading, insiders say.",
+      "url": "https://www.bloomberg.com/graphics/hongkong-derivative-warrants-leverage-volume-ping-pong-trades/"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "WTI crude oil prices may trend lower - The Business Times",
+      "published_at": "2026-11-23T07:00:00+08:00",
+      "summary": "WTI crude oil prices may trend lower The Business Times",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZ2N2SEg1NS1QZUloUmJ3T1A1NGhOMFlTcEt1QVdrQnF0Mm43RG90MWRvYjVvbnVVNXFMX2RtUlQ5RUhPSWFiRTkySmVRUjA4RlA0VzZEM0VoMlkzV3NocjdOcEl2WHlXSWdmVEJrbExoUXZRYXhoRHVZdmh3ZHppaWFsWllRd0FaaEpIZW1kNm4?oc=5"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Australian politics live: Hanson calls Coalition and Labor a ‘uni’ party; Liberals demand Bowen resign over Cop ‘disaster’",
+      "published_at": "2026-11-23T08:14:34+08:00",
+      "summary": "Get our breaking news email , free app or daily news podcast ‘Very difficult to bridge that divide’: Murray Watt Cabinet minister Murray Watt says it’s increasingly difficult to bridge the divide between nations on climate policy after a frustrating Cop summit that didn’t reach a final agreement....",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/23/anthony-albanese-digital-duty-of-care-labor-greens-coalition-one-nation-angus-taylor-pauline-hanson-penny-wong-ai-ntwnfb"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Tributes flow for Molly Meldrum: Human Nature, Jason Donovan and others remember music industry great",
+      "published_at": "2026-11-23T08:03:15+08:00",
+      "summary": "Peter Andre, Richard Wilkins and Kate Ceberano share memories of ‘a truly unique character’ and ‘the fan all artists wish to have’ Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83 Molly Meldrum – a life in pictures Ian ‘Molly’ Meldrum – obituary Friends and fans of Mol...",
+      "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-music-industry-tributes"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Molly Meldrum, Countdown host and promoter of Australian music, dies aged 83",
+      "published_at": "2026-11-23T06:24:56+08:00",
+      "summary": "Much-loved broadcaster played a critical role in exposing rest of the world to Australian music – and vice versa Tributes flow for Molly Meldrum: Human Nature, Jason Donovan and others remember music industry great Molly Meldrum – a life in pictures Ian ‘Molly’ Meldrum – obituary Molly Meldrum, t...",
+      "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-dies-aged-83"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Abdul El-Sayed doubles down on ‘TrumpCare’ health plan, urging president to ‘get it done’",
+      "published_at": "2026-11-23T06:01:17+08:00",
+      "summary": "Democratic senator-elect reiterates suggestion to rename Medicare for All after Trump if president allows bill to pass Michigan US senator-elect Abdul El-Sayed on Sunday doubled down on naming healthcare reform legislation after Donald Trump as long as it meant the president would not impede its...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/22/abdul-el-sayed-trump-care-health-proposal-name"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Theresa May’s blast from the past calls Tories back to their unhappy place | Peter Walker",
+      "published_at": "2026-11-23T06:00:58+08:00",
+      "summary": "Conservatives may instinctively want to push back against closer EU ties, but they have to train their focus elsewhere Anyone who accidentally switched to BBC One at about 9.45am on Sunday to be greeted by Theresa May awkwardly espousing the virtues of Brexit could have been forgiven for thinking...",
+      "url": "https://www.theguardian.com/politics/2026/nov/22/theresa-may-blast-from-the-past-tories-brexit"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Cop31 left Chris Bowen stuck between petrostates and climate reality. But the f-word failure is not his alone",
+      "published_at": "2026-11-23T05:46:40+08:00",
+      "summary": "Australia’s climate change minister will face a torrent of criticism over his role, but disagreement over fossil fuels proved an unbridgeable sticking point After delivering a major speech to the UN climate talks in Turkey last week, the Australian prime minister, Anthony Albanese, dismissed crit...",
+      "url": "https://www.theguardian.com/environment/2026/nov/23/cop31-left-chris-bowen-stuck-between-petrostates-and-climate-reality-but-the-failure-to-say-the-f-word-is-not-his-alone"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+      "published_at": "2026-11-23T05:33:44+08:00",
+      "summary": "No one has claimed responsibility for the strike on the vessel, which had docked on its way back to Russia A Russian warship docked in the Libyan port city of Benghazi was struck in the early hours of Sunday in a suspected Ukrainian sea drone attack, causing a dramatic night-time explosion and th...",
+      "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "US intelligence chief says he trusts Trump’s description of Putin as ‘my friend’",
+      "published_at": "2026-11-23T04:55:33+08:00",
+      "summary": "Jay Clayton was pressed on Trump’s characterization of Putin during media appearances on Sunday Jay Clayton, the US director of national intelligence, said he trusts Donald Trump “completely” after the US president called Vladimir Putin “a friend” during their recent meeting in China. Clayton mad...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/22/intelligence-chief-jay-clayton-trump-putin-my-friend"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Jensen Huang’s reported affair was ‘most expensive sex since Helen of Troy’, US senator says",
+      "published_at": "2026-11-23T04:23:36+08:00",
+      "summary": "John Kennedy looks to Trump leaders as he asks how China evidently bypassed export controls for Nvidia’s top AI chips Invoking Greek mythology, US senator John Kennedy has characterized former Nvidia chief executive officer Jensen Huang ’s reported affair with a suspected Chinese spy as “the most...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Democrats capture at least 258 House seats in largest sweep since 1992",
+      "published_at": "2026-11-23T03:17:56+08:00",
+      "summary": "Milestone reached Sunday after Democrat Chuck Hubbard defeated Republican Virginia Foxx in North Carolina Democrats have won their largest majority in the House in more than three decades after Chuck Hubbard defeated Republican representative Virginia Foxx in North Carolina on Sunday, extending t...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/22/house-democrats-historic-sweep"
+    }
+  ]
+}

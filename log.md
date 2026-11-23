@@ -127,3 +127,18 @@
   3. **徹底解除頁數天花板（No Artificial Page Cap）**：週報不設頁數上限，依內容深度自然展開為 18–25 頁或更多。
 - **自動化排程同步**：更新 `~/.gemini/config/sidecars/weekly-financial-report/sidecar.json` 之每週日 20:00 自動編譯提示詞，強制要求遵循 AGENTS.md 5.6 防壓縮規範。
 - **週報簡報實作驗證**：已將 `slides/html/weekly-2026-W47-slides.html` 由 15 頁擴充重製為 19 頁完整獨立版，實踐新版規範標準。
+
+## [2026-11-23] ingest | 匯入 2026-11-23 五大類 7 篇財經新聞（含 AI 國際焦點盲盒）
+- 執行 `scripts/fetch_candidates.py` 產出 `raw/candidates_11-23.json`（共 54 則候選新聞），依 `AGENTS.md` 第 5.5 節標準自主遴選 7 篇核心文章存檔至 `raw/`：
+  1. 美國總經與政策：`bessent-warns-fed-overtightening-financial-stress-2026-11-23.md`
+  2. 台股大盤與核心半導體：`tw-stock-plunge-short-selling-ban-stabilization-fund-2026-11-23.md`
+  3. 台股大盤與核心半導體：`us-ai-export-curbs-neocloud-datasection-taiwan-odm-2026-11-23.md`
+  4. 前瞻科技與台廠供應鏈：`rapidus-2nm-sram-yield-zero-bottleneck-2026-11-23.md`
+  5. 前瞻科技與台廠供應鏈：`softbank-1-trillion-sk-hynix-buyout-explored-2026-11-23.md`
+  6. 國際匯市與大宗避險資產：`crude-oil-slides-bessent-challenges-fed-hawkish-rates-2026-11-23.md`
+  7. 🔮 AI 焦點盲盒：`blindbox-jensen-huang-affair-megaspeed-chip-smuggling-probe-2026-11-23.md`
+- 編譯產出對應 7 篇 `wiki/*.html` 頁面（含 MathJax LaTeX 公式渲染、標準語意標籤與雙向交叉連結），並更新 `index.html` 首頁目錄與最新日報簡報連結。
+
+## [2026-11-23] note & slide | 產出 2026-11-23 全球金融市場日報與 12 頁深度漏斗簡報
+- 嚴格依據 `wiki/` 既有條目萃取產出 `notes/11-23-daily-report.md`，全篇每一論點皆標註 `[條目名稱](../wiki/xxx.html)` 來源標籤，並於文末附上待擴充外部參考文獻與 Ingest 指令。
+- 產出 12 頁宏觀到微觀深度漏斗大綱 `slides/drafts/11-23-daily-report-slides.md` 及 Reveal.js + MathJax 網頁簡報 `slides/html/11-23-daily-report-slides.html`（含封面深色金融背景圖、頁內雙標籤、兩張深色內嵌 SVG 圖表【原油走跌與美債殖利率回穩對照圖、台股大盤跌點與金管會平盤禁空/國安基金雙軌穩市防線】及具類型標註之 `.callout` 見解卡片）。
