@@ -1,0 +1,558 @@
+{
+  "generated_at": "2026-11-24T08:30:25.732879+08:00",
+  "window_hours": 24,
+  "total_candidates": 54,
+  "category_stats": {
+    "1_us_macro": {
+      "label": "美國總經與政策",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": []
+    },
+    "2_tw_semis": {
+      "label": "台股大盤與核心半導體",
+      "target_pick": 2,
+      "candidate_count": 12,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "中央社 產經證券",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "3_tech_supply_chain": {
+      "label": "前瞻科技與台廠供應鏈",
+      "target_pick": 2,
+      "candidate_count": 12,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "中央社 科技",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "4_fx_commodities": {
+      "label": "國際匯市與大宗避險資產",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "MarketWatch Top Stories",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "5_ai_blindbox": {
+      "label": "AI 國際焦點盲盒",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "BBC Business",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "source": "BBC World",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "source": "中央社 國際",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+      "published_at": "2026-11-24T07:28:19+08:00",
+      "summary": "Foundation is pursuing an emergency bridge loan and has been in talks with VC firms as it waits for a $150 million investment from South Korea's Base Group.",
+      "url": "https://www.cnbc.com/2026/11/22/foundation-future-industries-health-benefits-payroll-base-group.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Nvidia partner and supplier stocks in Asia jump after Jensen Huang's return",
+      "published_at": "2026-11-24T08:24:51+08:00",
+      "summary": "Investors piled back into the tech market, following the reinstatement of Nvidia CEO Jensen Huang by its board.",
+      "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-asia-chip-stocks.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "Peru’s GDP Growth Tops 3% in Third Quarter in Boon for Fujimori",
+      "published_at": "2026-11-24T05:54:56+08:00",
+      "summary": "Peru’s economy expanded by more than 3% as expected in the third quarter on the back of resilient domestic demand and private investment, a boon for President Keiko Fujimori’s administration.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/peru-s-gdp-growth-tops-3-in-third-quarter-in-boon-for-fujimori"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "Trump orders US Army to pause lead azide detonation in Iowa - Reuters",
+      "published_at": "2026-11-24T07:37:16+08:00",
+      "summary": "Trump orders US Army to pause lead azide detonation in Iowa Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVFFFcW1iUGhkYkV4U1hiY3lnTjAxMVlSQk9FLWllSHVkSm9OaGlFUlU3bHZtekNidThUWFBLOXVtUjJwa0p4NWhnT3dNSjA4UGRUQ1hZTlFKV1J5Z2c5dzRYRmpNMDREZTZCdC1ZSnozVnpwR3dXX0h2Q0JYNG1CdjdvUVBoNGtaNXZReGpWNnNrdzcwcXVNQVV4TkJZUzg?oc=5"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "ESPN, NFL to show Super Bowl 61 in Imax theaters",
+      "published_at": "2026-11-24T05:55:27+08:00",
+      "summary": "In addition to ESPN channels, Super Bowl 61 will also be available on streaming platform Disney+ as well as the company's broadcast network ABC.",
+      "url": "https://www.cnbc.com/2026/11/23/espn-nfl-super-bowl-imax.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Nasdaq-100 futures dip as traders assess whether if Nvidia can build on rebound from Jensen Huang’s return: Live updates",
+      "published_at": "2026-11-24T08:18:16+08:00",
+      "summary": "On Monday, the S&P 500 and Nasdaq Composite posted their best sessions since April 2025 as the artificial intelligence trade roared back to life.",
+      "url": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "Fed’s Watchdog Probes Whether Bowman Broke Communications Rules",
+      "published_at": "2026-11-24T05:05:43+08:00",
+      "summary": "The Federal Reserve’s internal watchdog is probing whether Fed Governor Michelle Bowman violated the central bank’s “quiet period” restrictions when she attended a private dinner hosted by Bank of America Corp. for its clients in June, according to a person familiar with the review.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/fed-s-watchdog-probes-whether-bowman-broke-communications-rules"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "Anthropic options post solid debut, trailing SpaceX record - Reuters",
+      "published_at": "2026-11-24T07:24:52+08:00",
+      "summary": "Anthropic options post solid debut, trailing SpaceX record Reuters",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZzZBTkVsVXo2NVo5WmF4NXlRZnpidUVLNE1ZX25XbHFLUm1RamtHODdMRWJYTWJDSVlFRmlfSDI5dGVGVEQ1ZHItNVhoLWFhX0M2eGxVTHdtUExfMUxEc1p2S3ZTVkJuTVd0TUYxXy04UEJnOXFldDE2ZHMzMDEyeXcyMkNpdlpHamVDRmtpVQ?oc=5"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "CrowdStrike CEO defends Zscaler acquisition, calls it a 'winning combination'",
+      "published_at": "2026-11-24T07:53:20+08:00",
+      "summary": "CrowdStrike CEO George Kurtz defended the company's $44 billion acquisition of Zscaler.",
+      "url": "https://www.cnbc.com/2026/11/23/crowdstrike-zscaler-deal-ceo-george-kurtz.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "Senegal Debt Outlook Key to Investment Decisions, EBRD Says",
+      "published_at": "2026-11-24T00:41:33+08:00",
+      "summary": "The European Bank for Reconstruction and Development is monitoring Senegal’s debt position as it weighs investments in West Africa, its president said on a visit to the region.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/senegal-debt-outlook-key-to-investment-decisions-ebrd-says"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "信紘科要買2,000張庫藏股 買回區間價格147元至371元",
+      "published_at": "2026-11-24T01:16:40+08:00",
+      "summary": "台塑大樓都更機電40億大單入手，推升信紘科（6667）在手訂單逾270億元，創新高，訂單能見度達2029年。",
+      "url": "https://money.udn.com/money/story/11074/9897014"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "黃仁勳重返輝達台指期夜盤飆漲 法人：台股可望報復反彈",
+      "published_at": "2026-11-24T07:54:36+08:00",
+      "summary": "AI晶片龍頭廠輝達董事會恢復創辦人黃仁勳的執行長職務，帶動美股主要指數大漲，費城半導體指數勁揚14.03%。法人表示，台...",
+      "url": "https://money.udn.com/money/story/5612/9897680"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "漢測10月每股純益5.46元 明年營收拚倍增",
+      "published_at": "2026-11-24T01:16:39+08:00",
+      "summary": "半導體晶圓測試解決方案廠漢測（7856）昨（23）日公告10月自結稅後純益1.8億元，年增503%，每股純益5.46元。",
+      "url": "https://money.udn.com/money/story/11074/9897013"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "OpenAI 提 AI 規範助益產業鏈 有利台積、緯創等做大市場規模",
+      "published_at": "2026-11-24T03:02:40+08:00",
+      "summary": "OpenAI首席科學家帕喬基（Jakub Pachocki）提出全球頂尖AI公司應共同約定模型研發上限，以「困惑度」（perplexity）為指標，在AI安全監控能力達到特定標準前，都不應研發速度「超線」，並獲執行長奧特曼支持。",
+      "url": "https://money.udn.com/money/story/5612/9897320"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Jensen Huang reinstated as NVIDIA CEO - NBC News",
+      "published_at": "2026-11-24T08:23:31+08:00",
+      "summary": "Jensen Huang reinstated as NVIDIA CEO NBC News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPb2RRcDVOREdJYVlveFBzU1k5ZFlDR01OQ0RKdU9TRHE5Y1BaU1l6OUJIdDBxYlNYM3ZnT2hkSXZVZVlKdUx2SWgteGpocUFiVk5QdWU2Snpya3JXdkFXWmxkZk5zTUFNVGo1M2cweWFLZlQzSlJaSUloODRYNUVIVUJiOXlscDhiX2FVaV93aDRZWGpxTG5FXw?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "登豐下月轉上櫃 營運谷底已過 明年回神",
+      "published_at": "2026-11-24T01:16:14+08:00",
+      "summary": "電源管理IC廠登豐微電子（7872）最快12月中下旬轉上櫃，昨（23）日舉行上櫃前業績發表會，董事長兼總經理王源銘表示，今年下半年應是近期營運谷底，預期明年上半年緩步回升，下半年再進一步恢復。法人估，該公司明年業績有機會年增一成左右。",
+      "url": "https://money.udn.com/money/story/11074/9897068"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "OpenAI 提 AI 規範 精誠、零壹搶資安圍欄商機",
+      "published_at": "2026-11-24T03:00:25+08:00",
+      "summary": "全球積極衝AI，並開始思索如何維持AI世界秩序，OpenAI倡議全球頂尖AI公司應共同約定模型研發上限之外，在維持AI世界秩序方面，系統整合（SI）、資安廠扮演哨兵角色，負責提前發現AI安全疑慮或遭入侵時亡羊補牢工作，中華資安、精誠、零壹、iKala等台廠均積極投入。",
+      "url": "https://money.udn.com/money/story/5612/9897321"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Trump administration blacklists Megaspeed, key firm in Nvidia scandal - The Washington Post",
+      "published_at": "2026-11-24T08:20:02+08:00",
+      "summary": "Trump administration blacklists Megaspeed, key firm in Nvidia scandal The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdmlyVWhMSk5veUZMcWQ5dlRSRGdwenl3TnBpeER3cVVwYzVoellWQ08xX3ZfaHZUaXV1bVVaLVltVUxGZkhVTkw5cExBQVRobjZwR1dDeTZIZk52cmNQanQ3V1luc0tZN2RWa3g0QTFBV3NVaUZEWlhUSXhxZVJYMFJEdlVvenZ0QndCUm9WcXJGdGlXYlJJemhPcXFRWXdUcV9aZjNJXzg4UWpZQXA0NjFaRE44NHFnZTBr?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "集雅社拓展百貨專櫃",
+      "published_at": "2026-11-24T01:14:04+08:00",
+      "summary": "精品家電通路商集雅社（2937）昨（23）日召開法說會，預估今年全年營收維持雙位數成長；展望明年，公司表示，須觀察房市與股市波動，營運審慎樂觀，規劃再展店二至五間百貨專櫃，力拚延續雙位數成長動能。",
+      "url": "https://money.udn.com/money/story/11074/9897017"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "資策會培育 AI 人才 明年開課",
+      "published_at": "2026-11-24T02:17:06+08:00",
+      "summary": "資策會與1111人力銀行昨（23）日共同發布《2027未來人才白皮書》，盤點AI時代的新興與轉型職務，並首度公開「前線部署工程師（FDE）」的職能研究及人才培育規劃，預計2027年起推出相關培訓課程與能力評量，協助企業與工作者掌握轉型趨勢。",
+      "url": "https://money.udn.com/money/story/5612/9897338"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Nvidia reinstates Jensen Huang after Trump speaks ‘directly’ to board - The Washington Post",
+      "published_at": "2026-11-24T08:20:01+08:00",
+      "summary": "Nvidia reinstates Jensen Huang after Trump speaks ‘directly’ to board The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQmNHaTN2YnhWcEZ0QVVkbkdNamZzRU5VWFRYd0JhaDVpaEpveDRzc2F6X21RS1lqZjIxbVZUaXhsYllvelpqQjdfYWtuYm0yVUV4eEdoT00xNV9aalVLSm9SNFVReTZQVXpqU2Z5WXBwNHo0RDBfY2FuaENWUy16UHNPU1E0eV9pUGN5VlByS0RzM09BS1NVQ3FlbENIMjB6WkcyQ2lOb3BRUldJZHJBdW1Ebm8yZVk?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "精確切入星鏈 年底出貨",
+      "published_at": "2026-11-24T01:12:19+08:00",
+      "summary": "精確實業（3162）昨（23）日宣布，該公司成功切入SpaceX旗下Starlink（星鏈）供應鏈，取得衛星接收器V4系列高壓外殼總成產品八年長約，預計今年底開始出貨，宣告正式跨足全球衛星通訊產業。",
+      "url": "https://money.udn.com/money/story/11074/9897077"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "考古發現，2,800 年前人類使用大麻的證據",
+      "published_at": "2026-11-24T08:20:58+08:00",
+      "summary": "人類使用大麻的歷史究竟有多久？過去，考古學家雖然曾在古代遺址發現大麻種子與植物殘骸，卻很難確定當時人們究竟是將 […]",
+      "url": "https://technews.tw/2026/11/24/archaeological-discovery-reveals-evidence-of-cannabis-use-2800-years-ago/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "published_at": "2026-11-24T06:05:50+08:00",
+      "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "對 OpenAI 大失所望，數學家自己從零開始打造 AI 模型",
+      "published_at": "2026-11-24T08:10:35+08:00",
+      "summary": "OpenAI 10 月宣布解出數百道困擾數學界多年的難題，引發學界強烈反彈。《Business Insider […]",
+      "url": "https://technews.tw/2026/11/24/burned-by-openai-mathematicians-are-now-making-their-own-ai-models/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "What Jensen Huang’s return means for Nvidia’s Colette Kress",
+      "published_at": "2026-11-24T07:50:00+08:00",
+      "summary": "Kress steered the company through billions in AI financing deals and during Huang's sudden departure. Now she's back to full-time CFO.",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-returns-colette-kress-cfo.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "published_at": "2026-11-24T06:02:05+08:00",
+      "summary": "Think you know where the market is headed? A startup called Supertake lets you put money behind your ideas without having to pick the stocks yourself.",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "黃仁勳夫婦握逾 8.7 億股輝達，華爾街日報揭節稅布局",
+      "published_at": "2026-11-24T08:05:00+08:00",
+      "summary": "華爾街日報披露，輝達自執行長黃仁勳請辭以來股價暴跌 28%，不過黃仁勳夫婦手握逾 8.7 億股輝達，價值超過 […]",
+      "url": "https://finance.technews.tw/2026/11/24/jensen-and-lori-huang-have-amassed-a-vast-fortune/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "AI adoption grows in Asia, but measuring the gains remains tricky",
+      "published_at": "2026-11-24T07:42:27+08:00",
+      "summary": "Businesses across Asia-Pacific are seeing returns from AI investments, even as confidence in measuring those gains varies, according to an AWS survey.",
+      "url": "https://www.cnbc.com/2026/11/24/aws-asia-gains-roi.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+      "published_at": "2026-11-24T05:47:41+08:00",
+      "summary": "\"The mistake has been corrected,\" Elon Musk chimed in.",
+      "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "AI 拿別人的歌詞練功，版權費誰來付？音樂巨頭向 Anthropic 開戰",
+      "published_at": "2026-11-24T08:00:11+08:00",
+      "summary": "當 AI 能幾秒內寫出一首結構完整的歌曲，背後是學習了數百萬首人類作品，而這究竟該不該事先取得授權並支付版權費 […]",
+      "url": "https://finance.technews.tw/2026/11/24/anthropic-music-publishers-square-off-on-fair-use-defense-in-ai-copyright-case/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
+      "published_at": "2026-11-24T05:25:42+08:00",
+      "summary": "Megaspeed, which was previously led by Alice Huang, would be barred from doing business with U.S. companies unless those companies attained a special license from the federal government.",
+      "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "美國管制與非紅供應鏈成趨勢，未來 AI 產業走向的幾點觀察",
+      "published_at": "2026-11-24T07:50:00+08:00",
+      "summary": "美國期中選舉後，美國人工智慧（AI）產業發展會否因美國國會重組而產生變化，已引起金融市場波動，但期中選舉反應的 […]",
+      "url": "https://technews.tw/2026/11/24/key-observations-factors-influencing-future-ai-industry-demand/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Jim Cramer sees more upside for Nvidia stock with Jensen Huang back as CEO",
+      "published_at": "2026-11-24T07:14:34+08:00",
+      "summary": "CNBC's Jim Cramer said Jensen Huang's return as Nvidia CEO could help revive the chipmaker's battered stock.",
+      "url": "https://www.cnbc.com/2026/11/23/jim-cramer-nvidia-jensen-huang-ceo-return.html"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "2008. 2020. Now 2026. Why the Gold & Silver Club Sees a Third Great Wealth Transfer in Commodities - FXEmpire",
+      "published_at": "2026-11-24T08:13:40+08:00",
+      "summary": "2008. 2020. Now 2026. Why the Gold & Silver Club Sees a Third Great Wealth Transfer in Commodities FXEmpire",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbUoxemhTaldZZUN4TTlKSXp3Z1BiVHZoUVBpZ1hBdWVnQVZXV3lGZ3RTS295bjlndG5ZWERpalpDN0hBc29WZy1mbzRwMVpMd3pPNWV6Ymd5MUR6ajRKUExpd3I5cU9yUW83Q2tHclhobXdwRGZraTYzcEtnTUp2WXBPc1RDQmNFN1RhMVFYSEZ5Wi1iUGlwSlNDMWZqWDN0VzFaelRKQlRscDcwdGNCSzdsUkF5bmRuUW91MkRqVk1YM2ZDb1g0M21OOGEwc3B0dUpGUHNxc3lPMV9o?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "US Senate Probes Vance Role in Vitol Choice for Venezuela Oil",
+      "published_at": "2026-11-24T08:11:51+08:00",
+      "summary": "A US senator is investigating the role Vice President JD Vance played in awarding a lucrative Venezuelan oil contract to a political donor and then-executive at commodities trader Vitol Group.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/us-senate-probes-vance-role-in-vitol-choice-for-venezuela-oil"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Oil News: WTI and Brent Hit August Lows as Supply Outlook Pressures Crude - FXEmpire",
+      "published_at": "2026-11-24T07:46:43+08:00",
+      "summary": "Oil News: WTI and Brent Hit August Lows as Supply Outlook Pressures Crude FXEmpire",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNa2hGRG1adWVqdUFtQ0xmYnd3THc5dk10a2RyZWoya2YwaU1NMnFNWXNvV0dtRW11cHpZcWtfV0piZ3RjajhWM2dxdjhpYlhBbUpZT0t6clZlVmRxM3VFZzFMTzRsYzFLM2pNNHRoMkJlRkJuT2VNbFpzclZuUXF0bFpJSkdGcVNrMHlBbmtObE1KOTJhWVZXd1hweVBfcFZXNHNyVEpHMVRMcFdDVUFMTUdlR1plSS1fWUpvazd5Rmk?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Petrobras Makes $470 Million Ethanol Bet in Brazil With Neomille Stake",
+      "published_at": "2026-11-24T08:08:20+08:00",
+      "summary": "Brazil’s state-controlled oil producer Petrobras is buying a stake in corn-ethanol producer Neomille SA as part of a wider expansion into biofuels.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/petrobras-makes-470-million-ethanol-bet-in-brazil-with-neomille-stake"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Oil futures: Crude retreats as ample supply offsets Mideast tensions - Quantum Commodity Intelligence",
+      "published_at": "2026-11-24T07:27:13+08:00",
+      "summary": "Oil futures: Crude retreats as ample supply offsets Mideast tensions Quantum Commodity Intelligence",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORDNxc3N0UWsydWQ5amRmNzRoNHBxM09QZUs3Q25DMG04OFRhdmo5ZC14SU0tTkZKemVsRDJPN3hMVGdNVS1fUGlsTEt2UzZ1VUxXekxyRzRvemRIRjRSX2lIMk53OTkybjFTYmFPblJYYzlpZnVVMEJ6M3AwZkJLUHBweXBZUlNtaVlwRHNqN3l6cHk3UGV4MXFONF82V0RxcC0zUXpNelk5S1dXbU9J?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Gold Holds Gain After Nvidia’s Rehiring of Huang Sparks Rally",
+      "published_at": "2026-11-24T08:06:57+08:00",
+      "summary": "Gold steadied after surging Monday, as Jensen Huang’s surprise return to the helm of Nvidia Corp. recharged bets on artificial intelligence and spurred rallies across markets.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-gain-after-nvidia-s-rehiring-of-huang-sparks-rally"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Ford and Smith double down on oil pipeline to Ontario - Canada's National Observer",
+      "published_at": "2026-11-24T07:05:10+08:00",
+      "summary": "Ford and Smith double down on oil pipeline to Ontario Canada's National Observer",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRUwxMmJqdVFtU0liTmhuNVVBYjQ1b2pJdVVVVGpnNEJpWUVDQmM1elVlc0JrMXBVUEVvbTlXSFdsbGk4MmxXbmlKVW1xdEZWdjh0eW1kYVd3Wkh3NkdHNS1TM0h1Sm45UG82YkJEV3d0aERYMTFnQV90aWxLTTZPeEZhWGVXTW94RGI1UDJkNE1PRG40OERN?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "CNBC World",
+      "title": "Trump sealed deal for Nvidia to rehire Jensen Huang as CEO",
+      "published_at": "2026-11-24T07:42:17+08:00",
+      "summary": "President Trump said his administration gave Nvidia's board assurance that Jensen Huang would not be a national security threat if he was reinstated as CEO.",
+      "url": "https://www.cnbc.com/2026/11/23/trump-nvidia-jensen-huang.html"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Asian Chip Stocks Jump as Huang Comeback Reignites AI Trade",
+      "published_at": "2026-11-24T07:45:20+08:00",
+      "summary": "Asian semiconductor-related stocks climbed after Nvidia Corp.’s board reinstated Jensen Huang, resuscitating investor appetite for the artificial intelligence trade.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-23/asian-chip-stocks-set-to-jump-as-huang-comeback-refires-ai-trade"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Oil Steadies as Middle East Tensions Vie With Ample Supply - Bloomberg.com",
+      "published_at": "2026-11-24T06:26:08+08:00",
+      "summary": "Oil Steadies as Middle East Tensions Vie With Ample Supply Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZldpS0pzSnV4MTFveW5XYzJmeGg5MTIzNm9RVWZka25nb05xbmU0T2s4Sm5vbllUTnZTLVNpUnEyUk01a1otTVpKQ20zU2l5VmhsNkdSWV9EMExoa0VaVWpYUXZVREoxdjk5Mk1wN2Q2QkswQmU5aUY1T2pBUTRyVnVmOHg2b05YNmxSaDdZYzZKbWM5UTFUVndxUGlwQQ?oc=5"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Australian politics live: Taylor notes ‘tough year’ for Coalition party room; King Charles ‘deeply saddened’ by Meldrum’s death",
+      "published_at": "2026-11-24T08:21:58+08:00",
+      "summary": "Get our breaking news email , free app or daily news podcast The government will save more than it spends, says Jim Chalmers , but it won’t be a “slash and burn” budget update. Unlike the federal budget, where we get plenty of notice of when it will be handed down, the government only gives us a...",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/24/labor-penny-wong-us-china-anthony-albanese-final-sitting-week-ntwnfb"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Republicans lawmakers break with Trump over alleged Nvidia chip smuggling after Jensen Huang’s reinstatement – live",
+      "published_at": "2026-11-24T08:19:01+08:00",
+      "summary": "‘Congress has much to investigate’, says Tom Cotton, US Republican senator from Arkansas, as some of his colleagues in the House vow to get answers from Huang Sign up to the Breaking News US email Nvidia ’s shares have surged by 31% at the start of trading following the news. The S+P 500 jumped 4...",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/23/donald-trump-democrats-republicans-presidential-primary-midterms-house-latest-news-updates"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Zack Polanski backs report endorsing Nato membership and maintaining nuclear weapons",
+      "published_at": "2026-11-24T08:01:01+08:00",
+      "summary": "Position contrasts with Green party’s policies before 2024 election, as polls show just 17% of voters trust them on defence Zack Polanski has given his backing to a paper that endorses Britain’s membership of Nato and the maintenance of the country’s nuclear weapons. The Green party leader has we...",
+      "url": "https://www.theguardian.com/politics/2026/nov/24/zack-polanski-backs-report-endorsing-nato-membership-maintaining-nuclear-weapons"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Robert Macfarlane says trust in Cop to deliver change on climate is ‘misplaced’",
+      "published_at": "2026-11-24T08:01:00+08:00",
+      "summary": "Nature writer reveals in his first Reith lecture that he finds ‘much more hope’ in emerging alliances We are “misplacing our trust” in the Cop climate summits and their “capacity to deliver consequential change”, according to Robert Macfarlane in this year’s Reith lectures. In comments recorded b...",
+      "url": "https://www.theguardian.com/environment/2026/nov/24/robert-macfarlane-trust-cop-climate-summit-deliver-change-misplaced"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Federal court clears way for army to detonate bomb-making material in Iowa",
+      "published_at": "2026-11-24T07:57:33+08:00",
+      "summary": "Decision comes after Trump urged court to first sign off on what he called the safest way to resolve the situation A federal appeals court cleared way for the US army to detonate several tons of degraded bomb-making material at an Iowa ammunition plant, hours after Donald Trump halted the planned...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/23/iowa-lead-bomb-appeals-court"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Butt of the joke: Trump impersonator mocks president at Canada press dinner",
+      "published_at": "2026-11-24T06:41:48+08:00",
+      "summary": "Carney watches on as comedian lampoons US leader and his interest in men’s backsides at correspondents’ event Ottawa Canada’s prime minister, Mark Carney, was joined on stage in Ottawa by a Donald Trump impersonator who mocked the US president to raucous laughter from a crowd of politicians and j...",
+      "url": "https://www.theguardian.com/world/2026/nov/23/canada-trump-impersonator-press-dinner"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Jensen Huang reinstated as Nvidia CEO after Trump intervenes",
+      "published_at": "2026-11-24T06:23:40+08:00",
+      "summary": "Share price surges as chipmaker reverses decision to remove chief executive after US president ‘convinced’ its board Comment: Nvidia’s humiliated board should resign out of embarrassment US politics – live updates Timeline: fall and comeback of Jensen Huang Nvidia has reinstated Jensen Huang as c...",
+      "url": "https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Jimmy Gomez to resign after House ethics panel finds evidence of sexual misconduct",
+      "published_at": "2026-11-24T06:21:45+08:00",
+      "summary": "Democrat, who lost re-election bid, found to have made ‘unwelcome sexual advances’ towards House staffer Jimmy Gomez will resign from Congress after a House ethics report released on Monday found “substantial evidence” that the California Democrat had “engaged in sexual misconduct”, including by...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/23/jimmy-gomez-congress-investigation-sexual-misconduct"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Republican senators criticize Nvidia’s decision to reinstate Jensen Huang",
+      "published_at": "2026-11-24T05:09:10+08:00",
+      "summary": "Outcry builds over Trump-backed move to bring back CEO as lawmakers call for Huang’s testimony before Congress US politics – live updates Republican lawmakers roundly criticized the Nvidia board’s decision to reinstate its chief executive, Jensen Huang, even after Donald Trump said he spoke “dire...",
+      "url": "https://www.theguardian.com/technology/2026/nov/23/trump-jensen-huang-nvidia-reinstated"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Iranian singer and four others receive lashes after performance without hijab",
+      "published_at": "2026-11-24T04:56:17+08:00",
+      "summary": "Western governments and rights groups have criticised flogging as torture and a violation of international law An Iranian singer and four members of her production team ⁠have each received 74 lashes after being sentenced for “offending public decency by producing and ⁠publishing obscene and ⁠immo...",
+      "url": "https://www.theguardian.com/world/2026/nov/23/iranian-singer-lashes-performing-without-hijab"
+    }
+  ]
+}

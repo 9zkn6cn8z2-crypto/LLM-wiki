@@ -142,3 +142,19 @@
 ## [2026-11-23] note & slide | 產出 2026-11-23 全球金融市場日報與 12 頁深度漏斗簡報
 - 嚴格依據 `wiki/` 既有條目萃取產出 `notes/11-23-daily-report.md`，全篇每一論點皆標註 `[條目名稱](../wiki/xxx.html)` 來源標籤，並於文末附上待擴充外部參考文獻與 Ingest 指令。
 - 產出 12 頁宏觀到微觀深度漏斗大綱 `slides/drafts/11-23-daily-report-slides.md` 及 Reveal.js + MathJax 網頁簡報 `slides/html/11-23-daily-report-slides.html`（含封面深色金融背景圖、頁內雙標籤、兩張深色內嵌 SVG 圖表【原油走跌與美債殖利率回穩對照圖、台股大盤跌點與金管會平盤禁空/國安基金雙軌穩市防線】及具類型標註之 `.callout` 見解卡片）。
+
+
+## [2026-11-24] ingest | 匯入 2026-11-24 五大類 7 篇財經新聞（含 AI 國際焦點盲盒）
+- 執行 `scripts/fetch_candidates.py` 產出 `raw/candidates_11-24.json`（共 54 則候選新聞），依 `AGENTS.md` 第 5.5 節標準自主遴選 7 篇核心文章存檔至 `raw/`：
+  1. 美國總經與政策：`fed-oig-probes-bowman-quiet-period-bofa-dinner-2026-11-24.md`
+  2. 台股大盤與核心半導體：`tw-stock-rebound-nvidia-huang-reinstated-sox-surge-2026-11-24.md`
+  3. 台股大盤與核心半導體：`openai-proposes-perplexity-compute-caps-ai-safety-2026-11-24.md`
+  4. 前瞻科技與台廠供應鏈：`us-bis-blacklists-megaspeed-chip-smuggling-taiwan-kyc-2026-11-24.md`
+  5. 前瞻科技與台廠供應鏈：`anthropic-launches-claude-ship-autonomous-pr-agents-2026-11-24.md`
+  6. 國際匯市與大宗避險資產：`gold-holds-gains-above-3600-huang-rally-risk-hedging-2026-11-24.md`
+  7. 🔮 AI 焦點盲盒：`blindbox-republicans-break-trump-huang-smuggling-subpoena-2026-11-24.md`
+- 編譯產出對應 7 篇 `wiki/*.html` 頁面（含 MathJax LaTeX 公式渲染、標準語意標籤與雙向交叉連結），並更新 `index.html` 首頁目錄與最新日報簡報連結。
+
+## [2026-11-24] note & slide | 產出 2026-11-24 全球金融市場日報與 12 頁深度漏斗簡報
+- 嚴格依據 `wiki/` 既有條目萃取產出 `notes/11-24-daily-report.md`，全篇每一論點皆標註 `[條目名稱](../wiki/xxx.html)` 來源標籤，並於文末附上待擴充外部參考文獻與 Ingest 指令。
+- 產出 12 頁宏觀到微觀深度漏斗大綱 `slides/drafts/11-24-daily-report-slides.md` 及 Reveal.js + MathJax 網頁簡報 `slides/html/11-24-daily-report-slides.html`（含封面深色金融背景圖、頁內雙標籤、兩張深色內嵌 SVG 圖表【黃金現貨企穩 3,600 關卡 vs 美元指數回吐走勢、費城半導體指數 vs 台指期夜盤暴衝走勢】及具類型標註之 `.callout` 見解卡片）。
