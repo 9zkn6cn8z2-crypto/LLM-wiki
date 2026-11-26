@@ -1,0 +1,558 @@
+{
+  "generated_at": "2026-11-25T08:30:19.271587+08:00",
+  "window_hours": 24,
+  "total_candidates": 54,
+  "category_stats": {
+    "1_us_macro": {
+      "label": "美國總經與政策",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": []
+    },
+    "2_tw_semis": {
+      "label": "台股大盤與核心半導體",
+      "target_pick": 2,
+      "candidate_count": 12,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "中央社 產經證券",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "3_tech_supply_chain": {
+      "label": "前瞻科技與台廠供應鏈",
+      "target_pick": 2,
+      "candidate_count": 12,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "中央社 科技",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "4_fx_commodities": {
+      "label": "國際匯市與大宗避險資產",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "MarketWatch Top Stories",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "5_ai_blindbox": {
+      "label": "AI 國際焦點盲盒",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "BBC Business",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "source": "BBC World",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "source": "中央社 國際",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "Retail turnarounds are taking hold just in time for the holiday season",
+      "published_at": "2026-11-25T03:26:39+08:00",
+      "summary": "Retail earnings reports on Tuesday pointed to a mix of factors behind the strong results, including a resilient consumer and stronger execution.",
+      "url": "https://www.cnbc.com/2026/11/24/retail-turnarounds-holiday-season.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Stock futures slip as traders await key inflation report, assess tech sell-off: Live updates",
+      "published_at": "2026-11-25T08:20:42+08:00",
+      "summary": "Wall Street is coming off a losing session for the S&P 500 and Nasdaq Composite.",
+      "url": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "Thailand’s Shrinking Budget Room Raises Pressure for Tax Hikes",
+      "published_at": "2026-11-25T08:00:00+08:00",
+      "summary": "The Thai government is running out of spending room to boost its lagging economy, potentially forcing a difficult choice between tax hikes and budget cuts as the national debt approaches its ceiling.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/thailand-s-shrinking-budget-room-raises-pressure-for-tax-hikes"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "Huang's return to Nvidia brings open-weight AI debate to forefront in Washington - Reuters",
+      "published_at": "2026-11-25T07:59:28+08:00",
+      "summary": "Huang's return to Nvidia brings open-weight AI debate to forefront in Washington Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcE80eU84aDZfY24tLUhfMURrVFZHdkt3UHZuNjcxOXA3MUdWU0ZXUV9Od0d2QUJUWVFtZEN4X19BekxhdUFzcUNlVFYtZVdiMHgtTEFPQWtxU2xIS2NwUW1HVzJkUjNRS2tiMkJEa1ltcG42enk0czYyQXNjN0xibUd1SFNGU3pzd1diLWxDcFlmUVVqUmRoNVJ5VzVDNUVmMDJNRmxTY2dJSjJ3MGk4UUNhTk9DaGNLQ1E?oc=5"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "Best Buy reports comparable sales growth of 6.1%, highest in five years",
+      "published_at": "2026-11-24T22:51:58+08:00",
+      "summary": "Best Buy beat quarterly expectations for its fiscal third-quarter earnings results on Tuesday and raised its full-year guidance.",
+      "url": "https://www.cnbc.com/2026/11/24/best-buy-bby-q3-2027-earnings.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Wednesday's big stock stories: What’s likely to move the market in the next trading session",
+      "published_at": "2026-11-25T08:12:45+08:00",
+      "summary": "The S&P 500 and the Nasdaq Composite slid on Tuesday as Nvidia unwound some of its gains from the previous session.",
+      "url": "https://www.cnbc.com/2026/11/24/wednesday-big-stock-stories-whats-likely-to-move-the-market.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "Bank of Korea Seen Resuming Rate Hikes as AI Boom Stokes Growth",
+      "published_at": "2026-11-25T05:00:00+08:00",
+      "summary": "The Bank of Korea is expected to resume raising interest rates this week as a semiconductor boom drives stronger-than-anticipated growth and keeps inflation elevated, even as weak domestic demand and a recent stock-market rout cloud the outlook.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/bank-of-korea-seen-resuming-rate-hikes-as-ai-boom-stokes-growth"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "Dell lifts annual forecasts after record quarter on surging AI server demand - Reuters",
+      "published_at": "2026-11-25T07:15:07+08:00",
+      "summary": "Dell lifts annual forecasts after record quarter on surging AI server demand Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZG1EVmJTYUpyMnJPVzlHNE9xZFZpYmZHdkZBOTgtSllCbnRLQnNuUWtLNktuYXJqZms4Tl85T2I2dU41UmEzTWpPY0Z6TU5uaVJJZWZxLXhVcWxSa0h6cUh5bkpSdk9VdDN5QlIzb3hSLUhRV0FaM2FrVzlkUDJoN2FaeUxKOEhlN2RsZ1VoUUUwNHdTcWp6cV9BNE90ejFEVWRTcWtnbW9XV1A0VEhnSDRhMWVhbkFia1E?oc=5"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "Some U.S. food banks see demand top pandemic levels",
+      "published_at": "2026-11-24T20:00:01+08:00",
+      "summary": "A combination of high costs and restrictions to federal aid have led to soaring demand at many food banks in the U.S.",
+      "url": "https://www.cnbc.com/2026/11/24/us-food-banks-demand-snap.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Stocks making the biggest moves Tuesday: Ambarella, Dell, Autodesk, Urban Outfitters & more",
+      "published_at": "2026-11-25T07:14:03+08:00",
+      "summary": "Follow along as CNBC highlights the biggest stock moves of the day.",
+      "url": "https://www.cnbc.com/2026/11/24/stocks-moving-the-most-today-live-updates.html"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "宇川將斥資 14.3 億元擴產",
+      "published_at": "2026-11-25T03:33:28+08:00",
+      "summary": "宇川精材（7887）公告，為配合營運發展需要，擴充生產及倉儲空間，董事會決議以租地委建方式興建南科廠二期，金額不超過14.3億元，規劃於本季動工。",
+      "url": "https://money.udn.com/money/story/11074/9899515"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "從黯然請辭到王者歸來 黃仁勳鞏固輝達霸權 對手退回起跑線",
+      "published_at": "2026-11-25T02:42:22+08:00",
+      "summary": "從黯然請辭到王者歸來，輝達創辦人黃仁勳用短短11天，讓全球科技業與資本市場見識了他無可取代的個人分量。",
+      "url": "https://money.udn.com/money/story/5612/9899702"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "See all of Trump’s Nvidia stock trades since January - The Washington Post",
+      "published_at": "2026-11-25T08:12:24+08:00",
+      "summary": "See all of Trump’s Nvidia stock trades since January The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeFN1NjNabnl6R0dSSEk4dUdzSFNhM0pRS1phcHh1WGNQcjRLbjk5RG5wNlI3TURtRTR3cmZuQVV6TGZhOXJsUldWOTF0WHVhVFlLQy1CaXdFZ1NTbVdXai1FZ2M0WEh4UmRCYnlPWEZMaUh2NlF5cjZUMGc4Uldwc3lnV2ZlZ0hmYURSQWtLd2RWd2RDX0RfVi1vY1liMnVVeGc?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "太醫優化毛利率策略奏效",
+      "published_at": "2026-11-25T00:40:05+08:00",
+      "summary": "太醫（4126）發言人王昱婷昨（24）日於法說會表示，今年主動捨棄部分低毛利產品，將人力及產能集中於高毛利產品收到成效，公司前三季毛利率達32.99%，創近五年新高。展望後市，隨著歐洲市場庫存去化告一段落，今年表現相對疲弱的市場，明年可望有較亮眼表現。",
+      "url": "https://money.udn.com/money/story/11074/9899520"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "「新黃仁勳時代」輝達資本攻勢有望更積極",
+      "published_at": "2026-11-25T02:40:25+08:00",
+      "summary": "黃仁勳歷經11天風暴重掌輝達兵符，面對聽證會和一系列調查，「新黃仁勳時代」的輝達在商業布局與資本策略上是否轉向，已成全球科技與金融圈最關注的焦點。",
+      "url": "https://money.udn.com/money/story/5612/9899704"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Opinion | The clearest conflict of interest involving Nvidia is no secret - The Washington Post",
+      "published_at": "2026-11-25T08:02:47+08:00",
+      "summary": "Opinion | The clearest conflict of interest involving Nvidia is no secret The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQck9tcmhqQ0FubDNoc0MwNThEUVNXbHZra09aNkExS05Iel9oVFBrN0laOHlRWFVpSFM0SjdlcktiV2pkZTNlVThrMDVWNjBuMTI4ODY3UGgtd2N2Q0Fyb0JPVFBPdWp5V2RqYkpCSjA3TFVHNGNQRlpYZndTbGR6UHgwQW1iNFpWTW5PNzdMcnVOMndEam8zSF9Fa1JKdw?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "安碁資訊營收 要年增雙位數",
+      "published_at": "2026-11-25T00:39:27+08:00",
+      "summary": "AI持續進步，駭客攻擊事件大幅提升，為資安廠安碁資訊（6690）帶來強勁需求，安碁資訊總經理吳乙南昨（24）日指出，今年資安通報數量比去年成長近四成，光是服務現有客戶群已忙翻，預計今年營收有望雙位數成長，第4季為全年單季高峰，2027年目標營收、獲利或每股純益仍交出雙位數成長。",
+      "url": "https://money.udn.com/money/story/11074/9899485"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "黃仁勳回歸 台積電領軍台鏈吞定心丸 持續迎來好光景",
+      "published_at": "2026-11-25T02:39:03+08:00",
+      "summary": "黃仁勳重掌輝達，加上台積電高層日前赴輝達美國總部全力支援，兩大產業定海神針同步出手，一掃過去11天籠罩市場的權力空窗陰霾，更意味全球AI算力基礎建設擴張全面重回正軌。",
+      "url": "https://money.udn.com/money/story/5612/9899707"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Nvidia's Jensen Huang still has security clearance, sources say - CBS News",
+      "published_at": "2026-11-25T07:57:05+08:00",
+      "summary": "Nvidia's Jensen Huang still has security clearance, sources say CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZWlOOHhscFJnY2NOWWYxR21rTzRubEFQOG93MDFiQjlJbFlxUV9JemdHWnlsamZyTXNRS0pkN1VTMlBLUzFpYlAtMUxBblFhV0xHR01IMnhTaFN4b2dfajdlVlNRTHVQZy02SDRadHpqeGpEMFRud2o1UnNMS0RJcGVqcWNFa1l0?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "星星電力申請登錄興櫃",
+      "published_at": "2026-11-25T00:39:21+08:00",
+      "summary": "再生能源系統廠泓德能源（6873）旗下綠電交易子公司星星電力近期將申請登錄興櫃，最快明年底掛牌上市，為配合相關作業，泓德能源已啟動釋股作業，預計轉讓5,000至5,800張股票，每股轉讓價格88元。",
+      "url": "https://money.udn.com/money/story/11074/9899486"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "AI 教父回歸 台灣各界按讚",
+      "published_at": "2026-11-25T02:35:39+08:00",
+      "summary": "輝達創辦人黃仁勳回鍋擔任公司執行長，和碩董事長童子賢、欣興董事長簡山傑、宏碁董座陳俊聖等台灣科技大咖昨（24）日齊聲按讚。童子賢直言：「期待產業蓬勃發展，台灣有元氣！」",
+      "url": "https://money.udn.com/money/story/5612/9899717"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "How Trump may have profited from Huang's return to Nvidia - PBS",
+      "published_at": "2026-11-25T07:55:53+08:00",
+      "summary": "How Trump may have profited from Huang's return to Nvidia PBS",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMHN3S3JwRzhzRk0wZF8yLTBKeTJwVDlvSi1EWnR3LVZfeDRLaXVVWENMOFk3NEMzT0VFUFI0bFdreU1TNmNtTW1TOVladjZUMzJVX2pZSXpUV2phcmw0cXNzbGFMZk56QXc5VzNKcU1QOWlmWXRqOXVIdzFGeV90LXJQeGxqNEN0N2pBNG9HMEdPMWhf?oc=5"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "聽起來像本人不代表是本人，專家教你識破 AI 語音詐騙",
+      "published_at": "2026-11-25T08:30:08+08:00",
+      "summary": "人工智慧聲音技術持續進化，讓真假聲音愈來愈難分辨。根據研究與多方防詐提醒，即使是熟悉的親友、同事或主管來電，也 […]",
+      "url": "https://infosecu.technews.tw/2026/11/25/how-ai-voices-can-trick-you/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Jim Cramer says Tuesday's market pullback is an encouraging sign. Here's why",
+      "published_at": "2026-11-25T07:23:34+08:00",
+      "summary": "Jim Cramer said Tuesday's market action following Monday's massive rally is an encouraging sign that stocks are on the path to a more sustainable recovery.",
+      "url": "https://www.cnbc.com/2026/11/24/jim-cramer-market-pullback.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to U.S. industrial might — not a champion",
+      "published_at": "2026-11-25T08:12:02+08:00",
+      "summary": "Yale's Jeffrey Sonnenfeld warns that what the market cheered Monday, Jensen Huang's White House–backed return as Nvidia's CEO and board member, could prove a giant mistake, exposing the directors to \"historic\" personal liability from a growing pile of lawsuits and raising the question of whether...",
+      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "Anthropic 上市不到一週跌破發行價，盤前下挫逾 6%",
+      "published_at": "2026-11-25T08:25:52+08:00",
+      "summary": "聊天機器人 Claude 開發商 Anthropic 的股價 24 日盤前跌破每股 83 美元的首次公開發行（ […]",
+      "url": "https://finance.technews.tw/2026/11/25/anthropic-shares-tumble-below-83-ipo-price/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
+      "published_at": "2026-11-25T07:13:49+08:00",
+      "summary": "Nvidia CEO Jensen Huang resigned after multiple reported affairs, including one with a Chinese businesswoman who is alleged to be a spy for Beijing.",
+      "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+      "published_at": "2026-11-25T06:27:52+08:00",
+      "summary": "It's a remarkable stance for a company that spent the last two weeks finding out what happens without its founder.",
+      "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "中國深圳億優威光獲約 5,000 萬人民幣融資，桌上型 EUV 光源先攻檢測",
+      "published_at": "2026-11-25T08:22:27+08:00",
+      "summary": "深圳新創億優威光科技（EUVIC Optics）近日完成 Pre-A 輪融資首批交割，整輪規模約人民幣 5,0 […]",
+      "url": "https://technews.tw/2026/11/25/shenzhen-euvlight-got-50-million-rmb-funding/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
+      "published_at": "2026-11-25T06:07:45+08:00",
+      "summary": "The company's overall sales more than doubled on an annual basis during the third quarter, driven by AI server demand.",
+      "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+      "published_at": "2026-11-25T05:48:27+08:00",
+      "summary": "The Nvidia founder apologized to his staff on Tuesday and said he was grateful for a second chance to lead the company.",
+      "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "SpaceX 以 5 個 Grok Bot 分管會計流程，退款仍要人工核准",
+      "published_at": "2026-11-25T08:20:39+08:00",
+      "summary": "SpaceX 旗下 AI 部門 SpaceXSI 在會計團隊部署 5 個 Grok Bot，分別負責由開立客戶 […]",
+      "url": "https://finance.technews.tw/2026/11/25/spacexsi-uses-five-grok-bots-to-handle-accounting-tasks/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Saudi national charged in OpenAI bugging to be released on $1 million bond",
+      "published_at": "2026-11-25T06:03:01+08:00",
+      "summary": "Abdulrahman Alfozan is accused of planting a recording device in an executive conference room at OpenAI's headquarters.",
+      "url": "https://www.cnbc.com/2026/11/24/openai-bugging-aflozan-release-saudi.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Even the best AI agents struggle with everyday life",
+      "published_at": "2026-11-25T05:33:29+08:00",
+      "summary": "As millions embrace personal AI assistants, a new benchmark reveals that even the most advanced AI models struggle to complete everyday tasks reliably and safely without introducing potential new problems.",
+      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Nigeria’s oil revenue safe as crude prices fall to 3-month low - The Sun Nigeria",
+      "published_at": "2026-11-25T08:22:30+08:00",
+      "summary": "Nigeria’s oil revenue safe as crude prices fall to 3-month low The Sun Nigeria",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYWZ3alRGdjU5VEJFZjhPZzZEZUU1OUpnUFJMTVJHaXlBSXAwWXVsNUVMRG9ua2thaEd5R1VaNllUZV9nYUdxamJ6S1pJQVRSZk1uNUFxa0MwcFhpTERSRFJXWnlSMWZOUWtENWtmTDVzaGJ3QnAwQ0VQcGRFdUpwTlFvSE5jSXc?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "HDBank Turns to Global Investors With Bonds, Loan to Fund Growth in Vietnam",
+      "published_at": "2026-11-25T08:00:00+08:00",
+      "summary": "Ho Chi Minh City Development JSC Bank is planning to both sell global bonds and borrow via the syndicated loan market, turning to overseas investors to meet rising credit demand in an economy chasing ambitious growth goals.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/hdbank-turns-to-global-investors-with-bonds-loan-to-fund-growth-in-vietnam"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "‘Thankful’ turn at the pump; Mobile gas prices drop nearly 16 cents ahead of Thanksgiving travel - fox10tv.com",
+      "published_at": "2026-11-25T08:04:00+08:00",
+      "summary": "‘Thankful’ turn at the pump; Mobile gas prices drop nearly 16 cents ahead of Thanksgiving travel fox10tv.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObnpsb19fOVh1WVQ0UVZPb1Nvdnl5TTgxTzdxUVhyT29hdEZPcUFmMk9EU1JKUmdKaWtRdnpLNGJtRmxTRENoLWwyZnBCcDVMVXV2d01Zc3JqWFp5OXVBc3F2MFhaSjYxWDNtejRnbmtEdVFCZFJjSDRMaVhlbEhKUEZZRWhyQlZvUDNoX3Fob3BwSmFBTUNMTkFfdnkydXdvNndlRmh2NEJ6Y1Nid0taNzhfbHNYV3BpSjYtczlPTm9ZTkk?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Gold Holds Decline as US Tariff Plans Reinforce Rate-Hike Bets",
+      "published_at": "2026-11-25T07:51:22+08:00",
+      "summary": "Gold held a decline, after the White House’s latest tariff plans drove equities lower and reinforced expectations for an interest-rate hike by the Federal Reserve.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/gold-holds-decline-as-us-tariff-plans-reinforce-rate-hike-bets"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Senate Investigates Vance's Alleged Role in Venezuela Oil Deal - Crude Oil Prices Today | OilPrice.com",
+      "published_at": "2026-11-25T08:00:00+08:00",
+      "summary": "Senate Investigates Vance's Alleged Role in Venezuela Oil Deal Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNjF6MUFleDlFczFTd003eXBfYmdJNVFqbkdUQnlFSEVCN3FxXzB5RmU2ZnNLNFBZS1NCVGM0VjhpVFl3eV9jYjZfT2p1d1NuZUFrRE1yaW1uVDF6LXFNQTBoNVNkcHZ6eW5WNnd4NGVhRVpBV1pKdmwyTlktSjNwZHpucW1rRGs4OWR2aWs1M1ZqTndqT3MzcG1TVVV1aUNNYW1JT0taa9IBrAFBVV95cUxNMGVQRjc2aTFtdUc1ZjlaRlZqWndCZUJFSkFYR08tTjdveUp0YWpVUmF5N2pva2xGa2M5WDFmbk5lelh0ZGs2LWVRVHRZMElUaVprLWlJVHRUd3d0N08taTVna0tXcmpHWG8wWXM1aEJzQk9ncVVLMUlvUlZaMkV3Z3dNWUNUNHV6b1hGUGdMVHhXTGVnRjVBWXZYSzFkUmhvS3pmV21RdXRsWFdW?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "CNBC World",
+      "title": "Kalshi daily volume of ‘perps’ trading begins to top its prediction markets",
+      "published_at": "2026-11-25T07:03:24+08:00",
+      "summary": "The product, the first one beyond event contracts, was introduced in May.",
+      "url": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "RBA’s Jacobs Says Financial Conditions ‘Restrictive’ After Hikes",
+      "published_at": "2026-11-25T07:50:00+08:00",
+      "summary": "Australia’s financial conditions are “clearly restrictive” following five interest-rate increases this year, a senior Reserve Bank official said, while also noting the difficulty of determining the extent.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-24/rba-s-jacobs-says-financial-conditions-restrictive-after-hikes"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Oil Edges Lower as Expanding Supply Vies With Hormuz Attacks - Bloomberg.com",
+      "published_at": "2026-11-25T07:56:13+08:00",
+      "summary": "Oil Edges Lower as Expanding Supply Vies With Hormuz Attacks Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOenJ4V3FnWU1IVG94dUxRcE1YeTd1Y0Y0U1RWdkg4b1QwS2pPbFNhLUtmdGhwcE5XZWhnVXgzNVo2RkE2azdqdU53cW5KdDNVdWR3Z2JKc1RHX0Z2OWl0YjJsN3ZUTk9UbXhLNzR1Q19wOHVzVi00QmVxbUVWbVpJTk5rZldoalJRbW1hNmh2dnhqR216UlRpUTZDV1RZQQ?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "CNBC World",
+      "title": "Trump Account contributions from friends and family pass $1 billion mark, Treasury says",
+      "published_at": "2026-11-25T06:18:47+08:00",
+      "summary": "Trump Account contributions from friends and family have passed $1 billion, according to the Treasury Department. Here's what families need to know.",
+      "url": "https://www.cnbc.com/2026/11/24/trump-accounts-family-contributions-billion.html"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "US Readies Tariff Hike on China, EU Goods",
+      "published_at": "2026-11-25T07:41:59+08:00",
+      "summary": "The US is set to announce plans to raise tariffs on goods from China, the European Union and more than a dozen other economies, according to people familiar with the matter. Bloomberg’s Derek Wallbank has the latest. (Source: Bloomberg)",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-24/us-readies-tariff-hike-on-china-eu-goods-video-mwvca1k8"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Australian politics live: Labor exempts pensioners from bill cutting private health rebates for over-65s; Australia and Solomon Islands sign ‘historic’ treaty?",
+      "published_at": "2026-11-25T08:21:28+08:00",
+      "summary": "Get our daily political email , free app or daily news podcast Wells says AI investment and creative protections not a ‘zero-sum game’ Weighing into the gigantic debate that is AI companies wanting to scrape Australian data to train models versus creatives who want to protect their work, Anika We...",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Trump reportedly says he is open to pardoning Jensen Huang ahead of CEO’s planned Senate committee testimony – live",
+      "published_at": "2026-11-25T08:11:54+08:00",
+      "summary": "President took credit for convincing Nvidia’s board to reinstate Huang, a move that might have made Trump a personal profit of $15m in one day, as Nvidia sticks soared Sign up for the Breaking News US email Earlier we mentioned Donald Trump is participating in a Medal of Freedom ceremony in the O...",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/24/donald-trump-nvidia-jensen-huang-republicans-democrats-china-latest-news-updates"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Latest review of Met police culture finds little has changed since last one",
+      "published_at": "2026-11-25T08:01:02+08:00",
+      "summary": "Failure to implement previous reports means institutional racism, misogyny and homophobia still present in force Metropolitan police still institutionally racist and misogynist, says report From the Stephen Lawrence inquiry in 1999 to Louise Casey’s landmark review in 2023, successive reports on...",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/25/latest-review-of-met-police-culture-finds-little-has-changed-since-last-one"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "UK to launch world’s first licensing scheme for knife sales",
+      "published_at": "2026-11-25T08:01:01+08:00",
+      "summary": "Exclusive: Measures aimed at tackling grey market sellers known to sell dangerous knives to children Ministers will introduce the world’s first licensing scheme for businesses and private individuals selling all types of knives including cutlery, the Home Office announced on Wednesday. In a drive...",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/25/uk-knife-sales-licensing-scheme"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "England has largest frailty gap out of 31 countries, study finds",
+      "published_at": "2026-11-25T08:01:01+08:00",
+      "summary": "People from lowest socioeconomic group in all countries studied had higher frailty scores than those in highest socioeconomic group England has the largest gap between higher and lower socioeconomic groups when it comes to frailty compared with 30 other countries, a major study has found. The res...",
+      "url": "https://www.theguardian.com/society/2026/nov/25/england-has-largest-frailty-gap-out-of-31-countries-study-finds"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Coastal areas in England at risk of erosion to receive £11m in new funding",
+      "published_at": "2026-11-25T08:01:01+08:00",
+      "summary": "Exclusive: Laser-equipped drone surveys and road relocations among schemes to get government support Laser-equipped drone surveys, sand dune restoration and moving roads inland are among the projects that will receive government funding to help seaside communities in England adapt to rising seas...",
+      "url": "https://www.theguardian.com/environment/2026/nov/25/coastal-areas-england-at-risk-erosion-11m-funding-drones-ea"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Metropolitan police still institutionally racist and misogynist, says report",
+      "published_at": "2026-11-25T08:01:01+08:00",
+      "summary": "Independent review finds force has ‘fundamental systemic issues’ three years after damning report on Sarah Everard murder Latest review of Met police culture finds little has changed since last one The Metropolitan police remain institutionally racist, misogynistic and homophobic three years afte...",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/25/metropolitan-police-institutionally-racist-misogynist-fairfield-report"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Kilmar Ábrego García, man at center of Trump deportation battle, leaving US",
+      "published_at": "2026-11-25T07:50:31+08:00",
+      "summary": "Salvadorian man, who was deported in March 2025 and returned to US after supreme court ruling, leaving of own volition for Spain Kilmar Ábrego García is leaving the United States of his own volition, his lawyers confirmed on Tuesday. Ábrego is leaving the US for Spain on Tuesday evening. Continue...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Fort Hood survivors denied bid to witness shooter’s firing-squad execution",
+      "published_at": "2026-11-25T07:45:05+08:00",
+      "summary": "Army says trio injured in 2009 attack were not direct victims of Nidal Hasan’s and thus cannot attend event Three survivors of the shooting at Fort Hood will not be allowed to witness the execution by military firing squad of Nidal Hasan who shot 13 people dead in the attack at the Texas army pos...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/24/fort-hood-shooting-survivors-execution"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "California ‘king tides’ stress test San Francisco as low-lying areas flood",
+      "published_at": "2026-11-25T07:20:24+08:00",
+      "summary": "Monthly tide records were set across the city, with some expected to hit even higher tomorrow Explainer: What to know about flooding in California over Thanksgiving California is grappling with the stress test of record-high or close to record-high November tides up and down the coast this week,...",
+      "url": "https://www.theguardian.com/weather/2026/nov/24/california-coast-flooding-thanksgiving-travel"
+    }
+  ]
+}

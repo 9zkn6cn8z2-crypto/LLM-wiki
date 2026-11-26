@@ -158,3 +158,34 @@
 ## [2026-11-24] note & slide | 產出 2026-11-24 全球金融市場日報與 12 頁深度漏斗簡報
 - 嚴格依據 `wiki/` 既有條目萃取產出 `notes/11-24-daily-report.md`，全篇每一論點皆標註 `[條目名稱](../wiki/xxx.html)` 來源標籤，並於文末附上待擴充外部參考文獻與 Ingest 指令。
 - 產出 12 頁宏觀到微觀深度漏斗大綱 `slides/drafts/11-24-daily-report-slides.md` 及 Reveal.js + MathJax 網頁簡報 `slides/html/11-24-daily-report-slides.html`（含封面深色金融背景圖、頁內雙標籤、兩張深色內嵌 SVG 圖表【黃金現貨企穩 3,600 關卡 vs 美元指數回吐走勢、費城半導體指數 vs 台指期夜盤暴衝走勢】及具類型標註之 `.callout` 見解卡片）。
+
+## [2026-11-25] ingest | 匯入 2026-11-25 五大類 7 篇財經新聞（含 AI 國際焦點盲盒）
+- 執行 `scripts/fetch_candidates.py` 產出 `raw/candidates_11-25.json`（共 54 則候選新聞），依 `AGENTS.md` 第 5.5 節標準自主遴選 7 篇核心文章存檔至 `raw/`：
+  1. 美國總經與政策：`us-macro-pce-anticipation-tech-pullback-2026-11-25.md`
+  2. 台股大盤與核心半導體：`tw-stock-historic-rebound-40k-tsmc-supply-chain-2026-11-25.md`
+  3. 台股大盤與核心半導體：`nvidia-new-huang-era-500b-financing-platform-2026-11-25.md`
+  4. 前瞻科技與台廠供應鏈：`dell-q3-fy27-ai-server-surge-25b-buyback-2026-11-25.md`
+  5. 前瞻科技與台廠供應鏈：`anthropic-breaks-83-ipo-price-insider-sales-2026-11-25.md`
+  6. 國際匯市與大宗避險資產：`gold-slips-below-3600-us-tariffs-rate-hike-bets-2026-11-25.md`
+  7. 🔮 AI 焦點盲盒：`blindbox-trump-open-to-pardoning-huang-15m-gain-2026-11-25.md`
+- 編譯產出對應 7 篇 `wiki/*.html` 頁面（含 MathJax LaTeX 公式渲染、標準語意標籤與跨日／跨條目雙向交叉連結），並更新 `index.html` 首頁目錄與最新日報簡報連結。
+
+## [2026-11-25] note & slide | 產出 2026-11-25 全球金融市場日報與 11 頁深度漏斗簡報
+- 嚴格依據 `wiki/` 既有條目萃取產出 `notes/11-25-daily-report.md`，全篇每一論點皆標註 `[條目名稱](../wiki/xxx.html)` 來源標籤，並於文末附上待擴充外部參考文獻與 Ingest 指令。
+- 產出 11 頁宏觀到微觀深度漏斗大綱 `slides/drafts/11-25-daily-report-slides.md` 及 Reveal.js + MathJax 網頁簡報 `slides/html/11-25-daily-report-slides.html`（含封面深色金融背景圖、頁內雙標籤、三張深色內嵌 SVG 圖表【黃金 3,600 關卡反轉攻防 vs 12 月升息定價、AI 軟硬體雙極化定價對照、台股 11/19–11/24 V 型收復四萬點走勢】及具類型標註之 `.callout` 見解卡片）。
+
+
+## [2026-11-26] ingest | 匯入 2026-11-26 五大類 7 篇財經新聞（含 AI 國際焦點盲盒）
+- 執行 `scripts/fetch_candidates.py` 產出 `raw/candidates_11-26.json`（共 54 則候選新聞），依 `AGENTS.md` 第 5.5 節標準自主遴選 7 篇核心文章存檔至 `raw/`：
+  1. 美國總經與政策：`us-macro-oct-pce-beige-book-dow-v-reversal-2026-11-26.md`
+  2. 台股大盤與核心半導體：`tw-stock-plunge-1926-301-tariffs-taiwan-15-cap-2026-11-26.md`
+  3. 台股大盤與核心半導體：`tsmc-arizona-expansion-ceremony-trump-dec4-2026-11-26.md`
+  4. 前瞻科技與台廠供應鏈：`sp-nvidia-credit-downgrade-review-ai-cds-surge-2026-11-26.md`
+  5. 前瞻科技與台廠供應鏈：`spacex-fcc-1m-orbital-ai-satellites-starmind-2026-11-26.md`
+  6. 國際匯市與大宗避險資產：`gold-falls-below-3500-one-year-low-hot-pce-tariffs-2026-11-26.md`
+  7. 🔮 AI 焦點盲盒：`blindbox-pentagon-dpa-vance-alice-huang-270m-china-2026-11-26.md`
+- 編譯產出對應 7 篇 `wiki/*.html` 頁面（含 MathJax LaTeX 公式渲染、標準語意標籤與跨日／跨條目雙向交叉連結），並更新 `index.html` 首頁目錄與最新日報簡報連結。
+
+## [2026-11-26] note & slide | 產出 2026-11-26 全球金融市場日報與 11 頁深度漏斗簡報
+- 嚴格依據 `wiki/` 既有條目萃取產出 `notes/11-26-daily-report.md`，全篇每一論點皆標註 `[條目名稱](../wiki/xxx.html)` 來源標籤，並於文末附上待擴充外部參考文獻與 Ingest 指令。
+- 產出 11 頁宏觀到微觀深度漏斗大綱 `slides/drafts/11-26-daily-report-slides.md` 及 Reveal.js + MathJax 網頁簡報 `slides/html/11-26-daily-report-slides.html`（含封面深色金融背景圖、頁內雙標籤、三張深色內嵌 SVG 圖表【黃金貫破 3,500 美元 vs 12 月升息完全定價、AI 信用市場 CDS 利差與違約風險壓力表、台股寬幅巨震與外資連 8 賣籌碼對照】及具類型標註之 `.callout` 見解卡片）。

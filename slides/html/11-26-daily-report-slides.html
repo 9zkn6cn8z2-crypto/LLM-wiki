@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-11-26 全球金融市場日報 — LLM 研究知識庫</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/black.min.css">
+  <link rel="stylesheet" href="../../assets/slides.css">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- ═══ 第 1 頁｜封面與今日定調 ═══ -->
+      <section class="title-slide bg-overlay"
+               data-background-image="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80"
+               data-background-color="#0b1120"
+               data-background-opacity="0.35">
+        <h1>2026-11-26 全球金融市場日報</h1>
+        <p class="subtitle">核心 PCE 3.3% 鎖死升息 × AI 信用違約警報拉響 × 301 半導體豁免與 2.7 億中國算力抵押網：黃金盤中破 3,500 美元 × 標普納輝達 AA- 降評觀察、CoreWeave 違約率 68% × 台股重挫 1,926 點破年線但 301 台灣上限 15% 豁免半導體 × 川普 12/4 赴台積電美廠 × SpaceX 百萬軌道衛星 × 五角大廈戰時法案與 PBOC 抵押清單</p>
+        <p class="meta" style="margin-top:1.2em">依據筆記：notes/11-26-daily-report.md ｜ 嚴格 100% 萃取自 wiki/ 今日 7 篇新條目</p>
+        <aside class="notes">今日核心矛盾在於「台積電 301 半導體豁免與川普 12/4 站台構築實體護城河，但 AI 信用市場 CDS 飆升、熱 PCE 鎖死升息與華府 Megaspeed 證據鏈正逼近臨界點」。</aside>
+      </section>
+
+      <!-- ═══ 第 2 頁｜宏觀定價：10 月 PCE 3.3% 與 Fed 褐皮書，道瓊 V 轉 1,100 點 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>一、宏觀定價｜10 月核心 PCE 3.3% 超預期與褐皮書薪資加速：道瓊 V 轉 1,100 點 vs AI 續挫</h2>
+        <ul>
+          <li>
+            <strong>10 月 PCE 確認黏性通膨，Fed 11 月褐皮書揭露薪資與成本壓力升溫</strong>：BEA 公布 10 月整體 PCE 年增 <strong>+3.8%</strong>（月增 +0.3%）、核心 PCE 年增 <strong>+3.3%</strong>（高於預期 3.2% 與前值 3.1%）；褐皮書顯示 8 轄區微幅至溫和成長、4 區持平，薪資增幅由小幅加速至「溫和上升（moderate uptick）」，企業成本漲幅續超售價轉嫁能力。
+            <span class="supplement">🔗 來源：<a href="https://www.cnbc.com/2026/11/26/stock-markets-today-.html" target="_blank" rel="noopener">[CNBC]</a> <a href="https://www.bloomberg.com/news/articles/2026-11-25/fed-beige-book-shows-moderate-growth-uptick-in-wage-pressures" target="_blank" rel="noopener">[Bloomberg]</a> <a href="../../wiki/us-macro-oct-pce-beige-book-dow-v-reversal-2026-11-26.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>美股週三（11/25）暴力 V 轉分化，亞股早盤小幅回穩</strong>：道瓊盤中重挫逾 <strong>1,100 點</strong>後強勢 V 轉收漲 <strong>164.25 點</strong>（+0.33%）報 <strong>50,182.95 點</strong>；標普跌 0.25%（7,182.78）、那指跌 0.62%（23,585.80）、費半跌 0.65%（8,774.86）。輝達與美光跌 <strong>4%</strong>、甲骨文跌逾 <strong>5%</strong>、亞馬遜與 Alphabet 跌約 2%、Meta 漲 3%、Anthropic 彈逾 4%；巴克萊直言「AI 敘事已撞牆」。週四亞股 Kospi 漲 0.9%（靜待南韓央行預期升息 25 bps）、日經漲 1.21%。
+            <span class="supplement">🔗 來源：<a href="https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html" target="_blank" rel="noopener">[CNBC Tech]</a> <a href="../../wiki/us-macro-oct-pce-beige-book-dow-v-reversal-2026-11-26.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>因果傳導與量化影響</strong>：$$\text{核心 PCE 3.3\%（超預期）+ 褐皮書薪資加速} \longrightarrow \text{鎖死 Fed 12 月升息路徑} \longrightarrow \text{AI 舉債 ROI 疑慮（NVDA -4\%、ORCL -5\%）} \longrightarrow \text{資金轉進道瓊防禦藍籌}$$
+            <span class="supplement">📊 台股量化影響：道瓊 V 轉且費半跌幅收斂至 0.65%，有助台股今日收斂昨日恐慌賣壓，惟高折現率續壓高估值 AI 軟體與二線權值 1.5%–3.0%。</span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［跨日對照］</strong>昨日預期的 10 月 PCE 今日以「核心 3.3% 超預期」落地，徹底封殺 12 月暫停升息期待；道瓊 V 轉 1,100 點顯示資金正加速自高槓桿 AI 輪動至防禦藍籌。
+        </div>
+        <aside class="notes">10 月核心 PCE 超預期升至 3.3% 疊加褐皮書薪資加速，令道瓊與科技權值出現劇烈結構分歧。</aside>
+      </section>
+
+      <!-- ═══ 第 3 頁｜宏觀定價：匯市與大宗商品：黃金盤中破 3,500 美元 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>二、宏觀定價｜匯市與大宗：CME 完全定價 12 月升息，黃金盤中貫破 3,500 美元創逾一年新低</h2>
+        <ul>
+          <li>
+            <strong>熱 PCE 鎖死升息路徑，現貨黃金盤中跌破 3,500 美元</strong>：據 CME FedWatch，市場已<strong>完全定價</strong> 12 月再度升息；無息資產承壓，現貨金 11/25 盤中觸及 <strong>2025 年 8 月以來最低</strong>並首度失守 <strong>3,500 美元</strong>，尾盤收斂報 <strong>3,577.28 美元</strong>（-0.1%），12 月期金收跌 <strong>0.73%</strong> 至 <strong>3,535.80 美元</strong>。
+            <span class="supplement">🔗 來源：<a href="https://www.cnbc.com/2026/11/25/gold-metals-federal-reserve-inflation.html" target="_blank" rel="noopener">[CNBC]</a> <a href="https://www.bloomberg.com/news/articles/2026-11-26/gold-edges-lower-as-us-inflation-data-fuels-bets-for-rate-hikes" target="_blank" rel="noopener">[Bloomberg]</a> <a href="../../wiki/gold-falls-below-3500-one-year-low-hot-pce-tariffs-2026-11-26.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>貿易戰火擴及巴西：突襲 10% 飛機關稅</strong>：除 14 國產能過剩 301 關稅外，USTR 11/25 另對巴西提議課徵 <strong>10% 飛機關稅</strong>（衝擊 Embraer 與美國區域航企）及調高配額外蔗糖關稅，強化再通膨與亞洲央行緊縮壓力（市場預期南韓央行今日升息 25 bps）。
+            <span class="supplement">🔗 來源：<a href="../../wiki/gold-slips-below-3600-us-tariffs-rate-hike-bets-2026-11-25.html">[昨日 301 Wiki]</a> <a href="../../wiki/gold-falls-below-3500-one-year-low-hot-pce-tariffs-2026-11-26.html">[Wiki]</a></span>
+          </li>
+        </ul>
+        <!-- SVG Chart 1: 黃金 XAU/USD 跌破 3500 關卡走勢 -->
+        <svg viewBox="0 0 880 185" width="100%" height="185" aria-label="黃金 XAU/USD 貫破 3500 美元創逾一年新低走勢">
+          <rect width="880" height="185" fill="#0f172a" rx="8" />
+          <text x="28" y="30" fill="#f8fafc" font-size="16" font-weight="700">黃金現貨 (XAU/USD) 連破 3,600 與 3,500 關卡 vs Fed 12 月升息完全定價</text>
+          <line x1="90" y1="54" x2="810" y2="54" stroke="#334155" stroke-dasharray="3,3" />
+          <line x1="90" y1="95" x2="810" y2="95" stroke="#f59e0b" stroke-width="1.3" stroke-dasharray="5,4" />
+          <line x1="90" y1="138" x2="810" y2="138" stroke="#ef4444" stroke-width="1.3" stroke-dasharray="5,4" />
+          <text x="18" y="59" fill="#94a3b8" font-size="13.5">$3,650</text>
+          <text x="18" y="100" fill="#f59e0b" font-size="13.5" font-weight="700">$3,600</text>
+          <text x="18" y="143" fill="#ef4444" font-size="13.5" font-weight="700">$3,500</text>
+          <!-- Price Path -->
+          <path d="M 110 72 L 310 92 L 510 116 L 690 148 L 785 106" fill="none" stroke="#eab308" stroke-width="3.5" />
+          <circle cx="510" cy="116" r="5" fill="#f59e0b" />
+          <circle cx="690" cy="148" r="6" fill="#ef4444" />
+          <circle cx="785" cy="106" r="5" fill="#eab308" />
+          <text x="430" y="104" fill="#f59e0b" font-size="14" font-weight="700">11/25 早盤 $3,556</text>
+          <text x="530" y="160" fill="#ef4444" font-size="14.5" font-weight="700">盤中貫破 $3,500（逾一年低）</text>
+          <text x="680" y="92" fill="#fde047" font-size="14" font-weight="700">收斂 $3,577</text>
+          <!-- Badge -->
+          <rect x="575" y="42" width="275" height="28" rx="5" fill="#1e293b" stroke="#38bdf8" />
+          <text x="588" y="61" fill="#38bdf8" font-size="14" font-weight="700">FedWatch 12 月升息：完全定價</text>
+          <!-- Axis -->
+          <text x="95" y="175" fill="#64748b" font-size="13.5">11/24 守高</text>
+          <text x="285" y="175" fill="#64748b" font-size="13.5">11/25 301預告</text>
+          <text x="470" y="175" fill="#64748b" font-size="13.5">PCE公布前</text>
+          <text x="640" y="175" fill="#64748b" font-size="13.5">PCE 3.8%/3.3%</text>
+        </svg>
+        <div class="callout">
+          <strong>［台股量化影響估算｜多空情境］</strong>$$\text{核心 PCE 3.3\% + 巴西與 14 國 301 關稅} \longrightarrow \text{12 月升息完全定價} \longrightarrow \text{金價盤中破 3,500 美元}$$；強美元與韓銀預期升息牽動台幣偏弱震盪（0.5–1.0 角），航空與原物料成本承壓。
+        </div>
+        <aside class="notes">昨日預警若 PCE 續熱將測 3,500 美元，今日盤中果真跌破創 2025 年 8 月以來新低。</aside>
+      </section>
+
+      <!-- ═══ 第 4 頁｜全球科技與信用（1/3）：標普將輝達列入 AA- 降評觀察 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>三、全球科技與信用（1/3）｜標普將輝達列入 AA- 降評觀察：反噬 5,000 億平台 25% 擔保</h2>
+        <ul>
+          <li>
+            <strong>標普啟動 90 天負向審查（AA $\rightarrow$ AA-），直指治理與關鍵人風險</strong>：標普全球評級（S&amp;P）11/25 宣布考慮於 <strong>90 天內</strong>將輝達信評由 <strong>AA 調降至 AA-</strong>，指出黃仁勳遭解職又復職暴露<strong>「高管監督薄弱、缺乏接班人計畫」</strong>及高度依賴個人的<strong>「關鍵人風險（key man risk）」</strong>。
+            <span class="supplement">🔗 來源：<a href="https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/" target="_blank" rel="noopener">[TechCrunch]</a> <a href="../../wiki/sp-nvidia-credit-downgrade-review-ai-cds-surge-2026-11-26.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>衝擊 5,000 億美元算力融資平台擔保槓桿</strong>：輝達與高盛、阿波羅、黑石等六大巨頭籌組之 <strong>5,000 億美元</strong>平台，原定由輝達提供 <strong>25% 貸款信用擔保</strong>；彭博披露放款機構早已要求提高擔保比例，若信評遭降將迫使輝達及無獨立信評的 Neocloud 客戶支付更高借款成本或追加抵押品。
+            <span class="supplement">🔗 來源：<a href="../../wiki/nvidia-new-huang-era-500b-financing-platform-2026-11-25.html">[昨日 5,000 億平台 Wiki]</a> <a href="../../wiki/nvidia-post-huang-credit-exposure-taiwan-2026-11-21.html">[2,000 億曝險 Wiki]</a> <a href="../../wiki/sp-nvidia-credit-downgrade-review-ai-cds-surge-2026-11-26.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>因果傳導與量化影響</strong>：$$\text{黃仁勳拒設接班人 + 治理動盪} \longrightarrow \text{S\&P 90 天降評觀察（AA} \rightarrow \text{AA-）} \longrightarrow \text{5,000 億平台 25\% 擔保效力削弱} \longrightarrow \text{債權人要求加碼抵押與升息差}$$
+            <span class="supplement">📊 台股量化影響：若 5,000 億平台因擔保條款重議而延遲撥貸，恐使二線 Neocloud 伺服器拉貨遞延 1–2 季，衝擊非北美 CSP 直供之二線 ODM 訂單能見度 3%–5%。</span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［跨日對照］</strong>昨日黃仁勳才在員工大會拒絕設立正式接班人計畫，今日標普隨即啟動降評審查——華爾街債權人顯然不買單「單點天才無備援」的治理結構。
+        </div>
+        <aside class="notes">信評審查直接打在輝達 5,000 億美元資本賦能平台的 25% 擔保機制上，動搖循環融資槓桿。</aside>
+      </section>
+
+      <!-- ═══ 第 5 頁｜全球科技與信用（2/3）：AI CDS 利差全面創高 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>四、全球科技與信用（2/3）｜AI CDS 利差創高：CoreWeave 違約率飆至 68%、軟銀重挫 14.8%</h2>
+        <ul>
+          <li>
+            <strong>債權市場對黃仁勳回歸冷感，軟銀 CDS 飆 501 bps、股價狂瀉 14.83%</strong>：IHS Markit 數據顯示軟銀 5 年期 CDS 跳升至 <strong>501 bps</strong>（2022/10 來最寬），東京股價 11/25 重挫 <strong>14.83%</strong>、11 月累跌 <strong>36.75%</strong>（逼近 2000 年網路泡沫來最大單月跌幅）。
+            <span class="supplement">🔗 來源：<a href="https://finance.technews.tw/2026/11/26/jensen-huangs-second-coming-offers-little-relief-to-ai-credits/" target="_blank" rel="noopener">[TechNews / 路透]</a> <a href="../../wiki/sp-nvidia-credit-downgrade-review-ai-cds-surge-2026-11-26.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>CoreWeave 隱含違約率攀至 68%，科技巨頭 CDS 齊創歷史新高</strong>：標普市場情報顯示甲骨文、Alphabet、SpaceX 與 CoreWeave 5 年期 CDS 同創歷史新高；CoreWeave 利差擴大至 <strong>1,314 bps</strong>，陷入財務困境區間，隱含 5 年違約機率高達 <strong>68%</strong>。
+            <span class="supplement">🔗 來源：<a href="../../wiki/anthropic-breaks-83-ipo-price-insider-sales-2026-11-25.html">[Anthropic 破發 Wiki]</a> <a href="../../wiki/sp-nvidia-credit-downgrade-review-ai-cds-surge-2026-11-26.html">[Wiki]</a></span>
+          </li>
+        </ul>
+        <!-- SVG Chart 2: AI 信用市場 CDS 利差壓力儀表板 -->
+        <svg viewBox="0 0 880 185" width="100%" height="185" aria-label="AI 信用違約交換 CDS 利差與違約風險壓力對照">
+          <rect width="880" height="185" fill="#0f172a" rx="8" />
+          <text x="28" y="28" fill="#f8fafc" font-size="16" font-weight="700">AI 債務信用警報：5 年期 CDS 違約避險成本飆升（2026-11-25/26）</text>
+          <!-- CoreWeave Bar -->
+          <text x="28" y="68" fill="#fca5a5" font-size="15" font-weight="700">CoreWeave</text>
+          <rect x="175" y="48" width="460" height="28" rx="4" fill="#ef4444" />
+          <text x="648" y="68" fill="#f8fafc" font-size="15" font-weight="700">1,314 bps（5年違約機率 68%）</text>
+          <!-- SoftBank Bar -->
+          <text x="28" y="108" fill="#fdba74" font-size="15" font-weight="700">軟銀集團</text>
+          <rect x="175" y="88" width="175" height="28" rx="4" fill="#f59e0b" />
+          <text x="364" y="108" fill="#f8fafc" font-size="15" font-weight="700">501 bps（11/25 股價 -14.83% / 本月 -36.75%）</text>
+          <!-- Big Tech / SpaceX Note -->
+          <rect x="28" y="128" width="824" height="42" rx="6" fill="#1e293b" stroke="#38bdf8" />
+          <text x="45" y="154" fill="#38bdf8" font-size="14.5" font-weight="600">歷史新高集團：Oracle（跌逾 5%）、Alphabet、SpaceX 5Y CDS 同創歷史新高 ｜ 標普啟動輝達 AA → AA- 審查</text>
+        </svg>
+        <div class="callout">
+          <strong>［觀點衝突標記｜驗證指標］</strong>股市一度因黃仁勳復職大漲，但債權人以 1,314 bps CDS 利差直接給出警訊；高利率下「循環融資＋高舉債算力租賃」正迎來現金流淘汰賽，台廠宜聚焦直供一線 CSP 訂單。
+        </div>
+        <aside class="notes">CoreWeave 違約率飆至 68% 與軟銀單月累跌 36.75%，顯示二線 AI 基建的舉債模式正遭遇債權人抽銀根風險。</aside>
+      </section>
+
+      <!-- ═══ 第 6 頁｜全球科技與前瞻（3/3）：SpaceX 獲 FCC 核准 100 萬顆軌道 AI 衛星 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>五、全球科技與前瞻（3/3）｜SpaceX 獲准部署 100 萬顆軌道 AI 衛星：撞擊 440 億債券禁令</h2>
+        <ul>
+          <li>
+            <strong>FCC 核准 SpaceX「Starmind」100 萬顆太陽能軌道 AI 資料中心衛星</strong>：FCC 主席 Brendan Carr 11/25 宣布授權 SpaceX 部署最多 <strong>100 萬顆</strong>太空太陽能 AI 運算衛星，強硬駁回亞馬遜 Kuiper、Viasat 與美國天文學會（AAS）之否決請願。
+            <span class="supplement">🔗 來源：<a href="https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html" target="_blank" rel="noopener">[CNBC]</a> <a href="../../wiki/spacex-fcc-1m-orbital-ai-satellites-starmind-2026-11-26.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>太空算力競賽白熱化 vs 債券禁止升空保護條款衝突</strong>：Google（Project Suncatcher）已於 10 月送首批晶片上軌道、Blue Origin 亦申請 <strong>51,600 顆</strong>衛星（Project Sunrise）；惟學界警告百萬顆衛星恐引發太空垃圾連鎖撞擊（凱斯勒現象）。更關鍵的是，SpaceX 數日前發行 440 億美元「土星信託」債券時才明訂<strong>「禁止將輝達晶片發射升空」</strong>，且今日 SpaceX CDS 同創歷史新高。
+            <span class="supplement">🔗 來源：<a href="../../wiki/spacex-goldman-apollo-44b-bonds-nvidia-ai-chips-2026-11-22.html">[SpaceX 440億債券 Wiki]</a> <a href="../../wiki/spacex-fcc-1m-orbital-ai-satellites-starmind-2026-11-26.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>因果傳導與量化影響</strong>：$$\text{地面電網瓶頸 + FCC 放行百萬顆 Starmind} \longrightarrow \text{太空太陽能 AI 算力題材升溫} \longrightarrow \text{抗輻射晶片與光通訊受惠} \longrightarrow \text{短期受制 Capex 與 440 億債券限制}$$
+            <span class="supplement">📊 台股量化影響：短期屬遠期軌道頻譜佔位，對實質 EPS 貢獻有限；中長線為低軌衛星射頻／PCB（昇達科、華通、啟碁）與太空光電檢測提供 3%–5% 題材溢價。</span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［跨日對照］</strong>SpaceX 一邊受制地上 440 億美元債券禁止晶片升空條款與 CDS 創高，一邊搶先拿下 FCC 百萬顆軌道算力執照，凸顯馬斯克「先佔頻譜、再解融資」的激進策略。
+        </div>
+        <aside class="notes">FCC 核准百萬顆太空資料中心衛星，直接呼應地面電網瓶頸，但也撞上 440 億表外債券的地面營運限制。</aside>
+      </section>
+
+      <!-- ═══ 第 7 頁｜台廠供應鏈落地（1/2）：台股重挫 1,926 點破年線與 301 關稅台灣 15% 豁免半導體 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>六、台廠供應鏈落地（1/2）｜台股重挫 1,926 點破年線，301 關稅台灣上限 15% 豁免半導體</h2>
+        <ul>
+          <li>
+            <strong>低量漲停隔日巨震洗盤，外資單日賣超 1,236 億（連 8 賣）</strong>：11/25 台股盤中重挫 <strong>3,440.45 點</strong>（史上第 2 大盤中跌點），終場收跌 <strong>1,926.92 點</strong>（史上第 6 大收盤跌點）報 <strong>38,195.43 點</strong>跌破年線；外資砍 <strong>1,236.54 億</strong>（史上第 7 大）、自營商賣 128.33 億，僅投信逆勢買超 <strong>535.32 億</strong>（連 2 買）。
+            <span class="supplement">🔗 來源：<a href="https://money.udn.com/money/story/5612/9902624" target="_blank" rel="noopener">[經濟日報／中央社]</a> <a href="../../wiki/tw-stock-plunge-1926-301-tariffs-taiwan-15-cap-2026-11-26.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>USTR 301 正式文本出爐：台灣 15% 上限不疊加，半導體擬議豁免</strong>：對 14 國產能過剩調查中，台灣主要稅率上限維持 <strong>15%</strong>（不疊加 MFN，備案最高 25%），且擬議豁免<strong>半導體產品</strong>、鋁、木製品及專利藥品（2027/01/05 意見截止、01/25 公聽會）。
+            <span class="supplement">🔗 來源：<a href="../../wiki/tw-stock-historic-rebound-40k-tsmc-supply-chain-2026-11-25.html">[昨日 4 萬點 Wiki]</a> <a href="../../wiki/tw-stock-plunge-1926-301-tariffs-taiwan-15-cap-2026-11-26.html">[Wiki]</a></span>
+          </li>
+        </ul>
+        <!-- SVG Chart 3: 台股 11/19-11/25 劇震破年線與外資連 8 賣 -->
+        <svg viewBox="0 0 880 180" width="100%" height="180" aria-label="台股加權指數寬幅巨震與外資籌碼對照">
+          <rect width="880" height="180" fill="#0f172a" rx="8" />
+          <text x="28" y="28" fill="#f8fafc" font-size="16" font-weight="700">台股加權指數極端寬幅震盪：11/24 漲停收復 4 萬點 → 11/25 外資砍 1,236 億再破年線</text>
+          <line x1="95" y1="54" x2="800" y2="54" stroke="#334155" stroke-dasharray="3,3" />
+          <line x1="95" y1="100" x2="800" y2="100" stroke="#f59e0b" stroke-width="1.3" stroke-dasharray="5,4" />
+          <line x1="95" y1="142" x2="800" y2="142" stroke="#334155" stroke-dasharray="3,3" />
+          <text x="20" y="59" fill="#10b981" font-size="13.5" font-weight="700">40,122</text>
+          <text x="20" y="105" fill="#f59e0b" font-size="13.5" font-weight="700">年線~38.4k</text>
+          <text x="20" y="147" fill="#94a3b8" font-size="13.5">36,800</text>
+          <path d="M 120 100 L 330 142 L 540 52 L 760 108" fill="none" stroke="#38bdf8" stroke-width="3.5" />
+          <circle cx="540" cy="52" r="5.5" fill="#10b981" />
+          <circle cx="760" cy="108" r="6" fill="#ef4444" />
+          <text x="430" y="45" fill="#10b981" font-size="14" font-weight="700">11/24 40,122 (+3,310 點/量縮)</text>
+          <text x="580" y="132" fill="#ef4444" font-size="14.5" font-weight="700">11/25 38,195 (-1,926 點｜盤中曾破36.7k)</text>
+          <text x="105" y="170" fill="#64748b" font-size="13.5">11/19 破年線</text>
+          <text x="305" y="170" fill="#64748b" font-size="13.5">11/23 探底</text>
+          <text x="505" y="170" fill="#64748b" font-size="13.5">11/24 鎖漲停</text>
+          <text x="690" y="170" fill="#64748b" font-size="13.5">11/25 外資-1,236億</text>
+        </svg>
+        <div class="callout">
+          <strong>［台股量化影響估算｜多空情境］</strong>301 報告確認「台灣 15% 上限不疊加＋豁免半導體」消弭極端關稅恐慌，疊加道瓊 V 轉收紅，今日台股有望反彈 400–700 點測試收復年線（38,400–38,500 點）。
+        </div>
+        <aside class="notes">昨日低量鎖漲停後今日爆殺洗盤，但 301 文本明確豁免半導體，大幅減輕權值股系統性風險。</aside>
+      </section>
+
+      <!-- ═══ 第 8 頁｜台廠供應鏈落地（2/2）：川普 12/4 親赴台積電亞利桑那典禮 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>七、台廠供應鏈落地（2/2）｜川普 12/4 首度親赴台積電亞利桑那典禮：2,650 億美元護城河</h2>
+        <ul>
+          <li>
+            <strong>川普 12 月 4 日親赴鳳凰城站台，台積電最高營運層全員出動</strong>：彭博指川普將於 12/4 首度出席台積電亞利桑那廠擴建典禮；董事長<strong>魏哲家</strong>率兩位共同營運長秦永沛、米玉傑與兩位副共同營運長侯永清、張曉強出席，國發會主委葉俊顯代表政府與會，輝達黃仁勳亦獲力邀（惟前一日赴參院作證）。
+            <span class="supplement">🔗 來源：<a href="https://money.udn.com/money/story/5612/9902330" target="_blank" rel="noopener">[經濟日報]</a> <a href="https://money.udn.com/money/story/5612/9902331" target="_blank" rel="noopener">[經濟日報評論]</a> <a href="../../wiki/tsmc-arizona-expansion-ceremony-trump-dec4-2026-11-26.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>2,650 億美元投資涵蓋先進封裝與研發，張忠謀預言全面驗證</strong>：7 月再加碼 1,000 億美元後累計承諾達 <strong>2,650 億美元</strong>，建廠僱用 <strong>1.2–1.5 萬名</strong>工人並將創造逾 <strong>1 萬個</strong>直接職缺；雖面臨美國製造高成本考驗，卻直接換取「美國製造」政治護航與今日 301 半導體豁免。
+            <span class="supplement">🔗 來源：<a href="../../wiki/lam-research-zhunan-rd-center-advanced-packaging-2026-11-21.html">[先進封裝 Wiki]</a> <a href="../../wiki/tsmc-arizona-expansion-ceremony-trump-dec4-2026-11-26.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>因果傳導與量化影響</strong>：$$\text{川普 12/4 站台 + 2,650 億美廠聚落（含封裝與研發）} \longrightarrow \text{深度綁定美國 AI 國安} \longrightarrow \text{鞏固半導體關稅豁免} \longrightarrow \text{台系設備、廠務與特化材料赴美大單}$$
+            <span class="supplement">📊 台股量化影響：大幅降低台積電遭額外關稅/制裁風險（估值折價收斂 3%–5%），推升台系設備／無塵室廠務／特化材料廠 2027 年美國營收佔比與能見度 8%–12%。</span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［跨日對照］</strong>台積電在美 2,650 億美元承諾從成本負擔轉化為「地緣政治免死金牌」——同日獲得 301 半導體豁免與川普 12/4 親臨背書，鞏固全球唯一不可替代地位。
+        </div>
+        <aside class="notes">12 月 4 日川普、魏哲家若能與黃仁勳三人同台，將成為年底半導體產業最重要的地緣政治定調畫面。</aside>
+      </section>
+
+      <!-- ═══ 第 9 頁｜🔮 AI 焦點盲盒（I/II）：五角大廈戰時法案與范斯說法矛盾 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>八、🔮 AI 焦點盲盒（I/II）｜五角大廈戰時法案干預傳聞與范斯「未調查論」撕裂白宮敘事</h2>
+        <ul>
+          <li>
+            <strong>入選理由與極端政治干預曝光</strong>：就在黃仁勳下週赴美國國會接受閉門詢問前夕，白宮與五角大廈高層的激進手段與說詞裂痕全面曝光，與同日路透社揭露的中國央行 2.7 億美元伺服器融資網形成劇烈衝撞。
+            <span class="supplement">🔗 來源：<a href="../../wiki/blindbox-pentagon-dpa-vance-alice-huang-270m-china-2026-11-26.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>《華郵》爆防長曾討論動用戰時《國防生產法》（DPA）迫輝達復職黃仁勳</strong>：報導指出國防部長 Pete Hegseth 與副部長 Steve Feinberg 曾在週末會議研議動用 1950 年《國防生產法》——威脅強制調撥輝達商業產能供軍方使用——施壓董事會讓黃復職（五角大廈事後否認）。
+            <span class="supplement">🔗 來源：<a href="../../wiki/blindbox-pentagon-dpa-vance-alice-huang-270m-china-2026-11-26.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>副總統范斯稱 DOJ「從未調查」黃仁勳，正面打臉川普</strong>：JD Vance 週三在俄亥俄州稱司法官員保證黃仁勳「未受任何調查」且不需特赦，與川普週一「DOJ 做了相當不錯的調查並還其清白」及週二「不排除特赦」說詞完全矛盾；路透證實 DOJ 僅曾調查美超微與 Megaspeed。
+            <span class="supplement">🔗 來源：<a href="https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html" target="_blank" rel="noopener">[CNBC]</a> <a href="../../wiki/blindbox-trump-open-to-pardoning-huang-15m-gain-2026-11-25.html">[昨日特赦 Wiki]</a> <a href="../../wiki/blindbox-pentagon-dpa-vance-alice-huang-270m-china-2026-11-26.html">[Wiki]</a></span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［盲盒外溢評估 I/II｜政治與法治風險］</strong>「總統稱已查清、副總統稱從未查、防長傳出擬動用戰時法」，行政部門敘事撕裂反替國會鷹派累積充分政治彈藥，衝擊市場對美國科技治理的法治定價。
+        </div>
+        <aside class="notes">白宮高層對「有沒有調查黃仁勳」各說各話，讓下週國會對白宮政治干預的追查變得更加兇猛。</aside>
+      </section>
+
+      <!-- ═══ 第 10 頁｜🔮 AI 焦點盲盒（II/II）：路透揭中國央行 2.7 億 AI 伺服器抵押網 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>九、🔮 AI 焦點盲盒（II/II）｜路透揭中國央行 2.7 億美元 AI 伺服器抵押網與外溢矩陣</h2>
+        <ul>
+          <li>
+            <strong>PBOC 登記鐵證：黃樂家族關聯企業抵押 764 台 AI 伺服器（2.7 億）與上萬張網卡</strong>：路透查閱中國央行公示文件，與黃樂家族（姊妹黃瑜、丈夫康偉）關聯企業累計抵押 <strong>764 台伺服器與模組</strong>（<strong>2.7 億美元</strong>）及 <strong>3,100 萬美元</strong>網通設備；其中輝達優先夥伴<strong>世紀利通</strong>在上海「長三角 AI 超算中心」（世紀華通開發）抵押 <strong>512 台（2 億美元）</strong>，含 128 台 989 PFLOPS 集群及<strong>中國航空工業集團（AVIC）</strong>融資 128 台（5,700 萬美元），現場並有逾 <strong>1 萬張 ConnectX-7 網卡</strong>及 <strong>730 顆 BlueField-3 DPU</strong>。
+            <span class="supplement">🔗 來源：<a href="https://finance.technews.tw/2026/11/26/alice-huang-linked-firms-listed-270-million-in-ai-servers-in-china/" target="_blank" rel="noopener">[TechNews / 路透]</a> <a href="../../wiki/blindbox-pentagon-dpa-vance-alice-huang-270m-china-2026-11-26.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>股權穿透至 Megaspeed 與平安銀行 7,000 萬美元貸款</strong>：世紀華通持股之第七大道海外子公司於 2023 年更名為黑名單 <strong>Megaspeed</strong>；「蕪湖世紀瓏騰」今年 4 月更抵押 252 個 AI 模組予<strong>平安銀行</strong>貸得 <strong>7,000 萬美元</strong>。
+            <span class="supplement">🔗 來源：<a href="../../wiki/us-bis-blacklists-megaspeed-chip-smuggling-taiwan-kyc-2026-11-24.html">[Megaspeed 黑名單 Wiki]</a> <a href="../../wiki/blindbox-pentagon-dpa-vance-alice-huang-270m-china-2026-11-26.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>因果傳導推論</strong>：$$\text{PBOC 2.7 億抵押鐵證（含萬張 ConnectX-7 + AVIC 融資）} \longrightarrow \text{國會聽證公開化與次級制裁風險飆升} \longrightarrow \text{KYC 穿透擴及網卡、DPU 與租賃融資商}$$
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［盲盒外溢評估 II/II｜情境分析］</strong>基準情境（聽證強化《晶片安全法》與網卡／DPU／金融租賃端 KYC 審查）台廠伺服器 ODM 與網通鏈法遵成本增 3%–5%；極端情境（國會啟動公開追訴並凍結關聯雲端租賃通道）AI 伺服器與交換器族群面臨 8%–12% 估值修正。
+        </div>
+        <aside class="notes">中國央行融資文件把走私調查從「晶片本體」推進到「ConnectX-7 網卡＋DPU＋中資國企融資租賃」，對台灣網通與伺服器鏈構成全新穿透風險。</aside>
+      </section>
+
+      <!-- ═══ 第 11 頁｜短線催化劑雷達 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>十、短線催化劑雷達（Catalysts）｜感恩節假期至 12/4 鳳凰城典禮作戰日程</h2>
+        <ul>
+          <li>
+            <strong>11/26（四）盤中｜台股 38,195 點年線保衛戰 &amp; 南韓央行（BoK）利率決議</strong>
+            <span class="supplement">📌 核心觀察指標：受惠道瓊 V 轉與 301 半導體豁免，觀察能否帶量站回年線（38,400–38,500 點）、外資賣超（昨日 1,236 億）收斂幅度，以及 BoK 預期升息 25 bps 與黃金 3,500 美元防線。</span>
+            <span class="supplement">📊 台股潛在影響：短線有機會展開 400–700 點跌深反彈測試年線，但外資連 8 賣未止前仍呈區間築底（37,800–38,800 點）。</span>
+          </li>
+          <li>
+            <strong>11/26（四）– 11/27（五）｜美國感恩節休市 &amp; 週五半日市流動性風險</strong>
+            <span class="supplement">📌 核心觀察指標：假期低流動性下 CoreWeave（CDS 1,314 bps）與軟銀信用風險擴散效應，及中東油價連動。</span>
+            <span class="supplement">📊 台股潛在影響：缺乏美盤指引期間由投信內資（連 2 買 535 億）主導，高現金流正規 ODM 與半導體龍頭相對抗跌。</span>
+          </li>
+          <li>
+            <strong>12/01（二）– 12/03（四）｜黃仁勳國會委員會作證 &amp; 輝達華府年度大會</strong>
+            <span class="supplement">📌 核心觀察指標：國會是否針對 PBOC 2.7 億美元伺服器與 ConnectX-7 清單公開詰問、白宮施壓紀錄是否曝光，及《晶片安全法》進度。</span>
+            <span class="supplement">📊 台股潛在影響：若聽證會失控升級禁令，AI 硬體鏈恐面臨 5%–10% 波動；若順利過關則有望觸發外資空單回補。</span>
+          </li>
+          <li>
+            <strong>12/04（五）｜川普、魏哲家（及受邀的黃仁勳）出席台積電亞利桑那擴建典禮</strong>
+            <span class="supplement">📌 核心觀察指標：川普是否當場確認半導體關稅永久豁免或美國廠採購承諾，及川普－魏哲家－黃仁勳是否世紀同台。</span>
+            <span class="supplement">📊 台股潛在影響：台積電與在美建廠設備／廠務／特化材料鏈有望迎來 3%–6% 政策護城河溢價行情。</span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［觀點衝突標記｜驗證指標］</strong>短線聚焦台股年線收復與外資賣超收斂；下週最大分水嶺則是「12/1–3 黃仁勳國會面對 PBOC 清單拷問 vs 12/4 川普台積電亞利桑那同台」。
+        </div>
+        <aside class="notes">感恩節短假後，下週將迎來今年年底最重要的華府政治聽證與鳳凰城台積電高峰會雙重催化劑。</aside>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true,
+      transition: 'fade',
+      width: 1200,
+      height: 720,
+      margin: 0.04,
+      minScale: 0.2,
+      maxScale: 1.5,
+      center: false
+    });
+  </script>
+</body>
+</html>

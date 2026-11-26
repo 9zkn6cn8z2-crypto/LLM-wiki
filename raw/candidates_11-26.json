@@ -1,0 +1,558 @@
+{
+  "generated_at": "2026-11-26T08:30:16.814572+08:00",
+  "window_hours": 24,
+  "total_candidates": 54,
+  "category_stats": {
+    "1_us_macro": {
+      "label": "美國總經與政策",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": []
+    },
+    "2_tw_semis": {
+      "label": "台股大盤與核心半導體",
+      "target_pick": 2,
+      "candidate_count": 12,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "中央社 產經證券",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "3_tech_supply_chain": {
+      "label": "前瞻科技與台廠供應鏈",
+      "target_pick": 2,
+      "candidate_count": 12,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "中央社 科技",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "4_fx_commodities": {
+      "label": "國際匯市與大宗避險資產",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "MarketWatch Top Stories",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    "5_ai_blindbox": {
+      "label": "AI 國際焦點盲盒",
+      "target_pick": 1,
+      "candidate_count": 10,
+      "fallback_48h_used": false,
+      "feed_errors": [
+        {
+          "source": "BBC Business",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "source": "BBC World",
+          "error": "HTTP Error 403: Forbidden"
+        },
+        {
+          "source": "中央社 國際",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    }
+  },
+  "candidates": [
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "Macy's postpones Thanksgiving Day Parade due to severe weather",
+      "published_at": "2026-11-26T06:26:56+08:00",
+      "summary": "Macy's announced Wednesday that its annual Thanksgiving Day Parade is being postponed to Saturday due to severe weather.",
+      "url": "https://www.cnbc.com/2026/11/25/macys-thanksgiving-day-parade-postponed.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Inside India newsletter: Roaring economy, foreign investors’ return and now record auto sales",
+      "published_at": "2026-11-26T08:12:16+08:00",
+      "summary": "Automakers in India are poised to sell over 30 million vehicles in the financial year ending March 2027.",
+      "url": "https://www.cnbc.com/2026/11/26/india-auto-slaes-economy-suzuki-hyundai-toyota.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "Fed Beige Book Shows Moderate Growth, Uptick in Wage Pressures",
+      "published_at": "2026-11-26T03:35:50+08:00",
+      "summary": "Most Federal Reserve districts saw slight to moderate growth in recent weeks, and companies reported increased wage pressures, according to a survey of the central bank’s regional contacts.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/fed-beige-book-shows-moderate-growth-uptick-in-wage-pressures"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "US proposes surprise new tariffs on Brazil imports, including 10% duty on aircraft - Reuters",
+      "published_at": "2026-11-26T07:42:10+08:00",
+      "summary": "US proposes surprise new tariffs on Brazil imports, including 10% duty on aircraft Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTGZ4TFg5REgyY0VnandHQjZIMFN1cnNBOEJVQTBDaU1IWDFLVUxmdHFTXzRLVnVKc3pHd3lTYk9lRHZBOWV1Skd5V0VzVU05ZDRjZXdZekl5cWFneWI2b3ptS09taEhjNzZIcGhuWVdydDk5cnpkcElkMUdTZkJjTjROT09sOG5adVUxNVpNeGp5UmxaaHl2bzh6TklXMlp2eVQyVW9idi1QV25LcnpIeFBjMEF4RzNNbkNIU3JOUlN6WWVqSjRtTlFZMA?oc=5"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Business",
+      "title": "Secondhand shopping is going mainstream this holiday season as consumers seek value",
+      "published_at": "2026-11-25T22:17:01+08:00",
+      "summary": "More consumers are shopping secondhand this holiday season as they emphasize value and uniqueness in their purchases.",
+      "url": "https://www.cnbc.com/2026/11/25/secondhand-holiday-shopping-grows-as-shoppers-seek-value.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "CNBC Top Stories",
+      "title": "Gold falls to more than one-year low after data shows U.S. inflation rose further",
+      "published_at": "2026-11-26T07:50:53+08:00",
+      "summary": "Gold fell to its lowest level in more ‌than a year after strong U.S. inflation data failed to assuage concerns surrounding the Federal Reserve's rate-hike path.",
+      "url": "https://www.cnbc.com/2026/11/25/gold-metals-federal-reserve-inflation.html"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "¿Qué efecto tienen los aranceles de Trump en la economía?",
+      "published_at": "2026-11-26T01:37:56+08:00",
+      "summary": "Trump planea ampliar los aranceles a China, la UE y otros socios comerciales, pese al descontento de los votantes por su impacto en los precios y la economía.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/-que-efecto-tienen-los-aranceles-de-trump-en-la-economia-mwwepq7g"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "AI stock rout deepens but damage is limited by afternoon bounce - Reuters",
+      "published_at": "2026-11-26T07:39:08+08:00",
+      "summary": "AI stock rout deepens but damage is limited by afternoon bounce Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMmNMM0doWElDVk9BdjNGZnJHakNCUFg1blQzSlk0eW9zeVduV3ZKcEtJd0hpUkxDMVhnRE9rY1lLUzF1eENZaFh0SUNKbmRjanN3YWtZakZud2RYUnlSRkk5b1RZT2VfbFJPXzhZVEVyYnFnRHBwYVlGdFQzaEt2Z2VjaGVXWUE0Qmd5bjZYandmR2M2QXBSY2tKem80OGNlSzh3?oc=5"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Bloomberg Economics",
+      "title": "El Salvador Finally Reaps Economic Gains From Gang Crackdown",
+      "published_at": "2026-11-26T00:55:27+08:00",
+      "summary": "El Salvador’s economic fortunes are finally starting to match its dramatic improvement in security.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/el-salvador-finally-reaps-economic-gains-from-gang-crackdown"
+    },
+    {
+      "category": "1_us_macro",
+      "category_label": "美國總經與政策",
+      "source": "Reuters (Google News 24h)",
+      "title": "EXCLUSIVE: Billionaire Boehly signs US-backed share swap deal to buy Lukoil global assets - Reuters",
+      "published_at": "2026-11-26T06:54:57+08:00",
+      "summary": "EXCLUSIVE: Billionaire Boehly signs US-backed share swap deal to buy Lukoil global assets Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM05VWXNudnhTWW1BY2VFUHpZRzdNSjU4TG1Ob3NYZTRKM0tNUWNGQmxyNEp6NW0yTEJWaTZabF9UNW9CUUZTclBhaGpnQmZ6WVRZTVhqS3dpOTBsZEtaOGZnMzFPQlR5MDRpZThJNmU0cXc5Q0trMDNhdWtxVjV4V1lMYzYyR1RHU0lBNDdWZDlzOWxBN1J1Wm0xWlJkNEVMaVNXUXdQcTRuUHlvczlnMTd1VGRWQQ?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "光焱毛利率要站穩逾六成 瞄準矽光子、車用等領域",
+      "published_at": "2026-11-26T00:07:21+08:00",
+      "summary": "半導體光電檢測設備供應商光焱（7728）董事長柯歷亞昨（25）日表示，明年營運非常樂觀，包括矽光子、車用或太空應用相關發展都有所期待，毛利率以維持在六成以上為目標。",
+      "url": "https://money.udn.com/money/story/11074/9901944"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "感恩節前美科技股走弱 301新關稅成台股變數",
+      "published_at": "2026-11-26T08:22:02+08:00",
+      "summary": "美國感恩節假期前，科技股遭遇賣壓，美股主要指數多收黑。美國對貿易夥伴的301條款調查報告25日發布並提議對14個經濟體加...",
+      "url": "https://money.udn.com/money/story/5612/9902624"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Hegseth, Pentagon officials floated using wartime law to reappoint Nvidia CEO - The Washington Post",
+      "published_at": "2026-11-26T08:15:16+08:00",
+      "summary": "Hegseth, Pentagon officials floated using wartime law to reappoint Nvidia CEO The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcDJ0UmNqUTc2UWNoaVh0STB6ZHRZTnV6WGVPX2Q0VDhmRWU4Wk5hV2lZMTZOZUV4ZEwzOVBnVmVtbnB0eXlpekIyMVF5cG91WmVxLTNIeWx1MzhLN3czOHFLbFRuVTdYRUIwdk4zMTlfcEtLb2J3Y1lQM0l1OTREU2p5UzBxaXI5aExoOGlyUVctZlJZcllacVRzTU9zVXlNaVVMNThZRE85NWdlaEo2WUJKd3FtTVBRZ00xU0l0V2tMLTRiLUE?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "智崴赴美參展 搶下大單",
+      "published_at": "2026-11-26T00:04:49+08:00",
+      "summary": "體感設備龍頭智崴（5263）赴美國參展，宣布三項國際合作新進展，分別與日本索尼共同推出知名遊戲《地平線》限定體驗，並與美國聯合公園村集團，以及巴西Grupo Iter打造全新飛行劇院，挹注明年營運。",
+      "url": "https://money.udn.com/money/story/11074/9901948"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "台積電美國擴廠典禮 川普要來 凸顯 AI 鏈關鍵戰略地位",
+      "published_at": "2026-11-26T03:33:14+08:00",
+      "summary": "彭博資訊25日報導，美國總統川普將出席台積電亞利桑那州鳳凰城廠區的擴建典禮，凸顯台積電在美國半導體產業政策及AI供應鏈的關鍵戰略地位。據了解，台積電董事長暨總裁魏哲家將率領兩位共同營運長及兩位副共同營運長出席，政府則由身兼台積電董事的國發會主委葉俊顯代表與會。",
+      "url": "https://money.udn.com/money/story/5612/9902330"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Donald Trump returning to Arizona to headline TSMC event in Phoenix - azcentral.com and The Arizona Republic",
+      "published_at": "2026-11-26T08:06:00+08:00",
+      "summary": "Donald Trump returning to Arizona to headline TSMC event in Phoenix azcentral.com and The Arizona Republic",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNV3MyVkVYVDhManN3MktCQzJ6T3I1a2ZNWnV3aEI5V3FhOGpZOVV1OXROU0s1MVRmaUx3TG1peW5paXFyb0VpNllPZGUwdm1mMGFrNlZabmdpNGE1UldtWlM1R2lCT01FXy1qV1Q3WWRQOVdwaG1zT0R1ZWIzczZvaFpmbW01LTNOTmY3N3BLc3VsVDVvOERncFpKVG56TUNBdEZMaE82WWFmQVBHQWc?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "大江攻保健品轉型商機",
+      "published_at": "2026-11-26T00:02:19+08:00",
+      "summary": "大江生醫（8436）強攻全球保健食品劑型轉型商機，推出新世代果凍平台Jellie，接連在美國、香港國際大展吸引65國買主，展後商務洽談全面展開。大江董事長林詠翔表示，劑型創新正重新定義產業競爭規則，將攜手全球品牌搶占新一波成長商機。",
+      "url": "https://money.udn.com/money/story/11074/9901952"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "台積美國擴廠典禮 這場盛宴...濃濃政治味",
+      "published_at": "2026-11-26T03:31:53+08:00",
+      "summary": "外電報導，美國總統川普將於12月4日出席台積電亞利桑那州鳳凰城廠區擴建典禮。這場盛大的擴建典禮，不只是產業盛事，更具有濃厚地緣政治意味。",
+      "url": "https://money.udn.com/money/story/5612/9902331"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Don’t drag Israel into the NVIDIA and Jensen Huang scandal - JNS",
+      "published_at": "2026-11-26T07:52:19+08:00",
+      "summary": "Don’t drag Israel into the NVIDIA and Jensen Huang scandal JNS",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMmVIWnUxWXlDUHo2NlI2YXE2MjFiTm5UbTUxM000ekZkVG5CeHQ4cXk2TGpuT0tfdHBTZDhmSHZCbU93c0EyVUh6d3dQd2hBZ2lvVjVIbmRhWW1ONnhra3hwaGVjN1VrbVlZTlhIanZQZHFlVk03aUs0TWZ0N1Y3dmZhQ0VuWlo5OGphMm5tVXpnVWRSV0Jfdzh0cUppaU9jczhLUzZsYnMzSmo4RWc?oc=5"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 證券台股",
+      "title": "群聯砸32.96億元買回庫藏股 提前逾一個月完成、執行率100%",
+      "published_at": "2026-11-25T19:03:52+08:00",
+      "summary": "NAND控制晶片大廠群聯（8299）25日公告，第四次庫藏股已全數執行完畢，累計斥資32.96億元買回2,000張，執行率達100%，較原訂期限提前逾一個月完成，平均每股買回價格為1,647.82元，低於原訂買回價格區間下限。",
+      "url": "https://money.udn.com/money/story/11074/9901873"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "經濟日報 產經",
+      "title": "轉型升級！遠東集團董座徐旭東：明年會更好 看好旗下各事業體新成長動能",
+      "published_at": "2026-11-26T03:15:25+08:00",
+      "summary": "遠東集團第33屆耶誕點燈晚會昨（25）日在敦南遠企熱鬧登場，集團董事長徐旭東今年偕同兒子、集團創新長徐國安出席，父子同台、喜氣洋洋。談及2027年景氣及集團營運，徐旭東樂觀表示：「明年會更好，集團也不差。」預告遠東集團將迎來大好年。",
+      "url": "https://money.udn.com/money/story/5612/9902232"
+    },
+    {
+      "category": "2_tw_semis",
+      "category_label": "台股大盤與核心半導體",
+      "source": "Google News (TSMC / Nvidia)",
+      "title": "Altimeter’s Brad Gerstner Says Nvidia Was Priced for “Negative Growth for 2028 and 2029.” Wall Street Expects 29% - Yahoo Finance",
+      "published_at": "2026-11-26T07:39:02+08:00",
+      "summary": "Altimeter’s Brad Gerstner Says Nvidia Was Priced for “Negative Growth for 2028 and 2029.” Wall Street Expects 29% Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbENRVnBzcnpBdE9FVnhraHY4TjhONTFvV2ZqZzRndURuY0lockF5UDZHWGlkWEVhXzRfQ1NsS0JmMk1BZ2hkaFNqQU53ZHhDc0VLZGh6RHlTVE4tMFVDaW5URGxCLXhFYzRXSHBkWVlrOV8tSk5LSGxDTzFQNFRXMHJ2Wm16MlBkelBGZThhN2lpWk05STJPTm1pbWVsbzNDaGc?oc=5"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "路透：黃仁勳重掌輝達對 AI 信用市場減壓有限",
+      "published_at": "2026-11-26T08:20:46+08:00",
+      "summary": "路透社報導，AI 晶片巨頭輝達董事會 23 日決議通過前執行長黃仁勳復職，使近來走疲的股市反彈，不過，防範科技 […]",
+      "url": "https://finance.technews.tw/2026/11/26/jensen-huangs-second-coming-offers-little-relief-to-ai-credits/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
+      "published_at": "2026-11-26T08:27:52+08:00",
+      "summary": "SpaceX said it will donate one share of the company's class A stock to every active Trump Account, and CEO Elon Musk would match it.",
+      "url": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "published_at": "2026-11-26T06:44:32+08:00",
+      "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "蘋果前工程師打造隱私 AI 新創 Maple 獲 530 萬美元種子輪募資，主打連平台也看不見原始資料",
+      "published_at": "2026-11-26T08:10:29+08:00",
+      "summary": "美國隱私 AI 新創公司 Maple 近日完成 530 萬美元的種子輪募資，計劃將資金投入下一階段的產品開發。 […]",
+      "url": "https://infosecu.technews.tw/2026/11/26/maple-raises-5-3m-to-build-ai-products-that-protect-your-data/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Tech stocks sink but close well off the lows, Anthropic struggles to rebound above IPO price",
+      "published_at": "2026-11-26T05:04:57+08:00",
+      "summary": "Nvidia and other AI-linked stocks fell as investors weighed AI spending, inflation and higher-rate risks.",
+      "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "published_at": "2026-11-26T04:03:27+08:00",
+      "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "路透：黃樂相關企業抵押 AI 伺服器融資，申報價值達 2.7 億美元",
+      "published_at": "2026-11-26T08:05:36+08:00",
+      "summary": "路透社查閱先前未曾曝光的紀錄，發現與中國女商人黃樂相關的多家公司，曾以用於中國大型 AI 資料中心的高效能運算 […]",
+      "url": "https://finance.technews.tw/2026/11/26/alice-huang-linked-firms-listed-270-million-in-ai-servers-in-china/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "Vance says he was assured Jensen Huang was not under DOJ investigation",
+      "published_at": "2026-11-26T05:00:08+08:00",
+      "summary": "Whether the Trump administration has investigated Jensen Huang for potential national security risks has been the subject of questions.",
+      "url": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "published_at": "2026-11-26T03:54:57+08:00",
+      "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
+      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechNews 科技新報",
+      "title": "同一個 AI，換個工具就變強？排行榜沒告訴你的事",
+      "published_at": "2026-11-26T08:00:40+08:00",
+      "summary": "Google 11 月 18 日發表 Gemini 4 Neon。在 Google 自行執行的 SWE-swe […]",
+      "url": "https://technews.tw/2026/11/26/why-the-same-ai-performs-better-with-different-tools/"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "CNBC Technology",
+      "title": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+      "published_at": "2026-11-26T03:52:47+08:00",
+      "summary": "SpaceX won approval from the FCC to put 1 million orbital data center satellites into space, a proposal that was opposed by Amazon and other groups.",
+      "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html"
+    },
+    {
+      "category": "3_tech_supply_chain",
+      "category_label": "前瞻科技與台廠供應鏈",
+      "source": "TechCrunch AI",
+      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "published_at": "2026-11-26T03:44:24+08:00",
+      "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
+      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Gold at $8,000: dollar crisis risk and portfolio takeaways for mine planners - Geomechanics.io",
+      "published_at": "2026-11-26T08:00:45+08:00",
+      "summary": "Gold at $8,000: dollar crisis risk and portfolio takeaways for mine planners Geomechanics.io",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOGRfN3hOcFdWRzNmd0lYMDVvOWIyQjRuSW9rY1Q3V3Z1bFlBanJXam4taHZPTzVUbWg4RmE2amlrdHdSZ1kyVzFOR3ZhaDlaNjMteG4tRkFuQWdLZUhmRWRtZXJGNnF2OW1zLUJCU1hUQU1WZXpwR1dkUHoxVW9RbVZxbzA3Yk1DcWtWaGNBUVdNcE5KdUpvbTRraUR3TUdNZjBQRTd2M2FZU1ZoLVRuUEZGN0k?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "CNBC World",
+      "title": "Asia markets edge higher as investors assess fresh U.S. tariffs; South Korea rate decision in focus",
+      "published_at": "2026-11-26T08:20:16+08:00",
+      "summary": "Asia-Pacific markets edged higher on Thursday as concerns over artificial intelligence spending, sticky inflation and new U.S. tariffs weigh on investor sentiment.",
+      "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Gold Edges Lower as US Inflation Data Fuels Bets for Rate Hikes",
+      "published_at": "2026-11-26T08:18:09+08:00",
+      "summary": "Gold edged lower, after rising on Wednesday, as inflation data reinforced bets the Federal Reserve will hike interest rates further.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/gold-edges-lower-as-us-inflation-data-fuels-bets-for-rate-hikes"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Oil Holds Two-Day Gain as Mideast Tensions Fuel Market Jitters - Bloomberg",
+      "published_at": "2026-11-26T07:36:08+08:00",
+      "summary": "Oil Holds Two-Day Gain as Mideast Tensions Fuel Market Jitters Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaWM5bTBpVVdXcm1DeXd5eTFMWXRUWVFIalFzYnE5bGVqS3dVbldzMXFralFtOWdoaXZDS0NtbE83ME5ZS3cwZkdaRFJsTFlzcFlhQnhmbGF3a1hSdmVsUU9Dc1VLWXJmV2J2aTlETkhSWXd1dlNCamZOeEdlSnN6dXdCN3p5TUd5bDJsVlVpM0J6UVN3TzNEd2wyQ2ZpQQ?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Emerging Asia’s Best Bond Rally Seen Extending in Philippines",
+      "published_at": "2026-11-26T08:05:45+08:00",
+      "summary": "Philippine government bonds look poised to build on this month’s sharp rally as expectations of easing price pressures and a landmark global index inclusion may stimulate fresh demand next year, according to some market watchers.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/emerging-asia-s-best-bond-rally-seen-extending-in-philippines"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Gold rebounds above $3,550 as easing yields and weaker US Dollar counter hot US inflation data - FXStreet",
+      "published_at": "2026-11-26T07:26:01+08:00",
+      "summary": "Gold rebounds above $3,550 as easing yields and weaker US Dollar counter hot US inflation data FXStreet",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNV2dlTUJEaktWRnlZVGtZanQ5aF9lbjZFWm1ITDIyeVdvNndTVXlhRHc3b3ZWVExVQVdMY1ZNOWt1OUtack82YVo5N2tKR2dKWU9tbFJTazlyOVpNWE1PX3JHWm9HNFdfb2ttVWw4SlZZcjNBYk1sWXoxWXUybzloSFh5UldpOGRPeldlQTdNYVVKelAwbXRSRmxUcVl5WUZTSWVyQlZpOXdkNzVhZE1JR0NSbjJxTHN6LV9tbXV2ZXQtSFdKWWtqV1JsRFlLQko2OXc?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "China 2027 Growth to Top 4.5%, Ex-Official Says",
+      "published_at": "2026-11-26T07:54:41+08:00",
+      "summary": "China’s economy is on track to grow more than 4.5% in 2027, according to former Vice Finance Minister Zhu Guangyao. Speaking to Bloomberg TV’s Avril Hong in Singapore on Wednesday, Zhu noted that Beijing still has room to loosen fiscal policy next year, while also stressing the need for AI regula...",
+      "url": "https://www.bloomberg.com/news/videos/2026-11-25/china-2027-growth-to-top-4-5-ex-official-says-video"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Oil traders downplay Persian Gulf supply risks despite rising attacks - Crypto Briefing",
+      "published_at": "2026-11-26T07:06:46+08:00",
+      "summary": "Oil traders downplay Persian Gulf supply risks despite rising attacks Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNW9oNHZGQWstR1dDb2MtMzlhOGtQQzBrNGNDOUN4Y1BVZ1B0SUlyaUp1bXMtaVBDbk43dkxMbFVKUzFXeDM4ZU1jTkhMU3k5UnRLZUpPMTZXTk8zRGZYbUsweUl6dTJDN3FPR01pV01YLUNIVkJtNlpsem1FNlZoT2xLX1BZb29zNF9GY3R6TnRENGpFcnRpUXhSaGxDZw?oc=5"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Bloomberg Markets",
+      "title": "Would-Be RadioShack Revivers Settle SEC Fraud Suit Allegations",
+      "published_at": "2026-11-26T07:44:35+08:00",
+      "summary": "Three entrepreneurs accused of misleading investors about pandemic-era plans to revive distressed retailers including RadioShack and Pier 1 Imports agreed to pay more than $6.8 million to end a US regulator’s lawsuit claiming they were running a Ponzi-like scam.",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-25/would-be-radioshack-revivers-settle-sec-fraud-suit-allegations"
+    },
+    {
+      "category": "4_fx_commodities",
+      "category_label": "國際匯市與大宗避險資產",
+      "source": "Google News (Gold / Oil / Forex)",
+      "title": "Oil Traders Ignore Growing Threat to Persian Gulf Supply - Crude Oil Prices Today | OilPrice.com",
+      "published_at": "2026-11-26T07:00:00+08:00",
+      "summary": "Oil Traders Ignore Growing Threat to Persian Gulf Supply Crude Oil Prices Today | OilPrice.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRlB2Znc1NDZFczFHN2FMenZUYXBjR19hLUgtdDJEbzdwem1BV095ME1sSExYRXgwelJZVmJQWDluUENFOUgzOWNNUkoybEdXNWhDM29tNVQ0RTJZc2RMZEc3aWhwOVd6NkgzZlMwRjUtWXNzQXR0THlNbGh4alR4UFdHaTV1VXdBM2trYm9LbDA1ZEhBcWhXSXhkR3hUU1ZY0gGmAUFVX3lxTE9fNkVFY3BPb3NtMWRSaXFjbTdQZUZRQS1PQ1JnN2lGRDNaVmt1VkkwRUVmbmREVDliNlhXLS1MSXZ0b0lNV2ZKaXk5aG95dGpRX0FtakFEcEdycnVDM0hxdGwxWEtHSXZnb2dpTEhqUVNYY3dZYWpfVW01VTRZdzFMWXlXQmZxTXk2a0tYbzBLR0dqVVRDSExJS0RYQ3FveEcxM3lyYWc?oc=5"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Australian politics live: Hanson says she ‘never approached’ Liberal defector; spoof parliamentary tool spreads cheer",
+      "published_at": "2026-11-26T08:19:05+08:00",
+      "summary": "Get our breaking news email , free app or daily news podcast Pauline Hanson has released a statement this morning welcoming South Australian senator Leah Blyth to her party . Blyth is the second high-profile federal defection from the Coalition to One Nation – after Barnaby Joyce . Senator Blyth...",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/26/labor-anthony-albanese-pauline-hanson-one-nation-angus-taylor-coalition-ntwnfb"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "UN sacked Palestinian staff on back of unproven Israeli allegations, tribunal rules",
+      "published_at": "2026-11-26T08:05:50+08:00",
+      "summary": "Judgment casts doubt on evidence linking aid workers to Hamas and says humanitarian efforts in Gaza were damaged A UN tribunal has cast doubt on the evidence used to justify the sacking of Palestinian UN aid workers in 2024, saying it was based “almost entirely” on unproven assertions from the Is...",
+      "url": "https://www.theguardian.com/world/2026/nov/25/un-sacked-palestinian-staff-on-back-of-unproven-israel-allegations"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Chris Van Hollen picks up more support for Senate majority leader role ahead of Democrats vote next week – live",
+      "published_at": "2026-11-26T08:02:52+08:00",
+      "summary": "Senator-elect Troy Jackson, of Maine, announced he would support the progressive over the current minority leader, Chuck Schumer Sign up for the Breaking News US email US trade representative Jamieson Greer claimed this morning that he did not expect the new proposed tariffs to rattle the global...",
+      "url": "https://www.theguardian.com/us-news/live/2026/nov/25/donald-trump-jensen-huang-nvidia-pardon-senate-hearing-iowa-abdul-el-sayed-latest-news-updates"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Ministers to create new stalking offence and scrap need for proof of fear or distress",
+      "published_at": "2026-11-26T08:01:40+08:00",
+      "summary": "Victims’ commissioner welcomes strengthening of law in England and Wales but calls for measures to tackle convicted stalkers Ministers will create a new stalking offence so that victims will no longer have to prove fear or distress to seek protection under the law, the Home Office has announced....",
+      "url": "https://www.theguardian.com/world/2026/nov/26/ministers-create-new-stalking-offence-scrap-need-for-proof-victims-fear-distress"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Social media making it harder for UK parents to raise families, survey finds",
+      "published_at": "2026-11-26T08:01:40+08:00",
+      "summary": "Poll of parents of young children finds three-quarters think pressure from influencers has increased their anxiety Parents of children aged five and under say pressure from social media influencers to be “the perfect parent” is making it harder to raise a family, according to a survey . Three-qua...",
+      "url": "https://www.theguardian.com/media/2026/nov/26/social-media-making-it-harder-for-uk-parents-to-raise-families-survey-finds"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Children in overcrowded homes get poorer GCSE results, study finds",
+      "published_at": "2026-11-26T08:01:39+08:00",
+      "summary": "Researchers urge ministers to ensure young people in rented homes have space for a desk in their bedroom Children who share a bedroom and lack a quiet place to study at home get worse GCSE results than their peers, according to a major report on how poor housing affects education. The research, c...",
+      "url": "https://www.theguardian.com/education/2026/nov/26/children-overcrowded-homes-gcse-results-study"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Patrick Radden Keefe’s London Falling named Waterstones book of the year",
+      "published_at": "2026-11-26T08:01:39+08:00",
+      "summary": "The word-of-mouth success of the journalist’s investigation into the death of a London teenager is ‘one of the defining features of the literary year’ London Falling, Patrick Radden Keefe’s bestselling investigation into the mysterious death of a London teenager, has been named Waterstones book o...",
+      "url": "https://www.theguardian.com/books/2026/nov/26/patrick-radden-keefes-london-falling-named-waterstones-book-of-the-year"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Flinders Island bushfire grows to 13,000 hectares with Tasmanian homes and properties at risk",
+      "published_at": "2026-11-26T07:08:49+08:00",
+      "summary": "Fire making a ‘significant run’ towards the southwest of the island on Thursday, Tasmania Fire Service says Get our breaking news email , free app or daily news podcast Homes and properties on a picturesque remote island remain under threat from an out-of-control bushfire that has sent smoke hund...",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/25/large-bushfire-threatens-homes-and-properties-on-remote-island-off-tasmania"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Palestinian journalist killed by Israel in Gaza wins Rory Peck prize",
+      "published_at": "2026-11-26T07:06:06+08:00",
+      "summary": "Mariam Dagga shares award with two of her colleagues from AP for ‘powerful coverage’ of human cost of war Mariam Dagga, the Palestinian war correspondent who was killed at the age of 33 in Gaza in an Israeli strike, has posthumously won the prestigious Rory Peck prize for freelance video journali...",
+      "url": "https://www.theguardian.com/media/2026/nov/25/palestinian-journalist-killed-by-israel-in-gaza-wins-rory-peck-prize"
+    },
+    {
+      "category": "5_ai_blindbox",
+      "category_label": "AI 國際焦點盲盒",
+      "source": "The Guardian World",
+      "title": "Record-breaking California tides cause major flooding of roads and businesses",
+      "published_at": "2026-11-26T06:56:36+08:00",
+      "summary": "Beaches close as Los Angeles and La Jolla see all-time high tides and big waves batter landmark pier in Pacifica Super El Niño weather brought record-breaking high tides up and down the California coast on Wednesday, sending seawater rushing into beachside communities and flooding roads and busin...",
+      "url": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides"
+    }
+  ]
+}
