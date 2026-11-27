@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2026-11-27 全球金融市場日報 — LLM 研究知識庫</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/black.min.css">
+  <link rel="stylesheet" href="../../assets/slides.css">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- ═══ 第 1 頁｜封面與今日定調 ═══ -->
+      <section class="title-slide bg-overlay"
+               data-background-image="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80"
+               data-background-color="#0b1120"
+               data-background-opacity="0.35">
+        <h1>2026-11-27 全球金融市場日報</h1>
+        <p class="subtitle">美 Q3 GDP 上修至 4.3% 引爆亞太緊縮共振 × 輝達凍結星馬泰印出貨引爆 B300 拋售 × 鎧俠 1.1 PB SSD 破 HBM 牆 × 澳洲 20% 天然氣保留盲盒：美元連 3 月漲 1.8% 創 2024 來最長連紅、原油站上 83 美元 × 數千顆 B300 湧入二級市場 × 台股勁揚 956 點重返年線、301 豁免細節落地備戰 232 條款 × 澳洲 20% 保留衝擊台灣 1/3 LNG 源頭</p>
+        <p class="meta" style="margin-top:1.2em">依據筆記：notes/11-27-daily-report.md ｜ 嚴格 100% 萃取自 wiki/ 今日 7 篇新條目</p>
+        <aside class="notes">今日主軸在於「實體出口執法急凍（東南亞四國斷貨＋B300 拋售）與能源民族主義（澳洲 20% 保留）雙面夾擊下，台灣半導體憑藉 301 豁免與美國製造取得結構性避風港」。</aside>
+      </section>
+
+      <!-- ═══ 第 2 頁｜宏觀定價（1/2）：美 Q3 GDP 上修至 4.3% 與美日韓央行緊縮共振 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>一、宏觀定價（1/2）｜美 Q3 GDP 上修至 4.3% 引爆川普調查要求，美日韓央行緊縮共振</h2>
+        <ul>
+          <li>
+            <strong>美國 Q3 實質 GDP 上修 0.9 pp 至 4.3%，市場押注 12 月＋1 月連環升息</strong>：商務部將 Q3 GDP 年率由選前初值 <strong>3.4%</strong> 大幅上修至 <strong>4.3%</strong>（2020 Q2 來最大修正、達歷史平均修正幅 0.43 pp 兩倍以上）；川普在 Truth Social 痛批「創紀錄錯誤」影射期中選舉並要求調查，但機構指出經濟韌性反賦予 Fed 更強升息理由——CME FedWatch 定價 12 月升息<strong>近 100%</strong> 並押注 <strong>2027 年 1 月續升</strong>，華爾街戒備「2018 年四次升息重演」。
+            <span class="supplement">🔗 來源：<a href="https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html" target="_blank" rel="noopener">[CNBC]</a> <a href="https://www.cnbc.com/2026/11/26/stock-market-today-live-updates.html" target="_blank" rel="noopener">[CNBC Live]</a> <a href="../../wiki/us-q3-gdp-revision-trump-probe-fed-hike-2026-11-27.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>感恩節美期指走揚 + 南韓升息 25 bps + 東京核心 CPI 2.9% 推升 BoJ 緊縮</strong>：美股週四休市、週五半日收盤（美東 13:00），標普期指 +0.7%、那指期 +0.6%、道瓊期 +277 點（本週全線反彈約 +4%）；<strong>南韓央行（BoK）</strong> 11/26 以 5:2 升息 <strong>25 bps</strong> 至 <strong>3.25%</strong> 並上修明年 GDP 預測至 3.9%；日本 <strong>11 月東京核心 CPI 加速至 2.9%</strong>（16 個月新高），推升 12/17–18 BoJ 升息機率逾 70%。
+            <span class="supplement">🔗 來源：<a href="https://www.bloomberg.com/news/articles/2026-11-26/tokyo-inflation-accelerates-keeping-boj-wary-of-price-pressure" target="_blank" rel="noopener">[Bloomberg]</a> <a href="../../wiki/us-q3-gdp-revision-trump-probe-fed-hike-2026-11-27.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>因果傳導與量化影響</strong>：$$\text{美 Q3 GDP 4.3\% + 核心 PCE 3.3\%} \longrightarrow \text{CME 定價 12 月＋1 月連環升息} \longrightarrow \text{南韓升 3.25\% + 東京 CPI 2.9\% 推升 BoJ} \longrightarrow \text{高實質利率續壓 AI 高估值倍數}$$
+            <span class="supplement">📊 台股量化影響：美日韓三國利率中樞同步抬升，限制台股高本益比成長股倍數擴張空間 2%–4%，資金偏好轉向高殖利率與具基本面護城河權值股。</span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［跨日對照］</strong>昨日 10 月核心 PCE 升至 3.3% 才剛鎖死 12 月升息，今日 Q3 GDP 上修至 4.3% 疊加南韓升息與東京 CPI 2.9%，宣告全球高利率週期正邁向「2027 年續緊」的新階段。
+        </div>
+        <aside class="notes">GDP 上修 0.9 個百分點疊加亞太央行鷹派數據，使「2018 年四次升息重演」成為美股多頭最大逆風。</aside>
+      </section>
+
+      <!-- ═══ 第 3 頁｜宏觀定價（2/2）：美元風暴連 3 月走高、黃金守 3,565 美元、原油連三紅 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1610375461246-83df859d849d?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>二、宏觀定價（2/2）｜「美元風暴」連 3 月創 2024 來最長連紅，黃金止穩 3,565 美元、原油站上 83 美元</h2>
+        <ul>
+          <li>
+            <strong>「美元風暴」：BBDXY 11 月累漲 1.8%，日本銀行股面臨資金成本平倉風險</strong>：受 AI 交易破裂避險買盤與高利差支撐，<strong>彭博美元即期指數</strong> 11 月累漲 <strong>+1.8%</strong>，邁向 2024 年來最長月線連三紅；彭博並示警東京通膨推高存款融資成本，日本銀行股面臨獲利平倉（unwind）風險。
+            <span class="supplement">🔗 來源：<a href="https://www.bloomberg.com/news/articles/2026-11-26/-dollar-storm-greenback-on-track-for-longest-winning-run-since-2024" target="_blank" rel="noopener">[Bloomberg Dollar]</a> <a href="../../wiki/dollar-storm-longest-winning-run-gold-steadies-oil-2026-11-27.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>黃金於 3,565 美元低檔築底，WTI 原油連三漲破 83 美元</strong>：現貨金週初貫破 3,500 美元創 15 個月低後，於 <strong>3,565 美元/盎司</strong> 附近止穩；俄軍空襲烏克蘭能源設施（川普與北約秘書長警告俄方）疊加 EIA 煉油產能利用率 <strong>+1.8%</strong>，推升 <strong>WTI 原油連三漲站上 83–84 美元</strong>，LME 銅鋅鋁與 SHFE 白銀全面走揚。
+            <span class="supplement">🔗 來源：<a href="https://www.bloomberg.com/news/articles/2026-11-26/gold-steadies-as-fed-rate-path-and-ai-stocks-frame-volatile-week" target="_blank" rel="noopener">[Bloomberg Gold]</a> <a href="https://www.cnbc.com/2026/11/26/trump-nato-rutte-russia-ukraine-war.html" target="_blank" rel="noopener">[CNBC]</a> <a href="../../wiki/dollar-storm-longest-winning-run-gold-steadies-oil-2026-11-27.html">[Wiki]</a></span>
+          </li>
+        </ul>
+        <!-- SVG Chart 1: 美元風暴 vs 黃金築底 vs 原油反彈跨資產對照 -->
+        <svg viewBox="0 0 880 185" width="100%" height="185" aria-label="跨資產定價對照：美元指數、黃金與原油">
+          <rect width="880" height="185" fill="#0f172a" rx="8" />
+          <text x="28" y="30" fill="#f8fafc" font-size="16" font-weight="700">跨資產定價位移（11/23 → 11/27）：強美元連三月 × 黃金築底 × 原油強彈</text>
+          <!-- Card 1: Dollar -->
+          <rect x="28" y="48" width="260" height="118" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" />
+          <text x="45" y="75" fill="#38bdf8" font-size="15" font-weight="700">彭博美元指數 (BBDXY)</text>
+          <text x="45" y="108" fill="#f8fafc" font-size="16" font-weight="700">11月累漲 +1.8%</text>
+          <text x="45" y="135" fill="#94a3b8" font-size="13.5">邁向連 3 個月收紅</text>
+          <text x="45" y="155" fill="#7dd3fc" font-size="13.5">創 2024 年來最長連漲</text>
+          <!-- Card 2: Gold -->
+          <rect x="310" y="48" width="260" height="118" rx="6" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" />
+          <text x="327" y="75" fill="#f59e0b" font-size="15" font-weight="700">現貨黃金 (XAU/USD)</text>
+          <text x="327" y="108" fill="#fde047" font-size="16" font-weight="700">止穩於 $3,565/oz</text>
+          <text x="327" y="135" fill="#94a3b8" font-size="13.5">週初貫破 $3,500（15個月低）</text>
+          <text x="327" y="155" fill="#fcd34d" font-size="13.5">消化升息壓力、週線微彈</text>
+          <!-- Card 3: Oil -->
+          <rect x="592" y="48" width="260" height="118" rx="6" fill="#1e293b" stroke="#ef4444" stroke-width="1.5" />
+          <text x="609" y="75" fill="#fca5a5" font-size="15" font-weight="700">WTI 輕原油期貨</text>
+          <text x="609" y="108" fill="#ef4444" font-size="16" font-weight="700">連三紅破 $83–$84</text>
+          <text x="609" y="135" fill="#94a3b8" font-size="13.5">11/23 曾破 $68 → 急彈</text>
+          <text x="609" y="155" fill="#fca5a5" font-size="13.5">俄烏能源遇襲 + 煉油 +1.8%</text>
+        </svg>
+        <div class="callout">
+          <strong>［台股量化影響估算｜多空情境］</strong>$$\text{美元月漲 1.8\% + WTI 站上 \$83} \longrightarrow \text{新台幣偏弱震盪 + 再通膨壓力回升}$$；強美元對電子代工匯兌提供 +0.5%–1.0% 毛利緩衝，但油價強彈恐壓抑航空與塑化下游獲利 1.5%–3.0%。
+        </div>
+        <aside class="notes">11 月最後交易週美元創 2024 年來最長連漲，黃金低檔止穩而油價強彈破 83 美元，二次能源通膨風險再起。</aside>
+      </section>
+
+      <!-- ═══ 第 4 頁｜全球科技與供應鏈（1/2）：輝達凍結東南亞四國出貨與 B300 拋售潮 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>三、全球科技與供應鏈（1/2）｜輝達暫停東南亞四國伺服器出貨，數千顆 B300 湧入二級市場拋售</h2>
+        <ul>
+          <li>
+            <strong>輝達下令戴爾、美超微暫停對「星馬泰印」出貨 AI 伺服器</strong>：《華爾街日報》與 TechCrunch 揭露，為符合美國出口管制，輝達已通知戴爾與美超微等合作夥伴無限期暫停向<strong>馬來西亞、新加坡、泰國、印尼</strong>出貨伺服器（智庫 Institute for Progress 估計海外遠端資料中心供應中國約 <strong>24%</strong> AI 算力）。
+            <span class="supplement">🔗 來源：<a href="https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/" target="_blank" rel="noopener">[TechCrunch]</a> <a href="../../wiki/nvidia-pauses-se-asia-shipments-b300-gpu-selloff-2026-11-27.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>中國租戶紅線由 50% 壓至「0% 零容忍」，數千顆 B300 GPU 急售變現</strong>：落實 BIS <strong>11/16 公布、11/19 生效</strong>之遠端存取新規，Neocloud 被告知出租<strong>任何比例</strong>算力予陸企即不得購置輝達晶片；GPU Mart 總裁 Jack Duhamel 證實市場出現異常大量 GPU 待售潮，涵蓋<strong>數千顆頂級 B300 GPU</strong>。USTR 葛里爾確認封堵走私與第三國遠端漏洞，輝達並示警《遠端存取安全法案》具雙邊訴訟風險。
+            <span class="supplement">🔗 來源：<a href="https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html" target="_blank" rel="noopener">[CNBC]</a> <a href="https://technews.tw/2026/11/27/us-expands-chip-ban-triggering-b300-gpu-sell-off/" target="_blank" rel="noopener">[TechNews]</a> <a href="../../wiki/nvidia-pauses-se-asia-shipments-b300-gpu-selloff-2026-11-27.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>因果傳導與量化影響</strong>：$$\text{BIS 11/19 遠端存取禁令（陸企租戶 50\%} \rightarrow \text{0\%）} \longrightarrow \text{輝達凍結 Dell/SMCI 東南亞四國出貨} \longrightarrow \text{數千顆 B300 湧入拋售 + Neocloud 算力過剩}$$
+            <span class="supplement">📊 台股量化影響：北美四大 CSP 直供鏈（鴻海、廣達、緯創）受衝擊低（&lt;2%）；惟依賴東南亞二線租賃商與轉運組裝之伺服器／散熱／電源廠，短期恐面臨交期遞延與 3%–6% 估值折價。</span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［跨日對照］</strong>串聯 11/22 BIS 新規、11/23 Datasection 砍單九成、11/24 Megaspeed 實體清單與昨日 PBOC 2.7 億抵押網，今日終於爆發「四國暫停出貨＋數千顆 B300 拋售」的實體供應鏈急煞。
+        </div>
+        <aside class="notes">從「50% 上限」降至「0% 零容忍」，直接打斷了東南亞二線 Neocloud 的套利商業模式，並迫使大量 B300 湧入二級市場。</aside>
+      </section>
+
+      <!-- ═══ 第 5 頁｜全球科技與供應鏈（2/2）：鎧俠攜手輝達以 SSD 擴充 GPU 記憶體至 1.1 PB ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>四、全球科技與供應鏈（2/2）｜鎧俠攜手輝達以 NVMe SSD 擴充 GPU 記憶體突破 1.1 PB</h2>
+        <ul>
+          <li>
+            <strong>NVIDIA SCADA + Storage-Next 突破 HBM 物理容量牆</strong>：鎧俠（Kioxia）11/27 宣布與輝達深度合作，結合專為小區塊精細存取設計的 <strong>NVIDIA SCADA</strong> 軟體函式庫與 <strong>Storage-Next</strong> 架構，解決 GPU 僅依賴 HBM 時必須切分負載、在儲存間反覆搬移資料的效能瓶頸。
+            <span class="supplement">🔗 來源：<a href="https://finance.technews.tw/2026/11/27/kioxia-and-nvidia-collaborate-to-expand-gpu-memory-capacity-via-ssds/" target="_blank" rel="noopener">[TechNews]</a> <a href="../../wiki/kioxia-nvidia-ssd-1pb-gpu-memory-storage-next-2026-11-27.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>GB200 NVL72 PoC 創 1.1 PB 與 2 兆向量里程碑，推進 GP 系列超高 IOPS SSD</strong>：截至 11/26 完成之 PoC 採用 <strong>18 個節點</strong>之 <strong>GB200 NVL72</strong> 機櫃，搭載 <strong>144 顆 KIOXIA XD8 7.68 TB E1.S SSD</strong>（單節點 8 顆／近 <strong>60 TB</strong>），提供 <strong>1.1 PB</strong> 原始擴充容量，支援 <strong>512 位元組</strong>存取與高達 <strong>2 兆個向量</strong>處理（RAG 向量庫／GNNs），並預告開發 KIOXIA GP 系列超高 IOPS SSD。
+            <span class="supplement">🔗 來源：<a href="../../wiki/phison-nand-flash-ai-growth-2026-11-20.html">[群聯 AI SSD Wiki]</a> <a href="../../wiki/nand-flash-2027-oversupply-2026-11-19.html">[2027 NAND Wiki]</a> <a href="../../wiki/kioxia-nvidia-ssd-1pb-gpu-memory-storage-next-2026-11-27.html">[Wiki]</a></span>
+          </li>
+        </ul>
+        <!-- SVG Chart 2: GB200 NVL72 1.1 PB SSD 記憶體擴充架構 -->
+        <svg viewBox="0 0 880 178" width="100%" height="178" aria-label="鎧俠與輝達 GB200 NVL72 1.1 PB SSD 擴充記憶體架構">
+          <rect width="880" height="178" fill="#0f172a" rx="8" />
+          <text x="28" y="28" fill="#f8fafc" font-size="16" font-weight="700">NVIDIA SCADA + KIOXIA Storage-Next：突破 HBM 容量天花板實測架構</text>
+          <rect x="28" y="48" width="230" height="110" rx="6" fill="#1e293b" stroke="#38bdf8" />
+          <text x="45" y="75" fill="#38bdf8" font-size="15" font-weight="700">GB200 NVL72 機櫃</text>
+          <text x="45" y="102" fill="#f8fafc" font-size="15" font-weight="700">18 個伺服器節點</text>
+          <text x="45" y="128" fill="#94a3b8" font-size="13.5">單節點 8 顆 E1.S SSD</text>
+          <text x="45" y="148" fill="#7dd3fc" font-size="13.5">近 60 TB／節點擴充</text>
+          <text x="273" y="108" fill="#f59e0b" font-size="16" font-weight="700">➔</text>
+          <rect x="305" y="48" width="265" height="110" rx="6" fill="#1e293b" stroke="#f59e0b" />
+          <text x="322" y="75" fill="#f59e0b" font-size="15" font-weight="700">144 顆 XD8 7.68TB SSD</text>
+          <text x="322" y="102" fill="#fde047" font-size="16" font-weight="700">整櫃達 1.1 PB 擴充容量</text>
+          <text x="322" y="128" fill="#94a3b8" font-size="13.5">SCADA 512-byte 精細存取</text>
+          <text x="322" y="148" fill="#fcd34d" font-size="13.5">支撐 2 兆個 512B 向量運算</text>
+          <text x="585" y="108" fill="#10b981" font-size="16" font-weight="700">➔</text>
+          <rect x="615" y="48" width="237" height="110" rx="6" fill="#1e293b" stroke="#10b981" />
+          <text x="632" y="75" fill="#10b981" font-size="15" font-weight="700">台廠結構性受惠傳導</text>
+          <text x="632" y="102" fill="#f8fafc" font-size="15" font-weight="700">SSD 升級算力核心階層</text>
+          <text x="632" y="128" fill="#94a3b8" font-size="13.5">對沖消費級 NAND 過剩風險</text>
+          <text x="632" y="148" fill="#6ee7b7" font-size="13.5">利多企業級控制 IC（群聯）</text>
+        </svg>
+        <div class="callout">
+          <strong>［台股量化影響估算｜多空情境］</strong>$$\text{HBM 容量受限 + SCADA 512B 直連} \longrightarrow \text{GB200 標配 144 顆 E1.S SSD（1.1 PB）}$$；企業級高 IOPS SSD 躍居算力標配，有望為台灣 NAND 控制 IC 與企業儲存模組廠挹注 5%–10% 中長線估值溢價。
+        </div>
+        <aside class="notes">單一 GB200 機櫃塞入 144 顆企業級 NVMe SSD 充當 GPU 擴充記憶體，代表 AI 儲存不再是配角而是算力階層的剛性核心。</aside>
+      </section>
+
+      <!-- ═══ 第 6 頁｜台廠供應鏈落地（1/3）：台股勁揚 956 點收復年線 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>五、台廠供應鏈落地（1/3）｜台股勁揚 956 點重返 39,151 點與年線，外資賣超縮逾六成</h2>
+        <ul>
+          <li>
+            <strong>301 關稅疑慮緩解點火強彈，台積電期貨盤後挺進 2,168 元</strong>：11/26 台股帶量 <strong>8,174.67 億元</strong>大漲 <strong>956.38 點</strong>收 <strong>39,151.81 點</strong>，一舉收復 38,400–38,500 點年線與三萬九大關；美股感恩節休市期間台指期夜盤收平 <strong>39,492 點</strong>（正價差逾 340 點），台積電期貨盤後再漲 <strong>9 元</strong>（+0.42%）報 <strong>2,168 元</strong>。
+            <span class="supplement">🔗 來源：<a href="https://money.udn.com/money/story/5612/9904948" target="_blank" rel="noopener">[經濟日報／中央社]</a> <a href="../../wiki/tw-stock-rebound-956-tsmc-futures-301-relief-2026-11-27.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>土洋對作籌碼轉折，經濟部定調 15% 具 FTA 效果</strong>：外資連 9 賣但賣超由 1,236.54 億急縮至 <strong>491.81 億元</strong>（收斂逾 60%），自營商轉買 <strong>128.65 億</strong>（終止連 8 賣）、投信買超 <strong>230.51 億</strong>（連 3 買），三大法人合計賣超僅 132.65 億。經濟部長龔明鑫指 15% 不疊加已達 FTA 效果；投顧估中期區間 <strong>36,000–41,000 點</strong>。
+            <span class="supplement">🔗 來源：<a href="../../wiki/tw-stock-plunge-1926-301-tariffs-taiwan-15-cap-2026-11-26.html">[昨日破年線 Wiki]</a> <a href="../../wiki/tw-stock-rebound-956-tsmc-futures-301-relief-2026-11-27.html">[Wiki]</a></span>
+          </li>
+        </ul>
+        <!-- SVG Chart 3: 台股 11/24-11/26 報復反彈收復年線與法人籌碼 -->
+        <svg viewBox="0 0 880 178" width="100%" height="178" aria-label="台股收復年線與三大法人籌碼轉折">
+          <rect width="880" height="178" fill="#0f172a" rx="8" />
+          <text x="28" y="28" fill="#f8fafc" font-size="16" font-weight="700">台股年線保衛戰與土洋籌碼轉折：外資賣壓縮減 60% + 內資大買 359 億</text>
+          <line x1="95" y1="54" x2="540" y2="54" stroke="#334155" stroke-dasharray="3,3" />
+          <line x1="95" y1="102" x2="540" y2="102" stroke="#f59e0b" stroke-width="1.3" stroke-dasharray="5,4" />
+          <text x="20" y="59" fill="#10b981" font-size="13.5" font-weight="700">40,122</text>
+          <text x="20" y="107" fill="#f59e0b" font-size="13.5" font-weight="700">年線~38.4k</text>
+          <path d="M 115 54 L 315 112 L 515 76" fill="none" stroke="#38bdf8" stroke-width="3.5" />
+          <circle cx="315" cy="112" r="5.5" fill="#ef4444" />
+          <circle cx="515" cy="76" r="6" fill="#10b981" />
+          <text x="225" y="135" fill="#ef4444" font-size="14" font-weight="700">11/25: 38,195 (-1,926)</text>
+          <text x="385" y="65" fill="#10b981" font-size="14.5" font-weight="700">11/26: 39,151 (+956)</text>
+          <text x="100" y="164" fill="#64748b" font-size="13.5">11/24 漲停</text>
+          <text x="295" y="164" fill="#64748b" font-size="13.5">11/25 破年線</text>
+          <text x="480" y="164" fill="#64748b" font-size="13.5">11/26 站回</text>
+          <!-- Right Box: Institutional Flows -->
+          <rect x="570" y="45" width="282" height="118" rx="6" fill="#1e293b" stroke="#38bdf8" />
+          <text x="588" y="70" fill="#38bdf8" font-size="14.5" font-weight="700">11/26 三大法人籌碼轉折（億元）</text>
+          <text x="588" y="96" fill="#fca5a5" font-size="14">外資：-491.8 億（較前日 -1,236 縮 60%）</text>
+          <text x="588" y="120" fill="#6ee7b7" font-size="14">投信：+230.5 億（連 3 買護盤）</text>
+          <text x="588" y="144" fill="#6ee7b7" font-size="14">自營：+128.6 億（終止連 8 賣轉買）</text>
+        </svg>
+        <div class="callout">
+          <strong>［跨日對照］</strong>精準驗證昨日推演——301 半導體豁免落地搭配內資買超 359 億元，台股帶量 8,174 億一舉站回 39,151 點年線之上；短線聚焦外資是否續縮至 200 億元內甚至翻買。
+        </div>
+        <aside class="notes">11/26 帶量反彈 956 點代表 39,000 點與年線支撐確立，接下來觀察外資何時終止連 9 賣。</aside>
+      </section>
+
+      <!-- ═══ 第 7 頁｜台廠供應鏈落地（2/3）：301 關稅科技豁免 vs 破口細項 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>六、台廠供應鏈落地（2/3）｜301 關稅「科技豁免 vs 破口」：AI 伺服器與 ASML 過關 vs 測試機與越南耳機</h2>
+        <ul>
+          <li>
+            <strong>廣泛科技豁免護航晶圓廠與雲端組裝：AI 伺服器、手機、PC、晶片及多數半導體設備過關</strong>：台積電（2330）美國廠進口艾司摩爾（ASML）微影設備等主要機台免徵額外 301 關稅；同時晶片主要先交付組裝廠而非直接輸美，半導體核心鏈實質受創極低。
+            <span class="supplement">🔗 來源：<a href="https://money.udn.com/money/story/5612/9904656" target="_blank" rel="noopener">[經濟日報]</a> <a href="../../wiki/tw-semis-301-exemptions-section-232-next-test-2026-11-27.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>未豁免破口浮現：越南 AirPods 面臨 35% 關稅、測試設備零組件承壓</strong>：未列入豁免名單項目包括<strong>耳機</strong>（蘋果於越南生產之 AirPods 恐面臨最高 <strong>35%</strong> 關稅）、<strong>鋰離子電池、基地台、印表機</strong>（惠普承壓）、<strong>電視、電玩主機</strong>，以及<strong>部分晶片測試設備零組件</strong>（恐波及泰瑞達 Teradyne 與愛德萬測試 Advantest）。
+            <span class="supplement">🔗 來源：<a href="https://technews.tw/2026/11/27/high-tariffs-vietnam-india-impact-apple-supply-chain-analysts-taiwanese-firms-hidden-costs/" target="_blank" rel="noopener">[TechNews / 中央社]</a> <a href="../../wiki/tw-semis-301-exemptions-section-232-next-test-2026-11-27.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>因果傳導與量化影響</strong>：$$\text{301 清單分化（AI 伺服器/ASML 豁免 vs 測試零組件/越南耳機 35\%）} \longrightarrow \text{台積電與 AI ODM 守穩毛利} \longrightarrow \text{消費聲學／測試耗材鏈承壓}$$
+            <span class="supplement">📊 台股量化影響：AI 伺服器與先進晶圓代工免於即期關稅衝擊；高度仰賴越南組裝出口耳機／鋰電池／網通基地台之消費電子鏈，面臨 3%–5% 獲利預估下修與供應鏈轉單壓力。</span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［觀點衝突標記｜驗證指標］</strong>表面上「科技股大致過關」，但魔鬼藏在細項裡：越南 35% 高稅率撞上耳機未豁免，測試設備零組件亦成漏網之魚，須緊盯 2027/01/25 USTR 公聽會是否補納豁免。
+        </div>
+        <aside class="notes">把 301 豁免清單逐項拆開後，可清楚看到 AI 算力硬體與消費聲學／測試耗材之間的明顯分化。</aside>
+      </section>
+
+      <!-- ═══ 第 8 頁｜台廠供應鏈落地（3/3）：美國製造聚落、備戰 232 條款與傳產 K 型分化 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>七、台廠供應鏈落地（3/3）｜深化美國製造備戰「232 條款」，傳產失 2.5% 稅差迎苦戰</h2>
+        <ul>
+          <li>
+            <strong>台廠「美國製造」護城河擴散，行政院全力爭取 232 配額內零關稅</strong>：除台積電外，<strong>聯電（2303）</strong>攜手英特爾 **12nm 製程**預計 2027 年量產；<strong>日月光（3711）</strong>旗下 **ISE Labs** 布局加州測試驗證；<strong>環球晶（6488）</strong>德州一期 12 吋月產能 **30 萬片**更憑在地優勢與**美光**簽下史上最大**十年長約**。行政院強調下一戰場為 **232 半導體關稅**，力拚「配額內零關稅、配額外最高 15% 不疊加」。
+            <span class="supplement">🔗 來源：<a href="https://money.udn.com/money/story/5612/9904656" target="_blank" rel="noopener">[經濟日報]</a> <a href="../../wiki/tsmc-arizona-expansion-ceremony-trump-dec4-2026-11-26.html">[川普 12/4 典禮 Wiki]</a> <a href="../../wiki/tw-semis-301-exemptions-section-232-next-test-2026-11-27.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>工具機／自行車失 2.5% 稅差優勢，印度與拉美「隱形成本」難扛</strong>：新制將台日韓齊拉升至 <strong>15%</strong>，台灣傳產較 7 月的 10% 多 5 個百分點、對日韓（原 12.5%）2.5% 稅差紅利歸零（和大沈國榮籲新台幣貶至 <strong>33–33.5 元</strong>），並須防範中（20%）、越（35%）、印（25%）過剩產能外溢歐亞殺價。Counterpoint 亦指出印度／拉美法規與基建隱形成本令台廠短中期「基本上是虧本的盤子」。
+            <span class="supplement">🔗 來源：<a href="https://money.udn.com/money/story/5612/9904652" target="_blank" rel="noopener">[經濟日報傳產]</a> <a href="https://technews.tw/2026/11/27/high-tariffs-vietnam-india-impact-apple-supply-chain-analysts-taiwanese-firms-hidden-costs/" target="_blank" rel="noopener">[TechNews]</a> <a href="../../wiki/tw-semis-301-exemptions-section-232-next-test-2026-11-27.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>因果傳導與量化影響</strong>：$$\text{美廠聚落（環球晶/聯電/台積電）+ 備戰 232 配額談判} \longrightarrow \text{半導體獲長約與估值溢價} \longrightarrow \text{傳產失 2.5\% 稅差＋印度虧損，K 型分化擴大}$$
+            <span class="supplement">📊 台股量化影響：擁有美國實質產能之矽晶圓與代工／封測龍頭享有 +3%–6% 戰略溢價；台灣工具機、自行車與印度重資產擴張廠則面臨 4%–8% 毛利率壓縮考驗。</span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［台股量化影響估算｜多空情境］</strong>12/4 川普親赴台積電亞利桑那典禮，正是台灣向美方敲定「232 條款配額內零關稅」的關鍵外交窗口；反觀傳統製造則迫切需要新台幣適度趨貶與轉單歐美航太／能源基建抵銷衝擊。
+        </div>
+        <aside class="notes">環球晶德州 30 萬片月產能與美光十年長約證明：在關稅壁壘時代，「美國在地產能」本身就是最強大的定價權。</aside>
+      </section>
+
+      <!-- ═══ 第 9 頁｜🔮 AI 焦點盲盒（I/II）：澳洲國會通過 20% 國內天然氣保留法案 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>八、🔮 AI 焦點盲盒（I/II）｜澳洲國會通過「20% 國內天然氣保留法案」：出口大國轉向資源民族主義</h2>
+        <ul>
+          <li>
+            <strong>入選理由：全球最大 LNG 出口國立法鎖定 20% 內銷，將能源通膨轉嫁海外</strong>：澳洲執政工黨與在野聯盟黨 11/26 深夜於參議院聯手通過全國性《國內天然氣保留計畫》，取代綠黨 25% 出口稅提案；表面上是抑低澳洲本土電價的內政協議，實則是全球核心 LNG 供應國於聯邦層級強制截留出口供給。
+            <span class="supplement">🔗 來源：<a href="https://www.theguardian.com/australia-news/2026/nov/26/coalition-to-team-up-with-labor-to-pass-20-gas-reservation-scheme-for-australias-largest-exporters" target="_blank" rel="noopener">[The Guardian]</a> <a href="../../wiki/blindbox-australia-20pct-gas-reservation-asian-lng-taiwan-2026-11-27.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>核心條文與 2027–2028 時程：強制保留 20%、10% 超額緩衝與西澳永久豁免</strong>：
+            <ul>
+              <li><strong>保留義務與時程</strong>：要求最大規模 LNG 出口商保留高達 <strong>20%</strong> 產量供國內使用（含政府要求 <strong>10% 國內超額供給緩衝</strong>，並設 5 年法定檢討）；出口許可框架 <strong>2027/01/01</strong> 啟動，20% 強制供應 <strong>2028/01/01</strong> 生效。</li>
+              <li><strong>西澳（WA）永久豁免</strong>：妥協給予西澳豁免（西澳自 2008 年已實施 15% 州級保留，實際交付占比由 2021 年 <strong>8.7%</strong> 升至 2025 年 <strong>12.5%</strong>）。</li>
+            </ul>
+            <span class="supplement">🔗 來源：<a href="../../wiki/rba-rate-hike-minutes-2026-11-17.html">[澳洲央行升息 Wiki]</a> <a href="../../wiki/blindbox-australia-20pct-gas-reservation-asian-lng-taiwan-2026-11-27.html">[Wiki]</a></span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［盲盒外溢評估 I/II｜能源與資源風險］</strong>繼澳洲央行升息至 4.85% 對抗通膨後，澳洲政壇以「20% 強制留用」解決國內電價難題，卻為高度依賴澳洲 LNG 的東亞製造業埋下長期能源成本變數。
+        </div>
+        <aside class="notes">澳洲朝野聯手擋下綠黨 25% 出口稅，但通過的 20% 國內保留機制依然將徹底改寫 2027 年後的亞太天然氣貿易版圖。</aside>
+      </section>
+
+      <!-- ═══ 第 10 頁｜🔮 AI 焦點盲盒（II/II）：東亞 LNG 依賴矩陣與台日 AI 晶圓廠電力衝擊 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>九、🔮 AI 焦點盲盒（II/II）｜台灣（1/3）與日本（40%）LNG 曝險與 AI 晶圓廠電力韌性推演</h2>
+        <ul>
+          <li>
+            <strong>東亞半導體雙強高度依賴澳洲氣源（日本 40%、台灣 ~33%）</strong>：澳洲佔日本總 LNG 採購約 <strong>40%</strong>（日本能源經濟研究所 IEEJ 警告將推升現貨不確定性並迫使轉買美國氣）；澳洲亦供應台灣每年約<strong>三分之一（~33%）</strong> LNG 進口，台灣經濟部初步評估既有長期合約獲尊重，但未來<strong>現貨市場（Spot LNG）</strong>調度缺口須另尋高價替代氣源回補。
+            <span class="supplement">🔗 來源：<a href="../../wiki/spacex-fcc-1m-orbital-ai-satellites-starmind-2026-11-26.html">[SpaceX 軌道算力 Wiki]</a> <a href="../../wiki/blindbox-australia-20pct-gas-reservation-asian-lng-taiwan-2026-11-27.html">[Wiki]</a></span>
+          </li>
+          <li>
+            <strong>因果傳導與外溢矩陣</strong>：$$\text{澳洲 20\% LNG 保留收緊亞洲現貨} \longrightarrow \text{台灣（33\%）與日本（40\%）燃料成本剛性化} \longrightarrow \text{推升晶圓廠／AI 機房電價 + 加速轉單美國 LNG}$$
+            <ul>
+              <li><strong>對美能源外交新籌碼</strong>：為對沖澳洲出口收縮，台灣中油／台電與日企擴大採購<strong>美國 LNG</strong> 的戰略動機劇增，同步成為台美貿易順差與 232 關稅談判的平衡槓桿，並推升國內接收站／重電儲能投資。</li>
+            </ul>
+            <span class="supplement">🔗 來源：<a href="../../wiki/blindbox-australia-20pct-gas-reservation-asian-lng-taiwan-2026-11-27.html">[Wiki]</a></span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［盲盒外溢評估 II/II｜情境分析］</strong>基準情境（既有長約受保護、僅現貨補庫成本墊高）台電燃料成本增 2%–4%，利多國內重電電網與節能電源（台達電、華城、中興電）；極端情境（2028 生效後疊加寒冬致亞洲 LNG 現貨飆 &gt;30%）東亞高耗電晶圓廠／AI 機房面臨工業電價調漲 8%–15% 壓力。
+        </div>
+        <aside class="notes">昨日 SpaceX 試圖把 AI 送上太空避開地面電網瓶頸，今日澳洲就在地面上鎖住台灣 1/3 的天然氣來源——算力競爭的盡頭就是能源安全。</aside>
+      </section>
+
+      <!-- ═══ 第 11 頁｜短線催化劑雷達 ═══ -->
+      <section
+        data-background-image="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1600&q=80"
+        data-background-opacity="0.08">
+        <h2>十、短線催化劑雷達（Catalysts）｜感恩節半日市至 12/18 日銀決議作戰日程</h2>
+        <ul>
+          <li>
+            <strong>11/27（五）｜台股週線收盤（39,151 點年線保衛）&amp; 美股感恩節半日市（美東 13:00）</strong>
+            <span class="supplement">📌 核心觀察指標：台股能否站穩 39,000 點與年線、外資連 9 賣（昨縮至 491 億）續降幅度；BBDXY 美元指數鎖定 11 月 +1.8% 連三紅與黃金 3,550 美元支撐。</span>
+            <span class="supplement">📊 台股潛在影響：台積電期貨 2,168 元與美期指續揚 +0.5%–0.7% 撐盤，短線呈 38,800–39,600 點區間築底，留意假期／週末前調節賣壓。</span>
+          </li>
+          <li>
+            <strong>12/01（二）– 12/03（四）｜黃仁勳國會委員會作證 &amp; 輝達華府年度技術大會</strong>
+            <span class="supplement">📌 核心觀察指標：國會對《遠端存取安全法案》、輝達暫停星馬泰印出貨、數千顆 B300 拋售與 PBOC 2.7 億清單詰問；追蹤 NVIDIA SCADA 與 Storage-Next 導入清單。</span>
+            <span class="supplement">📊 台股潛在影響：若聽證會擴大出口管制至二級雲端，東南亞伺服器鏈恐現 5%–8% 波動；Storage-Next 生態擴大則利多企業級 SSD 控制 IC 族群 +3%–6%。</span>
+          </li>
+          <li>
+            <strong>12/04（五）｜川普親赴台積電亞利桑那擴建典禮</strong>
+            <span class="supplement">📌 核心觀察指標：美方是否就 <strong>232 條款半導體「配額內零關稅、配額外 15%」</strong> 釋出正面表態，及台積電／環球晶／聯電美廠新訂單承諾。</span>
+            <span class="supplement">📊 台股潛在影響：若 232 配額內零關稅獲積極訊號，台積電與在美設備／廠務／矽晶圓供應鏈有望迎 4%–7% 政策護城河重估行情。</span>
+          </li>
+          <li>
+            <strong>12/17–12/18 &amp; 2027/01｜Fed／BoJ 雙央行決議 &amp; 澳洲 LNG 許可／301 公聽會</strong>
+            <span class="supplement">📌 核心觀察指標：Fed 12 月近 100% 升息暨 1 月指引、BoJ 挾東京 CPI 2.9% 升息至 1.5% 之套利平倉；2027/01/01 澳洲 LNG 許可啟動與 01/05–25 USTR 301 公聽會。</span>
+            <span class="supplement">📊 台股潛在影響：美日雙鷹共振若引發日圓急升與套利資金回流，12 月中旬亞股將面臨 3%–6% 流動性壓力測試。</span>
+          </li>
+        </ul>
+        <div class="callout">
+          <strong>［觀點衝突標記｜驗證指標］</strong>短線盯緊外資賣壓能否收斂至 200 億元內；下週 12/1–4「黃仁勳國會詰問 B300／東南亞斷貨 vs 川普鳳凰城 232 關稅表態」將決定年底台股能否挑戰 41,000 點。
+        </div>
+        <aside class="notes">短線看外資賣壓收斂與感恩節半日市收盤，下週核心則是 12/1–4 華府聽證與鳳凰城高峰會雙重催化劑。</aside>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.js"></script>
+  <script>
+    Reveal.initialize({
+      hash: true,
+      slideNumber: true,
+      transition: 'fade',
+      width: 1200,
+      height: 720,
+      margin: 0.04,
+      minScale: 0.2,
+      maxScale: 1.5,
+      center: false
+    });
+  </script>
+</body>
+</html>

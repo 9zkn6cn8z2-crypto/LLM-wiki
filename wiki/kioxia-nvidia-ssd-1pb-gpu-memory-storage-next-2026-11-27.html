@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>鎧俠攜手輝達以 NVMe SSD 擴充 GPU 記憶體突破 1.1 PB、支援 2 兆個向量（2026-11-27） — LLM 研究知識庫</title>
+  <link rel="stylesheet" href="../assets/style.css">
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+    };
+  </script>
+  <script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="site-nav">
+      <a href="../index.html" class="site-title">LLM 研究知識庫</a>
+      <a href="../index.html">返回索引</a>
+    </nav>
+  </header>
+
+  <main>
+    <article>
+      <h1>鎧俠攜手輝達以 NVMe SSD 擴充 GPU 記憶體突破 1.1 PB、支援 2 兆個向量（2026-11-27）</h1>
+      <p class="meta">最後更新：2026-11-27 ｜ 資料來源：raw/kioxia-nvidia-ssd-1pb-gpu-memory-storage-next-2026-11-27.md</p>
+
+      <section>
+        <h2>核心概念與算力儲存架構突破</h2>
+        <p>
+          記憶體大廠鎧俠（Kioxia）11/27 宣布與輝達（NVIDIA）展開深度技術合作，結合輝達 <strong>NVIDIA SCADA（Scaled Accelerated Data Access）</strong> 軟體函式庫、<strong>Storage-Next</strong> 計畫與高速企業級 NVMe SSD，成功將有效 GPU 記憶體容量擴展至 <strong>PB（Petabyte）等級</strong>（<a href="https://finance.technews.tw/2026/11/27/kioxia-and-nvidia-collaborate-to-expand-gpu-memory-capacity-via-ssds/" target="_blank" rel="noopener">TechNews</a>）。此架構旨在突破 AI 模型與大型資料集撞上的高頻寬記憶體（HBM）物理容量牆，避免工作負載被迫切分並在記憶體與慢速儲存間反覆搬移資料。
+        </p>
+      </section>
+
+      <section>
+        <h2>核心事實與量化規格</h2>
+        <ul>
+          <li><strong>GB200 NVL72 機櫃概念驗證（PoC）硬指標（截至 2026/11/26 測試）</strong>：
+            <ul>
+              <li><strong>系統配置</strong>：採用配備 <strong>18 個伺服器節點</strong> 之 <strong>NVIDIA GB200 NVL72</strong> 機櫃級系統，全機櫃搭載 <strong>144 顆 KIOXIA XD8 系列 7.68 TB E1.S NVMe SSD</strong>。</li>
+              <li><strong>單節點與整櫃容量</strong>：每個節點支援 <strong>8 顆 SSD</strong>，提供近 <strong>60 TB</strong> 快閃記憶體擴充容量；整機櫃原始 SSD 擴充容量突破 <strong>1.1 PB</strong>。</li>
+              <li><strong>精細存取與向量處理能力</strong>：透過 NVIDIA SCADA 支援 <strong>512 位元組（512-byte）</strong> 精細小區塊直接存取，整套架構具備支撐處理高達 <strong>2 兆個（2 Trillion）512-byte 向量</strong> 的能力，直攻超大規模向量資料庫（RAG）與圖神經網路（GNNs）。</li>
+            </ul>
+          </li>
+          <li><strong>次世代產品推進</strong>：鎧俠表示將持續推動現行 <strong>XD8 系列</strong> 與創新的 <strong>KIOXIA GP 系列超高 IOPS SSD</strong>，配合 NVIDIA SCADA 與 Storage-Next 計畫擴大在 AI 與高效能運算（HPC）機櫃的落地部署。</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>因果傳導鏈推論</h2>
+        <p>
+          $$\text{AI 資料集與向量庫膨脹撞擊 HBM 容量天花板} \longrightarrow \text{NVIDIA SCADA + Storage-Next 導入 512B 精細 SSD 直連存取} \longrightarrow \text{單櫃 GB200 NVL72 標配 144 顆 E1.S SSD（1.1 PB / 2 兆向量）} \longrightarrow \text{台灣企業級 NAND 控制 IC（群聯）與高速儲存模組結構性放量}$$
+        </p>
+      </section>
+
+      <section>
+        <h2>知識庫連貫與衝突</h2>
+        <p>
+          本技術突破直接銜接知識庫先前針對記憶體產業結構分化的追蹤：相對於 <a href="nand-flash-2027-oversupply-2026-11-19.html">2027 年傳統消費性 NAND 過剩風險</a> 與 <a href="softbank-1-trillion-sk-hynix-buyout-explored-2026-11-23.html">HBM 咽喉價值爭奪</a>，今日鎧俠與輝達證實企業級高速 NVMe SSD 正透過 SCADA 躍升為「GPU 擴充記憶體階層」核心元件，大幅印證 <a href="phison-nand-flash-ai-growth-2026-11-20.html">群聯深耕 AI 企業級 SSD 控制晶片與記憶體擴充方案</a> 的長期成長曲線，同時也與 <a href="nvidia-sc26-vera-rubin-platform-supercomputing-2026-11-22.html">Vera Rubin 次世代架構</a> 共同構成輝達算力基建護城河。
+        </p>
+      </section>
+
+      <section>
+        <h2>短線催化劑</h2>
+        <ul>
+          <li><strong>12/01–12/03 輝達華府年度技術大會</strong>：觀察 Storage-Next 與 SCADA 軟體生態是否公布更多 SSD 控制 IC 與台灣伺服器 ODM 機櫃導入清單。</li>
+        </ul>
+      </section>
+
+      <section class="related-links">
+        <h2>相關條目</h2>
+        <ul>
+          <li><a href="phison-nand-flash-ai-growth-2026-11-20.html">群聯受惠 AI SSD 需求成長對抗消費性波動（2026-11-20）</a></li>
+          <li><a href="nand-flash-2027-oversupply-2026-11-19.html">2027 年 NAND Flash 供過於求風險分析（2026-11-19）</a></li>
+          <li><a href="softbank-1-trillion-sk-hynix-buyout-explored-2026-11-23.html">傳軟銀曾擬 1 兆美元收購 SK 海力士掌控 HBM 咽喉（2026-11-23）</a></li>
+          <li><a href="nvidia-sc26-vera-rubin-platform-supercomputing-2026-11-22.html">輝達於 SC26 發表 Vera Rubin HPC 架構（2026-11-22）</a></li>
+        </ul>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>LLM 研究知識庫 · 基於純 HTML / CSS 建置</p>
+  </footer>
+</body>
+</html>
